@@ -61,13 +61,17 @@ Welcome to my GitHub profile! I’m a **Web Developer and UI/UX Designer** with 
 
 ## 🏆 Featured Projects
 
-### [Project 1: Online Chatbot Based Ticketing System](https://github.com/Anish-2005/Chatbot-Ticketing)
-🚀 Description of what this project does and why it’s awesome.  
+### [Project 1: Online Chatbot Based Ticketing System]
+🚀 A Online chatbot-based ticketing system streamlines bookings with a multilingual chatbot, real-time assistance, and seamless integration of React, FastAPI, and MongoDB.  
 **Tech:** [JavaScript, Python, React, Node.js, Django, FastAPI, MongoDB, Tailwind, Google Dialogflow]
 
-### [Project 2: Law Consultancy AI](https://github.com/Anish-2005/Law-Consultancy-AI)
-💡 Brief overview of your project.  
+### [Project 2: Law Consultancy AI]
+💡 Law AI is an intelligent legal assistant that streamlines legal research, document analysis, and contract management, providing real-time insights and support for legal professionals. 
 **Tech:** [Next JS, React JS, MongoDB, JavaScript]
+
+### [Project 3: College Management System]
+🔥 The college management system is a comprehensive platform that streamlines administrative tasks, including enrollment, attendance tracking, grading, and communication between students, faculty, and staff. 
+**Tech:** [HTML, CSS, JS, PHP, MYSQL]
 
 [Explore More Projects](https://github.com/Anish-2005?tab=repositories)
 
