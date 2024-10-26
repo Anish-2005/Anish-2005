@@ -82,7 +82,8 @@ Check out [My Posts](https://www.linkedin.com/in/anish-seth-202200290/) for more
 
 
 <p align="center">
-  <img src="https://github.com/Anish-2005/Anish-2005/blob/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" />
+  <img src="https://raw.githubusercontent.com/Anish-2005/Anish-2005/main/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" />
+</p>
 </p>
 
 ---
