@@ -92,7 +92,8 @@ Check out [My Posts](https://www.linkedin.com/in/anish-seth-202200290/) for more
 
 <p align="center">
   <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300" alt="Coding GIF" />
-  <img src="https://media.giphy.com/media/coxQHKASG60HrHtvkt/giphy.gif" width="300" alt="Web Development GIF" />
+  <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="300" alt="JavaScript GIF" />
+
 </p>
 
 ---
