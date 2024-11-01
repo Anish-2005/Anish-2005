@@ -2,7 +2,7 @@
 
 <img src="https://avatars.githubusercontent.com/u/123315153?v=4" width="170" height="170" align="left" alt="Anish Seth's profile picture"/>
 
-[![GitHub followers](https://img.shields.io/github/followers/Anish-2005?label=Follow&style=social)](https://github.com/Anish-2005) [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/anish-seth-202200290/) [![Portfolio](https://img.shields.io/badge/Portfolio-visit-green?style=flat&logo=google-chrome)](https://yourportfolio.com)
+[![GitHub followers](https://img.shields.io/github/followers/Anish-2005?label=Follow&style=social)](https://github.com/Anish-2005) [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/anish-seth-202200290/) [![Portfolio](https://img.shields.io/badge/Portfolio-visit-green?style=flat&logo=google-chrome)](https://portfolio-anish-seth-1.vercel.app/)
 <br><br>
 Welcome to my GitHub profile! I’m a **Web Developer and UI/UX Designer** with a passion for **AI/ML**. Here, you’ll find a collection of my work, projects, and contributions.
 
