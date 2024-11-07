@@ -54,7 +54,7 @@ Welcome to my GitHub profile! I’m a **Web Developer and UI/UX Designer** with 
 
 <p align="center">
   <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Anish-2005&show_icons=true&theme=radical" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Anish-2005&theme=radical" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Anish-2005&show_icons=true&theme=radical" />
 </p>
 
 ---
