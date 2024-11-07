@@ -1,6 +1,6 @@
 # 👋 Hello, I'm Anish Seth!
 
-<img src="https://avatars.githubusercontent.com/u/123315153?v=4" width="170" height="170" align="left" alt="Anish Seth's profile picture"/>
+<img src="https://portfolio-anish-seth-1.vercel.app/_next/image?url=%2Fprofile.png&w=384&q=75" width="170" height="170" align="left" alt="Anish Seth's profile picture"/>
 
 [![GitHub followers](https://img.shields.io/github/followers/Anish-2005?label=Follow&style=social)](https://github.com/Anish-2005) [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/anish-seth-202200290/) [![Portfolio](https://img.shields.io/badge/Portfolio-visit-green?style=flat&logo=google-chrome)](https://portfolio-anish-seth-1.vercel.app/)
 <br><br>
