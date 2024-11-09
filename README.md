@@ -92,7 +92,7 @@ Check out [My Posts](https://www.linkedin.com/in/anish-seth-202200290/) for more
 
 ---
 
-## 🎬 Thanks for visiting my Github!
+## 🎬 Thanks for visiting my Github!!
 
 <p align="center">
   <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300" alt="Coding GIF" />
