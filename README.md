@@ -52,10 +52,10 @@ Welcome to my GitHub profile! I’m a **Web Developer and UI/UX Designer** with 
 
 ## 📈 GitHub Stats
 
-<p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Anish-2005&show_icons=true&theme=radical" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Anish-2005&show_icons=true&theme=radical" />
-</p>
+<p><img align="center" src="https://github-readme-stats.vercel.app/api?username=Anish-2005&show_icons=true&locale=en" alt="Anish-2005" /></p>
+<p><img src="https://github-readme-stats.vercel.app/api/top-langs?username=Anish-2005&show_icons=true&locale=en&layout=compact" alt="Anish-2005" /></p>
+<p><a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=Anish-2005" alt="Anish-2005" /></a></p>
+
 
 ---
 
