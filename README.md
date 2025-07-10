@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=300&section=header&text=Hello%20World!&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=I'm%20Anish%20Seth%20-%20Full%20Stack%20Developer%20%26%20AI%20Enthusiast&descAlignY=55&descSize=20" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=gradient&amp;customColorList=0,2,2,5,30&amp;height=300&amp;section=header&amp;text=Hello%20World!&amp;fontSize=50&amp;fontColor=fff&amp;animation=twinkling&amp;fontAlignY=35&amp;desc=I'm%20Anish%20Seth%20-%20Full%20Stack%20Developer%20%26%20AI%20Enthusiast&amp;descAlignY=55&amp;descSize=20" width="100%"/>
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=35&duration=3000&pause=1000&color=FF6B6B&background=FF000000&center=true&vCenter=true&multiline=true&repeat=true&width=1000&height=120&lines=🚀+Full+Stack+Web+Developer;🎨+UI%2FUX+Designer+%26+Creative+Thinker;🤖+AI%2FML+Enthusiast+%26+Data+Scientist;🎓+Computer+Science+Engineering+Student;🌟+Open+Source+Contributor+%26+Innovator;💡+Problem+Solver+%26+Tech+Explorer" alt="Animated Typing" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&amp;weight=700&amp;size=35&amp;duration=3000&amp;pause=1000&amp;color=FF6B6B&amp;background=FF000000&amp;center=true&amp;vCenter=true&amp;multiline=true&amp;repeat=true&amp;width=1000&amp;height=120&amp;lines=🚀+Full+Stack+Web+Developer;🎨+UI%2FUX+Designer+%26+Creative+Thinker;🤖+AI%2FML+Enthusiast+%26+Data+Scientist;🎓+Computer+Science+Engineering+Student;🌟+Open+Source+Contributor+%26+Innovator;💡+Problem+Solver+%26+Tech+Explorer" alt="Animated Typing" />
 </div>
 
 <div align="center">
@@ -11,7 +11,7 @@
   <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="300">
   <br><br>
   
-  <img src="https://portfolio-anish-seth-1.vercel.app/_next/image?url=%2Fprofile.png&w=384&q=75" width="180" height="180" style="border-radius: 50%; border: 4px solid #FF6B6B; box-shadow: 0 0 50px #FF6B6B;" alt="Anish Seth"/>
+  <img src="https://portfolio-anish-seth-1.vercel.app/_next/image?url=%2Fprofile.png&amp;w=384&amp;q=75" width="180" height="180" style="border-radius: 50%; border: 4px solid #FF6B6B; box-shadow: 0 0 50px #FF6B6B;" alt="Anish Seth"/>
   
   <br><br>
   <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="300">
@@ -48,7 +48,7 @@
 
 <!-- Inspirational Quote with Animation -->
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Comic+Neue&weight=600&size=22&duration=4000&pause=2000&color=36BCF7&center=true&vCenter=true&width=800&height=50&lines=💭+Building+the+future%2C+one+line+of+code+at+a+time;🎯+Turning+ideas+into+digital+reality;🚀+Innovation+through+technology+and+creativity" alt="Quote Animation"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Comic+Neue&amp;weight=600&amp;size=22&amp;duration=4000&amp;pause=2000&amp;color=36BCF7&amp;center=true&amp;vCenter=true&amp;width=800&amp;height=50&amp;lines=💭+Building+the+future%2C+one+line+of+code+at+a+time;🎯+Turning+ideas+into+digital+reality;🚀+Innovation+through+technology+and+creativity" alt="Quote Animation"/>
 </div>
 
 <!-- Dynamic Stats Display -->
@@ -80,7 +80,7 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=900&size=45&duration=3000&pause=1000&color=FF6B6B&center=true&vCenter=true&width=600&height=100&lines=🚀+ABOUT+ME;💫+WHO+AM+I%3F;🌟+MY+JOURNEY" alt="About Me Header"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&amp;weight=900&amp;size=45&amp;duration=3000&amp;pause=1000&amp;color=FF6B6B&amp;center=true&amp;vCenter=true&amp;width=600&amp;height=100&amp;lines=🚀+ABOUT+ME;💫+WHO+AM+I%3F;🌟+MY+JOURNEY" alt="About Me Header"/>
 </div>
 
 <!-- Animated Cards Layout -->
@@ -146,7 +146,7 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=900&size=45&duration=3000&pause=1000&color=4ECDC4&center=true&vCenter=true&width=800&height=100&lines=🎯+TECH+ARSENAL;🛠️+SKILLS+%26+TOOLS;⚡+TECHNOLOGIES" alt="Tech Arsenal Header"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&amp;weight=900&amp;size=45&amp;duration=3000&amp;pause=1000&amp;color=4ECDC4&amp;center=true&amp;vCenter=true&amp;width=800&amp;height=100&amp;lines=🎯+TECH+ARSENAL;🛠️+SKILLS+%26+TOOLS;⚡+TECHNOLOGIES" alt="Tech Arsenal Header"/>
 </div>
 
 <!-- Interactive Tech Stack Display -->
@@ -250,7 +250,7 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=900&size=45&duration=3000&pause=1000&color=FFE66D&center=true&vCenter=true&width=800&height=100&lines=📊+GITHUB+ANALYTICS;📈+CODE+STATISTICS;🏆+ACHIEVEMENTS" alt="GitHub Stats Header"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&amp;weight=900&amp;size=45&amp;duration=3000&amp;pause=1000&amp;color=FFE66D&amp;center=true&amp;vCenter=true&amp;width=800&amp;height=100&amp;lines=📊+GITHUB+ANALYTICS;📈+CODE+STATISTICS;🏆+ACHIEVEMENTS" alt="GitHub Stats Header"/>
 </div>
 
 <!-- Enhanced Stats Layout -->
@@ -299,7 +299,7 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=900&size=45&duration=3000&pause=1000&color=95E1D3&center=true&vCenter=true&width=900&height=100&lines=🚀+FEATURED+PROJECTS;💡+INNOVATIONS+%26+SOLUTIONS;🌟+PORTFOLIO+SHOWCASE" alt="Projects Header"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&amp;weight=900&amp;size=45&amp;duration=3000&amp;pause=1000&amp;color=95E1D3&amp;center=true&amp;vCenter=true&amp;width=900&amp;height=100&amp;lines=🚀+FEATURED+PROJECTS;💡+INNOVATIONS+%26+SOLUTIONS;🌟+PORTFOLIO+SHOWCASE" alt="Projects Header"/>
 </div>
 
 <!-- Interactive Project Cards -->
@@ -427,7 +427,7 @@ Deploy: AWS, Docker, Kubernetes
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=900&size=45&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=900&height=100&lines=🤝+LET'S+CONNECT;🌐+BUILD+TOGETHER;💫+COLLABORATE" alt="Connect Header"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&amp;weight=900&amp;size=45&amp;duration=3000&amp;pause=1000&amp;color=36BCF7&amp;center=true&amp;vCenter=true&amp;width=900&amp;height=100&amp;lines=🤝+LET'S+CONNECT;🌐+BUILD+TOGETHER;💫+COLLABORATE" alt="Connect Header"/>
 </div>
 
 <!-- Enhanced Social Connection Grid -->
@@ -540,7 +540,7 @@ Deploy: AWS, Docker, Kubernetes
 
 <!-- Final Wave Footer -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=150&section=footer&animation=twinkling" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=gradient&amp;customColorList=0,2,2,5,30&amp;height=150&amp;section=footer&amp;animation=twinkling" width="100%" />
 </div>
 
 <!-- Closing Credits -->
