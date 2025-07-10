@@ -363,39 +363,45 @@
 <!-- Interactive Project Cards -->
 <div align="center">
   
+
+  <!-- AI Chatbot Ticketing System Card -->
   <div align="center">
     <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="60"/>
     <h2>🤖 AI Chatbot Ticketing System</h2>
-  </div>
-          
-  <div align="center">
     <img src="https://img.shields.io/badge/🎯_Status-Completed-success?style=for-the-badge&logo=checkmarx&logoColor=white" />
     <img src="https://img.shields.io/badge/🔥_Type-Full%20Stack-blue?style=for-the-badge&logo=stackoverflow&logoColor=white" />
     <img src="https://img.shields.io/badge/⭐_Featured-Project-FFD700?style=for-the-badge&logo=star&logoColor=black" />
-  </div>
-
-  <br>
-
-  🚀 **Revolutionary AI-powered ticketing platform** that transforms the booking experience with intelligent multilingual chatbot support and seamless user interactions.
-
-  **✨ Key Innovations:**
-  - 🌐 **Smart Multilingual Support** via Google Dialogflow
-  - ⚡ **Real-time Seat Management** with live updates
-  - 📱 **Progressive Web App** with offline capabilities
-  - 🔐 **Secure Payment Gateway** integration
-  - 📊 **Advanced Analytics Dashboard** for insights
-  - 🎯 **Personalized Recommendations** engine
-
-  **🛠️ Technology Stack:**
-  ```
-  Frontend: React.js, Tailwind CSS, PWA
-  Backend: FastAPI, Node.js, Django
-  Database: MongoDB, Redis
-  AI: Google Dialogflow, NLP
-  Deploy: Vercel, Railway, Docker
-  ```
-
-  <div align="center">
+    <br><br>
+    <strong>🚀 Revolutionary AI-powered ticketing platform</strong> that transforms the booking experience with intelligent multilingual chatbot support and seamless user interactions.
+    <br><br>
+    <table>
+      <tr>
+        <th>✨ Key Innovations</th>
+        <th>🛠️ Technology Stack</th>
+      </tr>
+      <tr>
+        <td align="left" valign="top">
+          <ul>
+            <li>🌐 <b>Smart Multilingual Support</b> via Google Dialogflow</li>
+            <li>⚡ <b>Real-time Seat Management</b> with live updates</li>
+            <li>📱 <b>Progressive Web App</b> with offline capabilities</li>
+            <li>🔐 <b>Secure Payment Gateway</b> integration</li>
+            <li>📊 <b>Advanced Analytics Dashboard</b> for insights</li>
+            <li>🎯 <b>Personalized Recommendations</b> engine</li>
+          </ul>
+        </td>
+        <td align="left" valign="top">
+          <ul>
+            <li><b>Frontend:</b> React.js, Tailwind CSS, PWA</li>
+            <li><b>Backend:</b> FastAPI, Node.js, Django</li>
+            <li><b>Database:</b> MongoDB, Redis</li>
+            <li><b>AI:</b> Google Dialogflow, NLP</li>
+            <li><b>Deploy:</b> Vercel, Railway, Docker</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+    <br>
     <a href="https://github.com/Anish-2005">
       <img src="https://img.shields.io/badge/View%20Live%20Demo-FF6B6B?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo"/>
     </a>
@@ -406,40 +412,45 @@
 
   <br><br>
 
+  <!-- Legal AI Assistant Card -->
   <div align="center">
     <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="60"/>
     <h2>⚖️ Legal AI Assistant</h2>
-  </div>
-          
-  <div align="center">
     <img src="https://img.shields.io/badge/🔧_Status-In%20Development-orange?style=for-the-badge&logo=codeforces&logoColor=white" />
     <img src="https://img.shields.io/badge/🤖_Type-AI%2FML-purple?style=for-the-badge&logo=tensorflow&logoColor=white" />
     <img src="https://img.shields.io/badge/🏆_Award-Winning-gold?style=for-the-badge&logo=trophy&logoColor=black" />
-  </div>
-
-  <br>
-
-  💡 **Next-generation legal research platform** powered by advanced AI algorithms for intelligent document analysis and automated legal assistance.
-
-  **✨ AI-Powered Features:**
-  - 🔍 **Intelligent Legal Research** with semantic search
-  - 📋 **Automated Document Analysis** & summarization
-  - 📝 **Smart Contract Generator** with templates
-  - 💬 **24/7 Legal Consultation** chatbot
-  - 📊 **Case Outcome Prediction** using ML
-  - 🎯 **Compliance Monitoring** automation
-
-  **🛠️ Technology Stack:**
-  ```
-  Frontend: Next.js, React, TypeScript
-  Backend: Node.js, Express, Python
-  Database: MongoDB, PostgreSQL
-  AI/ML: TensorFlow, spaCy, BERT
-  API: OpenAI GPT, Legal APIs
-  Deploy: AWS, Docker, Kubernetes
-  ```
-
-  <div align="center">
+    <br><br>
+    <strong>💡 Next-generation legal research platform</strong> powered by advanced AI algorithms for intelligent document analysis and automated legal assistance.
+    <br><br>
+    <table>
+      <tr>
+        <th>✨ AI-Powered Features</th>
+        <th>�️ Technology Stack</th>
+      </tr>
+      <tr>
+        <td align="left" valign="top">
+          <ul>
+            <li>�🔍 <b>Intelligent Legal Research</b> with semantic search</li>
+            <li>📋 <b>Automated Document Analysis</b> & summarization</li>
+            <li>📝 <b>Smart Contract Generator</b> with templates</li>
+            <li>💬 <b>24/7 Legal Consultation</b> chatbot</li>
+            <li>📊 <b>Case Outcome Prediction</b> using ML</li>
+            <li>🎯 <b>Compliance Monitoring</b> automation</li>
+          </ul>
+        </td>
+        <td align="left" valign="top">
+          <ul>
+            <li><b>Frontend:</b> Next.js, React, TypeScript</li>
+            <li><b>Backend:</b> Node.js, Express, Python</li>
+            <li><b>Database:</b> MongoDB, PostgreSQL</li>
+            <li><b>AI/ML:</b> TensorFlow, spaCy, BERT</li>
+            <li><b>API:</b> OpenAI GPT, Legal APIs</li>
+            <li><b>Deploy:</b> AWS, Docker, Kubernetes</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+    <br>
     <a href="https://github.com/Anish-2005">
       <img src="https://img.shields.io/badge/View%20Progress-4ECDC4?style=for-the-badge&logo=github&logoColor=white" alt="View Progress"/>
     </a>
