@@ -272,55 +272,13 @@
   <div align="center">
     <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="60"/>
     <h3>🎨 Frontend Mastery</h3>
+
     
-    <table align="center">
-      <tr>
-        <td align="center" width="33%">
-          <img src="https://skillicons.dev/icons?i=react&theme=dark" width="40"/>
-          <br>
-          <strong>React.js</strong>
-          <br>
-          <sub>95% ███████████</sub>
-        </td>
-        <td align="center" width="33%">
-          <img src="https://skillicons.dev/icons?i=nextjs&theme=dark" width="40"/>
-          <br>
-          <strong>Next.js</strong>
-          <br>
-          <sub>90% ██████████░</sub>
-        </td>
-        <td align="center" width="33%">
-          <img src="https://skillicons.dev/icons?i=js&theme=dark" width="40"/>
-          <br>
-          <strong>JavaScript</strong>
-          <br>
-          <sub>95% ███████████</sub>
-        </td>
-      </tr>
-      <tr>
-        <td align="center">
-          <img src="https://skillicons.dev/icons?i=typescript&theme=dark" width="40"/>
-          <br>
-          <strong>TypeScript</strong>
-          <br>
-          <sub>85% █████████░░</sub>
-        </td>
-        <td align="center">
-          <img src="https://skillicons.dev/icons?i=css&theme=dark" width="40"/>
-          <br>
-          <strong>CSS/SCSS</strong>
-          <br>
-          <sub>90% ██████████░</sub>
-        </td>
-        <td align="center">
-          <img src="https://skillicons.dev/icons?i=tailwind&theme=dark" width="40"/>
-          <br>
-          <strong>Tailwind CSS</strong>
-          <br>
-          <sub>95% ███████████</sub>
-        </td>
-      </tr>
-    </table>
+| React.js | Next.js | JavaScript |
+|:---:|:---:|:---:|
+| <img src="https://skillicons.dev/icons?i=react&theme=dark" width="40"/> <br> **95%** <br> `███████████` | <img src="https://skillicons.dev/icons?i=nextjs&theme=dark" width="40"/> <br> **90%** <br> `██████████░` | <img src="https://skillicons.dev/icons?i=js&theme=dark" width="40"/> <br> **95%** <br> `███████████` |
+| TypeScript | CSS/SCSS | Tailwind CSS |
+| <img src="https://skillicons.dev/icons?i=typescript&theme=dark" width="40"/> <br> **85%** <br> `█████████░░` | <img src="https://skillicons.dev/icons?i=css&theme=dark" width="40"/> <br> **90%** <br> `██████████░` | <img src="https://skillicons.dev/icons?i=tailwind&theme=dark" width="40"/> <br> **95%** <br> `███████████` |
   </div>
 
   <br>
@@ -328,55 +286,14 @@
   <div align="center">
     <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="60"/>
     <h3>⚙️ Backend Excellence</h3>
+
+    <!-- Beautiful Backend Skills Table (Markdown compatible) -->
     
-    <table align="center">
-      <tr>
-        <td align="center" width="33%">
-          <img src="https://skillicons.dev/icons?i=nodejs&theme=dark" width="40"/>
-          <br>
-          <strong>Node.js</strong>
-          <br>
-          <sub>85% █████████░░</sub>
-        </td>
-        <td align="center" width="33%">
-          <img src="https://skillicons.dev/icons?i=python&theme=dark" width="40"/>
-          <br>
-          <strong>Python</strong>
-          <br>
-          <sub>90% ██████████░</sub>
-        </td>
-        <td align="center" width="33%">
-          <img src="https://skillicons.dev/icons?i=django&theme=dark" width="40"/>
-          <br>
-          <strong>Django/Flask</strong>
-          <br>
-          <sub>80% ████████░░░</sub>
-        </td>
-      </tr>
-      <tr>
-        <td align="center">
-          <img src="https://skillicons.dev/icons?i=mongodb&theme=dark" width="40"/>
-          <br>
-          <strong>MongoDB</strong>
-          <br>
-          <sub>85% █████████░░</sub>
-        </td>
-        <td align="center">
-          <img src="https://skillicons.dev/icons?i=mysql&theme=dark" width="40"/>
-          <br>
-          <strong>MySQL</strong>
-          <br>
-          <sub>80% ████████░░░</sub>
-        </td>
-        <td align="center">
-          <img src="https://skillicons.dev/icons?i=postman&theme=dark" width="40"/>
-          <br>
-          <strong>REST APIs</strong>
-          <br>
-          <sub>90% ██████████░</sub>
-        </td>
-      </tr>
-    </table>
+| Node.js | Python | Django/Flask |
+|:---:|:---:|:---:|
+| <img src="https://skillicons.dev/icons?i=nodejs&theme=dark" width="40"/> <br> **85%** <br> `█████████░░` | <img src="https://skillicons.dev/icons?i=python&theme=dark" width="40"/> <br> **90%** <br> `██████████░` | <img src="https://skillicons.dev/icons?i=django&theme=dark" width="40"/> <br> **80%** <br> `████████░░░` |
+| MongoDB | MySQL | REST APIs |
+| <img src="https://skillicons.dev/icons?i=mongodb&theme=dark" width="40"/> <br> **85%** <br> `█████████░░` | <img src="https://skillicons.dev/icons?i=mysql&theme=dark" width="40"/> <br> **80%** <br> `███████░░░░` | <img src="https://skillicons.dev/icons?i=postman&theme=dark" width="40"/> <br> **90%** <br> `██████████░` |
   </div>
 
   <br>
