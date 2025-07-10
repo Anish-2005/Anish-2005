@@ -481,48 +481,47 @@
 </div>
 
 <!-- Enhanced Social Connection Grid -->
+
 <div align="center">
-  
-  <a href="https://www.linkedin.com/in/anish-seth-202200290/" target="_blank">
-    <img src="https://user-images.githubusercontent.com/74038190/235294012-0a55e343-37ad-4b0f-924f-c8431d9af2c0.gif" width="100"/>
-    <br>
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-    <br>
-    <sub><b>🤝 Professional Network</b></sub>
-  </a>
-  
-  <a href="https://x.com/AnishSeth170734" target="_blank">
-    <img src="https://user-images.githubusercontent.com/74038190/235294011-b8074c31-9097-4a65-a594-4151b58743a8.gif" width="100"/>
-    <br>
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
-    <br>
-    <sub><b>🐦 Tech Updates</b></sub>
-  </a>
-  
-  <a href="https://instagram.com/anish_seth.ai" target="_blank">
-    <img src="https://user-images.githubusercontent.com/74038190/235294013-a33e5c43-a01c-43f6-b44d-a406d8b4ab75.gif" width="100"/>
-    <br>
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-    <br>
-    <sub><b>📸 Creative Content</b></sub>
-  </a>
-  
-  <a href="mailto:anishseth0510@gmail.com" target="_blank">
-    <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="100"/>
-    <br>
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-    <br>
-    <sub><b>📧 Direct Contact</b></sub>
-  </a>
-  
-  <a href="https://portfolio-anish-seth-1.vercel.app/" target="_blank">
-    <img src="https://user-images.githubusercontent.com/74038190/235294015-47144047-25ab-417c-af1b-6746820a20ff.gif" width="100"/>
-    <br>
-    <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=firefox&logoColor=white" alt="Portfolio" />
-    <br>
-    <sub><b>🌐 My Work</b></sub>
-  </a>
-  
+  <table>
+    <tr>
+      <td align="center">
+        <a href="https://www.linkedin.com/in/anish-seth-202200290/" target="_blank">
+          <img src="https://user-images.githubusercontent.com/74038190/235294012-0a55e343-37ad-4b0f-924f-c8431d9af2c0.gif" width="70"/><br>
+          <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+        </a>
+        <br><sub>🤝 <b>Professional Network</b></sub>
+      </td>
+      <td align="center">
+        <a href="https://x.com/AnishSeth170734" target="_blank">
+          <img src="https://user-images.githubusercontent.com/74038190/235294011-b8074c31-9097-4a65-a594-4151b58743a8.gif" width="70"/><br>
+          <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
+        </a>
+        <br><sub>🐦 <b>Tech Updates</b></sub>
+      </td>
+      <td align="center">
+        <a href="https://instagram.com/anish_seth.ai" target="_blank">
+          <img src="https://user-images.githubusercontent.com/74038190/235294013-a33e5c43-a01c-43f6-b44d-a406d8b4ab75.gif" width="70"/><br>
+          <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+        </a>
+        <br><sub>📸 <b>Creative Content</b></sub>
+      </td>
+      <td align="center">
+        <a href="mailto:anishseth0510@gmail.com" target="_blank">
+          <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="70"/><br>
+          <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+        </a>
+        <br><sub>📧 <b>Direct Contact</b></sub>
+      </td>
+      <td align="center">
+        <a href="https://portfolio-anish-seth-1.vercel.app/" target="_blank">
+          <img src="https://user-images.githubusercontent.com/74038190/235294015-47144047-25ab-417c-af1b-6746820a20ff.gif" width="70"/><br>
+          <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=firefox&logoColor=white" alt="Portfolio" />
+        </a>
+        <br><sub>🌐 <b>My Work</b></sub>
+      </td>
+    </tr>
+  </table>
 </div>
 
 <!-- Collaboration Call-to-Action -->
