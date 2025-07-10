@@ -83,14 +83,66 @@
     <h3>🎯 Current Focus</h3>
   </div>
   
-  <!-- Animated bullet points -->
-  - 🎓 **Computer Science Engineering** @ **Techno Main Salt Lake**
-  - 🌱 Mastering **React.js**, **Next.js**, **Node.js** & **AI/ML**
-  - 🔭 Building **AI-powered solutions** & **scalable applications**
-  - 👯 Open to **collaborations** on **innovative projects**
-  - 💬 Expert in **Full Stack Development** & **UI/UX Design**
-  - 📫 Contact: **anishseth0510@gmail.com**
-  - ⚡ **Photography** & **Graphic Design** enthusiast 📸
+  <!-- Beautiful Current Focus Table -->
+  <table align="center">
+    <tr>
+      <td align="center" width="50%">
+        <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="50"/>
+        <br>
+        <strong>🎓 Education</strong>
+        <br>
+        <sub>Computer Science Engineering<br>@ Techno Main Salt Lake</sub>
+      </td>
+      <td align="center" width="50%">
+        <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="50"/>
+        <br>
+        <strong>🌱 Currently Learning</strong>
+        <br>
+        <sub>React.js, Next.js, Node.js & AI/ML</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif" width="50"/>
+        <br>
+        <strong>🔭 Building</strong>
+        <br>
+        <sub>AI-powered solutions &<br>scalable applications</sub>
+      </td>
+      <td align="center">
+        <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="50"/>
+        <br>
+        <strong>👯 Open to</strong>
+        <br>
+        <sub>Collaborations on<br>innovative projects</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="50"/>
+        <br>
+        <strong>💬 Expertise</strong>
+        <br>
+        <sub>Full Stack Development<br>& UI/UX Design</sub>
+      </td>
+      <td align="center">
+        <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="50"/>
+        <br>
+        <strong>⚡ Hobbies</strong>
+        <br>
+        <sub>Photography &<br>Graphic Design 📸</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" colspan="2">
+        <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="50"/>
+        <br>
+        <strong>� Contact Me</strong>
+        <br>
+        <sub><a href="mailto:anishseth0510@gmail.com">anishseth0510@gmail.com</a></sub>
+      </td>
+    </tr>
+  </table>
 
   <div align="center">
     <img src="https://github-readme-stats.vercel.app/api/wakatime?username=Anish-2005&theme=radical&hide_border=true&layout=compact" alt="Coding Activity"/>
@@ -103,14 +155,66 @@
     <h3>🌟 Goals & Vision</h3>
   </div>
   
-  <!-- Achievement badges -->
-  - 🏆 **Smart India Hackathon 2024** Finalist
-  - 🌐 Creating **next-gen web experiences**
-  - 🤖 Pioneering **AI-driven solutions**
-  - 🎨 Designing **intuitive user interfaces**
-  - 📱 Developing **mobile-first applications**
-  - 🚀 Contributing to **open source ecosystem**
-  - 📚 **Lifelong learner** & **tech explorer**
+  <!-- Beautiful Goals & Vision Table -->
+  <table align="center">
+    <tr>
+      <td align="center" width="50%">
+        <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="50"/>
+        <br>
+        <strong>🏆 Achievement</strong>
+        <br>
+        <sub>Smart India Hackathon 2024<br>Finalist</sub>
+      </td>
+      <td align="center" width="50%">
+        <img src="https://user-images.githubusercontent.com/74038190/235294011-b8074c31-9097-4a65-a594-4151b58743a8.gif" width="50"/>
+        <br>
+        <strong>🌐 Web Innovation</strong>
+        <br>
+        <sub>Creating next-gen<br>web experiences</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="https://user-images.githubusercontent.com/74038190/221857984-5bf77e81-6f65-4502-a7c8-f29a978efb3f.gif" width="50"/>
+        <br>
+        <strong>🤖 AI Pioneer</strong>
+        <br>
+        <sub>Pioneering AI-driven<br>solutions</sub>
+      </td>
+      <td align="center">
+        <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="50"/>
+        <br>
+        <strong>🎨 UI/UX Design</strong>
+        <br>
+        <sub>Designing intuitive<br>user interfaces</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="50"/>
+        <br>
+        <strong>📱 Mobile First</strong>
+        <br>
+        <sub>Developing mobile-first<br>applications</sub>
+      </td>
+      <td align="center">
+        <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="50"/>
+        <br>
+        <strong>🚀 Open Source</strong>
+        <br>
+        <sub>Contributing to<br>open source ecosystem</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" colspan="2">
+        <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="50"/>
+        <br>
+        <strong>📚 Lifelong Learning</strong>
+        <br>
+        <sub>Continuous learner & tech explorer</sub>
+      </td>
+    </tr>
+  </table>
 
   <div align="center">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=Anish-2005&theme=radical&hide_border=true&background=0D1117&stroke=FF6B6B&ring=4ECDC4&fire=FFE66D" alt="Streak Stats"/>
@@ -169,12 +273,56 @@
     <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="60"/>
     
     **🎨 Frontend Mastery**
-    - **React.js** `███████████` 95%
-    - **Next.js** `██████████` 90%
-    - **JavaScript** `███████████` 95%
-    - **TypeScript** `█████████` 85%
-    - **CSS/SCSS** `██████████` 90%
-    - **Tailwind CSS** `███████████` 95%
+    
+    <!-- Beautiful Frontend Skills Table -->
+    <table align="center">
+      <tr>
+        <td align="center" width="33%">
+          <img src="https://skillicons.dev/icons?i=react&theme=dark" width="40"/>
+          <br>
+          <strong>React.js</strong>
+          <br>
+          <sub>95% `███████████`</sub>
+        </td>
+        <td align="center" width="33%">
+          <img src="https://skillicons.dev/icons?i=nextjs&theme=dark" width="40"/>
+          <br>
+          <strong>Next.js</strong>
+          <br>
+          <sub>90% `██████████░`</sub>
+        </td>
+        <td align="center" width="33%">
+          <img src="https://skillicons.dev/icons?i=js&theme=dark" width="40"/>
+          <br>
+          <strong>JavaScript</strong>
+          <br>
+          <sub>95% `███████████`</sub>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          <img src="https://skillicons.dev/icons?i=typescript&theme=dark" width="40"/>
+          <br>
+          <strong>TypeScript</strong>
+          <br>
+          <sub>85% `█████████░░`</sub>
+        </td>
+        <td align="center">
+          <img src="https://skillicons.dev/icons?i=css&theme=dark" width="40"/>
+          <br>
+          <strong>CSS/SCSS</strong>
+          <br>
+          <sub>90% `██████████░`</sub>
+        </td>
+        <td align="center">
+          <img src="https://skillicons.dev/icons?i=tailwind&theme=dark" width="40"/>
+          <br>
+          <strong>Tailwind CSS</strong>
+          <br>
+          <sub>95% `███████████`</sub>
+        </td>
+      </tr>
+    </table>
   </div>
 
   <br>
@@ -183,12 +331,56 @@
     <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="60"/>
     
     **⚙️ Backend Excellence**
-    - **Node.js** `█████████` 85%
-    - **Python** `██████████` 90%
-    - **Django/Flask** `████████` 80%
-    - **MongoDB** `█████████` 85%
-    - **MySQL** `████████` 80%
-    - **REST APIs** `██████████` 90%
+    
+    <!-- Beautiful Backend Skills Table -->
+    <table align="center">
+      <tr>
+        <td align="center" width="33%">
+          <img src="https://skillicons.dev/icons?i=nodejs&theme=dark" width="40"/>
+          <br>
+          <strong>Node.js</strong>
+          <br>
+          <sub>85% `█████████░░`</sub>
+        </td>
+        <td align="center" width="33%">
+          <img src="https://skillicons.dev/icons?i=python&theme=dark" width="40"/>
+          <br>
+          <strong>Python</strong>
+          <br>
+          <sub>90% `██████████░`</sub>
+        </td>
+        <td align="center" width="33%">
+          <img src="https://skillicons.dev/icons?i=django&theme=dark" width="40"/>
+          <br>
+          <strong>Django/Flask</strong>
+          <br>
+          <sub>80% `████████░░░`</sub>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          <img src="https://skillicons.dev/icons?i=mongodb&theme=dark" width="40"/>
+          <br>
+          <strong>MongoDB</strong>
+          <br>
+          <sub>85% `█████████░░`</sub>
+        </td>
+        <td align="center">
+          <img src="https://skillicons.dev/icons?i=mysql&theme=dark" width="40"/>
+          <br>
+          <strong>MySQL</strong>
+          <br>
+          <sub>80% `████████░░░`</sub>
+        </td>
+        <td align="center">
+          <img src="https://skillicons.dev/icons?i=postman&theme=dark" width="40"/>
+          <br>
+          <strong>REST APIs</strong>
+          <br>
+          <sub>90% `██████████░`</sub>
+        </td>
+      </tr>
+    </table>
   </div>
 
   <br>
