@@ -1,71 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?t</div>
-
-<br><br>
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/235294011-b8074c31-9097-4a65-a594-4151b58743a8.gif" width="100%"/>
-</div>
-
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=900&size=45&duration=3000&pause=1000&color=FF6B6B&center=true&vCenter=true&width=600&height=100&lines=🚀+ABOUT+ME;💫+WHO+AM+I%3F;🌟+MY+JOURNEY" alt="About Me Header"/>
-</div>
-
-<!-- Animated Cards Layout -->
-<div align="center">
-  <table>
-    <tr>
-      <td width="50%" valign="top">
-        <div align="center">
-          <img src="https://user-images.githubusercontent.com/74038190/212284094-e50cedf6-de86-4dd8-bfa7-75b40c5dc0a1.gif" width="80"/>
-          <h3>🎯 Current Focus</h3>
-        </div>
-        
-<!-- Animated bullet points -->
-- 🎓 **Computer Science Engineering** @ **Techno Main Salt Lake**
-- 🌱 Mastering **React.js**, **Next.js**, **Node.js** & **AI/ML**
-- 🔭 Building **AI-powered solutions** & **scalable applications**
-- 👯 Open to **collaborations** on **innovative projects**
-- 💬 Expert in **Full Stack Development** & **UI/UX Design**
-- 📫 Contact: **anishseth0510@gmail.com**
-- ⚡ **Photography** & **Graphic Design** enthusiast 📸
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=Anish2005&theme=radical&hide_border=true&layout=compact" alt="Coding Activity"/>
-</div>
-
-      </td>
-      <td width="50%" valign="top">
-        <div align="center">
-          <img src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif" width="80"/>
-          <h3>🌟 Goals & Vision</h3>
-        </div>
-        
-<!-- Achievement badges -->
-- 🏆 **Smart India Hackathon 2024** Finalist
-- 🌐 Creating **next-gen web experiences**
-- 🤖 Pioneering **AI-driven solutions**
-- 🎨 Designing **intuitive user interfaces**
-- 📱 Developing **mobile-first applications**
-- 🚀 Contributing to **open source ecosystem**
-- 📚 **Lifelong learner** & **tech explorer**
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Anish-2005&theme=radical&hide_border=true&background=0D1117&stroke=FF6B6B&ring=4ECDC4&fire=FFE66D" alt="Streak Stats"/>
-</div>
-
-      </td>
-    </tr>
-  </table>
-</div>
-
-<!-- Floating Achievement Badges -->
-<div align="center">
-  <img src="https://img.shields.io/badge/🎯_Problem_Solver-4ECDC4?style=for-the-badge&logoColor=white&labelColor=000000" alt="Problem Solver"/>
-  <img src="https://img.shields.io/badge/🚀_Innovation_Driver-FF6B6B?style=for-the-badge&logoColor=white&labelColor=000000" alt="Innovation Driver"/>
-  <img src="https://img.shields.io/badge/🎨_Creative_Thinker-FFE66D?style=for-the-badge&logoColor=black&labelColor=000000" alt="Creative Thinker"/>
-  <img src="https://img.shields.io/badge/🤝_Team_Player-95E1D3?style=for-the-badge&logoColor=black&labelColor=000000" alt="Team Player"/>
-</div>gradient&customColorList=0,2,2,5,30&height=300&section=header&text=Hello%20World!&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=I'm%20Anish%20Seth%20-%20Full%20Stack%20Developer%20%26%20AI%20Enthusiast&descAlignY=55&descSize=20" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=300&section=header&text=Hello%20World!&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=I'm%20Anish%20Seth%20-%20Full%20Stack%20Developer%20%26%20AI%20Enthusiast&descAlignY=55&descSize=20" width="100%"/>
 </div>
 
 <div align="center">
@@ -137,50 +71,72 @@
 <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="100" align="left"/>
 <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="100" align="right"/>
 
-</div>ello, I'm Anish Seth!
-
-
-[![GitHub followers](https://img.shields.io/github/followers/Anish-2005?label=Follow&style=social)](https://github.com/Anish-2005) [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/anish-seth-202200290/) [![Portfolio](https://img.shields.io/badge/Portfolio-visit-green?style=flat&logo=google-chrome)](https://portfolio-anish-seth-1.vercel.app/)
-<br><br>
-Welcome to my GitHub profile! I’m a **Web Developer and UI/UX Designer** with a passion for **AI/ML**. Here, you’ll find a collection of my work, projects, and contributions.
-
----
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500">
 </div>
 
-## 🚀 About Me
+<br><br>
 
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/235294011-b8074c31-9097-4a65-a594-4151b58743a8.gif" width="100%"/>
+</div>
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=900&size=45&duration=3000&pause=1000&color=FF6B6B&center=true&vCenter=true&width=600&height=100&lines=🚀+ABOUT+ME;💫+WHO+AM+I%3F;🌟+MY+JOURNEY" alt="About Me Header"/>
+</div>
+
+<!-- Animated Cards Layout -->
 <div align="center">
   <table>
     <tr>
-      <td valign="top" width="50%">
+      <td width="50%" valign="top">
+        <div align="center">
+          <img src="https://user-images.githubusercontent.com/74038190/212284094-e50cedf6-de86-4dd8-bfa7-75b40c5dc0a1.gif" width="80"/>
+          <h3>🎯 Current Focus</h3>
+        </div>
         
-### 👨‍� Current Status
-- 🎓 **Computer Science Engineering** Student at **Techno Main Salt Lake**
-- 🌱 Currently diving deep into **React.js**, **Next.js**, and **AI/ML**
-- 🔭 Working on **AI-powered web applications** and **innovative solutions**
-- 👯 Looking to collaborate on **open source projects** and **hackathons**
-- 💬 Ask me about **Web Development**, **UI/UX Design**, or **AI/ML**
-- 📫 Reach me: **anishseth0510@gmail.com**
-- ⚡ Fun fact: **I love Graphic Designing and Photography** 📸
+<!-- Animated bullet points -->
+- 🎓 **Computer Science Engineering** @ **Techno Main Salt Lake**
+- 🌱 Mastering **React.js**, **Next.js**, **Node.js** & **AI/ML**
+- 🔭 Building **AI-powered solutions** & **scalable applications**
+- 👯 Open to **collaborations** on **innovative projects**
+- 💬 Expert in **Full Stack Development** & **UI/UX Design**
+- 📫 Contact: **anishseth0510@gmail.com**
+- ⚡ **Photography** & **Graphic Design** enthusiast 📸
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=Anish2005&theme=radical&hide_border=true&layout=compact" alt="Coding Activity"/>
+</div>
 
       </td>
-      <td valign="top" width="50%">
+      <td width="50%" valign="top">
+        <div align="center">
+          <img src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif" width="80"/>
+          <h3>🌟 Goals & Vision</h3>
+        </div>
         
-### 🎯 Goals & Interests
-- 🏆 **Smart India Hackathon 2024** Participant
-- 🌐 Building **scalable web applications** with modern tech stacks
-- 🤖 Exploring **Machine Learning** and **Artificial Intelligence**
-- 🎨 Creating **intuitive user experiences** through design
-- 📱 Developing **mobile-first responsive** web solutions
-- 🚀 Contributing to **open source** communities
-- 📚 Continuous learning and **skill enhancement**
+<!-- Achievement badges -->
+- 🏆 **Smart India Hackathon 2024** Finalist
+- 🌐 Creating **next-gen web experiences**
+- 🤖 Pioneering **AI-driven solutions**
+- 🎨 Designing **intuitive user interfaces**
+- 📱 Developing **mobile-first applications**
+- 🚀 Contributing to **open source ecosystem**
+- 📚 **Lifelong learner** & **tech explorer**
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Anish-2005&theme=radical&hide_border=true&background=0D1117&stroke=FF6B6B&ring=4ECDC4&fire=FFE66D" alt="Streak Stats"/>
+</div>
 
       </td>
     </tr>
   </table>
+</div>
+
+<!-- Floating Achievement Badges -->
+<div align="center">
+  <img src="https://img.shields.io/badge/🎯_Problem_Solver-4ECDC4?style=for-the-badge&logoColor=white&labelColor=000000" alt="Problem Solver"/>
+  <img src="https://img.shields.io/badge/🚀_Innovation_Driver-FF6B6B?style=for-the-badge&logoColor=white&labelColor=000000" alt="Innovation Driver"/>
+  <img src="https://img.shields.io/badge/🎨_Creative_Thinker-FFE66D?style=for-the-badge&logoColor=black&labelColor=000000" alt="Creative Thinker"/>
+  <img src="https://img.shields.io/badge/🤝_Team_Player-95E1D3?style=for-the-badge&logoColor=black&labelColor=000000" alt="Team Player"/>
 </div>
 
 ---
@@ -190,7 +146,7 @@ Welcome to my GitHub profile! I’m a **Web Developer and UI/UX Designer** with 
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=900&size=45&duration=3000&pause=1000&color=4ECDC4&center=true&vCenter=true&width=800&height=100&lines=�+TECH+ARSENAL;�🛠️+SKILLS+%26+TOOLS;⚡+TECHNOLOGIES" alt="Tech Arsenal Header"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=900&size=45&duration=3000&pause=1000&color=4ECDC4&center=true&vCenter=true&width=800&height=100&lines=🎯+TECH+ARSENAL;🛠️+SKILLS+%26+TOOLS;⚡+TECHNOLOGIES" alt="Tech Arsenal Header"/>
 </div>
 
 <!-- Interactive Tech Stack Display -->
@@ -274,7 +230,7 @@ Welcome to my GitHub profile! I’m a **Web Developer and UI/UX Designer** with 
 
 <!-- Tech Stats Visualization -->
 <div align="center">
-  <h3>� Development Activity Heatmap</h3>
+  <h3>📊 Development Activity Heatmap</h3>
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Anish-2005&theme=radical" alt="Activity Graph" />
 </div>
 
@@ -336,39 +292,6 @@ Welcome to my GitHub profile! I’m a **Web Developer and UI/UX Designer** with 
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Anish-2005&theme=redical&hide_border=true&area=true&bg_color=0D1117&color=FF6B6B&line=4ECDC4&point=FFE66D&area_color=FF6B6B&title_color=4ECDC4&custom_title=💻+Anish's+Contribution+Journey" alt="Activity Graph" />
 </div>
 
-<!-- Dynamic Stats Cards -->
-<div align="center">
-  <table>
-    <tr>
-      <td width="25%" align="center">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Anish-2005&theme=radical" alt="Stats"/>
-      </td>
-      <td width="25%" align="center">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Anish-2005&theme=radical&utc_offset=5.5" alt="Productive Time"/>
-      </td>
-      <td width="25%" align="center">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Anish-2005&theme=radical" alt="Most Commit Language"/>
-      </td>
-      <td width="25%" align="center">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/commits-per-day?username=Anish-2005&theme=radical" alt="Commits per Day"/>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<!-- Animated Metrics -->
-<div align="center">
-  <h3>⚡ Real-time Development Metrics</h3>
-  <img src="https://metrics.lecoq.io/Anish-2005?template=classic&config.timezone=Asia%2FKolkata&base.header=0&base.activity=0&base.community=0&base.repositories=0&base.metadata=0&people=1&people.limit=24&people.size=28&people.types=followers%2Cfollowing&people.identicons=false&people.shuffle=false&config.animations=true" alt="Metrics"/>
-</div>
-
-<!-- GitHub Skyline -->
-<div align="center">
-  <h3>🌆 3D GitHub Skyline</h3>
-  <img src="https://github.com/Anish-2005/Anish-2005/blob/main/profile-3d-contrib/profile-season-animate.svg" alt="3D Skyline"/>
-</div>
-
-
 ---
 
 <div align="center">
@@ -399,10 +322,6 @@ Welcome to my GitHub profile! I’m a **Web Developer and UI/UX Designer** with 
 <br>
 
 🚀 **Revolutionary AI-powered ticketing platform** that transforms the booking experience with intelligent multilingual chatbot support and seamless user interactions.
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="200"/>
-</div>
 
 **✨ Key Innovations:**
 - 🌐 **Smart Multilingual Support** via Google Dialogflow
@@ -448,10 +367,6 @@ Deploy: Vercel, Railway, Docker
 
 💡 **Next-generation legal research platform** powered by advanced AI algorithms for intelligent document analysis and automated legal assistance.
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif" width="200"/>
-</div>
-
 **✨ AI-Powered Features:**
 - 🔍 **Intelligent Legal Research** with semantic search
 - 📋 **Automated Document Analysis** & summarization
@@ -481,103 +396,6 @@ Deploy: AWS, Docker, Kubernetes
 
       </td>
     </tr>
-    <tr>
-      <td width="50%" valign="top">
-        
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284094-e50cedf6-de86-4dd8-bfa7-75b40c5dc0a1.gif" width="60"/>
-  <h2>🎓 Smart College Management</h2>
-</div>
-        
-<div align="center">
-  <img src="https://img.shields.io/badge/✅_Status-Completed-success?style=for-the-badge&logo=checkmarx&logoColor=white" />
-  <img src="https://img.shields.io/badge/🌐_Type-Web%20Application-green?style=for-the-badge&logo=web&logoColor=white" />
-  <img src="https://img.shields.io/badge/📚_Category-Education-blue?style=for-the-badge&logo=education&logoColor=white" />
-</div>
-
-<br>
-
-🔥 **Comprehensive educational platform** that revolutionizes institution management with modern web technologies and intuitive user experience.
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="200"/>
-</div>
-
-**✨ Management Features:**
-- 📚 **Dynamic Student Portal** with dashboards
-- 📅 **Smart Attendance System** with analytics
-- 📝 **Automated Grade Calculator** & reporting
-- 💬 **Integrated Communication Hub**
-- 📊 **Performance Analytics** & insights
-- 🎯 **Resource Management** system
-
-**🛠️ Technology Stack:**
-```
-Frontend: HTML5, CSS3, JavaScript
-Backend: PHP, Apache
-Database: MySQL, phpMyAdmin
-Design: Bootstrap, Custom CSS
-Features: AJAX, jQuery
-Security: SQL Injection Prevention
-```
-
-<div align="center">
-  <a href="https://github.com/Anish-2005">
-    <img src="https://img.shields.io/badge/Live%20Preview-95E1D3?style=for-the-badge&logo=preview&logoColor=black" alt="Live Preview"/>
-  </a>
-  <a href="https://github.com/Anish-2005">
-    <img src="https://img.shields.io/badge/GitHub%20Repo-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repo"/>
-  </a>
-</div>
-
-      </td>
-      <td width="50%" valign="top">
-        
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="60"/>
-  <h2>🌟 More Amazing Projects</h2>
-</div>
-        
-<div align="center">
-  <img src="https://img.shields.io/badge/📁_Repositories-25+-blue?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/💻_Contributions-150+-green?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/⭐_Stars-50+-yellow?style=for-the-badge&logo=star&logoColor=black" />
-</div>
-
-<br>
-
-🌟 **Explore my complete portfolio** of innovative solutions, creative experiments, and cutting-edge technologies in my GitHub repositories.
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="200"/>
-</div>
-
-**🔍 What You'll Discover:**
-- 🎯 **Problem-solving Applications** & utilities
-- 🎨 **Creative UI/UX Experiments** & prototypes
-- 🤖 **AI/ML Learning Projects** & models
-- 📱 **Mobile-responsive Web Apps**
-- 🔧 **Open Source Contributions** & tools
-- 📊 **Data Visualization Projects**
-
-**📈 Continuous Innovation:**
-- 🚀 Weekly coding challenges & solutions
-- 🏆 Hackathon winning projects
-- 🌍 Community-driven contributions
-- 📚 Learning documentation & tutorials
-- 🎯 Real-world problem solutions
-
-<div align="center">
-  <a href="https://github.com/Anish-2005?tab=repositories">
-    <img src="https://img.shields.io/badge/Explore%20All%20Projects-FF6B6B?style=for-the-badge&logo=rocket&logoColor=white" alt="All Projects"/>
-  </a>
-  <a href="https://github.com/Anish-2005?tab=stars">
-    <img src="https://img.shields.io/badge/Starred%20Repos-FFE66D?style=for-the-badge&logo=star&logoColor=black" alt="Starred Repos"/>
-  </a>
-</div>
-
-      </td>
-    </tr>
   </table>
 </div>
 
@@ -597,180 +415,6 @@ Security: SQL Injection Prevention
       </td>
       <td align="center">
         <img src="https://img.shields.io/badge/Live%20Demos-8+-95E1D3?style=for-the-badge&logo=demo&logoColor=black" alt="Live Demos"/>
-      </td>
-    </tr>
-  </table>
-</div>
-
----
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="500">
-</div>
-
-## 📝 Latest Blog Posts & Achievements
-
-<div align="center">
-  <table>
-    <tr>
-      <td width="50%" valign="top">
-        
-### 🏆 **Recent Achievements**
-
-🎯 **[Smart India Hackathon 2024 Success](https://www.linkedin.com/posts/anish-seth-202200290_sih2024-codeabraabrcola-hackathonsuccess-activity-7243721888839954432-vMOM)**
-- 🚀 Successfully participated in internal hackathon
-- 💡 Developed innovative solutions for real-world problems
-- 🤝 Collaborated with talented developers
-- 📈 Enhanced problem-solving and teamwork skills
-
-🌐 **[Google Cloud Community Day Experience](https://www.linkedin.com/posts/anish-seth-202200290_connections-techevent-googlecloud-activity-7231043367269253120-dGpO)**
-- ☁️ Explored cutting-edge cloud technologies
-- 🔗 Built valuable professional networks
-- 📚 Gained insights into industry best practices
-- 🎯 Connected with tech enthusiasts and experts
-
-      </td>
-      <td width="50%" valign="top">
-        
-### 📰 **Blog Highlights**
-
-📖 **Technical Writing & Sharing**
-- 💻 Web Development tutorials and tips
-- 🎨 UI/UX design principles and case studies
-- 🤖 AI/ML project walkthroughs
-- 🚀 Career guidance for aspiring developers
-
-📅 **Regular Content Creation**
-- Weekly tech insights on LinkedIn
-- Project documentation and tutorials
-- Open source contribution guides
-- Industry trend analysis and predictions
-
-🎯 **Community Engagement**
-- Active participation in tech discussions
-- Mentoring junior developers
-- Contributing to developer communities
-- Sharing knowledge and experiences
-
-      </td>
-    </tr>
-  </table>
-</div>
-
-<div align="center">
-  <a href="https://www.linkedin.com/in/anish-seth-202200290/">
-    <img src="https://img.shields.io/badge/Read%20More%20Posts-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Read More Posts" />
-  </a>
-</div>
-
-<!-- Snake Contribution Animation -->
-<div align="center">
-  <h2>🐍 Watch My Contributions Get Devoured!</h2>
-  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/Anish-2005/Anish-2005/output/github-contribution-grid-snake.svg" />
-</div>
-
----
-
-<!-- Thanks Section with Interactive Elements -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,0,2,0,2&height=200&section=header&text=THANKS%20FOR%20VISITING!&fontSize=40&fontColor=fff&animation=fadeIn&fontAlignY=35" width="100%"/>
-</div>
-
-<div align="center">
-  <table>
-    <tr>
-      <td width="50%" align="center">
-        <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="350" alt="Coding Animation" />
-        <h2>🔥 Always Coding, Always Learning</h2>
-        <p><em>"Turning caffeine into code since 2023"</em></p>
-        <img src="https://img.shields.io/badge/Code%20Lines-50K+-FF6B6B?style=for-the-badge&logo=code&logoColor=white" alt="Code Lines"/>
-      </td>
-      <td width="50%" align="center">
-        <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="350" alt="JavaScript Animation" />
-        <h2>⚡ JavaScript Enthusiast</h2>
-        <p><em>"Making the web more interactive, one function at a time"</em></p>
-        <img src="https://img.shields.io/badge/JS%20Projects-25+-FFE66D?style=for-the-badge&logo=javascript&logoColor=black" alt="JS Projects"/>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<!-- Inspirational Quote Section -->
-<div align="center">
-  <h2>💭 Developer Wisdom</h2>
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&border=true" alt="Developer Quote" />
-  
-  <br><br>
-  
-  <table>
-    <tr>
-      <td align="center" width="33%">
-        <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="80"/>
-        <h3>💡 "Code is Poetry"</h3>
-        <p>Every line of code tells a story</p>
-      </td>
-      <td align="center" width="33%">
-        <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="80"/>
-        <h3>🚀 "Innovation Never Stops"</h3>
-        <p>Tomorrow's solutions start today</p>
-      </td>
-      <td align="center" width="33%">
-        <img src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif" width="80"/>
-        <h3>🌟 "Dream. Code. Deploy."</h3>
-        <p>Building the future, one commit at a time</p>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<!-- What Sets Me Apart Section -->
-<div align="center">
-  <h2>🌟 What Makes Me Unique</h2>
-  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="600"/>
-  
-  <table>
-    <tr>
-      <td width="33%" valign="top" align="center">
-        
-### 🎯 **Problem Solver**
-        
-<img src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif" width="150">
-
-**Creative Solutions**
-- 🧠 Analytical thinking approach
-- � Innovation-driven mindset
-- 👥 User-centric problem solving
-- ⚡ Efficient algorithm design
-- 🎯 Strategic planning skills
-
-      </td>
-      <td width="33%" valign="top" align="center">
-        
-### 🚀 **Fast Learner**
-        
-<img src="https://user-images.githubusercontent.com/74038190/212284094-e50cedf6-de86-4dd8-bfa7-75b40c5dc0a1.gif" width="150">
-
-**Continuous Growth**
-- ⚡ Quick technology adaptation
-- 📚 Self-directed learning
-- 🔍 Industry trend awareness
-- 🎯 Skill diversification
-- 🌟 Growth mindset
-
-      </td>
-      <td width="33%" valign="top" align="center">
-        
-### 🤝 **Team Player**
-        
-<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="150">
-
-**Collaborative Spirit**
-- 💬 Effective communication
-- 🤝 Cross-functional teamwork
-- 📖 Knowledge sharing
-- 👨‍🏫 Mentorship mindset
-- 🌍 Global perspective
-
       </td>
     </tr>
   </table>
@@ -888,18 +532,10 @@ Security: SQL Injection Prevention
   </table>
 </div>
 
-<!-- Interactive Back to Top -->
+<!-- Snake Contribution Animation -->
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284145-bf2c01a8-c448-4f1a-b911-99112b93f1d5.gif" width="500"/>
-  
-  <h2>🎯 Let's Keep the Conversation Going!</h2>
-  <p>
-    <em>If you've made it this far, you're awesome! Let's connect and create something amazing together. 🌟</em>
-  </p>
-  
-  <a href="#top">
-    <img src="https://img.shields.io/badge/🚀_Back%20to%20Top-000000?style=for-the-badge&logo=rocketdotchat&logoColor=white" alt="Back to Top" />
-  </a>
+  <h2>🐍 Watch My Contributions Get Devoured!</h2>
+  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/Anish-2005/Anish-2005/output/github-contribution-grid-snake.svg" />
 </div>
 
 <!-- Final Wave Footer -->
