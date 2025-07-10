@@ -103,7 +103,7 @@
 - ⚡ **Photography** & **Graphic Design** enthusiast 📸
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=Anish2005&theme=radical&hide_border=true&layout=compact" alt="Coding Activity"/>
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=Anish-2005&theme=radical&hide_border=true&layout=compact" alt="Coding Activity"/>
 </div>
 
       </td>
@@ -184,8 +184,7 @@
   <h2>📊 Skill Proficiency Matrix</h2>
   
   <table>
-    <tr>
-      <td width="33%" valign="top" align="center">
+    
         
 <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="60"/>
 
