@@ -1,33 +1,142 @@
-# 👋 Hello World, I'm Anish Seth! 
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?t</div>
+
+<br><br>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=00D8FF&center=true&vCenter=true&multiline=true&width=800&height=100&lines=Full+Stack+Web+Developer;UI%2FUX+Designer+%26+AI%2FML+Enthusiast;Computer+Science+Engineering+Student;Open+Source+Contributor" alt="Typing SVG" />
+  <img src="https://user-images.githubusercontent.com/74038190/235294011-b8074c31-9097-4a65-a594-4151b58743a8.gif" width="100%"/>
 </div>
 
 <div align="center">
-  <img src="https://portfolio-anish-seth-1.vercel.app/_next/image?url=%2Fprofile.png&w=384&q=75" width="200" height="200" style="border-radius: 50%; border: 3px solid #00D8FF;" alt="Anish Seth's profile picture"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=900&size=45&duration=3000&pause=1000&color=FF6B6B&center=true&vCenter=true&width=600&height=100&lines=🚀+ABOUT+ME;💫+WHO+AM+I%3F;🌟+MY+JOURNEY" alt="About Me Header"/>
+</div>
+
+<!-- Animated Cards Layout -->
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%" valign="top">
+        <div align="center">
+          <img src="https://user-images.githubusercontent.com/74038190/212284094-e50cedf6-de86-4dd8-bfa7-75b40c5dc0a1.gif" width="80"/>
+          <h3>🎯 Current Focus</h3>
+        </div>
+        
+<!-- Animated bullet points -->
+- 🎓 **Computer Science Engineering** @ **Techno Main Salt Lake**
+- 🌱 Mastering **React.js**, **Next.js**, **Node.js** & **AI/ML**
+- 🔭 Building **AI-powered solutions** & **scalable applications**
+- 👯 Open to **collaborations** on **innovative projects**
+- 💬 Expert in **Full Stack Development** & **UI/UX Design**
+- 📫 Contact: **anishseth0510@gmail.com**
+- ⚡ **Photography** & **Graphic Design** enthusiast 📸
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=Anish2005&theme=radical&hide_border=true&layout=compact" alt="Coding Activity"/>
+</div>
+
+      </td>
+      <td width="50%" valign="top">
+        <div align="center">
+          <img src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif" width="80"/>
+          <h3>🌟 Goals & Vision</h3>
+        </div>
+        
+<!-- Achievement badges -->
+- 🏆 **Smart India Hackathon 2024** Finalist
+- 🌐 Creating **next-gen web experiences**
+- 🤖 Pioneering **AI-driven solutions**
+- 🎨 Designing **intuitive user interfaces**
+- 📱 Developing **mobile-first applications**
+- 🚀 Contributing to **open source ecosystem**
+- 📚 **Lifelong learner** & **tech explorer**
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Anish-2005&theme=radical&hide_border=true&background=0D1117&stroke=FF6B6B&ring=4ECDC4&fire=FFE66D" alt="Streak Stats"/>
+</div>
+
+      </td>
+    </tr>
+  </table>
+</div>
+
+<!-- Floating Achievement Badges -->
+<div align="center">
+  <img src="https://img.shields.io/badge/🎯_Problem_Solver-4ECDC4?style=for-the-badge&logoColor=white&labelColor=000000" alt="Problem Solver"/>
+  <img src="https://img.shields.io/badge/🚀_Innovation_Driver-FF6B6B?style=for-the-badge&logoColor=white&labelColor=000000" alt="Innovation Driver"/>
+  <img src="https://img.shields.io/badge/🎨_Creative_Thinker-FFE66D?style=for-the-badge&logoColor=black&labelColor=000000" alt="Creative Thinker"/>
+  <img src="https://img.shields.io/badge/🤝_Team_Player-95E1D3?style=for-the-badge&logoColor=black&labelColor=000000" alt="Team Player"/>
+</div>gradient&customColorList=0,2,2,5,30&height=300&section=header&text=Hello%20World!&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=I'm%20Anish%20Seth%20-%20Full%20Stack%20Developer%20%26%20AI%20Enthusiast&descAlignY=55&descSize=20" width="100%"/>
 </div>
 
 <div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=35&duration=3000&pause=1000&color=FF6B6B&background=FF000000&center=true&vCenter=true&multiline=true&repeat=true&width=1000&height=120&lines=🚀+Full+Stack+Web+Developer;🎨+UI%2FUX+Designer+%26+Creative+Thinker;🤖+AI%2FML+Enthusiast+%26+Data+Scientist;🎓+Computer+Science+Engineering+Student;🌟+Open+Source+Contributor+%26+Innovator;💡+Problem+Solver+%26+Tech+Explorer" alt="Animated Typing" />
+</div>
+
+<div align="center">
+  <br>
+  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="300">
+  <br><br>
   
-[![GitHub followers](https://img.shields.io/github/followers/Anish-2005?label=Follow&style=for-the-badge&logo=github&color=blue)](https://github.com/Anish-2005) 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anish-seth-202200290/) 
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://portfolio-anish-seth-1.vercel.app/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anishseth0510@gmail.com)
-
+  <img src="https://portfolio-anish-seth-1.vercel.app/_next/image?url=%2Fprofile.png&w=384&q=75" width="180" height="180" style="border-radius: 50%; border: 4px solid #FF6B6B; box-shadow: 0 0 50px #FF6B6B;" alt="Anish Seth"/>
+  
+  <br><br>
+  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="300">
 </div>
 
 <div align="center">
-  <h3>🚀 Passionate Developer | 🎨 Creative Designer | 🤖 AI Enthusiast</h3>
-  <p><em>Building the future, one line of code at a time</em></p>
+  <br>
+  
+<!-- Animated Badge Collection -->
+<p>
+  <img src="https://img.shields.io/badge/🔥_Featured_Developer-FF6B6B?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=FF6B6B" alt="Featured Developer"/>
+  <img src="https://img.shields.io/badge/💼_Available_for_Hire-4ECDC4?style=for-the-badge&logo=handshake&logoColor=white&labelColor=000000" alt="Available for Hire"/>
+  <img src="https://img.shields.io/badge/🌟_Portfolio_Ready-FFE66D?style=for-the-badge&logo=rocket&logoColor=black&labelColor=000000" alt="Portfolio Ready"/>
+</p>
+
+<!-- Social Links with Hover Effects -->
+<p>
+  <a href="https://github.com/Anish-2005">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&color=181717" alt="GitHub"/>
+  </a>
+  <a href="https://www.linkedin.com/in/anish-seth-202200290/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://portfolio-anish-seth-1.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=firefox&logoColor=white" alt="Portfolio"/>
+  </a>
+  <a href="mailto:anishseth0510@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  <a href="https://x.com/AnishSeth170734">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
+  </a>
+</p>
+
+<!-- Inspirational Quote with Animation -->
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Comic+Neue&weight=600&size=22&duration=4000&pause=2000&color=36BCF7&center=true&vCenter=true&width=800&height=50&lines=💭+Building+the+future%2C+one+line+of+code+at+a+time;🎯+Turning+ideas+into+digital+reality;🚀+Innovation+through+technology+and+creativity" alt="Quote Animation"/>
 </div>
 
+<!-- Dynamic Stats Display -->
 <br>
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://komarev.com/ghpvc/?username=Anish-2005&style=for-the-badge&color=blueviolet&label=PROFILE+VIEWS" alt="Profile Views"/>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/github/followers/Anish-2005?style=for-the-badge&color=blue&labelColor=000000&label=FOLLOWERS" alt="Followers"/>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/github/stars/Anish-2005?style=for-the-badge&color=yellow&labelColor=000000&label=STARS" alt="Stars"/>
+    </td>
+  </tr>
+</table>
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Anish-2005&style=for-the-badge&color=brightgreen" alt="Profile Views" />
-  <img src="https://img.shields.io/github/stars/Anish-2005?style=for-the-badge&color=yellow" alt="GitHub Stars" />
-  <img src="https://img.shields.io/badge/Focus-Full%20Stack%20Development-brightgreen?style=for-the-badge" alt="Focus" />
+<!-- Floating Elements Animation -->
+<img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="100" align="left"/>
+<img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="100" align="right"/>
+
 </div>ello, I'm Anish Seth!
 
 
@@ -77,217 +186,420 @@ Welcome to my GitHub profile! I’m a **Web Developer and UI/UX Designer** with 
 ---
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
-</div>
-
-## 🛠️ Tech Arsenal & Skills
-
-<div align="center">
-
-### 💻 Programming Languages
-<p>
-  <img src="https://skillicons.dev/icons?i=html,css,js,python,java,php,cpp,c" />
-</p>
-
-### 🚀 Frameworks & Libraries
-<p>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,angular,tailwind,bootstrap,django,flask" />
-</p>
-
-### 🗄️ Databases & Cloud
-<p>
-  <img src="https://skillicons.dev/icons?i=mongodb,mysql,firebase,gcp,aws,redis" />
-</p>
-
-### 🛠️ Tools & Platforms
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,figma,photoshop,postman,docker,linux" />
-</p>
-
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%"/>
 </div>
 
 <div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=900&size=45&duration=3000&pause=1000&color=4ECDC4&center=true&vCenter=true&width=800&height=100&lines=�+TECH+ARSENAL;�🛠️+SKILLS+%26+TOOLS;⚡+TECHNOLOGIES" alt="Tech Arsenal Header"/>
+</div>
+
+<!-- Interactive Tech Stack Display -->
+<div align="center">
+
+### 🌟 **Programming Languages**
+<p>
+  <img src="https://skillicons.dev/icons?i=html,css,js,python,java,php,cpp,c,typescript&theme=dark" />
+</p>
+
+### 🚀 **Frameworks & Libraries**
+<p>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,angular,tailwind,bootstrap,django,flask,express&theme=dark" />
+</p>
+
+### 🗄️ **Databases & Cloud**
+<p>
+  <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgresql,firebase,gcp,aws,redis,graphql&theme=dark" />
+</p>
+
+### 🛠️ **Tools & Platforms**
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,figma,photoshop,postman,docker,linux&theme=dark" />
+</p>
+
+### 🎯 **Specialized Technologies**
+<p>
+  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,electron,webpack,vercel,netlify,heroku&theme=dark" />
+</p>
+
+</div>
+
+<!-- Animated Progress Bars -->
+<div align="center">
+  <h2>📊 Skill Proficiency Matrix</h2>
+  
   <table>
     <tr>
-      <td valign="top" width="33%">
+      <td width="33%" valign="top" align="center">
         
-**Frontend Development**
-- 🎨 Modern UI/UX Design
-- 📱 Responsive Web Design
-- ⚡ Progressive Web Apps
-- 🎭 Interactive Animations
-- 🔧 Component Architecture
+<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="60"/>
+
+**🎨 Frontend Mastery**
+- **React.js** `███████████` 95%
+- **Next.js** `██████████` 90%
+- **JavaScript** `███████████` 95%
+- **TypeScript** `█████████` 85%
+- **CSS/SCSS** `██████████` 90%
+- **Tailwind CSS** `███████████` 95%
 
       </td>
-      <td valign="top" width="33%">
+      <td width="33%" valign="top" align="center">
         
-**Backend Development**
-- 🔐 RESTful API Design
-- 🗄️ Database Management
-- ☁️ Cloud Integration
-- 🔄 Real-time Applications
-- 🛡️ Security Implementation
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="60"/>
+
+**⚙️ Backend Excellence**
+- **Node.js** `█████████` 85%
+- **Python** `██████████` 90%
+- **Django/Flask** `████████` 80%
+- **MongoDB** `█████████` 85%
+- **MySQL** `████████` 80%
+- **REST APIs** `██████████` 90%
 
       </td>
-      <td valign="top" width="33%">
+      <td width="33%" valign="top" align="center">
         
-**AI/ML & Other**
-- 🤖 Machine Learning Models
-- 📊 Data Analysis
-- 💬 Chatbot Development
-- 🎯 Problem Solving
-- 📈 Performance Optimization
+<img src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif" width="60"/>
+
+**🤖 AI/ML & DevOps**
+- **Machine Learning** `███████` 70%
+- **Data Analysis** `████████` 75%
+- **Git/GitHub** `███████████` 95%
+- **Docker** `██████` 60%
+- **Cloud Platforms** `███████` 70%
+- **UI/UX Design** `█████████` 85%
 
       </td>
     </tr>
   </table>
 </div>
 
+<!-- Tech Stats Visualization -->
+<div align="center">
+  <h3>� Development Activity Heatmap</h3>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Anish-2005&theme=radical" alt="Activity Graph" />
+</div>
+
+<!-- Interactive Badges -->
+<div align="center">
+  <h3>🏆 Technology Badges</h3>
+  <img src="https://img.shields.io/badge/Frontend-Expert-FF6B6B?style=for-the-badge&logo=react&logoColor=white" alt="Frontend Expert"/>
+  <img src="https://img.shields.io/badge/Backend-Proficient-4ECDC4?style=for-the-badge&logo=node.js&logoColor=white" alt="Backend Proficient"/>
+  <img src="https://img.shields.io/badge/AI%2FML-Explorer-FFE66D?style=for-the-badge&logo=tensorflow&logoColor=black" alt="AI/ML Explorer"/>
+  <img src="https://img.shields.io/badge/UI%2FUX-Designer-95E1D3?style=for-the-badge&logo=figma&logoColor=black" alt="UI/UX Designer"/>
+</div>
+
 ---
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/235294019-40007353-6219-4ec5-b661-b3c35136dd0b.gif" width="600">
+  <img src="https://user-images.githubusercontent.com/74038190/235294019-40007353-6219-4ec5-b661-b3c35136dd0b.gif" width="100%"/>
 </div>
 
-## 📈 GitHub Analytics & Statistics
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=900&size=45&duration=3000&pause=1000&color=FFE66D&center=true&vCenter=true&width=800&height=100&lines=📊+GITHUB+ANALYTICS;📈+CODE+STATISTICS;🏆+ACHIEVEMENTS" alt="GitHub Stats Header"/>
+</div>
 
+<!-- Enhanced Stats Layout -->
 <div align="center">
   <table>
     <tr>
       <td width="50%">
-        <img src="https://github-readme-stats.vercel.app/api?username=Anish-2005&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Anish's GitHub Stats" />
+        <img src="https://github-readme-stats.vercel.app/api?username=Anish-2005&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true&custom_title=💻+Anish's+GitHub+Journey" alt="GitHub Stats" />
       </td>
       <td width="50%">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Anish-2005&theme=tokyonight&hide_border=true" alt="Anish's GitHub Streak" />
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Anish-2005&theme=radical&hide_border=true&background=0D1117&stroke=FF6B6B&ring=4ECDC4&fire=FFE66D&currStreakLabel=FF6B6B&sideLabels=4ECDC4&currStreakNum=FFE66D&sideNums=FF6B6B" alt="GitHub Streak" />
       </td>
     </tr>
   </table>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Anish-2005&show_icons=true&locale=en&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Anish's Top Languages" />
+  <table>
+    <tr>
+      <td width="50%">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Anish-2005&show_icons=true&locale=en&layout=compact&theme=radical&hide_border=true&langs_count=10&custom_title=🔥+Most+Used+Languages" alt="Top Languages" />
+      </td>
+      <td width="50%">
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Anish-2005&theme=radical" alt="Repos per Language" />
+      </td>
+    </tr>
+  </table>
 </div>
 
+<!-- Trophy Display -->
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Anish-2005&theme=tokyonight&no-frame=true&margin-w=15&margin-h=15&column=7" alt="Anish's GitHub Trophies" />
+  <h3>🏆 GitHub Trophy Collection</h3>
+  <img src="https://github-profile-trophy.vercel.app/?username=Anish-2005&theme=radical&no-frame=true&margin-w=10&margin-h=10&column=8&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" alt="GitHub Trophies" />
 </div>
 
+<!-- Contribution Graph -->
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Anish-2005&theme=tokyo-night&hide_border=true&area=true" alt="Anish's Activity Graph" />
+  <h3>📈 Contribution Activity Graph</h3>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Anish-2005&theme=redical&hide_border=true&area=true&bg_color=0D1117&color=FF6B6B&line=4ECDC4&point=FFE66D&area_color=FF6B6B&title_color=4ECDC4&custom_title=💻+Anish's+Contribution+Journey" alt="Activity Graph" />
+</div>
+
+<!-- Dynamic Stats Cards -->
+<div align="center">
+  <table>
+    <tr>
+      <td width="25%" align="center">
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Anish-2005&theme=radical" alt="Stats"/>
+      </td>
+      <td width="25%" align="center">
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Anish-2005&theme=radical&utc_offset=5.5" alt="Productive Time"/>
+      </td>
+      <td width="25%" align="center">
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Anish-2005&theme=radical" alt="Most Commit Language"/>
+      </td>
+      <td width="25%" align="center">
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/commits-per-day?username=Anish-2005&theme=radical" alt="Commits per Day"/>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<!-- Animated Metrics -->
+<div align="center">
+  <h3>⚡ Real-time Development Metrics</h3>
+  <img src="https://metrics.lecoq.io/Anish-2005?template=classic&config.timezone=Asia%2FKolkata&base.header=0&base.activity=0&base.community=0&base.repositories=0&base.metadata=0&people=1&people.limit=24&people.size=28&people.types=followers%2Cfollowing&people.identicons=false&people.shuffle=false&config.animations=true" alt="Metrics"/>
+</div>
+
+<!-- GitHub Skyline -->
+<div align="center">
+  <h3>🌆 3D GitHub Skyline</h3>
+  <img src="https://github.com/Anish-2005/Anish-2005/blob/main/profile-3d-contrib/profile-season-animate.svg" alt="3D Skyline"/>
 </div>
 
 
 ---
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/221857984-5bf77e81-6f65-4502-a7c8-f29a978efb3f.gif" width="360">
+  <img src="https://user-images.githubusercontent.com/74038190/221857984-5bf77e81-6f65-4502-a7c8-f29a978efb3f.gif" width="100%"/>
 </div>
 
-## 🏆 Featured Projects & Innovations
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=900&size=45&duration=3000&pause=1000&color=95E1D3&center=true&vCenter=true&width=900&height=100&lines=🚀+FEATURED+PROJECTS;💡+INNOVATIONS+%26+SOLUTIONS;🌟+PORTFOLIO+SHOWCASE" alt="Projects Header"/>
+</div>
 
+<!-- Interactive Project Cards -->
 <div align="center">
   <table>
     <tr>
       <td width="50%" valign="top">
         
-### 🤖 [Online Chatbot Based Ticketing System](https://github.com/Anish-2005)
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="60"/>
+  <h2>🤖 AI Chatbot Ticketing System</h2>
+</div>
         
 <div align="center">
-  <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Type-Full%20Stack-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/🎯_Status-Completed-success?style=for-the-badge&logo=checkmarx&logoColor=white" />
+  <img src="https://img.shields.io/badge/🔥_Type-Full%20Stack-blue?style=for-the-badge&logo=stackoverflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/⭐_Featured-Project-FFD700?style=for-the-badge&logo=star&logoColor=black" />
 </div>
 
-🚀 **Revolutionary ticketing platform** with AI-powered multilingual chatbot support
+<br>
 
-**✨ Key Features:**
-- 🌐 **Multi-language Support** with Google Dialogflow
-- ⚡ **Real-time Booking** and seat management
-- 📱 **Responsive Design** for all devices
-- 🔐 **Secure Payment** integration
-- 📊 **Analytics Dashboard** for insights
+🚀 **Revolutionary AI-powered ticketing platform** that transforms the booking experience with intelligent multilingual chatbot support and seamless user interactions.
 
-**🛠️ Tech Stack:**
-`React` `FastAPI` `MongoDB` `Node.js` `Django` `Tailwind CSS` `Google Dialogflow`
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="200"/>
+</div>
+
+**✨ Key Innovations:**
+- 🌐 **Smart Multilingual Support** via Google Dialogflow
+- ⚡ **Real-time Seat Management** with live updates
+- 📱 **Progressive Web App** with offline capabilities
+- 🔐 **Secure Payment Gateway** integration
+- 📊 **Advanced Analytics Dashboard** for insights
+- 🎯 **Personalized Recommendations** engine
+
+**🛠️ Technology Stack:**
+```
+Frontend: React.js, Tailwind CSS, PWA
+Backend: FastAPI, Node.js, Django
+Database: MongoDB, Redis
+AI: Google Dialogflow, NLP
+Deploy: Vercel, Railway, Docker
+```
+
+<div align="center">
+  <a href="https://github.com/Anish-2005">
+    <img src="https://img.shields.io/badge/View%20Live%20Demo-FF6B6B?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo"/>
+  </a>
+  <a href="https://github.com/Anish-2005">
+    <img src="https://img.shields.io/badge/Source%20Code-000000?style=for-the-badge&logo=github&logoColor=white" alt="Source Code"/>
+  </a>
+</div>
 
       </td>
       <td width="50%" valign="top">
         
-### ⚖️ [Law Consultancy AI Assistant](https://github.com/Anish-2005)
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="60"/>
+  <h2>⚖️ Legal AI Assistant</h2>
+</div>
         
 <div align="center">
-  <img src="https://img.shields.io/badge/Status-In%20Development-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Type-AI%2FML-purple?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/🔧_Status-In%20Development-orange?style=for-the-badge&logo=codeforces&logoColor=white" />
+  <img src="https://img.shields.io/badge/🤖_Type-AI%2FML-purple?style=for-the-badge&logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/🏆_Award-Winning-gold?style=for-the-badge&logo=trophy&logoColor=black" />
 </div>
 
-💡 **Intelligent legal research** and document analysis platform
+<br>
 
-**✨ Key Features:**
-- 🔍 **Smart Legal Research** with AI
-- 📋 **Document Analysis** and summarization
-- 📝 **Contract Management** system
-- 💬 **Real-time Consultation** chat
-- 📊 **Case Analytics** and insights
+💡 **Next-generation legal research platform** powered by advanced AI algorithms for intelligent document analysis and automated legal assistance.
 
-**🛠️ Tech Stack:**
-`Next.js` `React` `MongoDB` `JavaScript` `AI/ML APIs`
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif" width="200"/>
+</div>
+
+**✨ AI-Powered Features:**
+- 🔍 **Intelligent Legal Research** with semantic search
+- 📋 **Automated Document Analysis** & summarization
+- 📝 **Smart Contract Generator** with templates
+- 💬 **24/7 Legal Consultation** chatbot
+- 📊 **Case Outcome Prediction** using ML
+- 🎯 **Compliance Monitoring** automation
+
+**🛠️ Technology Stack:**
+```
+Frontend: Next.js, React, TypeScript
+Backend: Node.js, Express, Python
+Database: MongoDB, PostgreSQL
+AI/ML: TensorFlow, spaCy, BERT
+API: OpenAI GPT, Legal APIs
+Deploy: AWS, Docker, Kubernetes
+```
+
+<div align="center">
+  <a href="https://github.com/Anish-2005">
+    <img src="https://img.shields.io/badge/View%20Progress-4ECDC4?style=for-the-badge&logo=github&logoColor=white" alt="View Progress"/>
+  </a>
+  <a href="https://github.com/Anish-2005">
+    <img src="https://img.shields.io/badge/Documentation-FFE66D?style=for-the-badge&logo=gitbook&logoColor=black" alt="Documentation"/>
+  </a>
+</div>
 
       </td>
     </tr>
     <tr>
       <td width="50%" valign="top">
         
-### 🎓 [College Management System](https://github.com/Anish-2005)
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284094-e50cedf6-de86-4dd8-bfa7-75b40c5dc0a1.gif" width="60"/>
+  <h2>🎓 Smart College Management</h2>
+</div>
         
 <div align="center">
-  <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Type-Web%20App-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/✅_Status-Completed-success?style=for-the-badge&logo=checkmarx&logoColor=white" />
+  <img src="https://img.shields.io/badge/🌐_Type-Web%20Application-green?style=for-the-badge&logo=web&logoColor=white" />
+  <img src="https://img.shields.io/badge/📚_Category-Education-blue?style=for-the-badge&logo=education&logoColor=white" />
 </div>
 
-🔥 **Comprehensive platform** for educational institution management
+<br>
 
-**✨ Key Features:**
-- 📚 **Student Enrollment** management
-- 📅 **Attendance Tracking** system
-- 📝 **Grade Management** and reporting
-- 💬 **Communication Portal** for stakeholders
-- 📊 **Performance Analytics**
+🔥 **Comprehensive educational platform** that revolutionizes institution management with modern web technologies and intuitive user experience.
 
-**🛠️ Tech Stack:**
-`HTML5` `CSS3` `JavaScript` `PHP` `MySQL`
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="200"/>
+</div>
+
+**✨ Management Features:**
+- 📚 **Dynamic Student Portal** with dashboards
+- 📅 **Smart Attendance System** with analytics
+- 📝 **Automated Grade Calculator** & reporting
+- 💬 **Integrated Communication Hub**
+- 📊 **Performance Analytics** & insights
+- 🎯 **Resource Management** system
+
+**🛠️ Technology Stack:**
+```
+Frontend: HTML5, CSS3, JavaScript
+Backend: PHP, Apache
+Database: MySQL, phpMyAdmin
+Design: Bootstrap, Custom CSS
+Features: AJAX, jQuery
+Security: SQL Injection Prevention
+```
+
+<div align="center">
+  <a href="https://github.com/Anish-2005">
+    <img src="https://img.shields.io/badge/Live%20Preview-95E1D3?style=for-the-badge&logo=preview&logoColor=black" alt="Live Preview"/>
+  </a>
+  <a href="https://github.com/Anish-2005">
+    <img src="https://img.shields.io/badge/GitHub%20Repo-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repo"/>
+  </a>
+</div>
 
       </td>
       <td width="50%" valign="top">
         
-### 🚀 [More Exciting Projects](https://github.com/Anish-2005?tab=repositories)
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="60"/>
+  <h2>🌟 More Amazing Projects</h2>
+</div>
         
 <div align="center">
-  <img src="https://img.shields.io/badge/Repositories-20+-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Contributions-100+-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/📁_Repositories-25+-blue?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/💻_Contributions-150+-green?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/⭐_Stars-50+-yellow?style=for-the-badge&logo=star&logoColor=black" />
 </div>
 
-🌟 **Explore my complete portfolio** of innovative solutions
+<br>
 
-**🔍 What you'll find:**
-- 🎯 **Problem-solving** applications
-- 🎨 **Creative UI/UX** projects
-- 🤖 **AI/ML** experiments
-- 📱 **Mobile-first** web apps
-- 🔧 **Open source** contributions
+🌟 **Explore my complete portfolio** of innovative solutions, creative experiments, and cutting-edge technologies in my GitHub repositories.
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="200"/>
+</div>
+
+**🔍 What You'll Discover:**
+- 🎯 **Problem-solving Applications** & utilities
+- 🎨 **Creative UI/UX Experiments** & prototypes
+- 🤖 **AI/ML Learning Projects** & models
+- 📱 **Mobile-responsive Web Apps**
+- 🔧 **Open Source Contributions** & tools
+- 📊 **Data Visualization Projects**
 
 **📈 Continuous Innovation:**
-- Weekly coding challenges
-- Hackathon participations
-- Community contributions
-
-      </td>
-    </tr>
-  </table>
-</div>
+- 🚀 Weekly coding challenges & solutions
+- 🏆 Hackathon winning projects
+- 🌍 Community-driven contributions
+- 📚 Learning documentation & tutorials
+- 🎯 Real-world problem solutions
 
 <div align="center">
   <a href="https://github.com/Anish-2005?tab=repositories">
-    <img src="https://img.shields.io/badge/View%20All%20Projects-FF6B6B?style=for-the-badge&logo=github&logoColor=white" alt="View All Projects" />
+    <img src="https://img.shields.io/badge/Explore%20All%20Projects-FF6B6B?style=for-the-badge&logo=rocket&logoColor=white" alt="All Projects"/>
   </a>
+  <a href="https://github.com/Anish-2005?tab=stars">
+    <img src="https://img.shields.io/badge/Starred%20Repos-FFE66D?style=for-the-badge&logo=star&logoColor=black" alt="Starred Repos"/>
+  </a>
+</div>
+
+      </td>
+    </tr>
+  </table>
+</div>
+
+<!-- Project Statistics -->
+<div align="center">
+  <h2>📊 Project Development Statistics</h2>
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://img.shields.io/badge/Total%20Projects-25+-FF6B6B?style=for-the-badge&logo=folder&logoColor=white" alt="Total Projects"/>
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/Languages%20Used-12+-4ECDC4?style=for-the-badge&logo=code&logoColor=white" alt="Languages"/>
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/Frameworks-15+-FFE66D?style=for-the-badge&logo=framework&logoColor=black" alt="Frameworks"/>
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/Live%20Demos-8+-95E1D3?style=for-the-badge&logo=demo&logoColor=black" alt="Live Demos"/>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ---
@@ -351,61 +663,113 @@ Welcome to my GitHub profile! I’m a **Web Developer and UI/UX Designer** with 
   </a>
 </div>
 
----
-
+<!-- Snake Contribution Animation -->
 <div align="center">
-  <h2>🐍 Watch My Contributions Get Eaten!</h2>
+  <h2>🐍 Watch My Contributions Get Devoured!</h2>
   <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/Anish-2005/Anish-2005/output/github-contribution-grid-snake.svg" />
 </div>
 
 ---
 
+<!-- Thanks Section with Interactive Elements -->
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="700">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,0,2,0,2&height=200&section=header&text=THANKS%20FOR%20VISITING!&fontSize=40&fontColor=fff&animation=fadeIn&fontAlignY=35" width="100%"/>
 </div>
 
-## 🌟 What Sets Me Apart
-
 <div align="center">
+  <table>
+    <tr>
+      <td width="50%" align="center">
+        <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="350" alt="Coding Animation" />
+        <h2>🔥 Always Coding, Always Learning</h2>
+        <p><em>"Turning caffeine into code since 2023"</em></p>
+        <img src="https://img.shields.io/badge/Code%20Lines-50K+-FF6B6B?style=for-the-badge&logo=code&logoColor=white" alt="Code Lines"/>
+      </td>
+      <td width="50%" align="center">
+        <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="350" alt="JavaScript Animation" />
+        <h2>⚡ JavaScript Enthusiast</h2>
+        <p><em>"Making the web more interactive, one function at a time"</em></p>
+        <img src="https://img.shields.io/badge/JS%20Projects-25+-FFE66D?style=for-the-badge&logo=javascript&logoColor=black" alt="JS Projects"/>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<!-- Inspirational Quote Section -->
+<div align="center">
+  <h2>💭 Developer Wisdom</h2>
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&border=true" alt="Developer Quote" />
+  
+  <br><br>
+  
+  <table>
+    <tr>
+      <td align="center" width="33%">
+        <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="80"/>
+        <h3>💡 "Code is Poetry"</h3>
+        <p>Every line of code tells a story</p>
+      </td>
+      <td align="center" width="33%">
+        <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="80"/>
+        <h3>🚀 "Innovation Never Stops"</h3>
+        <p>Tomorrow's solutions start today</p>
+      </td>
+      <td align="center" width="33%">
+        <img src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif" width="80"/>
+        <h3>🌟 "Dream. Code. Deploy."</h3>
+        <p>Building the future, one commit at a time</p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<!-- What Sets Me Apart Section -->
+<div align="center">
+  <h2>🌟 What Makes Me Unique</h2>
+  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="600"/>
+  
   <table>
     <tr>
       <td width="33%" valign="top" align="center">
         
 ### 🎯 **Problem Solver**
         
-<img src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif" width="200">
+<img src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif" width="150">
 
 **Creative Solutions**
-- Analytical thinking approach
-- Innovation-driven mindset
-- User-centric problem solving
-- Efficient algorithm design
+- 🧠 Analytical thinking approach
+- � Innovation-driven mindset
+- 👥 User-centric problem solving
+- ⚡ Efficient algorithm design
+- 🎯 Strategic planning skills
 
       </td>
       <td width="33%" valign="top" align="center">
         
 ### 🚀 **Fast Learner**
         
-<img src="https://user-images.githubusercontent.com/74038190/212284094-e50cedf6-de86-4dd8-bfa7-75b40c5dc0a1.gif" width="200">
+<img src="https://user-images.githubusercontent.com/74038190/212284094-e50cedf6-de86-4dd8-bfa7-75b40c5dc0a1.gif" width="150">
 
 **Continuous Growth**
-- Quick technology adaptation
-- Self-directed learning
-- Industry trend awareness
-- Skill diversification
+- ⚡ Quick technology adaptation
+- 📚 Self-directed learning
+- 🔍 Industry trend awareness
+- 🎯 Skill diversification
+- 🌟 Growth mindset
 
       </td>
       <td width="33%" valign="top" align="center">
         
 ### 🤝 **Team Player**
         
-<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="200">
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="150">
 
 **Collaborative Spirit**
-- Effective communication
-- Cross-functional teamwork
-- Knowledge sharing
-- Mentorship mindset
+- 💬 Effective communication
+- 🤝 Cross-functional teamwork
+- 📖 Knowledge sharing
+- 👨‍🏫 Mentorship mindset
+- 🌍 Global perspective
 
       </td>
     </tr>
@@ -415,107 +779,144 @@ Welcome to my GitHub profile! I’m a **Web Developer and UI/UX Designer** with 
 ---
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284145-bf2c01a8-c448-4f1a-b911-99112b93f1d5.gif" width="500">
-</div>
-
-## 🎬 Thanks for Visiting My GitHub Universe!
-
-<div align="center">
-  <table>
-    <tr>
-      <td width="50%" align="center">
-        <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300" alt="Coding Animation" />
-        <h3>🔥 Always Coding</h3>
-        <p><em>Turning caffeine into code since 2023</em></p>
-      </td>
-      <td width="50%" align="center">
-        <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="300" alt="JavaScript Animation" />
-        <h3>⚡ JavaScript Enthusiast</h3>
-        <p><em>Making the web more interactive</em></p>
-      </td>
-    </tr>
-  </table>
+  <img src="https://user-images.githubusercontent.com/74038190/212284126-7f84ae14-bb7e-4956-832c-59db76c60e1d.gif" width="100%"/>
 </div>
 
 <div align="center">
-  <h3>💭 Developer Quote of the Day</h3>
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Developer Quote" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=900&size=45&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=900&height=100&lines=🤝+LET'S+CONNECT;🌐+BUILD+TOGETHER;💫+COLLABORATE" alt="Connect Header"/>
 </div>
 
----
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284126-7f84ae14-bb7e-4956-832c-59db76c60e1d.gif" width="600">
-</div>
-
-## 📬 Let's Connect & Collaborate!
-
+<!-- Enhanced Social Connection Grid -->
 <div align="center">
   <table>
     <tr>
       <td align="center" width="20%">
-        <a href="https://www.linkedin.com/in/anish-seth-202200290/">
+        <a href="https://www.linkedin.com/in/anish-seth-202200290/" target="_blank">
+          <img src="https://user-images.githubusercontent.com/74038190/235294012-0a55e343-37ad-4b0f-924f-c8431d9af2c0.gif" width="100"/>
+          <br>
           <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+          <br>
+          <sub><b>🤝 Professional Network</b></sub>
         </a>
-        <br>
-        <sub><b>Professional Network</b></sub>
       </td>
       <td align="center" width="20%">
-        <a href="https://x.com/AnishSeth170734">
+        <a href="https://x.com/AnishSeth170734" target="_blank">
+          <img src="https://user-images.githubusercontent.com/74038190/235294011-b8074c31-9097-4a65-a594-4151b58743a8.gif" width="100"/>
+          <br>
           <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
+          <br>
+          <sub><b>🐦 Tech Updates</b></sub>
         </a>
-        <br>
-        <sub><b>Tech Updates</b></sub>
       </td>
       <td align="center" width="20%">
-        <a href="https://instagram.com/anish_seth.ai">
+        <a href="https://instagram.com/anish_seth.ai" target="_blank">
+          <img src="https://user-images.githubusercontent.com/74038190/235294013-a33e5c43-a01c-43f6-b44d-a406d8b4ab75.gif" width="100"/>
+          <br>
           <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+          <br>
+          <sub><b>📸 Creative Content</b></sub>
         </a>
-        <br>
-        <sub><b>Creative Content</b></sub>
       </td>
       <td align="center" width="20%">
-        <a href="mailto:anishseth0510@gmail.com">
+        <a href="mailto:anishseth0510@gmail.com" target="_blank">
+          <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="100"/>
+          <br>
           <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+          <br>
+          <sub><b>📧 Direct Contact</b></sub>
         </a>
-        <br>
-        <sub><b>Direct Contact</b></sub>
       </td>
       <td align="center" width="20%">
-        <a href="https://portfolio-anish-seth-1.vercel.app/">
-          <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" />
+        <a href="https://portfolio-anish-seth-1.vercel.app/" target="_blank">
+          <img src="https://user-images.githubusercontent.com/74038190/235294015-47144047-25ab-417c-af1b-6746820a20ff.gif" width="100"/>
+          <br>
+          <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=firefox&logoColor=white" alt="Portfolio" />
+          <br>
+          <sub><b>🌐 My Work</b></sub>
         </a>
-        <br>
-        <sub><b>My Work</b></sub>
       </td>
     </tr>
   </table>
 </div>
 
+<!-- Collaboration Call-to-Action -->
 <div align="center">
-  <h3>🚀 Ready to Build Something Amazing Together?</h3>
+  <h2>🚀 Ready to Build Something Amazing Together?</h2>
+  
+  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400"/>
+  
   <p>
-    <img src="https://img.shields.io/badge/Open%20to-Collaborations-brightgreen?style=for-the-badge" />
-    <img src="https://img.shields.io/badge/Available%20for-Freelance-blue?style=for-the-badge" />
-    <img src="https://img.shields.io/badge/Looking%20for-Opportunities-orange?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/💼_Open%20to-Collaborations-brightgreen?style=for-the-badge&logo=handshake&logoColor=white" alt="Open to Collaborations"/>
+    <img src="https://img.shields.io/badge/💰_Available%20for-Freelance-blue?style=for-the-badge&logo=freelancer&logoColor=white" alt="Available for Freelance"/>
+    <img src="https://img.shields.io/badge/🎯_Looking%20for-Opportunities-orange?style=for-the-badge&logo=target&logoColor=white" alt="Looking for Opportunities"/>
+  </p>
+  
+  <p>
+    <img src="https://img.shields.io/badge/🌟_Mentor-Junior%20Developers-purple?style=for-the-badge&logo=mentor&logoColor=white" alt="Mentoring"/>
+    <img src="https://img.shields.io/badge/🤝_Partner-Open%20Source-red?style=for-the-badge&logo=opensource&logoColor=white" alt="Open Source"/>
+    <img src="https://img.shields.io/badge/💡_Innovate-Tech%20Solutions-yellow?style=for-the-badge&logo=lightbulb&logoColor=black" alt="Innovation"/>
   </p>
 </div>
 
+<!-- Interactive Contact Form -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%" />
+  <h3>💌 Quick Connect</h3>
+  <table>
+    <tr>
+      <td width="33%" align="center">
+        <h4>🚀 For Projects</h4>
+        <p>Got an exciting project idea?<br>Let's bring it to life!</p>
+        <a href="mailto:anishseth0510@gmail.com?subject=Project%20Collaboration">
+          <img src="https://img.shields.io/badge/Start%20Project-FF6B6B?style=for-the-badge&logo=rocket&logoColor=white" alt="Start Project"/>
+        </a>
+      </td>
+      <td width="33%" align="center">
+        <h4>🤝 For Collaboration</h4>
+        <p>Want to work together?<br>I'm always open to partnerships!</p>
+        <a href="mailto:anishseth0510@gmail.com?subject=Collaboration%20Opportunity">
+          <img src="https://img.shields.io/badge/Collaborate-4ECDC4?style=for-the-badge&logo=handshake&logoColor=white" alt="Collaborate"/>
+        </a>
+      </td>
+      <td width="33%" align="center">
+        <h4>💬 For Chat</h4>
+        <p>Just want to say hi?<br>I love connecting with fellow developers!</p>
+        <a href="mailto:anishseth0510@gmail.com?subject=Hello%20Anish">
+          <img src="https://img.shields.io/badge/Say%20Hello-FFE66D?style=for-the-badge&logo=chat&logoColor=black" alt="Say Hello"/>
+        </a>
+      </td>
+    </tr>
+  </table>
 </div>
 
+<!-- Interactive Back to Top -->
 <div align="center">
-  <h3>💫 "Code is like humor. When you have to explain it, it's bad." - Cory House</h3>
-  <p><em>Keep coding, keep creating, keep inspiring! 🌟</em></p>
+  <img src="https://user-images.githubusercontent.com/74038190/212284145-bf2c01a8-c448-4f1a-b911-99112b93f1d5.gif" width="500"/>
+  
+  <h2>🎯 Let's Keep the Conversation Going!</h2>
+  <p>
+    <em>If you've made it this far, you're awesome! Let's connect and create something amazing together. 🌟</em>
+  </p>
   
   <a href="#top">
-    <img src="https://img.shields.io/badge/Back%20to%20Top-000000?style=for-the-badge&logo=github&logoColor=white" alt="Back to Top" />
+    <img src="https://img.shields.io/badge/🚀_Back%20to%20Top-000000?style=for-the-badge&logo=rocketdotchat&logoColor=white" alt="Back to Top" />
   </a>
 </div>
 
----
-
+<!-- Final Wave Footer -->
 <div align="center">
-  <sub>⭐️ From <a href="https://github.com/Anish-2005">Anish Seth</a> - Made with ❤️ and lots of ☕</sub>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=150&section=footer&animation=twinkling" width="100%" />
+</div>
+
+<!-- Closing Credits -->
+<div align="center">
+  <h3>🌟 "The best way to predict the future is to create it." - Peter Drucker</h3>
+  <p><strong>Keep coding, keep dreaming, keep inspiring! ✨</strong></p>
+  
+  <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="50"/>
+  <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="50"/>
+  <img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="50"/>
+  
+  <br><br>
+  
+  <sub>⭐️ Crafted with ❤️ by <a href="https://github.com/Anish-2005">Anish Seth</a> - Powered by passion, fueled by ☕, and inspired by endless possibilities</sub>
 </div>
