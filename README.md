@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=35&duration=3000&pause=1000&color=FF6B6B&background=FF000000&center=true&vCenter=true&multiline=true&repeat=true&width=1000&height=120&lines=🚀+Full+Stack+Web+Developer;🎨+UI%2FUX+Designer+%26+Creative+Thinker;" alt="Animated Typing" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=35&duration=3000&pause=1000&color=FF6B6B&background=FF000000&center=true&vCenter=true&multiline=true&repeat=true&width=1000&height=120&lines=🚀+Full+Stack+Web+Developer;🎨+UI%2FUX+Designer+%26+Creative+Thinker;🤖+AI%2FML+Enthusiast+%26+Data+Scientist;🎓+Computer+Science+Engineering+Student;🌟+Open+Source+Contributor+%26+Innovator;💡+Problem+Solver+%26+Tech+Explorer" alt="Animated Typing" />
 </div>
 
 <div align="center">
@@ -184,7 +184,8 @@
   <h2>📊 Skill Proficiency Matrix</h2>
   
   <table>
-    
+    <tr>
+      <td width="33%" valign="top" align="center">
         
 <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="60"/>
 
