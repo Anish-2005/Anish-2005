@@ -53,19 +53,11 @@
 
 <!-- Dynamic Stats Display -->
 <br>
-<table align="center">
-  <tr>
-    <td align="center">
-      <img src="https://komarev.com/ghpvc/?username=Anish-2005&style=for-the-badge&color=blueviolet&label=PROFILE+VIEWS" alt="Profile Views"/>
-    </td>
-    <td align="center">
-      <img src="https://img.shields.io/github/followers/Anish-2005?style=for-the-badge&color=blue&labelColor=000000&label=FOLLOWERS" alt="Followers"/>
-    </td>
-    <td align="center">
-      <img src="https://img.shields.io/github/stars/Anish-2005?style=for-the-badge&color=yellow&labelColor=000000&label=STARS" alt="Stars"/>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=Anish-2005&style=for-the-badge&color=blueviolet&label=PROFILE+VIEWS" alt="Profile Views"/>
+  <img src="https://img.shields.io/github/followers/Anish-2005?style=for-the-badge&color=blue&labelColor=000000&label=FOLLOWERS" alt="Followers"/>
+  <img src="https://img.shields.io/github/stars/Anish-2005?style=for-the-badge&color=yellow&labelColor=000000&label=STARS" alt="Stars"/>
+</div>
 
 <!-- Floating Elements Animation -->
 <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="100" align="left"/>
@@ -85,50 +77,45 @@
 
 <!-- Animated Cards Layout -->
 <div align="center">
-  <table>
-    <tr>
-      <td width="50%" valign="top">
-        <div align="center">
-          <img src="https://user-images.githubusercontent.com/74038190/212284094-e50cedf6-de86-4dd8-bfa7-75b40c5dc0a1.gif" width="80"/>
-          <h3>🎯 Current Focus</h3>
-        </div>
-        
-<!-- Animated bullet points -->
-- 🎓 **Computer Science Engineering** @ **Techno Main Salt Lake**
-- 🌱 Mastering **React.js**, **Next.js**, **Node.js** & **AI/ML**
-- 🔭 Building **AI-powered solutions** & **scalable applications**
-- 👯 Open to **collaborations** on **innovative projects**
-- 💬 Expert in **Full Stack Development** & **UI/UX Design**
-- 📫 Contact: **anishseth0510@gmail.com**
-- ⚡ **Photography** & **Graphic Design** enthusiast 📸
+  
+  <div align="center">
+    <img src="https://user-images.githubusercontent.com/74038190/212284094-e50cedf6-de86-4dd8-bfa7-75b40c5dc0a1.gif" width="80"/>
+    <h3>🎯 Current Focus</h3>
+  </div>
+  
+  <!-- Animated bullet points -->
+  - 🎓 **Computer Science Engineering** @ **Techno Main Salt Lake**
+  - 🌱 Mastering **React.js**, **Next.js**, **Node.js** & **AI/ML**
+  - 🔭 Building **AI-powered solutions** & **scalable applications**
+  - 👯 Open to **collaborations** on **innovative projects**
+  - 💬 Expert in **Full Stack Development** & **UI/UX Design**
+  - 📫 Contact: **anishseth0510@gmail.com**
+  - ⚡ **Photography** & **Graphic Design** enthusiast 📸
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=Anish-2005&theme=radical&hide_border=true&layout=compact" alt="Coding Activity"/>
-</div>
+  <div align="center">
+    <img src="https://github-readme-stats.vercel.app/api/wakatime?username=Anish-2005&theme=radical&hide_border=true&layout=compact" alt="Coding Activity"/>
+  </div>
 
-      </td>
-      <td width="50%" valign="top">
-        <div align="center">
-          <img src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif" width="80"/>
-          <h3>🌟 Goals & Vision</h3>
-        </div>
-        
-<!-- Achievement badges -->
-- 🏆 **Smart India Hackathon 2024** Finalist
-- 🌐 Creating **next-gen web experiences**
-- 🤖 Pioneering **AI-driven solutions**
-- 🎨 Designing **intuitive user interfaces**
-- 📱 Developing **mobile-first applications**
-- 🚀 Contributing to **open source ecosystem**
-- 📚 **Lifelong learner** & **tech explorer**
+  <br><br>
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Anish-2005&theme=radical&hide_border=true&background=0D1117&stroke=FF6B6B&ring=4ECDC4&fire=FFE66D" alt="Streak Stats"/>
-</div>
+  <div align="center">
+    <img src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif" width="80"/>
+    <h3>🌟 Goals & Vision</h3>
+  </div>
+  
+  <!-- Achievement badges -->
+  - 🏆 **Smart India Hackathon 2024** Finalist
+  - 🌐 Creating **next-gen web experiences**
+  - 🤖 Pioneering **AI-driven solutions**
+  - 🎨 Designing **intuitive user interfaces**
+  - 📱 Developing **mobile-first applications**
+  - 🚀 Contributing to **open source ecosystem**
+  - 📚 **Lifelong learner** & **tech explorer**
 
-      </td>
-    </tr>
-  </table>
+  <div align="center">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Anish-2005&theme=radical&hide_border=true&background=0D1117&stroke=FF6B6B&ring=4ECDC4&fire=FFE66D" alt="Streak Stats"/>
+  </div>
+
 </div>
 
 <!-- Floating Achievement Badges -->
@@ -172,60 +159,41 @@
   <img src="https://skillicons.dev/icons?i=git,github,vscode,figma,photoshop,postman,docker,linux&theme=dark" />
 </p>
 
-### 🎯 **Specialized Technologies**
-<p>
-  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,electron,webpack,vercel,netlify,heroku&theme=dark" />
-</p>
-
 </div>
 
 <!-- Animated Progress Bars -->
 <div align="center">
   <h2>📊 Skill Proficiency Matrix</h2>
   
-  <table>
-    <tr>
-      <td width="33%" valign="top" align="center">
-        
-<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="60"/>
+  <div align="center">
+    <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="60"/>
+    
+    **🎨 Frontend Mastery**
+    - **React.js** `███████████` 95%
+    - **Next.js** `██████████` 90%
+    - **JavaScript** `███████████` 95%
+    - **TypeScript** `█████████` 85%
+    - **CSS/SCSS** `██████████` 90%
+    - **Tailwind CSS** `███████████` 95%
+  </div>
 
-**🎨 Frontend Mastery**
-- **React.js** `███████████` 95%
-- **Next.js** `██████████` 90%
-- **JavaScript** `███████████` 95%
-- **TypeScript** `█████████` 85%
-- **CSS/SCSS** `██████████` 90%
-- **Tailwind CSS** `███████████` 95%
+  <br>
 
-      </td>
-      <td width="33%" valign="top" align="center">
-        
-<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="60"/>
+  <div align="center">
+    <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="60"/>
+    
+    **⚙️ Backend Excellence**
+    - **Node.js** `█████████` 85%
+    - **Python** `██████████` 90%
+    - **Django/Flask** `████████` 80%
+    - **MongoDB** `█████████` 85%
+    - **MySQL** `████████` 80%
+    - **REST APIs** `██████████` 90%
+  </div>
 
-**⚙️ Backend Excellence**
-- **Node.js** `█████████` 85%
-- **Python** `██████████` 90%
-- **Django/Flask** `████████` 80%
-- **MongoDB** `█████████` 85%
-- **MySQL** `████████` 80%
-- **REST APIs** `██████████` 90%
+  <br>
 
-      </td>
-      <td width="33%" valign="top" align="center">
-        
-<img src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif" width="60"/>
 
-**🤖 AI/ML & DevOps**
-- **Machine Learning** `███████` 70%
-- **Data Analysis** `████████` 75%
-- **Git/GitHub** `███████████` 95%
-- **Docker** `██████` 60%
-- **Cloud Platforms** `███████` 70%
-- **UI/UX Design** `█████████` 85%
-
-      </td>
-    </tr>
-  </table>
 </div>
 
 <!-- Tech Stats Visualization -->
@@ -255,29 +223,15 @@
 
 <!-- Enhanced Stats Layout -->
 <div align="center">
-  <table>
-    <tr>
-      <td width="50%">
-        <img src="https://github-readme-stats.vercel.app/api?username=Anish-2005&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true&custom_title=💻+Anish's+GitHub+Journey" alt="GitHub Stats" />
-      </td>
-      <td width="50%">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Anish-2005&theme=radical&hide_border=true&background=0D1117&stroke=FF6B6B&ring=4ECDC4&fire=FFE66D&currStreakLabel=FF6B6B&sideLabels=4ECDC4&currStreakNum=FFE66D&sideNums=FF6B6B" alt="GitHub Streak" />
-      </td>
-    </tr>
-  </table>
+  <img src="https://github-readme-stats.vercel.app/api?username=Anish-2005&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true&custom_title=💻+Anish's+GitHub+Journey" alt="GitHub Stats" />
+  
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Anish-2005&theme=radical&hide_border=true&background=0D1117&stroke=FF6B6B&ring=4ECDC4&fire=FFE66D&currStreakLabel=FF6B6B&sideLabels=4ECDC4&currStreakNum=FFE66D&sideNums=FF6B6B" alt="GitHub Streak" />
 </div>
 
 <div align="center">
-  <table>
-    <tr>
-      <td width="50%">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Anish-2005&show_icons=true&locale=en&layout=compact&theme=radical&hide_border=true&langs_count=10&custom_title=🔥+Most+Used+Languages" alt="Top Languages" />
-      </td>
-      <td width="50%">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Anish-2005&theme=radical" alt="Repos per Language" />
-      </td>
-    </tr>
-  </table>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Anish-2005&show_icons=true&locale=en&layout=compact&theme=radical&hide_border=true&langs_count=10&custom_title=🔥+Most+Used+Languages" alt="Top Languages" />
+  
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Anish-2005&theme=radical" alt="Repos per Language" />
 </div>
 
 <!-- Trophy Display -->
@@ -304,120 +258,101 @@
 
 <!-- Interactive Project Cards -->
 <div align="center">
-  <table>
-    <tr>
-      <td width="50%" valign="top">
-        
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="60"/>
-  <h2>🤖 AI Chatbot Ticketing System</h2>
-</div>
-        
-<div align="center">
-  <img src="https://img.shields.io/badge/🎯_Status-Completed-success?style=for-the-badge&logo=checkmarx&logoColor=white" />
-  <img src="https://img.shields.io/badge/🔥_Type-Full%20Stack-blue?style=for-the-badge&logo=stackoverflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/⭐_Featured-Project-FFD700?style=for-the-badge&logo=star&logoColor=black" />
-</div>
+  
+  <div align="center">
+    <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="60"/>
+    <h2>🤖 AI Chatbot Ticketing System</h2>
+  </div>
+          
+  <div align="center">
+    <img src="https://img.shields.io/badge/🎯_Status-Completed-success?style=for-the-badge&logo=checkmarx&logoColor=white" />
+    <img src="https://img.shields.io/badge/🔥_Type-Full%20Stack-blue?style=for-the-badge&logo=stackoverflow&logoColor=white" />
+    <img src="https://img.shields.io/badge/⭐_Featured-Project-FFD700?style=for-the-badge&logo=star&logoColor=black" />
+  </div>
 
-<br>
+  <br>
 
-🚀 **Revolutionary AI-powered ticketing platform** that transforms the booking experience with intelligent multilingual chatbot support and seamless user interactions.
+  🚀 **Revolutionary AI-powered ticketing platform** that transforms the booking experience with intelligent multilingual chatbot support and seamless user interactions.
 
-**✨ Key Innovations:**
-- 🌐 **Smart Multilingual Support** via Google Dialogflow
-- ⚡ **Real-time Seat Management** with live updates
-- 📱 **Progressive Web App** with offline capabilities
-- 🔐 **Secure Payment Gateway** integration
-- 📊 **Advanced Analytics Dashboard** for insights
-- 🎯 **Personalized Recommendations** engine
+  **✨ Key Innovations:**
+  - 🌐 **Smart Multilingual Support** via Google Dialogflow
+  - ⚡ **Real-time Seat Management** with live updates
+  - 📱 **Progressive Web App** with offline capabilities
+  - 🔐 **Secure Payment Gateway** integration
+  - 📊 **Advanced Analytics Dashboard** for insights
+  - 🎯 **Personalized Recommendations** engine
 
-**🛠️ Technology Stack:**
-```
-Frontend: React.js, Tailwind CSS, PWA
-Backend: FastAPI, Node.js, Django
-Database: MongoDB, Redis
-AI: Google Dialogflow, NLP
-Deploy: Vercel, Railway, Docker
-```
+  **🛠️ Technology Stack:**
+  ```
+  Frontend: React.js, Tailwind CSS, PWA
+  Backend: FastAPI, Node.js, Django
+  Database: MongoDB, Redis
+  AI: Google Dialogflow, NLP
+  Deploy: Vercel, Railway, Docker
+  ```
 
-<div align="center">
-  <a href="https://github.com/Anish-2005">
-    <img src="https://img.shields.io/badge/View%20Live%20Demo-FF6B6B?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo"/>
-  </a>
-  <a href="https://github.com/Anish-2005">
-    <img src="https://img.shields.io/badge/Source%20Code-000000?style=for-the-badge&logo=github&logoColor=white" alt="Source Code"/>
-  </a>
-</div>
+  <div align="center">
+    <a href="https://github.com/Anish-2005">
+      <img src="https://img.shields.io/badge/View%20Live%20Demo-FF6B6B?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo"/>
+    </a>
+    <a href="https://github.com/Anish-2005">
+      <img src="https://img.shields.io/badge/Source%20Code-000000?style=for-the-badge&logo=github&logoColor=white" alt="Source Code"/>
+    </a>
+  </div>
 
-      </td>
-      <td width="50%" valign="top">
-        
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="60"/>
-  <h2>⚖️ Legal AI Assistant</h2>
-</div>
-        
-<div align="center">
-  <img src="https://img.shields.io/badge/🔧_Status-In%20Development-orange?style=for-the-badge&logo=codeforces&logoColor=white" />
-  <img src="https://img.shields.io/badge/🤖_Type-AI%2FML-purple?style=for-the-badge&logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/🏆_Award-Winning-gold?style=for-the-badge&logo=trophy&logoColor=black" />
-</div>
+  <br><br>
 
-<br>
+  <div align="center">
+    <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="60"/>
+    <h2>⚖️ Legal AI Assistant</h2>
+  </div>
+          
+  <div align="center">
+    <img src="https://img.shields.io/badge/🔧_Status-In%20Development-orange?style=for-the-badge&logo=codeforces&logoColor=white" />
+    <img src="https://img.shields.io/badge/🤖_Type-AI%2FML-purple?style=for-the-badge&logo=tensorflow&logoColor=white" />
+    <img src="https://img.shields.io/badge/🏆_Award-Winning-gold?style=for-the-badge&logo=trophy&logoColor=black" />
+  </div>
 
-💡 **Next-generation legal research platform** powered by advanced AI algorithms for intelligent document analysis and automated legal assistance.
+  <br>
 
-**✨ AI-Powered Features:**
-- 🔍 **Intelligent Legal Research** with semantic search
-- 📋 **Automated Document Analysis** & summarization
-- 📝 **Smart Contract Generator** with templates
-- 💬 **24/7 Legal Consultation** chatbot
-- 📊 **Case Outcome Prediction** using ML
-- 🎯 **Compliance Monitoring** automation
+  💡 **Next-generation legal research platform** powered by advanced AI algorithms for intelligent document analysis and automated legal assistance.
 
-**🛠️ Technology Stack:**
-```
-Frontend: Next.js, React, TypeScript
-Backend: Node.js, Express, Python
-Database: MongoDB, PostgreSQL
-AI/ML: TensorFlow, spaCy, BERT
-API: OpenAI GPT, Legal APIs
-Deploy: AWS, Docker, Kubernetes
-```
+  **✨ AI-Powered Features:**
+  - 🔍 **Intelligent Legal Research** with semantic search
+  - 📋 **Automated Document Analysis** & summarization
+  - 📝 **Smart Contract Generator** with templates
+  - 💬 **24/7 Legal Consultation** chatbot
+  - 📊 **Case Outcome Prediction** using ML
+  - 🎯 **Compliance Monitoring** automation
 
-<div align="center">
-  <a href="https://github.com/Anish-2005">
-    <img src="https://img.shields.io/badge/View%20Progress-4ECDC4?style=for-the-badge&logo=github&logoColor=white" alt="View Progress"/>
-  </a>
-  <a href="https://github.com/Anish-2005">
-    <img src="https://img.shields.io/badge/Documentation-FFE66D?style=for-the-badge&logo=gitbook&logoColor=black" alt="Documentation"/>
-  </a>
-</div>
+  **🛠️ Technology Stack:**
+  ```
+  Frontend: Next.js, React, TypeScript
+  Backend: Node.js, Express, Python
+  Database: MongoDB, PostgreSQL
+  AI/ML: TensorFlow, spaCy, BERT
+  API: OpenAI GPT, Legal APIs
+  Deploy: AWS, Docker, Kubernetes
+  ```
 
-      </td>
-    </tr>
-  </table>
+  <div align="center">
+    <a href="https://github.com/Anish-2005">
+      <img src="https://img.shields.io/badge/View%20Progress-4ECDC4?style=for-the-badge&logo=github&logoColor=white" alt="View Progress"/>
+    </a>
+    <a href="https://github.com/Anish-2005">
+      <img src="https://img.shields.io/badge/Documentation-FFE66D?style=for-the-badge&logo=gitbook&logoColor=black" alt="Documentation"/>
+    </a>
+  </div>
+
 </div>
 
 <!-- Project Statistics -->
 <div align="center">
   <h2>📊 Project Development Statistics</h2>
-  <table>
-    <tr>
-      <td align="center">
-        <img src="https://img.shields.io/badge/Total%20Projects-25+-FF6B6B?style=for-the-badge&logo=folder&logoColor=white" alt="Total Projects"/>
-      </td>
-      <td align="center">
-        <img src="https://img.shields.io/badge/Languages%20Used-12+-4ECDC4?style=for-the-badge&logo=code&logoColor=white" alt="Languages"/>
-      </td>
-      <td align="center">
-        <img src="https://img.shields.io/badge/Frameworks-15+-FFE66D?style=for-the-badge&logo=framework&logoColor=black" alt="Frameworks"/>
-      </td>
-      <td align="center">
-        <img src="https://img.shields.io/badge/Live%20Demos-8+-95E1D3?style=for-the-badge&logo=demo&logoColor=black" alt="Live Demos"/>
-      </td>
-    </tr>
-  </table>
+  <img src="https://img.shields.io/badge/Total%20Projects-25+-FF6B6B?style=for-the-badge&logo=folder&logoColor=white" alt="Total Projects"/>
+  <img src="https://img.shields.io/badge/Languages%20Used-12+-4ECDC4?style=for-the-badge&logo=code&logoColor=white" alt="Languages"/>
+  <img src="https://img.shields.io/badge/Frameworks-15+-FFE66D?style=for-the-badge&logo=framework&logoColor=black" alt="Frameworks"/>
+  <img src="https://img.shields.io/badge/Live%20Demos-8+-95E1D3?style=for-the-badge&logo=demo&logoColor=black" alt="Live Demos"/>
 </div>
 
 ---
@@ -432,55 +367,47 @@ Deploy: AWS, Docker, Kubernetes
 
 <!-- Enhanced Social Connection Grid -->
 <div align="center">
-  <table>
-    <tr>
-      <td align="center" width="20%">
-        <a href="https://www.linkedin.com/in/anish-seth-202200290/" target="_blank">
-          <img src="https://user-images.githubusercontent.com/74038190/235294012-0a55e343-37ad-4b0f-924f-c8431d9af2c0.gif" width="100"/>
-          <br>
-          <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-          <br>
-          <sub><b>🤝 Professional Network</b></sub>
-        </a>
-      </td>
-      <td align="center" width="20%">
-        <a href="https://x.com/AnishSeth170734" target="_blank">
-          <img src="https://user-images.githubusercontent.com/74038190/235294011-b8074c31-9097-4a65-a594-4151b58743a8.gif" width="100"/>
-          <br>
-          <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
-          <br>
-          <sub><b>🐦 Tech Updates</b></sub>
-        </a>
-      </td>
-      <td align="center" width="20%">
-        <a href="https://instagram.com/anish_seth.ai" target="_blank">
-          <img src="https://user-images.githubusercontent.com/74038190/235294013-a33e5c43-a01c-43f6-b44d-a406d8b4ab75.gif" width="100"/>
-          <br>
-          <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-          <br>
-          <sub><b>📸 Creative Content</b></sub>
-        </a>
-      </td>
-      <td align="center" width="20%">
-        <a href="mailto:anishseth0510@gmail.com" target="_blank">
-          <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="100"/>
-          <br>
-          <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-          <br>
-          <sub><b>📧 Direct Contact</b></sub>
-        </a>
-      </td>
-      <td align="center" width="20%">
-        <a href="https://portfolio-anish-seth-1.vercel.app/" target="_blank">
-          <img src="https://user-images.githubusercontent.com/74038190/235294015-47144047-25ab-417c-af1b-6746820a20ff.gif" width="100"/>
-          <br>
-          <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=firefox&logoColor=white" alt="Portfolio" />
-          <br>
-          <sub><b>🌐 My Work</b></sub>
-        </a>
-      </td>
-    </tr>
-  </table>
+  
+  <a href="https://www.linkedin.com/in/anish-seth-202200290/" target="_blank">
+    <img src="https://user-images.githubusercontent.com/74038190/235294012-0a55e343-37ad-4b0f-924f-c8431d9af2c0.gif" width="100"/>
+    <br>
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <br>
+    <sub><b>🤝 Professional Network</b></sub>
+  </a>
+  
+  <a href="https://x.com/AnishSeth170734" target="_blank">
+    <img src="https://user-images.githubusercontent.com/74038190/235294011-b8074c31-9097-4a65-a594-4151b58743a8.gif" width="100"/>
+    <br>
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
+    <br>
+    <sub><b>🐦 Tech Updates</b></sub>
+  </a>
+  
+  <a href="https://instagram.com/anish_seth.ai" target="_blank">
+    <img src="https://user-images.githubusercontent.com/74038190/235294013-a33e5c43-a01c-43f6-b44d-a406d8b4ab75.gif" width="100"/>
+    <br>
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+    <br>
+    <sub><b>📸 Creative Content</b></sub>
+  </a>
+  
+  <a href="mailto:anishseth0510@gmail.com" target="_blank">
+    <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="100"/>
+    <br>
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <br>
+    <sub><b>📧 Direct Contact</b></sub>
+  </a>
+  
+  <a href="https://portfolio-anish-seth-1.vercel.app/" target="_blank">
+    <img src="https://user-images.githubusercontent.com/74038190/235294015-47144047-25ab-417c-af1b-6746820a20ff.gif" width="100"/>
+    <br>
+    <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=firefox&logoColor=white" alt="Portfolio" />
+    <br>
+    <sub><b>🌐 My Work</b></sub>
+  </a>
+  
 </div>
 
 <!-- Collaboration Call-to-Action -->
@@ -505,31 +432,35 @@ Deploy: AWS, Docker, Kubernetes
 <!-- Interactive Contact Form -->
 <div align="center">
   <h3>💌 Quick Connect</h3>
-  <table>
-    <tr>
-      <td width="33%" align="center">
-        <h4>🚀 For Projects</h4>
-        <p>Got an exciting project idea?<br>Let's bring it to life!</p>
-        <a href="mailto:anishseth0510@gmail.com?subject=Project%20Collaboration">
-          <img src="https://img.shields.io/badge/Start%20Project-FF6B6B?style=for-the-badge&logo=rocket&logoColor=white" alt="Start Project"/>
-        </a>
-      </td>
-      <td width="33%" align="center">
-        <h4>🤝 For Collaboration</h4>
-        <p>Want to work together?<br>I'm always open to partnerships!</p>
-        <a href="mailto:anishseth0510@gmail.com?subject=Collaboration%20Opportunity">
-          <img src="https://img.shields.io/badge/Collaborate-4ECDC4?style=for-the-badge&logo=handshake&logoColor=white" alt="Collaborate"/>
-        </a>
-      </td>
-      <td width="33%" align="center">
-        <h4>💬 For Chat</h4>
-        <p>Just want to say hi?<br>I love connecting with fellow developers!</p>
-        <a href="mailto:anishseth0510@gmail.com?subject=Hello%20Anish">
-          <img src="https://img.shields.io/badge/Say%20Hello-FFE66D?style=for-the-badge&logo=chat&logoColor=black" alt="Say Hello"/>
-        </a>
-      </td>
-    </tr>
-  </table>
+  
+  <div align="center">
+    <h4>🚀 For Projects</h4>
+    <p>Got an exciting project idea?<br>Let's bring it to life!</p>
+    <a href="mailto:anishseth0510@gmail.com?subject=Project%20Collaboration">
+      <img src="https://img.shields.io/badge/Start%20Project-FF6B6B?style=for-the-badge&logo=rocket&logoColor=white" alt="Start Project"/>
+    </a>
+  </div>
+  
+  <br>
+  
+  <div align="center">
+    <h4>🤝 For Collaboration</h4>
+    <p>Want to work together?<br>I'm always open to partnerships!</p>
+    <a href="mailto:anishseth0510@gmail.com?subject=Collaboration%20Opportunity">
+      <img src="https://img.shields.io/badge/Collaborate-4ECDC4?style=for-the-badge&logo=handshake&logoColor=white" alt="Collaborate"/>
+    </a>
+  </div>
+  
+  <br>
+  
+  <div align="center">
+    <h4>💬 For Chat</h4>
+    <p>Just want to say hi?<br>I love connecting with fellow developers!</p>
+    <a href="mailto:anishseth0510@gmail.com?subject=Hello%20Anish">
+      <img src="https://img.shields.io/badge/Say%20Hello-FFE66D?style=for-the-badge&logo=chat&logoColor=black" alt="Say Hello"/>
+    </a>
+  </div>
+  
 </div>
 
 <!-- Snake Contribution Animation -->
