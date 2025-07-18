@@ -141,11 +141,6 @@
       </td>
     </tr>
   </table>
-
-  <div align="center">
-    <img src="https://github-readme-stats.vercel.app/api/wakatime?username=Anish-2005&theme=radical&hide_border=true&layout=compact" alt="Coding Activity"/>
-  </div>
-
   <br><br>
 
   <div align="center">
