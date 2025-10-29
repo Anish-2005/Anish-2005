@@ -216,64 +216,7 @@ graph TB
 | **2024** | Frontend Mastery | React, Next.js, Tailwind, State Management | 🏆 **SIH 2024 Finalist** • 15+ Projects |
 | **2025** | Full Stack & AI | Node.js, Python, ML, Cloud, Databases | 🚀 Enterprise Apps • AI Integration |
 
-<!-- Detailed Learning Path -->
-<div align="center">
-  <h3>📚 Knowledge Acquisition Path</h3>
 
-### 2023: Foundation Phase 🌱
-```
-Frontend Basics
-├─ HTML5 Semantic Markup
-├─ CSS3 Advanced Styling
-├─ Flexbox & Grid Layouts
-├─ JavaScript Fundamentals
-│  ├─ Variables & Data Types
-│  ├─ Functions & Closures
-│  └─ DOM Manipulation
-└─ 🎯 Result: Static Websites & Web Pages
-```
-
-### 2024: Mastery Phase ⚛️
-```
-Modern Frontend Development
-├─ React.js Ecosystem
-│  ├─ Components & Hooks
-│  ├─ State Management
-│  └─ Performance Optimization
-├─ Next.js Framework
-│  ├─ Server-Side Rendering
-│  ├─ Static Generation
-│  └─ API Routes
-├─ UI/UX Excellence
-│  ├─ Tailwind CSS
-│  ├─ Responsive Design
-│  └─ Animation & Transitions
-└─ 🏆 Result: Smart India Hackathon Finalist
-```
-
-### 2025: Advanced Phase 🚀
-```
-Full Stack Development + AI
-├─ Backend Development
-│  ├─ Node.js & Express
-│  ├─ Python & FastAPI
-│  └─ REST APIs & Microservices
-├─ Database Architecture
-│  ├─ MongoDB (NoSQL)
-│  ├─ PostgreSQL (SQL)
-│  └─ Redis (Caching)
-├─ Cloud & DevOps
-│  ├─ AWS/GCP Services
-│  ├─ Docker & Containerization
-│  └─ CI/CD Pipelines
-├─ AI/ML Integration
-│  ├─ TensorFlow & PyTorch
-│  ├─ NLP & LLMs
-│  └─ ML Model Deployment
-└─ 🚀 Result: Enterprise-Scale Full Stack Applications
-```
-
-</div>
 
 <!-- Floating Achievement Badges -->
 <div align="center">
