@@ -1,6 +1,4 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=300&section=header&text=Hello%20World!&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=I'm%20Anish%20Seth%20-%20Full%20Stack%20Developer%20%26%20AI%20Enthusiast&descAlignY=55&descSize=20" width="100%"/>
-</div>
+
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=35&duration=3000&pause=1000&color=FF6B6B&background=FF000000&center=true&vCenter=true&multiline=true&repeat=true&width=1000&height=120&lines=🚀+Full+Stack+Web+Developer;🎨+UI%2FUX+Designer+%26+Creative+Thinker;💡+AI%2FML+Enthusiast+%26+Innovator;🌟+Building+Tomorrow's+Technology" alt="Animated Typing" />
