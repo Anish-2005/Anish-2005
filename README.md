@@ -246,8 +246,6 @@ timeline
          : 🚀 Advanced Projects
 ```
 
-</div>
-
 <!-- Floating Achievement Badges -->
 <div align="center">
   <img src="https://img.shields.io/badge/🎯_Problem_Solver-4ECDC4?style=for-the-badge&logoColor=white&labelColor=000000" alt="Problem Solver"/>
@@ -294,7 +292,6 @@ timeline
 <!-- Animated Progress Bars -->
 <div align="center">
   <h2>📊 Skill Proficiency Matrix</h2>
-</div>
 
 <!-- Skills Quadrant Diagram -->
 ```mermaid
@@ -318,8 +315,6 @@ quadrantChart
     Tailwind: [0.92, 0.95]
 ```
 
-<div align="center">
-  
   <div align="center">
     <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="60"/>
     <h3>🎨 Frontend Mastery</h3>
