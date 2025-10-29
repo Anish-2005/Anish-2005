@@ -279,13 +279,18 @@ xychart-beta
     title Technical Skills Progression
     x-axis [2023, 2024, 2025]
     y-axis "Proficiency Level" 0 --> 100
-    
-    line [25, 80, 95] name "Frontend"
-    line [10, 30, 90] name "Backend"
-    line [5, 15, 85] name "Databases"
-    line [0, 10, 88] name "Cloud/DevOps"
-    line [0, 5, 80] name "AI/ML"
+    line [25, 80, 95]
+    line [10, 30, 90]
+    line [5, 15, 85]
+    line [0, 10, 88]
+    line [0, 5, 80]
 ```
+
+<div align="center">
+  <sub>
+    <strong>Legend:</strong> Frontend 🎨 | Backend 🔧 | Databases 💾 | Cloud/DevOps ☁️ | AI/ML 🤖
+  </sub>
+</div>
 
 
 <div align="center">
