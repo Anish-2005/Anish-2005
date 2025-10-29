@@ -538,40 +538,43 @@ graph TB
     style I fill:#FFE66D,stroke:#fff,stroke-width:2px,color:#000
 ```
 
-    <table>
-      <tr>
-        <th>✨ Key Innovations</th>
-        <th>🛠️ Technology Stack</th>
-      </tr>
-      <tr>
-        <td align="left" valign="top">
-          <ul>
-            <li>🌐 <b>Smart Multilingual Support</b> via Google Dialogflow</li>
-            <li>⚡ <b>Real-time Seat Management</b> with live updates</li>
-            <li>📱 <b>Progressive Web App</b> with offline capabilities</li>
-            <li>🔐 <b>Secure Payment Gateway</b> integration</li>
-            <li>📊 <b>Advanced Analytics Dashboard</b> for insights</li>
-            <li>🎯 <b>Personalized Recommendations</b> engine</li>
-          </ul>
-        </td>
-        <td align="left" valign="top">
-          <ul>
-            <li><b>Frontend:</b> React.js, Tailwind CSS, PWA</li>
-            <li><b>Backend:</b> FastAPI, Node.js, Django</li>
-            <li><b>Database:</b> MongoDB, Redis</li>
-            <li><b>AI:</b> Google Dialogflow, NLP</li>
-            <li><b>Deploy:</b> Vercel, Railway, Docker</li>
-          </ul>
-        </td>
-      </tr>
-    </table>
-    <br>
-    <a href="https://github.com/Anish-2005">
-      <img src="https://img.shields.io/badge/View%20Live%20Demo-FF6B6B?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo"/>
-    </a>
-    <a href="https://github.com/Anish-2005">
-      <img src="https://img.shields.io/badge/Source%20Code-000000?style=for-the-badge&logo=github&logoColor=white" alt="Source Code"/>
-    </a>
+<table>
+  <tr>
+    <th>✨ Key Innovations</th>
+    <th>🛠️ Technology Stack</th>
+  </tr>
+  <tr>
+    <td align="left" valign="top">
+      <ul>
+        <li>🌐 <b>Smart Multilingual Support</b> via Google Dialogflow</li>
+        <li>⚡ <b>Real-time Seat Management</b> with live updates</li>
+        <li>📱 <b>Progressive Web App</b> with offline capabilities</li>
+        <li>🔐 <b>Secure Payment Gateway</b> integration</li>
+        <li>📊 <b>Advanced Analytics Dashboard</b> for insights</li>
+        <li>🎯 <b>Personalized Recommendations</b> engine</li>
+      </ul>
+    </td>
+    <td align="left" valign="top">
+      <ul>
+        <li><b>Frontend:</b> React.js, Tailwind CSS, PWA</li>
+        <li><b>Backend:</b> FastAPI, Node.js, Django</li>
+        <li><b>Database:</b> MongoDB, Redis</li>
+        <li><b>AI:</b> Google Dialogflow, NLP</li>
+        <li><b>Deploy:</b> Vercel, Railway, Docker</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<a href="https://github.com/Anish-2005">
+  <img src="https://img.shields.io/badge/View%20Live%20Demo-FF6B6B?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo"/>
+</a>
+<a href="https://github.com/Anish-2005">
+  <img src="https://img.shields.io/badge/Source%20Code-000000?style=for-the-badge&logo=github&logoColor=white" alt="Source Code"/>
+</a>
+
   </div>
 
   <br><br>
@@ -618,41 +621,44 @@ flowchart TD
     style N fill:#F39C12,stroke:#fff,stroke-width:2px,color:#000
 ```
 
-    <table>
-      <tr>
-        <th>✨ AI-Powered Features</th>
-        <th>🛠️ Technology Stack</th>
-      </tr>
-      <tr>
-        <td align="left" valign="top">
-          <ul>
-            <li>�🔍 <b>Intelligent Legal Research</b> with semantic search</li>
-            <li>📋 <b>Automated Document Analysis</b> & summarization</li>
-            <li>📝 <b>Smart Contract Generator</b> with templates</li>
-            <li>💬 <b>24/7 Legal Consultation</b> chatbot</li>
-            <li>📊 <b>Case Outcome Prediction</b> using ML</li>
-            <li>🎯 <b>Compliance Monitoring</b> automation</li>
-          </ul>
-        </td>
-        <td align="left" valign="top">
-          <ul>
-            <li><b>Frontend:</b> Next.js, React, TypeScript</li>
-            <li><b>Backend:</b> Node.js, Express, Python</li>
-            <li><b>Database:</b> MongoDB, PostgreSQL</li>
-            <li><b>AI/ML:</b> TensorFlow, spaCy, BERT</li>
-            <li><b>API:</b> OpenAI GPT, Legal APIs</li>
-            <li><b>Deploy:</b> AWS, Docker, Kubernetes</li>
-          </ul>
-        </td>
-      </tr>
-    </table>
-    <br>
-    <a href="https://github.com/Anish-2005">
-      <img src="https://img.shields.io/badge/View%20Progress-4ECDC4?style=for-the-badge&logo=github&logoColor=white" alt="View Progress"/>
-    </a>
-    <a href="https://github.com/Anish-2005">
-      <img src="https://img.shields.io/badge/Documentation-FFE66D?style=for-the-badge&logo=gitbook&logoColor=black" alt="Documentation"/>
-    </a>
+<table>
+  <tr>
+    <th>✨ AI-Powered Features</th>
+    <th>🛠️ Technology Stack</th>
+  </tr>
+  <tr>
+    <td align="left" valign="top">
+      <ul>
+        <li>🔍 <b>Intelligent Legal Research</b> with semantic search</li>
+        <li>📋 <b>Automated Document Analysis</b> & summarization</li>
+        <li>📝 <b>Smart Contract Generator</b> with templates</li>
+        <li>💬 <b>24/7 Legal Consultation</b> chatbot</li>
+        <li>📊 <b>Case Outcome Prediction</b> using ML</li>
+        <li>🎯 <b>Compliance Monitoring</b> automation</li>
+      </ul>
+    </td>
+    <td align="left" valign="top">
+      <ul>
+        <li><b>Frontend:</b> Next.js, React, TypeScript</li>
+        <li><b>Backend:</b> Node.js, Express, Python</li>
+        <li><b>Database:</b> MongoDB, PostgreSQL</li>
+        <li><b>AI/ML:</b> TensorFlow, spaCy, BERT</li>
+        <li><b>API:</b> OpenAI GPT, Legal APIs</li>
+        <li><b>Deploy:</b> AWS, Docker, Kubernetes</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<a href="https://github.com/Anish-2005">
+  <img src="https://img.shields.io/badge/View%20Progress-4ECDC4?style=for-the-badge&logo=github&logoColor=white" alt="View Progress"/>
+</a>
+<a href="https://github.com/Anish-2005">
+  <img src="https://img.shields.io/badge/Documentation-FFE66D?style=for-the-badge&logo=gitbook&logoColor=black" alt="Documentation"/>
+</a>
+
   </div>
 
 </div>
