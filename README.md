@@ -153,27 +153,127 @@
 
 <!-- Learning Journey Timeline -->
 <div align="center">
-  <h3>🎓 My Learning Journey</h3>
+  <h3>🎓 My Tech Evolution Timeline</h3>
 </div>
 
 ```mermaid
 timeline
-    title 📚 Tech Evolution Timeline
-    2020 : 🌱 Started Coding Journey
-         : 💻 HTML, CSS, JavaScript
-    2021 : 🚀 Backend Development
-         : 🐍 Python & Django
-         : 🗄️ Database Management
-    2022 : ⚛️ Modern Frontend
-         : React.js & Next.js
-         : 🎨 Advanced UI/UX
-    2023 : 🤖 AI & ML Integration
-         : 🧠 TensorFlow & OpenAI
+    title 📚 Anish's Professional Growth Journey
+    2023 : 🌱 Foundation Year - Web Basics
+         : 💻 HTML5 Fundamentals
+         : 🎨 CSS3 & Responsive Design
+         : ⚡ JavaScript ES6+ Mastery
+         : 🎯 DOM Manipulation & Events
+         : 💡 First Web Projects
+    
+    2024 : 🚀 Frontend Mastery Year
+         : ⚛️ React.js Deep Dive
+         : 🎭 State Management (Redux/Context)
+         : 🎨 Tailwind CSS Expertise
+         : 📱 Responsive & Mobile-First Design
+         : 🏆 Smart India Hackathon Finalist
+         : ✨ Component Architecture
+         : 🎯 Performance Optimization
+    
+    2025 : 🌟 Full Stack & AI Integration
+         : � Backend Excellence (Node.js)
+         : �🐍 Python & FastAPI
+         : 🗄️ Database Design (MongoDB, PostgreSQL)
          : ☁️ Cloud Architecture (AWS/GCP)
-    2024 : 🏆 Hackathon Success
-         : 🌟 Full Stack Mastery
-         : 🚀 Advanced Projects
+         : 🤖 AI/ML Integration
+         : 📊 Advanced Analytics & ML Models
+         : 🎯 System Design & Scalability
+         : 🚀 Production-Ready Applications
 ```
+
+<!-- Evolution Progress Visualization -->
+<div align="center">
+  <h3>📈 Skill Progression Overview</h3>
+</div>
+
+```mermaid
+graph TB
+    A["<b>2023: Web Foundation</b><br/>HTML • CSS • JS<br/>━━━━━━━━━━━━<br/>⭐⭐⭐"] 
+    B["<b>2024: Frontend Mastery</b><br/>React • Next.js • Tailwind<br/>━━━━━━━━━━━━<br/>⭐⭐⭐⭐⭐"]
+    C["<b>2025: Full Stack & AI</b><br/>Node • Python • ML • Cloud<br/>━━━━━━━━━━━━<br/>⭐⭐⭐⭐⭐⭐"]
+    
+    A -->|Progressive Learning| B
+    B -->|Advanced Integration| C
+    
+    style A fill:#FF6B6B,stroke:#fff,stroke-width:2px,color:#fff
+    style B fill:#4ECDC4,stroke:#fff,stroke-width:2px,color:#fff
+    style C fill:#FFE66D,stroke:#fff,stroke-width:2px,color:#000
+```
+
+<!-- Year-wise Achievements -->
+<div align="center">
+  <h3>🏆 Year-wise Achievements & Milestones</h3>
+</div>
+
+| Year | 🎯 Focus | 📊 Skills Acquired | 🏅 Achievements |
+|:---:|:---:|:---:|:---:|
+| **2023** | Web Fundamentals | HTML, CSS, JavaScript, DOM APIs | ✅ Built 5+ Static Websites |
+| **2024** | Frontend Mastery | React, Next.js, Tailwind, State Management | 🏆 **SIH 2024 Finalist** • 15+ Projects |
+| **2025** | Full Stack & AI | Node.js, Python, ML, Cloud, Databases | 🚀 Enterprise Apps • AI Integration |
+
+<!-- Detailed Learning Path -->
+<div align="center">
+  <h3>📚 Knowledge Acquisition Path</h3>
+
+### 2023: Foundation Phase 🌱
+```
+Frontend Basics
+├─ HTML5 Semantic Markup
+├─ CSS3 Advanced Styling
+├─ Flexbox & Grid Layouts
+├─ JavaScript Fundamentals
+│  ├─ Variables & Data Types
+│  ├─ Functions & Closures
+│  └─ DOM Manipulation
+└─ 🎯 Result: Static Websites & Web Pages
+```
+
+### 2024: Mastery Phase ⚛️
+```
+Modern Frontend Development
+├─ React.js Ecosystem
+│  ├─ Components & Hooks
+│  ├─ State Management
+│  └─ Performance Optimization
+├─ Next.js Framework
+│  ├─ Server-Side Rendering
+│  ├─ Static Generation
+│  └─ API Routes
+├─ UI/UX Excellence
+│  ├─ Tailwind CSS
+│  ├─ Responsive Design
+│  └─ Animation & Transitions
+└─ 🏆 Result: Smart India Hackathon Finalist
+```
+
+### 2025: Advanced Phase 🚀
+```
+Full Stack Development + AI
+├─ Backend Development
+│  ├─ Node.js & Express
+│  ├─ Python & FastAPI
+│  └─ REST APIs & Microservices
+├─ Database Architecture
+│  ├─ MongoDB (NoSQL)
+│  ├─ PostgreSQL (SQL)
+│  └─ Redis (Caching)
+├─ Cloud & DevOps
+│  ├─ AWS/GCP Services
+│  ├─ Docker & Containerization
+│  └─ CI/CD Pipelines
+├─ AI/ML Integration
+│  ├─ TensorFlow & PyTorch
+│  ├─ NLP & LLMs
+│  └─ ML Model Deployment
+└─ 🚀 Result: Enterprise-Scale Full Stack Applications
+```
+
+</div>
 
 <!-- Floating Achievement Badges -->
 <div align="center">
