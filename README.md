@@ -89,138 +89,67 @@
     <img src="https://user-images.githubusercontent.com/74038190/212284094-e50cedf6-de86-4dd8-bfa7-75b40c5dc0a1.gif" width="80"/>
     <h3>🎯 Current Focus</h3>
   </div>
-  
-  <!-- Beautiful Current Focus Table -->
-  <table align="center">
-    <tr>
-      <td align="center" width="50%">
-        <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="50"/>
-        <br>
-        <strong>🎓 Education</strong>
-        <br>
-        <sub>Computer Science Engineering<br>@ Techno Main Salt Lake</sub>
-      </td>
-      <td align="center" width="50%">
-        <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="50"/>
-        <br>
-        <strong>🌱 Currently Learning</strong>
-        <br>
-        <sub>React.js, Next.js, Node.js & AI/ML</sub>
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <img src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif" width="50"/>
-        <br>
-        <strong>🔭 Building</strong>
-        <br>
-        <sub>AI-powered solutions &<br>scalable applications</sub>
-      </td>
-      <td align="center">
-        <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="50"/>
-        <br>
-        <strong>👯 Open to</strong>
-        <br>
-        <sub>Collaborations on<br>innovative projects</sub>
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="50"/>
-        <br>
-        <strong>💬 Expertise</strong>
-        <br>
-        <sub>Full Stack Development<br>& UI/UX Design</sub>
-      </td>
-      <td align="center">
-        <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="50"/>
-        <br>
-        <strong>⚡ Hobbies</strong>
-        <br>
-        <sub>Photography &<br>Graphic Design 📸</sub>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" colspan="2">
-        <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="50"/>
-        <br>
-        <strong>� Contact Me</strong>
-        <br>
-        <sub><a href="mailto:anishseth0510@gmail.com">anishseth0510@gmail.com</a></sub>
-      </td>
-    </tr>
-  </table>
-  <br><br>
 
-  <div align="center">
-    <img src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif" width="80"/>
-    <h3>🌟 Goals & Vision</h3>
-  </div>
-  
-  <!-- Beautiful Goals & Vision Table -->
-  <table align="center">
-    <tr>
-      <td align="center" width="50%">
-        <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="50"/>
-        <br>
-        <strong>🏆 Achievement</strong>
-        <br>
-        <sub>Smart India Hackathon 2024<br>Finalist</sub>
-      </td>
-      <td align="center" width="50%">
-        <img src="https://user-images.githubusercontent.com/74038190/235294011-b8074c31-9097-4a65-a594-4151b58743a8.gif" width="50"/>
-        <br>
-        <strong>🌐 Web Innovation</strong>
-        <br>
-        <sub>Creating next-gen<br>web experiences</sub>
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <img src="https://user-images.githubusercontent.com/74038190/221857984-5bf77e81-6f65-4502-a7c8-f29a978efb3f.gif" width="50"/>
-        <br>
-        <strong>🤖 AI Pioneer</strong>
-        <br>
-        <sub>Pioneering AI-driven<br>solutions</sub>
-      </td>
-      <td align="center">
-        <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="50"/>
-        <br>
-        <strong>🎨 UI/UX Design</strong>
-        <br>
-        <sub>Designing intuitive<br>user interfaces</sub>
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="50"/>
-        <br>
-        <strong>📱 Mobile First</strong>
-        <br>
-        <sub>Developing mobile-first<br>applications</sub>
-      </td>
-      <td align="center">
-        <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="50"/>
-        <br>
-        <strong>🚀 Open Source</strong>
-        <br>
-        <sub>Contributing to<br>open source ecosystem</sub>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" colspan="2">
-        <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="50"/>
-        <br>
-        <strong>📚 Lifelong Learning</strong>
-        <br>
-        <sub>Continuous learner & tech explorer</sub>
-      </td>
-    </tr>
-  </table>
+<!-- Current Focus Cards with Enhanced Design -->
+<div align="center">
 
-  <div align="center">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Anish-2005&theme=radical&hide_border=true&background=0D1117&stroke=FF6B6B&ring=4ECDC4&fire=FFE66D" alt="Streak Stats"/>
-  </div>
+| 🎓 Education | 🌱 Currently Learning |
+|:---:|:---:|
+| <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="50"/> <br> **Computer Science Engineering** <br> <sub>@ Techno Main Salt Lake</sub> | <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="50"/> <br> **React.js** • **Next.js** <br> <sub>Node.js & AI/ML Mastery</sub> |
+
+| 🔭 Building | 👯 Open to |
+|:---:|:---:|
+| <img src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif" width="50"/> <br> **AI-Powered Solutions** <br> <sub>Scalable Applications</sub> | <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="50"/> <br> **Collaborations** <br> <sub>Innovative Projects</sub> |
+
+| 💬 Expertise | ⚡ Hobbies |
+|:---:|:---:|
+| <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="50"/> <br> **Full Stack Dev** <br> <sub>UI/UX Design Expert</sub> | <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="50"/> <br> **Photography** <br> <sub>Graphic Design 📸</sub> |
+
+| 📧 Quick Contact |
+|:---:|
+| <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="50"/> <br> **Email:** <a href="mailto:anishseth0510@gmail.com">anishseth0510@gmail.com</a> <br> <img src="https://img.shields.io/badge/Get%20in%20Touch-FF6B6B?style=flat-square&logo=gmail&logoColor=white" alt="Contact"/> |
+
+</div>
+
+---
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif" width="80"/>
+  <h3>🌟 Goals & Vision</h3>
+</div>
+
+<!-- Goals & Vision with Enhanced Cards -->
+<div align="center">
+
+| 🏆 Achievement | 🌐 Web Innovation |
+|:---:|:---:|
+| <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="50"/> <br> **Smart India Hackathon 2024** <br> <img src="https://img.shields.io/badge/Finalist-FFD700?style=flat-square&logo=trophy&logoColor=black" alt="Finalist"/> | <img src="https://user-images.githubusercontent.com/74038190/235294011-b8074c31-9097-4a65-a594-4151b58743a8.gif" width="50"/> <br> **Next-Gen Web Experiences** <br> <sub>Cutting-edge Technologies</sub> |
+
+| 🤖 AI Pioneer | 🎨 UI/UX Design |
+|:---:|:---:|
+| <img src="https://user-images.githubusercontent.com/74038190/221857984-5bf77e81-6f65-4502-a7c8-f29a978efb3f.gif" width="50"/> <br> **AI-Driven Solutions** <br> <sub>Innovation & Excellence</sub> | <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="50"/> <br> **Intuitive Interfaces** <br> <sub>User-Centric Design</sub> |
+
+| 📱 Mobile First | 🚀 Open Source |
+|:---:|:---:|
+| <img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="50"/> <br> **Mobile-First Development** <br> <sub>Responsive & Fast</sub> | <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="50"/> <br> **Open Source Contributor** <br> <sub>Community Driven</sub> |
+
+| 📚 Lifelong Learning |
+|:---:|
+| <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="50"/> <br> **Continuous Growth** <br> <img src="https://img.shields.io/badge/Tech%20Explorer-4ECDC4?style=flat-square&logo=readme&logoColor=white" alt="Learning"/> <img src="https://img.shields.io/badge/Always%20Evolving-FFE66D?style=flat-square&logo=sparkles&logoColor=black" alt="Evolving"/> |
+
+</div>
+
+<!-- Motivational Stats -->
+<div align="center">
+  <br>
+  <img src="https://img.shields.io/badge/💡_Ideas-100%25-FF6B6B?style=for-the-badge" alt="Ideas"/>
+  <img src="https://img.shields.io/badge/🔥_Passion-100%25-FF6B6B?style=for-the-badge" alt="Passion"/>
+  <img src="https://img.shields.io/badge/🚀_Drive-100%25-4ECDC4?style=for-the-badge" alt="Drive"/>
+  <img src="https://img.shields.io/badge/🌟_Dedication-100%25-FFE66D?style=for-the-badge&logoColor=black" alt="Dedication"/>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Anish-2005&theme=radical&hide_border=true&background=0D1117&stroke=FF6B6B&ring=4ECDC4&fire=FFE66D" alt="Streak Stats"/>
 
 <!-- Learning Journey Timeline -->
 <div align="center">
