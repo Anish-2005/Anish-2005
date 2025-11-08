@@ -1,80 +1,19 @@
-
-
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=35&duration=3000&pause=1000&color=FF6B6B&background=FF000000&center=true&vCenter=true&multiline=true&repeat=true&width=1000&height=120&lines=🚀+Full+Stack+Web+Developer;🎨+UI%2FUX+Designer+%26+Creative+Thinker;💡+AI%2FML+Enthusiast+%26+Innovator;🌟+Building+Tomorrow's+Technology" alt="Animated Typing" />
-</div>
 
-<!-- Animated Tech Stack Wave -->
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500">
-</div>
+# 👋 Hi, I'm Anish Seth
 
-<br>
+### Full Stack Developer | AI/ML Enthusiast | UI/UX Designer
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="300">
-  <br><br>
-  
-  <img src="https://portfolio-anish-seth-1.vercel.app/_next/image?url=%2Fprofile.png&w=384&q=75" width="180" height="180" style="border-radius: 50%; border: 4px solid #FF6B6B; box-shadow: 0 0 50px #FF6B6B;" alt="Anish Seth"/>
-  
-  <br><br>
-  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="300">
-</div>
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=firefox&logoColor=white)](https://portfolio-anish-seth-1.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anish-seth-202200290/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Anish-2005)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anishseth0510@gmail.com)
 
-<div align="center">
-  <br>
-  
-<!-- Animated Badge Collection -->
-<p>
-  <img src="https://img.shields.io/badge/🔥_Featured_Developer-FF6B6B?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=FF6B6B" alt="Featured Developer"/>
-  <img src="https://img.shields.io/badge/💼_Available_for_Hire-4ECDC4?style=for-the-badge&logo=handshake&logoColor=white&labelColor=000000" alt="Available for Hire"/>
-  <img src="https://img.shields.io/badge/🌟_Portfolio_Ready-FFE66D?style=for-the-badge&logo=rocket&logoColor=black&labelColor=000000" alt="Portfolio Ready"/>
-  <img src="https://img.shields.io/badge/🏆_Award_Winner-FF6B6B?style=for-the-badge&logo=trophy&logoColor=white&labelColor=000000" alt="Award Winner"/>
-</p>
-
-<!-- Social Links with Hover Effects -->
-<p>
-  <a href="https://github.com/Anish-2005">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&color=181717" alt="GitHub"/>
-  </a>
-  <a href="https://www.linkedin.com/in/anish-seth-202200290/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="https://portfolio-anish-seth-1.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=firefox&logoColor=white" alt="Portfolio"/>
-  </a>
-  <a href="mailto:anishseth0510@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-  <a href="https://x.com/AnishSeth170734">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
-  </a>
-</p>
-
-<!-- Inspirational Quote with Animation -->
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Comic+Neue&amp;weight=600&amp;size=22&amp;duration=4000&amp;pause=2000&amp;color=36BCF7&amp;center=true&amp;vCenter=true&amp;width=800&amp;height=50&amp;lines=💭+Building+the+future%2C+one+line+of+code+at+a+time;🎯+Turning+ideas+into+digital+reality;🚀+Innovation+through+technology+and+creativity" alt="Quote Animation"/>
-</div>
-
-<!-- Dynamic Stats Display -->
-<br>
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Anish-2005&style=for-the-badge&color=blueviolet&label=PROFILE+VIEWS" alt="Profile Views"/>
-  <img src="https://img.shields.io/github/followers/Anish-2005?style=for-the-badge&color=blue&labelColor=000000&label=FOLLOWERS" alt="Followers"/>
-  <img src="https://img.shields.io/github/stars/Anish-2005?style=for-the-badge&color=yellow&labelColor=000000&label=STARS" alt="Stars"/>
-</div>
-
-<!-- Floating Elements Animation -->
-<img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="100" align="left"/>
-<img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="100" align="right"/>
+![Profile Views](https://komarev.com/ghpvc/?username=Anish-2005&color=blueviolet&style=flat-square)
 
 </div>
 
-<br><br>
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/235294011-b8074c31-9097-4a65-a594-4151b58743a8.gif" width="100%"/>
-</div>
+---
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&amp;weight=900&amp;size=45&amp;duration=3000&amp;pause=1000&amp;color=FF6B6B&amp;center=true&amp;vCenter=true&amp;width=600&amp;height=100&amp;lines=🚀+ABOUT+ME;💫+WHO+AM+I%3F;🌟+MY+JOURNEY" alt="About Me Header"/>
