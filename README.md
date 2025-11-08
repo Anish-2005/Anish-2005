@@ -12,13 +12,11 @@
 <br>
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="300">
   <br><br>
   
   <img src="https://portfolio-anish-seth-1.vercel.app/_next/image?url=%2Fprofile.png&w=384&q=75" width="180" height="180" style="border-radius: 50%; border: 4px solid #FF6B6B; box-shadow: 0 0 50px #FF6B6B;" alt="Anish Seth"/>
   
   <br><br>
-  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="300">
 </div>
 
 <div align="center">
