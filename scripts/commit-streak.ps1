@@ -9,9 +9,14 @@ if (-not (Get-Command git -ErrorAction SilentlyContinue)) {
 }
 
 # Get unique commit dates (author date) in yyyy-MM-dd format, newest first
-$dates = git log --pretty=format:%ad --date=short | Sort-Object -Unique -Descending
+# We trim and deduplicate to handle multiple commits per day
+$raw = git log --pretty=format:%ad --date=short 2>$null
+$dates = @()
+if ($raw) {
+    $raw -split "\n" | ForEach-Object { $_.Trim() } | Where-Object { $_ -ne "" } | Sort-Object -Unique -Descending | ForEach-Object { $dates += $_ }
+}
 
-if (-not $dates) {
+if (-not $dates -or $dates.Count -eq 0) {
     $streak = 0
 } else {
     $today = Get-Date
@@ -28,8 +33,25 @@ if (-not $dates) {
     }
 }
 
-# Build shields.io badge markdown (URL-encode by replacing spaces)
-$badge = "![Commit Streak](https://img.shields.io/badge/commit%20streak-$($streak)-4ECDC4?style=for-the-badge&logo=github&logoColor=white)"
+# Choose a color based on streak to make the badge look nicer
+switch ($streak) {
+    { $_ -eq 0 } { $color = '808080' ; break }         # gray
+    { $_ -le 3 } { $color = 'FFB020' ; break }         # amber
+    { $_ -le 7 } { $color = 'FF6B6B' ; break }         # coral
+    default { $color = '4ECDC4' }                     # greenish
+}
+
+# Last commit date for tooltip
+$lastCommit = ($dates | Select-Object -First 1) -as [string]
+if (-not $lastCommit) { $lastCommit = 'N/A' }
+
+# Build a prettier shields.io badge URL (label=Streak, message="X days", color)
+$label = [System.Uri]::EscapeDataString('Commit Streak')
+$message = [System.Uri]::EscapeDataString("$streak day" + (if ($streak -ne 1) { 's' } else { '' }))
+$badgeUrl = "https://img.shields.io/badge/$label-$message-$color?style=for-the-badge&logo=github&logoColor=white"
+
+# Markdown image with title showing last commit date
+$badge = "<p align=`"center`"><img src=`"$badgeUrl`" alt=`"Commit Streak: $streak`" title=`"Last commit: $lastCommit`"/></p>"
 
 if (-not (Test-Path $ReadmePath)) {
     Write-Output $badge

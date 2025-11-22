@@ -51,11 +51,13 @@
 
 <!-- Commit Streak Badge (updated by scripts/commit-streak.ps1) -->
 <!-- COMMIT_STREAK_START -->
-![Commit Streak](https://img.shields.io/badge/commit%20streak-0-brightgreen?style=for-the-badge&logo=github&logoColor=white)
+<p align="center">
+  <img src="https://img.shields.io/badge/Commit%20Streak-0-808080?style=for-the-badge&logo=github&logoColor=white" alt="Commit Streak" title="Run .\scripts\commit-streak.ps1 to update"/>
+</p>
 <!-- COMMIT_STREAK_END -->
 
 <p align="center">
-  Run <code>.\scripts\commit-streak.ps1</code> to update the badge locally (PowerShell). It computes the current consecutive-day commit streak from this repository.
+  Run <code>.\scripts\commit-streak.ps1</code> to update the badge locally (PowerShell). The script updates this centered badge and sets color based on streak length.
 </p>
 
 <!-- Inspirational Quote with Animation -->
