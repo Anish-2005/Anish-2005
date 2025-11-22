@@ -49,6 +49,15 @@
   </a>
 </p>
 
+<!-- Commit Streak Badge (updated by scripts/commit-streak.ps1) -->
+<!-- COMMIT_STREAK_START -->
+![Commit Streak](https://img.shields.io/badge/commit%20streak-0-brightgreen?style=for-the-badge&logo=github&logoColor=white)
+<!-- COMMIT_STREAK_END -->
+
+<p align="center">
+  Run <code>.\scripts\commit-streak.ps1</code> to update the badge locally (PowerShell). It computes the current consecutive-day commit streak from this repository.
+</p>
+
 <!-- Inspirational Quote with Animation -->
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Comic+Neue&amp;weight=600&amp;size=22&amp;duration=4000&amp;pause=2000&amp;color=36BCF7&amp;center=true&amp;vCenter=true&amp;width=800&amp;height=50&amp;lines=💭+Building+the+future%2C+one+line+of+code+at+a+time;🎯+Turning+ideas+into+digital+reality;🚀+Innovation+through+technology+and+creativity" alt="Quote Animation"/>
