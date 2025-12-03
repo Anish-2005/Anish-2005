@@ -133,7 +133,7 @@ mindmap
 
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Anish-2005&theme=radical&hide_border=true&background=0D1117&stroke=FF6B6B&ring=4ECDC4&fire=FFE66D" alt="Streak Stats"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Anish-2005&theme=radical&hide_border=true" alt="Streak Stats"/>
 
 
 ```mermaid
