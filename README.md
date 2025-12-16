@@ -243,7 +243,7 @@ timeline
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Anish-2005&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true&custom_title=💻+Anish's+GitHub+Journey" alt="GitHub Stats" />
   
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Anish-2005&theme=radical&hide_border=true&background=0D1117&stroke=FF6B6B&ring=4ECDC4&fire=FFE66D&currStreakLabel=FF6B6B&sideLabels=4ECDC4&currStreakNum=FFE66D&sideNums=FF6B6B" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Anish-2005&theme=radical" alt="GitHub Streak" />
 </div>
 
 <div align="center">
