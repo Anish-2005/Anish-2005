@@ -134,6 +134,8 @@ mindmap
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Anish-2005&theme=dark" alt="Streak Stats"/>
+  <br />
+  <img src="https://img.shields.io/github/last-commit/Anish-2005/Anish-2005?style=for-the-badge" alt="Last Commit" />
 
 ```mermaid
 timeline
