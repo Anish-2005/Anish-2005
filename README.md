@@ -72,8 +72,7 @@
 </p>
 
 <div align="center" style="margin: 18px auto; padding: 12px 14px; max-width: 980px; border: 1px solid rgba(255,255,255,0.08); border-radius: 14px; background: rgba(255,255,255,0.02); box-sizing: border-box;">
-  <h2 style="margin: 0 0 8px; color: #e6edf3;">OSS Insight: Live GitHub Analytics</h2>
-  <p style="margin: 0 0 14px; color: #c9d1d9; font-size: 14px;">Real-time widgets powered by OSS Insight, pointed at this profile repo.</p>
+  <h2 style="margin: 0 0 8px; color: #e6edf3;">Live GitHub Analytics</h2>
 
   <a href="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats?user_id=123315153" target="_blank" style="display: block" align="center">
   <picture>
