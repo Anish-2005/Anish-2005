@@ -71,57 +71,18 @@
   </a>
 </p>
 
-<!-- OSS Insight Widgets (template 0ssinsight-widget) -->
 <div align="center" style="margin: 18px auto; padding: 12px 14px; max-width: 980px; border: 1px solid rgba(255,255,255,0.08); border-radius: 14px; background: rgba(255,255,255,0.02); box-sizing: border-box;">
   <h2 style="margin: 0 0 8px; color: #e6edf3;">OSS Insight: Live GitHub Analytics</h2>
   <p style="margin: 0 0 14px; color: #c9d1d9; font-size: 14px;">Real-time widgets powered by OSS Insight, pointed at this profile repo.</p>
 
-  <table>
-    <tr>
-      <td align="center">
-        <strong>Repository Activity Trends</strong><br>
-        <img src="https://next.ossinsight.io/widgets/official/compose-activity-trends/thumbnail.png?repo_id=878558533&image_size=auto" alt="Repo Activity Trends" />
-      </td>
-      <td align="center">
-        <strong>Collaborative Productivity (28d)</strong><br>
-        <img src="https://next.ossinsight.io/widgets/official/compose-last-28-days-collaborative-productivity/thumbnail.png?repo_id=878558533&image_size=auto" alt="Collaborative Productivity" />
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <strong>Performance Stats (28d)</strong><br>
-        <img src="https://next.ossinsight.io/widgets/official/compose-last-28-days-stats/thumbnail.png?repo_id=878558533&image_size=auto" alt="Performance Stats" />
-      </td>
-      <td align="center">
-        <strong>Active Contributors (28d)</strong><br>
-        <img src="https://next.ossinsight.io/widgets/official/compose-recent-active-contributors/thumbnail.png?repo_id=878558533&limit=100&image_size=auto" alt="Active Contributors" />
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <strong>Star History</strong><br>
-        <img src="https://next.ossinsight.io/widgets/official/analyze-repo-stars-history/thumbnail.png?repo_id=878558533&image_size=auto" alt="Star History" />
-      </td>
-      <td align="center">
-        <strong>Star Geo Distribution</strong><br>
-        <img src="https://next.ossinsight.io/widgets/official/analyze-repo-stars-map/thumbnail.png?activity=stars&repo_id=878558533&image_size=auto" alt="Star Geo Distribution" />
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <strong>Currently Working On (28d)</strong><br>
-        <img src="https://next.ossinsight.io/widgets/official/compose-currently-working-on/thumbnail.png?activity_type=all&user_id=123315153&image_size=auto" alt="Currently Working On" />
-      </td>
-      <td align="center">
-        <strong>Top Contributors (28d)</strong><br>
-        <img src="https://next.ossinsight.io/widgets/official/compose-recent-top-contributors/thumbnail.png?repo_id=878558533&image_size=auto" alt="Top Contributors" />
-      </td>
-    </tr>
-  </table>
+  <a href="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats?user_id=123315153" target="_blank" style="display: block" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=123315153&image_size=auto&color_scheme=dark" width="771" height="auto">
+    <img alt="Dashboard stats of @Anish-2005" src="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=123315153&image_size=auto&color_scheme=light" width="771" height="auto">
+  </picture>
+</a>
 
-  <p style="margin: 14px 0 0;">
-    <a href="https://next.ossinsight.io/widgets?utm_source=github&utm_medium=referral" style="color: #4ecdc4; font-weight: 700;">Browse more OSS Insight widgets →</a>
-  </p>
+  
 </div>
 
 <!-- COMMIT_STREAK_END -->
