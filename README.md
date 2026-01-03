@@ -32,21 +32,6 @@
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
     </a>
   </div>
-
-  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 10px; margin-top: 10px; width: 100%; box-sizing: border-box;">
-    <div style="padding: 10px 12px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.08); background: rgba(255,255,255,0.02); color: #e6edf3;">
-      <strong style="color:#FFE66D;">Shipping</strong>
-      <div>Next.js • React • Tailwind • Node</div>
-    </div>
-    <div style="padding: 10px 12px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.08); background: rgba(255,255,255,0.02); color: #e6edf3;">
-      <strong style="color:#4ECDC4;">Designing</strong>
-      <div>Design systems • Rapid prototyping</div>
-    </div>
-    <div style="padding: 10px 12px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.08); background: rgba(255,255,255,0.02); color: #e6edf3;">
-      <strong style="color:#FF6B6B;">Exploring</strong>
-      <div>AI/ML workflows • Agentic products</div>
-    </div>
-  </div>
 </div>
 
 <!-- Social Links -->
