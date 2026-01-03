@@ -1,21 +1,24 @@
 
 
-<!-- Hero Card -->
-<div align="center" style="padding: 32px 24px; margin: 0 auto 32px; max-width: 900px; border-radius: 28px; background: radial-gradient(circle at 20% 20%, rgba(255,107,107,0.18), transparent 40%), radial-gradient(circle at 80% 0%, rgba(78,205,196,0.15), transparent 32%), #0d1117; border: 1px solid rgba(255,255,255,0.08); box-shadow: 0 20px 60px rgba(0,0,0,0.35);">
-  <img src="https://portfolio-anish-seth-1.vercel.app/_next/image?url=%2Fprofile.png&w=384&q=75" width="140" height="140" style="border-radius: 50%; border: 3px solid #FF6B6B; box-shadow: 0 0 30px rgba(255,107,107,0.6); margin-bottom: 16px;" alt="Anish Seth"/>
-  <h1 style="margin: 0; font-family: 'JetBrains Mono', monospace; color: #e6edf3; font-size: 32px;">Anish Seth</h1>
-  <p style="margin: 8px 0 16px; color: #95e1d3; font-size: 16px; font-weight: 600;">Full Stack Developer • UI/UX Craftsman • AI/ML Explorer</p>
+<!-- Hero Card (GitHub-friendly, mobile-first) -->
+<div align="center" style="margin: 0 auto 22px; padding: 18px 14px; width: 100%; max-width: 880px; border-radius: 16px; border: 1px solid rgba(255,255,255,0.08); background: #0d1117; box-sizing: border-box;">
+  <div style="display: flex; flex-wrap: wrap; gap: 14px; align-items: center; justify-content: center; text-align: center;">
+    <img src="https://portfolio-anish-seth-1.vercel.app/_next/image?url=%2Fprofile.png&w=384&q=75" alt="Anish Seth" style="width: 110px; height: 110px; max-width: 30vw; max-height: 30vw; border-radius: 50%; border: 2px solid #FF6B6B; box-shadow: 0 0 14px rgba(255,107,107,0.45); object-fit: cover;"/>
+    <div style="flex: 1 1 240px; max-width: 520px; display: flex; flex-direction: column; gap: 6px; align-items: center;">
+      <h1 style="margin: 0; color: #e6edf3; font-size: clamp(24px, 6vw, 32px);">Anish Seth</h1>
+      <p style="margin: 0; color: #95e1d3; font-size: clamp(13px, 3.5vw, 16px); font-weight: 700;">Full Stack Developer • UI/UX Craftsman • AI/ML Explorer</p>
+      <p style="margin: 2px 0 6px; color: #c9d1d9; line-height: 1.55; font-size: clamp(13px, 3.5vw, 15px);">Building polished digital experiences end-to-end — from product thinking and interface systems to scalable services, experimentation, and launch.</p>
+    </div>
+  </div>
 
-  <p style="margin: 0 0 18px; color: #c9d1d9; max-width: 720px; line-height: 1.6;">Building polished digital experiences end-to-end — from product thinking and interface systems to scalable services, experimentation, and launch.</p>
-
-  <p style="margin: 0 0 12px;">
+  <div style="margin: 10px 0 12px; display: flex; gap: 8px; justify-content: center; flex-wrap: wrap;">
     <img src="https://img.shields.io/badge/Featured_Developer-FF6B6B?style=for-the-badge&logo=github&logoColor=white&labelColor=000000" alt="Featured Developer"/>
     <img src="https://img.shields.io/badge/Available_for_Hire-4ECDC4?style=for-the-badge&logo=handshake&logoColor=white&labelColor=000000" alt="Available for Hire"/>
     <img src="https://img.shields.io/badge/Portfolio_Ready-FFE66D?style=for-the-badge&logo=rocket&logoColor=000&labelColor=000000" alt="Portfolio Ready"/>
     <img src="https://img.shields.io/badge/Award_Winner-FF6B6B?style=for-the-badge&logo=trophy&logoColor=white&labelColor=000000" alt="Award Winner"/>
-  </p>
+  </div>
 
-  <p style="margin: 10px 0 20px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+  <div style="margin: 10px 0 12px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
     <a href="https://portfolio-anish-seth-1.vercel.app/" style="text-decoration: none;">
       <img src="https://img.shields.io/badge/View_Portfolio-FF6B6B?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
     </a>
@@ -28,42 +31,42 @@
     <a href="https://www.linkedin.com/in/anish-seth-202200290/" style="text-decoration: none;">
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
     </a>
-  </p>
+  </div>
 
-  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin-top: 14px;">
-    <div style="padding: 12px 14px; border-radius: 14px; border: 1px solid rgba(255,255,255,0.08); background: rgba(255,255,255,0.02); color: #e6edf3;">
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 10px; margin-top: 10px; width: 100%; box-sizing: border-box;">
+    <div style="padding: 10px 12px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.08); background: rgba(255,255,255,0.02); color: #e6edf3;">
       <strong style="color:#FFE66D;">Shipping</strong>
       <div>Next.js • React • Tailwind • Node</div>
     </div>
-    <div style="padding: 12px 14px; border-radius: 14px; border: 1px solid rgba(255,255,255,0.08); background: rgba(255,255,255,0.02); color: #e6edf3;">
+    <div style="padding: 10px 12px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.08); background: rgba(255,255,255,0.02); color: #e6edf3;">
       <strong style="color:#4ECDC4;">Designing</strong>
       <div>Design systems • Rapid prototyping</div>
     </div>
-    <div style="padding: 12px 14px; border-radius: 14px; border: 1px solid rgba(255,255,255,0.08); background: rgba(255,255,255,0.02); color: #e6edf3;">
+    <div style="padding: 10px 12px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.08); background: rgba(255,255,255,0.02); color: #e6edf3;">
       <strong style="color:#FF6B6B;">Exploring</strong>
       <div>AI/ML workflows • Agentic products</div>
     </div>
   </div>
 </div>
 
-<!-- Social Links with Hover Effects -->
-<p>
-  <a href="https://github.com/Anish-2005">
+<!-- Social Links -->
+<div align="center" style="margin: 16px auto 10px; padding: 10px 12px; display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 14px; box-sizing: border-box;">
+  <a href="https://github.com/Anish-2005" title="GitHub">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&color=181717" alt="GitHub"/>
   </a>
-  <a href="https://www.linkedin.com/in/anish-seth-202200290/">
+  <a href="https://www.linkedin.com/in/anish-seth-202200290/" title="LinkedIn">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="https://portfolio-anish-seth-1.vercel.app/">
+  <a href="https://portfolio-anish-seth-1.vercel.app/" title="Portfolio">
     <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=firefox&logoColor=white" alt="Portfolio"/>
   </a>
-  <a href="mailto:anishseth0510@gmail.com">
+  <a href="mailto:anishseth0510@gmail.com" title="Email">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
-  <a href="https://x.com/AnishSeth170734">
+  <a href="https://x.com/AnishSeth170734" title="X/Twitter">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
   </a>
-</p>
+</div>
 
 <!-- Commit Streak Badge (updated by scripts/commit-streak.ps1) -->
 <!-- COMMIT_STREAK_START -->
