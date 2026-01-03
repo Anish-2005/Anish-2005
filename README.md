@@ -1,34 +1,50 @@
 
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=35&duration=3000&pause=1000&color=FF6B6B&background=FF000000&center=true&vCenter=true&multiline=true&repeat=true&width=1000&height=120&lines=🚀+Full+Stack+Web+Developer;🎨+UI%2FUX+Designer+%26+Creative+Thinker;💡+AI%2FML+Enthusiast+%26+Innovator;🌟+Building+Tomorrow's+Technology" alt="Animated Typing" />
+<!-- Hero Card -->
+<div align="center" style="padding: 32px 24px; margin: 0 auto 32px; max-width: 900px; border-radius: 28px; background: radial-gradient(circle at 20% 20%, rgba(255,107,107,0.18), transparent 40%), radial-gradient(circle at 80% 0%, rgba(78,205,196,0.15), transparent 32%), #0d1117; border: 1px solid rgba(255,255,255,0.08); box-shadow: 0 20px 60px rgba(0,0,0,0.35);">
+  <img src="https://portfolio-anish-seth-1.vercel.app/_next/image?url=%2Fprofile.png&w=384&q=75" width="140" height="140" style="border-radius: 50%; border: 3px solid #FF6B6B; box-shadow: 0 0 30px rgba(255,107,107,0.6); margin-bottom: 16px;" alt="Anish Seth"/>
+  <h1 style="margin: 0; font-family: 'JetBrains Mono', monospace; color: #e6edf3; font-size: 32px;">Anish Seth</h1>
+  <p style="margin: 8px 0 16px; color: #95e1d3; font-size: 16px; font-weight: 600;">Full Stack Developer • UI/UX Craftsman • AI/ML Explorer</p>
+
+  <p style="margin: 0 0 18px; color: #c9d1d9; max-width: 720px; line-height: 1.6;">Building polished digital experiences end-to-end — from product thinking and interface systems to scalable services, experimentation, and launch.</p>
+
+  <p style="margin: 0 0 12px;">
+    <img src="https://img.shields.io/badge/Featured_Developer-FF6B6B?style=for-the-badge&logo=github&logoColor=white&labelColor=000000" alt="Featured Developer"/>
+    <img src="https://img.shields.io/badge/Available_for_Hire-4ECDC4?style=for-the-badge&logo=handshake&logoColor=white&labelColor=000000" alt="Available for Hire"/>
+    <img src="https://img.shields.io/badge/Portfolio_Ready-FFE66D?style=for-the-badge&logo=rocket&logoColor=000&labelColor=000000" alt="Portfolio Ready"/>
+    <img src="https://img.shields.io/badge/Award_Winner-FF6B6B?style=for-the-badge&logo=trophy&logoColor=white&labelColor=000000" alt="Award Winner"/>
+  </p>
+
+  <p style="margin: 10px 0 20px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+    <a href="https://portfolio-anish-seth-1.vercel.app/" style="text-decoration: none;">
+      <img src="https://img.shields.io/badge/View_Portfolio-FF6B6B?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
+    </a>
+    <a href="mailto:anishseth0510@gmail.com" style="text-decoration: none;">
+      <img src="https://img.shields.io/badge/Book_a_Call-4ECDC4?style=for-the-badge&logo=gmail&logoColor=white" alt="Book a Call"/>
+    </a>
+    <a href="https://github.com/Anish-2005" style="text-decoration: none;">
+      <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+    </a>
+    <a href="https://www.linkedin.com/in/anish-seth-202200290/" style="text-decoration: none;">
+      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    </a>
+  </p>
+
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin-top: 14px;">
+    <div style="padding: 12px 14px; border-radius: 14px; border: 1px solid rgba(255,255,255,0.08); background: rgba(255,255,255,0.02); color: #e6edf3;">
+      <strong style="color:#FFE66D;">Shipping</strong>
+      <div>Next.js • React • Tailwind • Node</div>
+    </div>
+    <div style="padding: 12px 14px; border-radius: 14px; border: 1px solid rgba(255,255,255,0.08); background: rgba(255,255,255,0.02); color: #e6edf3;">
+      <strong style="color:#4ECDC4;">Designing</strong>
+      <div>Design systems • Rapid prototyping</div>
+    </div>
+    <div style="padding: 12px 14px; border-radius: 14px; border: 1px solid rgba(255,255,255,0.08); background: rgba(255,255,255,0.02); color: #e6edf3;">
+      <strong style="color:#FF6B6B;">Exploring</strong>
+      <div>AI/ML workflows • Agentic products</div>
+    </div>
+  </div>
 </div>
-
-<!-- Animated Tech Stack Wave -->
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500">
-</div>
-
-<br>
-
-<div align="center">
-  <br><br>
-  
-  <img src="https://portfolio-anish-seth-1.vercel.app/_next/image?url=%2Fprofile.png&w=384&q=75" width="180" height="180" style="border-radius: 50%; border: 4px solid #FF6B6B; box-shadow: 0 0 50px #FF6B6B;" alt="Anish Seth"/>
-  
-  <br><br>
-</div>
-
-<div align="center">
-  <br>
-  
-<!-- Animated Badge Collection -->
-<p>
-  <img src="https://img.shields.io/badge/🔥_Featured_Developer-FF6B6B?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=FF6B6B" alt="Featured Developer"/>
-  <img src="https://img.shields.io/badge/💼_Available_for_Hire-4ECDC4?style=for-the-badge&logo=handshake&logoColor=white&labelColor=000000" alt="Available for Hire"/>
-  <img src="https://img.shields.io/badge/🌟_Portfolio_Ready-FFE66D?style=for-the-badge&logo=rocket&logoColor=black&labelColor=000000" alt="Portfolio Ready"/>
-  <img src="https://img.shields.io/badge/🏆_Award_Winner-FF6B6B?style=for-the-badge&logo=trophy&logoColor=white&labelColor=000000" alt="Award Winner"/>
-</p>
 
 <!-- Social Links with Hover Effects -->
 <p>
