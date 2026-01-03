@@ -34,35 +34,98 @@
   </div>
 </div>
 
-<!-- Social Links -->
-<div align="center" style="margin: 16px auto 10px; padding: 10px 12px; display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 14px; box-sizing: border-box;">
-  <a href="https://github.com/Anish-2005" title="GitHub">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&color=181717" alt="GitHub"/>
+<!-- Social Links (compact, two-tier) -->
+<div align="center" style="margin: 16px auto 12px; padding: 10px 12px; width: 100%; max-width: 900px; display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 14px; box-sizing: border-box;">
+  <a href="https://www.anishseth.xyz" title="Portfolio" style="text-decoration: none; display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 10px 12px; background: linear-gradient(135deg, #ff6b6b, #ff8e53); color: #fff; border-radius: 12px; font-weight: 700;">
+    🌐 Portfolio
   </a>
-  <a href="https://www.linkedin.com/in/anish-seth-202200290/" title="LinkedIn">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  <a href="mailto:anishseth0510@gmail.com" title="Email" style="text-decoration: none; display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 10px 12px; background: linear-gradient(135deg, #4ecdc4, #34a0a4); color: #0d1117; border-radius: 12px; font-weight: 700;">
+    ✉️ Email
   </a>
-  <a href="https://portfolio-anish-seth-1.vercel.app/" title="Portfolio">
-    <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=firefox&logoColor=white" alt="Portfolio"/>
+  <a href="https://github.com/Anish-2005" title="GitHub" style="text-decoration: none; display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 10px 12px; background: #181717; color: #fff; border-radius: 12px; font-weight: 700;">
+    🐙 GitHub
   </a>
-  <a href="mailto:anishseth0510@gmail.com" title="Email">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  <a href="https://www.linkedin.com/in/anishseth" title="LinkedIn" style="text-decoration: none; display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 10px 12px; background: #0a66c2; color: #fff; border-radius: 12px; font-weight: 700;">
+    💼 LinkedIn
   </a>
-  <a href="https://x.com/AnishSeth170734" title="X/Twitter">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
+  <a href="https://x.com/AnishSeth170734" title="X/Twitter" style="text-decoration: none; display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 10px 12px; background: #1d9bf0; color: #fff; border-radius: 12px; font-weight: 700;">
+    🐦 X / Twitter
   </a>
 </div>
-
-<!-- Commit Streak Badge (updated by scripts/commit-streak.ps1) -->
-<!-- COMMIT_STREAK_START -->
+<!-- Social Links (template-inspired) -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Commit%20Streak-0-808080?style=for-the-badge&logo=github&logoColor=white" alt="Commit Streak" title="Run .\scripts\commit-streak.ps1 to update"/>
+  <a href="https://portfolio-anish-seth-1.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-ff6b6b?style=flat&logo=vercel&logoColor=white" alt="Portfolio"/>
+  </a>
+  <a href="mailto:anishseth0510@gmail.com">
+    <img src="https://img.shields.io/badge/Email-4ecdc4?style=flat&logo=gmail&logoColor=0d1117" alt="Email"/>
+  </a>
+  <a href="https://github.com/Anish-2005">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="https://www.linkedin.com/in/anish-seth-202200290/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://x.com/AnishSeth170734">
+    <img src="https://img.shields.io/badge/X-1d9bf0?style=flat&logo=x&logoColor=white" alt="X"/>
+  </a>
 </p>
+
+<!-- OSS Insight Widgets (template 0ssinsight-widget) -->
+<div align="center" style="margin: 18px auto; padding: 12px 14px; max-width: 980px; border: 1px solid rgba(255,255,255,0.08); border-radius: 14px; background: rgba(255,255,255,0.02); box-sizing: border-box;">
+  <h2 style="margin: 0 0 8px; color: #e6edf3;">OSS Insight: Live GitHub Analytics</h2>
+  <p style="margin: 0 0 14px; color: #c9d1d9; font-size: 14px;">Real-time widgets powered by OSS Insight, pointed at this profile repo.</p>
+
+  <table>
+    <tr>
+      <td align="center">
+        <strong>Repository Activity Trends</strong><br>
+        <img src="https://next.ossinsight.io/widgets/official/compose-activity-trends/thumbnail.png?repo_id=878558533&image_size=auto" alt="Repo Activity Trends" />
+      </td>
+      <td align="center">
+        <strong>Collaborative Productivity (28d)</strong><br>
+        <img src="https://next.ossinsight.io/widgets/official/compose-last-28-days-collaborative-productivity/thumbnail.png?repo_id=878558533&image_size=auto" alt="Collaborative Productivity" />
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <strong>Performance Stats (28d)</strong><br>
+        <img src="https://next.ossinsight.io/widgets/official/compose-last-28-days-stats/thumbnail.png?repo_id=878558533&image_size=auto" alt="Performance Stats" />
+      </td>
+      <td align="center">
+        <strong>Active Contributors (28d)</strong><br>
+        <img src="https://next.ossinsight.io/widgets/official/compose-recent-active-contributors/thumbnail.png?repo_id=878558533&limit=100&image_size=auto" alt="Active Contributors" />
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <strong>Star History</strong><br>
+        <img src="https://next.ossinsight.io/widgets/official/analyze-repo-stars-history/thumbnail.png?repo_id=878558533&image_size=auto" alt="Star History" />
+      </td>
+      <td align="center">
+        <strong>Star Geo Distribution</strong><br>
+        <img src="https://next.ossinsight.io/widgets/official/analyze-repo-stars-map/thumbnail.png?activity=stars&repo_id=878558533&image_size=auto" alt="Star Geo Distribution" />
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <strong>Currently Working On (28d)</strong><br>
+        <img src="https://next.ossinsight.io/widgets/official/compose-currently-working-on/thumbnail.png?activity_type=all&user_id=123315153&image_size=auto" alt="Currently Working On" />
+      </td>
+      <td align="center">
+        <strong>Top Contributors (28d)</strong><br>
+        <img src="https://next.ossinsight.io/widgets/official/compose-recent-top-contributors/thumbnail.png?repo_id=878558533&image_size=auto" alt="Top Contributors" />
+      </td>
+    </tr>
+  </table>
+
+  <p style="margin: 14px 0 0;">
+    <a href="https://next.ossinsight.io/widgets?utm_source=github&utm_medium=referral" style="color: #4ecdc4; font-weight: 700;">Browse more OSS Insight widgets →</a>
+  </p>
+</div>
+
 <!-- COMMIT_STREAK_END -->
 
-<p align="center">
-  Run <code>.\scripts\commit-streak.ps1</code> to update the badge locally (PowerShell). The script updates this centered badge and sets color based on streak length.
-</p>
 
 <!-- Inspirational Quote with Animation -->
 <div align="center">
