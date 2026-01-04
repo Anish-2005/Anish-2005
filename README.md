@@ -508,8 +508,8 @@ flowchart TD
   <a href="https://github.com/Anish-2005" style="text-decoration: none;">
     <img src="https://github-widgetbox.vercel.app/api/profile?username=Anish-2005&data=followers,repositories,stars,commits&theme=radical" alt="GitHub Profile Widget" />
   </a>
-  <a href="https://github.com/Anish-2005?tab=repositories" style="text-decoration: none;">
-    <img src="https://github-widgetbox.vercel.app/api/skills?theme=dark&icons=react,nextjs,nodejs,typescript,python,tailwind,postgresql,mongodb,aws" alt="Tech Skills Widget" />
+  <a href="https://github.com/Anish-2005" style="text-decoration: none;">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anish-2005&layout=compact&theme=radical&border_color=30363d&langs_count=8" alt="Top Languages" />
   </a>
   <a href="https://github.com/Anish-2005" style="text-decoration: none;">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Anish-2005&repo=Anish-2005&theme=radical&border_color=30363d" alt="Profile Repo Card" />
