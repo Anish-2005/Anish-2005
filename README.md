@@ -71,39 +71,45 @@
   </a>
 </p>
 
-<div align="center" style="margin: 18px auto; padding: 12px 14px; width: 840px; max-width: 96%; border: 1px solid rgba(255,255,255,0.08); border-radius: 14px; background: rgba(255,255,255,0.02); box-sizing: border-box;">
-  <h2 style="margin: 0 0 8px; color: #e6edf3;">Live GitHub Analytics</h2>
+<div align="center">
 
-  <a href="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats?user_id=123315153" target="_blank" style="display: block" align="center">
+##  Live GitHub Analytics
+
+<a href="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats?user_id=123315153" target="_blank">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=123315153&image_size=auto&color_scheme=dark" width="840" height="auto">
-    <img alt="Dashboard stats of @Anish-2005" src="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=123315153&image_size=auto&color_scheme=light" width="840" height="auto">
+    <source media="(prefers-color-scheme: dark)" srcset="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=123315153&image_size=auto&color_scheme=dark" width="800" height="auto">
+    <img alt="Dashboard stats of @Anish-2005" src="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=123315153&image_size=auto&color_scheme=light" width="800" height="auto">
   </picture>
 </a>
 
-  
+<br/>
+
+##  GitHub Streak
+
+<a href="https://git.io/streak-stats">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Anish-2005&theme=radical" alt="GitHub Streak" width="800" />
+</a>
+
+<br/>
+
+##  GitHub Statistics
+
+<p align="center">
+  <a href="https://github.com/Anish-2005">
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Anish-2005&layout=compact&theme=radical&border_color=30363d&langs_count=8" alt="Top Languages" width="410" height="195" style="width: 410px; height: 195px; max-width: 100%; object-fit: contain; display: inline-block; vertical-align: top;" />
+  </a>
+  <a href="https://github.com/Anish-2005">
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Anish-2005&repo=Anish-2005&theme=radical&border_color=30363d" alt="Profile Repo Card" width="410" height="195" style="width: 410px; height: 195px; max-width: 100%; object-fit: contain; display: inline-block; vertical-align: top;" />
+  </a>
+</p>
+
+##  Development Activity Heatmap
+<a href="https://github.com/Anish-2005">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Anish-2005&theme=radical" alt="Activity Graph" width="800" />
+  </a>
+
+
 </div>
-<div align="center" style="margin: 14px auto; width: 840px; ">
- <img src="https://github-readme-streak-stats.herokuapp.com/?user=Anish-2005&theme=radical" alt="GitHub Streak" style="width: 100%; max-width: 100%; height: auto;" />
- </div>
-
-<div align="center" style="margin: 14px auto; width: 840px; display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
-
- <a href="https://github.com/Anish-2005" style="text-decoration: none;">
-    <picture>
-      <source srcset="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Anish-2005&layout=compact&theme=radical&border_color=30363d&langs_count=8" />
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anish-2005&layout=compact&theme=radical&border_color=30363d&langs_count=8" alt="Top Languages" loading="lazy" style="height: 195px; width: 410px; max-width: 100%; object-fit: contain;" />
-    </picture>
-  </a>
-  <a href="https://github.com/Anish-2005" style="text-decoration: none;">
-    <picture>
-      <source srcset="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Anish-2005&repo=Anish-2005&theme=radical&border_color=30363d" />
-      <source srcset="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=Anish-2005&repo=Anish-2005&theme=radical&border_color=30363d" />
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=Anish-2005&repo=Anish-2005&theme=radical&border_color=30363d" alt="Profile Repo Card" loading="lazy" style="height: 195px; width: 410px; max-width: 100%; object-fit: contain;" />
-    </picture>
-  </a>
-  </div>
-
 
 <!-- Dynamic Stats Display -->
 <br>
@@ -120,73 +126,8 @@
 
 <!-- Animated Cards Layout -->
 <div align="center">
-  
-  <div align="center">
-    <img src="https://user-images.githubusercontent.com/74038190/212284094-e50cedf6-de86-4dd8-bfa7-75b40c5dc0a1.gif" width="80"/>\
- 
 
-  </div>
-
----
-
-
-
-<div align="center">
-
-```mermaid
-timeline
-    title  My Professional Growth Journey
-    2023 :  Foundation Year - Web Basics
-         :  HTML5 Fundamentals
-         :  CSS3 & Responsive Design
-         :  JavaScript ES6+ Mastery
-         :  DOM Manipulation & Events
-         :  First Web Projects
-    
-    2024 :  Frontend Mastery Year
-         :  React.js Deep Dive
-         :  State Management (Redux/Context)
-         :  Tailwind CSS Expertise
-         :  Responsive & Mobile-First Design
-         :  Smart India Hackathon Finalist
-         :  Component Architecture
-         :  Performance Optimization
-    
-    2025 : 🌟 Full Stack & AI Integration
-         :  Backend Excellence (Node.js)
-         :  Python & FastAPI
-         :  Database Design (MongoDB, PostgreSQL)
-         :  Cloud Architecture (AWS/GCP)
-         :  AI/ML Integration
-         :  Advanced Analytics & ML Models
-         :  System Design & Scalability
-         :  Production-Ready Applications
-```
-
-<!-- Year-wise Achievements -->
-<div align="center">
-  <h3>🏆 Year-wise Achievements & Milestones</h3>
-</div>
-
-<br><br>
-
-
-<!-- Knowledge Acquisition Path -->
-
-
-<!-- Learning Modules -->
-
-
-
-
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%"/>
-</div>
-
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&amp;weight=900&amp;size=45&amp;duration=3000&amp;pause=1000&amp;color=4ECDC4&amp;center=true&amp;vCenter=true&amp;width=800&amp;height=100&amp;lines=🎯+TECH+ARSENAL;🛠️+SKILLS+%26+TOOLS;⚡+TECHNOLOGIES" alt="Tech Arsenal Header"/>
-</div>
+## Technologies/Skills
 
 <!-- Interactive Tech Stack Display -->
 <div align="center">
@@ -220,11 +161,7 @@ timeline
 </div>
 
 
-<!-- Tech Stats Visualization -->
-<div align="center">
-  <h3> Development Activity Heatmap</h3>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Anish-2005&theme=radical" alt="Activity Graph" />
-</div>
+
 
 
 ---
@@ -257,196 +194,6 @@ timeline
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Anish-2005&theme=redical&hide_border=true&area=true&bg_color=0D1117&color=FF6B6B&line=4ECDC4&point=FFE66D&area_color=FF6B6B&title_color=4ECDC4&custom_title=💻+Anish's+Contribution+Journey" alt="Activity Graph" />
 </div>
 
----
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/221857984-5bf77e81-6f65-4502-a7c8-f29a978efb3f.gif" width="100%"/>
-</div>
-
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&amp;weight=900&amp;size=45&amp;duration=3000&amp;pause=1000&amp;color=95E1D3&amp;center=true&amp;vCenter=true&amp;width=900&amp;height=100&amp;lines=🚀+FEATURED+PROJECTS;💡+INNOVATIONS+%26+SOLUTIONS;🌟+PORTFOLIO+SHOWCASE" alt="Projects Header"/>
-</div>
-
-<!-- Interactive Project Cards -->
-<div align="center">
-  
-
-  <!-- AI Chatbot Ticketing System Card -->
-  <div align="center">
-    <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="60"/>
-    <h2>🤖 AI Chatbot Ticketing System</h2>
-    <img src="https://img.shields.io/badge/🎯_Status-Completed-success?style=for-the-badge&logo=checkmarx&logoColor=white" />
-    <img src="https://img.shields.io/badge/🔥_Type-Full%20Stack-blue?style=for-the-badge&logo=stackoverflow&logoColor=white" />
-    <img src="https://img.shields.io/badge/⭐_Featured-Project-FFD700?style=for-the-badge&logo=star&logoColor=black" />
-    <br><br>
-    <strong>🚀 Revolutionary AI-powered ticketing platform</strong> that transforms the booking experience with intelligent multilingual chatbot support and seamless user interactions.
-    <br><br>
-
-<!-- Project Architecture -->
-```mermaid
-graph TB
-    subgraph "🎯 Frontend Layer"
-        A[👤 User Interface<br/>React + PWA]
-        B[💬 Chat Widget<br/>Dialogflow UI]
-    end
-    
-    subgraph "⚡ Backend Services"
-        C[🔄 API Gateway<br/>FastAPI]
-        D[🤖 Chat Service<br/>Node.js]
-        E[💳 Payment Service<br/>Django]
-        F[🎟️ Booking Engine<br/>FastAPI]
-    end
-    
-    subgraph "🧠 AI & Intelligence"
-        G[🌐 Dialogflow NLP<br/>Multilingual]
-        H[🎯 Recommendation<br/>ML Engine]
-    end
-    
-    subgraph "💾 Data Layer"
-        I[(🍃 MongoDB<br/>Bookings)]
-        J[(🔴 Redis<br/>Cache)]
-        K[(📊 Analytics DB)]
-    end
-    
-    A -->|Requests| C
-    B -->|Messages| D
-    D -->|NLP| G
-    C -->|Route| F
-    C -->|Process| E
-    F -->|Recommend| H
-    F -->|Store| I
-    C -->|Cache| J
-    E -->|Logs| K
-    
-    style A fill:#FF6B6B,stroke:#fff,stroke-width:2px,color:#fff
-    style G fill:#4ECDC4,stroke:#fff,stroke-width:2px,color:#fff
-    style I fill:#FFE66D,stroke:#fff,stroke-width:2px,color:#000
-```
-
-<table>
-  <tr>
-    <th>✨ Key Innovations</th>
-    <th>🛠️ Technology Stack</th>
-  </tr>
-  <tr>
-    <td align="left" valign="top">
-      <ul>
-        <li>🌐 <b>Smart Multilingual Support</b> via Google Dialogflow</li>
-        <li>⚡ <b>Real-time Seat Management</b> with live updates</li>
-        <li>📱 <b>Progressive Web App</b> with offline capabilities</li>
-        <li>🔐 <b>Secure Payment Gateway</b> integration</li>
-        <li>📊 <b>Advanced Analytics Dashboard</b> for insights</li>
-        <li>🎯 <b>Personalized Recommendations</b> engine</li>
-      </ul>
-    </td>
-    <td align="left" valign="top">
-      <ul>
-        <li><b>Frontend:</b> React.js, Tailwind CSS, PWA</li>
-        <li><b>Backend:</b> FastAPI, Node.js, Django</li>
-        <li><b>Database:</b> MongoDB, Redis</li>
-        <li><b>AI:</b> Google Dialogflow, NLP</li>
-        <li><b>Deploy:</b> Vercel, Railway, Docker</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-<br>
-
-<a href="https://github.com/Anish-2005">
-  <img src="https://img.shields.io/badge/View%20Live%20Demo-FF6B6B?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo"/>
-</a>
-<a href="https://github.com/Anish-2005">
-  <img src="https://img.shields.io/badge/Source%20Code-000000?style=for-the-badge&logo=github&logoColor=white" alt="Source Code"/>
-</a>
-
-  </div>
-
-  <br><br>
-
-  <!-- Legal AI Assistant Card -->
-  <div align="center">
-    <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="60"/>
-    <h2>⚖️ Legal AI Assistant</h2>
-    <img src="https://img.shields.io/badge/🔧_Status-In%20Development-orange?style=for-the-badge&logo=codeforces&logoColor=white" />
-    <img src="https://img.shields.io/badge/🤖_Type-AI%2FML-purple?style=for-the-badge&logo=tensorflow&logoColor=white" />
-    <img src="https://img.shields.io/badge/🏆_Award-Winning-gold?style=for-the-badge&logo=trophy&logoColor=black" />
-    <br><br>
-    <strong>💡 Next-generation legal research platform</strong> powered by advanced AI algorithms for intelligent document analysis and automated legal assistance.
-    <br><br>
-
-<!-- Legal AI System Architecture -->
-```mermaid
-flowchart TD
-    A[📄 User Query/Document] --> B{🧠 NLP Processor<br/>spaCy + BERT}
-    B -->|Analyze| C[🔍 Semantic Search<br/>Legal Database]
-    B -->|Extract| D[📋 Entity Recognition<br/>Legal Terms]
-    
-    C --> E[🎯 Relevance Ranker<br/>TensorFlow ML]
-    D --> E
-    
-    E --> F{📊 Processing Type}
-    F -->|Research| G[⚖️ Case Law Analysis]
-    F -->|Document| H[📝 Contract Review]
-    F -->|Consult| I[💬 GPT-4 Assistant]
-    
-    G --> J[📈 Prediction Model<br/>Case Outcomes]
-    H --> K[✅ Compliance Check<br/>Legal Standards]
-    I --> L[💡 Recommendations<br/>Legal Advice]
-    
-    J --> M[📑 Formatted Report]
-    K --> M
-    L --> M
-    
-    M --> N[👤 User Dashboard]
-    
-    style B fill:#9B59B6,stroke:#fff,stroke-width:2px,color:#fff
-    style E fill:#3498DB,stroke:#fff,stroke-width:2px,color:#fff
-    style M fill:#2ECC71,stroke:#fff,stroke-width:2px,color:#fff
-    style N fill:#F39C12,stroke:#fff,stroke-width:2px,color:#000
-```
-
-<table>
-  <tr>
-    <th>✨ AI-Powered Features</th>
-    <th>🛠️ Technology Stack</th>
-  </tr>
-  <tr>
-    <td align="left" valign="top">
-      <ul>
-        <li>🔍 <b>Intelligent Legal Research</b> with semantic search</li>
-        <li>📋 <b>Automated Document Analysis</b> & summarization</li>
-        <li>📝 <b>Smart Contract Generator</b> with templates</li>
-        <li>💬 <b>24/7 Legal Consultation</b> chatbot</li>
-        <li>📊 <b>Case Outcome Prediction</b> using ML</li>
-        <li>🎯 <b>Compliance Monitoring</b> automation</li>
-      </ul>
-    </td>
-    <td align="left" valign="top">
-      <ul>
-        <li><b>Frontend:</b> Next.js, React, TypeScript</li>
-        <li><b>Backend:</b> Node.js, Express, Python</li>
-        <li><b>Database:</b> MongoDB, PostgreSQL</li>
-        <li><b>AI/ML:</b> TensorFlow, spaCy, BERT</li>
-        <li><b>API:</b> OpenAI GPT, Legal APIs</li>
-        <li><b>Deploy:</b> AWS, Docker, Kubernetes</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-<br>
-
-<a href="https://github.com/Anish-2005">
-  <img src="https://img.shields.io/badge/View%20Progress-4ECDC4?style=for-the-badge&logo=github&logoColor=white" alt="View Progress"/>
-</a>
-<a href="https://github.com/Anish-2005">
-  <img src="https://img.shields.io/badge/Documentation-FFE66D?style=for-the-badge&logo=gitbook&logoColor=black" alt="Documentation"/>
-</a>
-
-  </div>
-
-</div>
 
 <!-- Project Statistics -->
 <div align="center">
