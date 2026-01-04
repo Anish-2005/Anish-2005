@@ -1,39 +1,35 @@
+<p align="center">
+  <img src="https://portfolio-anish-seth-1.vercel.app/_next/image?url=%2Fprofile.png&w=256&q=75" width="120" style="border-radius:50%" />
+</p>
+
+<h1 align="center">Anish Seth</h1>
+
+<p align="center">
+  <strong>Full Stack Developer</strong> • <strong>UI/UX Craftsman</strong> • <strong>AI/ML Explorer</strong>
+</p>
+
+<p align="center">
+  Building polished digital products end-to-end — from interface systems and product thinking to scalable backend services, experimentation, and launch.
+</p>
 
 
-<!-- Hero Card (GitHub-friendly, mobile-first) -->
-<div align="center" style="margin: 0 auto 22px; padding: 18px 14px; width: 100%; max-width: 880px; border-radius: 16px; border: 1px solid rgba(255,255,255,0.08); background: #0d1117; box-sizing: border-box;">
-  <div style="display: flex; flex-wrap: wrap; gap: 14px; align-items: center; justify-content: center; text-align: center;">
-    <img src="https://portfolio-anish-seth-1.vercel.app/_next/image?url=%2Fprofile.png&w=384&q=75" alt="Anish Seth" style="width: 110px; height: 110px; max-width: 30vw; max-height: 30vw; border-radius: 50%; border: 2px solid #FF6B6B; box-shadow: 0 0 14px rgba(255,107,107,0.45); object-fit: cover;"/>
-    <div style="flex: 1 1 240px; max-width: 520px; display: flex; flex-direction: column; gap: 6px; align-items: center;">
-      <h1 style="margin: 0; color: #e6edf3; font-size: clamp(24px, 6vw, 32px);">Anish Seth</h1>
-      <p style="margin: 0; color: #95e1d3; font-size: clamp(13px, 3.5vw, 16px); font-weight: 700;">Full Stack Developer • UI/UX Craftsman • AI/ML Explorer</p>
-      <p style="margin: 2px 0 6px; color: #c9d1d9; line-height: 1.55; font-size: clamp(13px, 3.5vw, 15px);">Building polished digital experiences end-to-end — from product thinking and interface systems to scalable services, experimentation, and launch.</p>
-    </div>
-  </div>
+<p align="center">
+  <img src="https://img.shields.io/badge/Featured_Developer-FF6B6B?style=for-the-badge&logo=github&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Available_for_Hire-4ECDC4?style=for-the-badge&logo=handshake&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Hackathon_Finalist-FFE66D?style=for-the-badge&logo=trophy&logoColor=black"/>
+</p>
 
-  <div style="margin: 10px 0 12px; display: flex; gap: 8px; justify-content: center; flex-wrap: wrap;">
-    <img src="https://img.shields.io/badge/Featured_Developer-FF6B6B?style=for-the-badge&logo=github&logoColor=white&labelColor=000000" alt="Featured Developer"/>
-    <img src="https://img.shields.io/badge/Available_for_Hire-4ECDC4?style=for-the-badge&logo=handshake&logoColor=white&labelColor=000000" alt="Available for Hire"/>
-    <img src="https://img.shields.io/badge/Portfolio_Ready-FFE66D?style=for-the-badge&logo=rocket&logoColor=000&labelColor=000000" alt="Portfolio Ready"/>
-    <img src="https://img.shields.io/badge/Award_Winner-FF6B6B?style=for-the-badge&logo=trophy&logoColor=white&labelColor=000000" alt="Award Winner"/>
-  </div>
 
-  <div style="margin: 10px 0 12px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
-    <a href="https://portfolio-anish-seth-1.vercel.app/" style="text-decoration: none;">
-      <img src="https://img.shields.io/badge/View_Portfolio-FF6B6B?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
-    </a>
-    <a href="mailto:anishseth0510@gmail.com" style="text-decoration: none;">
-      <img src="https://img.shields.io/badge/Book_a_Call-4ECDC4?style=for-the-badge&logo=gmail&logoColor=white" alt="Book a Call"/>
-    </a>
-    <a href="https://github.com/Anish-2005" style="text-decoration: none;">
-      <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-    </a>
-    <a href="https://www.linkedin.com/in/anish-seth-202200290/" style="text-decoration: none;">
-      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-    </a>
-  </div>
+<div align="center">
+
+##  Let’s Build Something Impactful
+
 </div>
 
+<p align="center">
+  I enjoy working on meaningful products, clean interfaces, and scalable systems.<br/>
+  Always open to collaboration, internships, freelance, and full-time roles.
+</p>
 
 
 
@@ -75,6 +71,18 @@
   </a>
 
 
+</div>
+<!-- Trophy Display -->
+<div align="center">
+  
+ ## GitHub Trophy Collection
+ 
+  <img src="https://github-profile-trophy.vercel.app/?username=Anish-2005&theme=radical&no-frame=true&margin-w=10&margin-h=10&column=8&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" alt="GitHub Trophies" />
+</div>
+
+<!-- Contribution Graph -->
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Anish-2005&theme=redical&hide_border=true&area=true&bg_color=0D1117&color=FF6B6B&line=4ECDC4&point=FFE66D&area_color=FF6B6B&title_color=4ECDC4" alt="Activity Graph" />
 </div>
 
 <!-- Dynamic Stats Display -->
@@ -120,20 +128,7 @@
 
 </div>
 
-
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%"/>
-</div>
-
-
-
-
-
 ---
-
-
-
 
 <!-- Enhanced Stats Layout -->
 
@@ -148,29 +143,18 @@
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Anish-2005&theme=radical" alt="Repos per Language" />
 </div>
 
-<!-- Trophy Display -->
-<div align="center">
-  <h3>🏆 GitHub Trophy Collection</h3>
-  <img src="https://github-profile-trophy.vercel.app/?username=Anish-2005&theme=radical&no-frame=true&margin-w=10&margin-h=10&column=8&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" alt="GitHub Trophies" />
-</div>
 
-<!-- Contribution Graph -->
-<div align="center">
-  <h3>📈 Contribution Activity Graph</h3>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Anish-2005&theme=redical&hide_border=true&area=true&bg_color=0D1117&color=FF6B6B&line=4ECDC4&point=FFE66D&area_color=FF6B6B&title_color=4ECDC4&custom_title=💻+Anish's+Contribution+Journey" alt="Activity Graph" />
-</div>
 
 
 <!-- Project Statistics -->
 <div align="center">
-  <h2>📊 Project Development Statistics</h2>
+  <h2>Project Development Statistics</h2>
   <img src="https://img.shields.io/badge/Total%20Projects-25+-FF6B6B?style=for-the-badge&logo=folder&logoColor=white" alt="Total Projects"/>
   <img src="https://img.shields.io/badge/Languages%20Used-12+-4ECDC4?style=for-the-badge&logo=code&logoColor=white" alt="Languages"/>
   <img src="https://img.shields.io/badge/Frameworks-15+-FFE66D?style=for-the-badge&logo=framework&logoColor=black" alt="Frameworks"/>
   <img src="https://img.shields.io/badge/Live%20Demos-8+-95E1D3?style=for-the-badge&logo=demo&logoColor=black" alt="Live Demos"/>
 </div>
 
----
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212284126-7f84ae14-bb7e-4956-832c-59db76c60e1d.gif" width="100%"/>
