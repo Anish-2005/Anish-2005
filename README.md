@@ -34,42 +34,8 @@
   </div>
 </div>
 
-<!-- Social Links (compact, two-tier) -->
-<div align="center" style="margin: 16px auto 12px; padding: 10px 12px; width: 100%; max-width: 900px; display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 14px; box-sizing: border-box;">
-  <a href="https://www.anishseth.xyz" title="Portfolio" style="text-decoration: none; display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 10px 12px; background: linear-gradient(135deg, #ff6b6b, #ff8e53); color: #fff; border-radius: 12px; font-weight: 700;">
-    🌐 Portfolio
-  </a>
-  <a href="mailto:anishseth0510@gmail.com" title="Email" style="text-decoration: none; display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 10px 12px; background: linear-gradient(135deg, #4ecdc4, #34a0a4); color: #0d1117; border-radius: 12px; font-weight: 700;">
-    ✉️ Email
-  </a>
-  <a href="https://github.com/Anish-2005" title="GitHub" style="text-decoration: none; display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 10px 12px; background: #181717; color: #fff; border-radius: 12px; font-weight: 700;">
-    🐙 GitHub
-  </a>
-  <a href="https://www.linkedin.com/in/anishseth" title="LinkedIn" style="text-decoration: none; display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 10px 12px; background: #0a66c2; color: #fff; border-radius: 12px; font-weight: 700;">
-    💼 LinkedIn
-  </a>
-  <a href="https://x.com/AnishSeth170734" title="X/Twitter" style="text-decoration: none; display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 10px 12px; background: #1d9bf0; color: #fff; border-radius: 12px; font-weight: 700;">
-    🐦 X / Twitter
-  </a>
-</div>
-<!-- Social Links (template-inspired) -->
-<p align="center">
-  <a href="https://portfolio-anish-seth-1.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-ff6b6b?style=flat&logo=vercel&logoColor=white" alt="Portfolio"/>
-  </a>
-  <a href="mailto:anishseth0510@gmail.com">
-    <img src="https://img.shields.io/badge/Email-4ecdc4?style=flat&logo=gmail&logoColor=0d1117" alt="Email"/>
-  </a>
-  <a href="https://github.com/Anish-2005">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  <a href="https://www.linkedin.com/in/anish-seth-202200290/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="https://x.com/AnishSeth170734">
-    <img src="https://img.shields.io/badge/X-1d9bf0?style=flat&logo=x&logoColor=white" alt="X"/>
-  </a>
-</p>
+
+
 
 <div align="center">
 
