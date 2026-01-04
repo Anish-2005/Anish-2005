@@ -497,9 +497,6 @@ flowchart TD
   <img src="https://user-images.githubusercontent.com/74038190/212284126-7f84ae14-bb7e-4956-832c-59db76c60e1d.gif" width="100%"/>
 </div>
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&amp;weight=900&amp;size=45&amp;duration=3000&amp;pause=1000&amp;color=36BCF7&amp;center=true&amp;vCenter=true&amp;width=900&amp;height=100&amp;lines=🤝+LET'S+CONNECT;🌐+BUILD+TOGETHER;💫+COLLABORATE" alt="Connect Header"/>
-</div>
 
 
 <!-- Network Statistics -->
@@ -507,15 +504,35 @@ flowchart TD
   <h2>Connect With Me</h2>
 </div>
 
-| Platform | 🎯 Purpose | 📈 Stats | 🔗 Link |
-|:---:|:---:|:---:|:---:|
-| **LinkedIn** 💼 | Professional Networking | **500+** Connections | <a href="https://www.linkedin.com/in/anish-seth-202200290/"><img src="https://img.shields.io/badge/Connect-0077B5?style=flat-square&logo=linkedin&logoColor=white"/></a> |
-| **GitHub** 🐙 | Open Source & Projects | **40+** Repositories | <a href="https://github.com/Anish-2005"><img src="https://img.shields.io/badge/Follow-000000?style=flat-square&logo=github&logoColor=white"/></a> |
-| **Twitter/X** 🐦 | Tech Updates & Insights | **Active** Community | <a href="https://x.com/AnishSeth170734"><img src="https://img.shields.io/badge/Follow-1DA1F2?style=flat-square&logo=twitter&logoColor=white"/></a> |
-| **Instagram** 📸 | Creative & Design | **Design** Showcase | <a href="https://instagram.com/anish_seth.ai"><img src="https://img.shields.io/badge/Follow-E4405F?style=flat-square&logo=instagram&logoColor=white"/></a> |
-| **Portfolio** 🌐 | Live Projects | **15+** Projects | <a href="https://portfolio-anish-seth-1.vercel.app/"><img src="https://img.shields.io/badge/Visit-FF5722?style=flat-square&logo=firefox&logoColor=white"/></a> |
-| **Email** 📧 | Direct Contact | **24/7** Response | <a href="mailto:anishseth0510@gmail.com"><img src="https://img.shields.io/badge/Contact-D14836?style=flat-square&logo=gmail&logoColor=white"/></a> |
+<div align="center" style="margin: 10px auto 6px; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px; width: 100%; max-width: 1000px; box-sizing: border-box;">
+  <a href="https://github.com/Anish-2005" style="text-decoration: none;">
+    <img src="https://github-widgetbox.vercel.app/api/profile?username=Anish-2005&data=followers,repositories,stars,commits&theme=radical" alt="GitHub Profile Widget" />
+  </a>
+  <a href="https://github.com/Anish-2005?tab=repositories" style="text-decoration: none;">
+    <img src="https://github-widgetbox.vercel.app/api/skills?theme=dark&icons=react,nextjs,nodejs,typescript,python,tailwind,postgresql,mongodb,aws" alt="Tech Skills Widget" />
+  </a>
+  <a href="https://github.com/Anish-2005" style="text-decoration: none;">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Anish-2005&repo=Anish-2005&theme=radical&border_color=30363d" alt="Profile Repo Card" />
+  </a>
+</div>
 
+<p align="center" style="margin: 8px 0 0; display: flex; flex-wrap: wrap; gap: 8px; justify-content: center;">
+  <a href="https://www.linkedin.com/in/anish-seth-202200290/">
+    <img src="https://img.shields.io/badge/Connect-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:anishseth0510@gmail.com">
+    <img src="https://img.shields.io/badge/Email-anishseth0510%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://x.com/AnishSeth170734">
+    <img src="https://img.shields.io/badge/Follow-X-1D9BF0?style=flat&logo=x&logoColor=white" alt="X" />
+  </a>
+  <a href="https://www.anishseth.xyz">
+    <img src="https://img.shields.io/badge/Portfolio-anishseth.xyz-FF6B6B?style=flat&logo=firefox&logoColor=white" alt="Portfolio" />
+  </a>
+  <a href="https://instagram.com/anish_seth.ai">
+    <img src="https://img.shields.io/badge/Follow-Instagram-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
+</p>
 
 </div>
 <!-- Snake Contribution Animation -->
