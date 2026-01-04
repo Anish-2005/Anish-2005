@@ -71,26 +71,39 @@
   </a>
 </p>
 
-<div align="center" style="margin: 18px auto; padding: 12px 14px; max-width: 980px; border: 1px solid rgba(255,255,255,0.08); border-radius: 14px; background: rgba(255,255,255,0.02); box-sizing: border-box;">
+<div align="center" style="margin: 18px auto; padding: 12px 14px; width: 840px; max-width: 96%; border: 1px solid rgba(255,255,255,0.08); border-radius: 14px; background: rgba(255,255,255,0.02); box-sizing: border-box;">
   <h2 style="margin: 0 0 8px; color: #e6edf3;">Live GitHub Analytics</h2>
 
   <a href="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats?user_id=123315153" target="_blank" style="display: block" align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=123315153&image_size=auto&color_scheme=dark" width="771" height="auto">
-    <img alt="Dashboard stats of @Anish-2005" src="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=123315153&image_size=auto&color_scheme=light" width="771" height="auto">
+    <source media="(prefers-color-scheme: dark)" srcset="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=123315153&image_size=auto&color_scheme=dark" width="840" height="auto">
+    <img alt="Dashboard stats of @Anish-2005" src="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=123315153&image_size=auto&color_scheme=light" width="840" height="auto">
   </picture>
 </a>
 
   
 </div>
+<div align="center" style="margin: 14px auto; width: 840px; ">
+ <img src="https://github-readme-streak-stats.herokuapp.com/?user=Anish-2005&theme=radical" alt="GitHub Streak" style="width: 100%; max-width: 100%; height: auto;" />
+ </div>
 
-<!-- COMMIT_STREAK_END -->
+<div align="center" style="margin: 14px auto; width: 840px; display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
 
+ <a href="https://github.com/Anish-2005" style="text-decoration: none;">
+    <picture>
+      <source srcset="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Anish-2005&layout=compact&theme=radical&border_color=30363d&langs_count=8" />
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anish-2005&layout=compact&theme=radical&border_color=30363d&langs_count=8" alt="Top Languages" loading="lazy" style="height: 195px; width: 410px; max-width: 100%; object-fit: contain;" />
+    </picture>
+  </a>
+  <a href="https://github.com/Anish-2005" style="text-decoration: none;">
+    <picture>
+      <source srcset="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Anish-2005&repo=Anish-2005&theme=radical&border_color=30363d" />
+      <source srcset="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=Anish-2005&repo=Anish-2005&theme=radical&border_color=30363d" />
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=Anish-2005&repo=Anish-2005&theme=radical&border_color=30363d" alt="Profile Repo Card" loading="lazy" style="height: 195px; width: 410px; max-width: 100%; object-fit: contain;" />
+    </picture>
+  </a>
+  </div>
 
-<!-- Inspirational Quote with Animation -->
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Comic+Neue&amp;weight=600&amp;size=22&amp;duration=4000&amp;pause=2000&amp;color=36BCF7&amp;center=true&amp;vCenter=true&amp;width=800&amp;height=50&amp;lines=💭+Building+the+future%2C+one+line+of+code+at+a+time;🎯+Turning+ideas+into+digital+reality;🚀+Innovation+through+technology+and+creativity" alt="Quote Animation"/>
-</div>
 
 <!-- Dynamic Stats Display -->
 <br>
@@ -100,69 +113,25 @@
   <img src="https://img.shields.io/github/stars/Anish-2005?style=for-the-badge&color=yellow&labelColor=000000&label=STARS" alt="Stars"/>
 </div>
 
-<!-- Floating Elements Animation -->
-<img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="100" align="left"/>
-<img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="100" align="right"/>
-
 </div>
 
 <br><br>
 
-
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&amp;weight=900&amp;size=45&amp;duration=3000&amp;pause=1000&amp;color=FF6B6B&amp;center=true&amp;vCenter=true&amp;width=600&amp;height=100&amp;lines=🚀+ABOUT+ME;💫+WHO+AM+I%3F;🌟+MY+JOURNEY" alt="About Me Header"/>
-</div>
 
 <!-- Animated Cards Layout -->
 <div align="center">
   
   <div align="center">
     <img src="https://user-images.githubusercontent.com/74038190/212284094-e50cedf6-de86-4dd8-bfa7-75b40c5dc0a1.gif" width="80"/>\
+ 
+
   </div>
-
-<!-- Current Focus Cards with Enhanced Design -->
-<div align="center">
-
-| 🎓 Education | 🌱 Currently Learning | 🔭 Building |
-|:---:|:---:|:---:|
-| <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="50"/> <br> **Computer Science Engineering** <br> <sub>@ Techno Main Salt Lake</sub> | <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="50"/> <br> **React.js** • **Next.js** <br> <sub>Node.js & AI/ML Mastery</sub> | <img src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif" width="50"/> <br> **AI-Powered Solutions** <br> <sub>Scalable Applications</sub> |
-| 👯 Open to | 💬 Expertise | ⚡ Hobbies |\
-| <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="50"/> <br> **Collaborations** <br> <sub>Innovative Projects</sub> | <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="50"/> <br> **Full Stack Dev** <br> <sub>UI/UX Design Expert</sub> | <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="50"/> <br> **Photography** <br> <sub>Graphic Design 📸</sub> |
-
-</div>
 
 ---
 
-<div align="center">
-  <h3>🌟 Goals & Vision</h3>
-</div>
-
-
-```mermaid
-mindmap
-  root((🏆 My Goals & Vision))
-    "Smart India Hackathon"
-      ("Finalist 2024")
-    "Web Innovation"
-      ("Next-Gen Experiences")
-    "AI Pioneer"
-      ("AI-Driven Solutions")
-    "UI/UX Design"
-      ("Intuitive Interfaces")
-    "Mobile First"
-      ("Responsive Development")
-    "Open Source"
-      ("Community Contributor")
-    "Lifelong Learning"
-      ("Continuous Growth")
-```
-
 
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Anish-2005&theme=dark" alt="Streak Stats"/>
-  <br />
-  <img src="https://img.shields.io/github/last-commit/Anish-2005/Anish-2005?style=for-the-badge" alt="Last Commit" />
 
 ```mermaid
 timeline
@@ -262,19 +231,16 @@ timeline
 
 
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&amp;weight=900&amp;size=45&amp;duration=3000&amp;pause=1000&amp;color=FFE66D&amp;center=true&amp;vCenter=true&amp;width=800&amp;height=100&amp;lines=📊+GITHUB+ANALYTICS;📈+CODE+STATISTICS;🏆+ACHIEVEMENTS" alt="GitHub Stats Header"/>
-</div>
 
 <!-- Enhanced Stats Layout -->
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Anish-2005&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true&custom_title=💻+Anish's+GitHub+Journey" alt="GitHub Stats" />
-  
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Anish-2005&theme=radical" alt="GitHub Streak" />
-</div>
+
 
 <div align="center">
-  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs?username=Anish-2005&show_icons=true&locale=en&layout=compact&theme=radical&hide_border=true&langs_count=10&custom_title=🔥+Most+Used+Languages" alt="Top Languages" />
+  <picture>
+    <source srcset="https://github-readme-stats-sigma-five.vercel.app/api/top-langs?username=Anish-2005&show_icons=true&locale=en&layout=compact&theme=radical&hide_border=true&langs_count=10&custom_title=🔥+Most+Used+Languages" />
+    <source srcset="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs?username=Anish-2005&show_icons=true&locale=en&layout=compact&theme=radical&hide_border=true&langs_count=10&custom_title=🔥+Most+Used+Languages" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Anish-2005&show_icons=true&locale=en&layout=compact&theme=radical&hide_border=true&langs_count=10&custom_title=🔥+Most+Used+Languages" alt="Top Languages" loading="lazy" />
+  </picture>
   
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Anish-2005&theme=radical" alt="Repos per Language" />
 </div>
@@ -508,31 +474,28 @@ flowchart TD
   <a href="https://github.com/Anish-2005" style="text-decoration: none;">
     <img src="https://github-widgetbox.vercel.app/api/profile?username=Anish-2005&data=followers,repositories,stars,commits&theme=radical" alt="GitHub Profile Widget" />
   </a>
-  <a href="https://github.com/Anish-2005" style="text-decoration: none;">
-    <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Anish-2005&layout=compact&theme=radical&border_color=30363d&langs_count=8" alt="Top Languages" />
+  
+</div>
+
+<div align="center" style="margin:16px 0 0;">
+  <a href="https://www.linkedin.com/in/anish-seth-202200290/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Let’s%20Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://github.com/Anish-2005" style="text-decoration: none;">
-    <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=Anish-2005&repo=Anish-2005&theme=radical&border_color=30363d" alt="Profile Repo Card (mirror)" />
+  <a href="mailto:anishseth0510@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Start%20a%20Conversation-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://x.com/AnishSeth170734" target="_blank">
+    <img src="https://img.shields.io/badge/X-Follow%20Updates-000000?style=for-the-badge&logo=x&logoColor=white" />
+  </a>
+  <a href="https://www.anishseth.xyz" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-anishseth.xyz-FF6B6B?style=for-the-badge&logo=firefox&logoColor=white" />
+  </a>
+  <a href="https://instagram.com/anish_seth.ai" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-Behind%20the%20Scenes-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
   </a>
 </div>
 
-<p align="center" style="margin: 8px 0 0; display: flex; flex-wrap: wrap; gap: 8px; justify-content: center;">
-  <a href="https://www.linkedin.com/in/anish-seth-202200290/">
-    <img src="https://img.shields.io/badge/Connect-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:anishseth0510@gmail.com">
-    <img src="https://img.shields.io/badge/Email-anishseth0510%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://x.com/AnishSeth170734">
-    <img src="https://img.shields.io/badge/Follow-X-1D9BF0?style=flat&logo=x&logoColor=white" alt="X" />
-  </a>
-  <a href="https://www.anishseth.xyz">
-    <img src="https://img.shields.io/badge/Portfolio-anishseth.xyz-FF6B6B?style=flat&logo=firefox&logoColor=white" alt="Portfolio" />
-  </a>
-  <a href="https://instagram.com/anish_seth.ai">
-    <img src="https://img.shields.io/badge/Follow-Instagram-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram" />
-  </a>
-</p>
+
 
 </div>
 <!-- Snake Contribution Animation -->
@@ -541,20 +504,9 @@ flowchart TD
   <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/Anish-2005/Anish-2005/output/github-contribution-grid-snake.svg" />
 </div>
 
-<!-- Final Wave Footer -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=gradient&amp;customColorList=0,2,2,5,30&amp;height=150&amp;section=footer&amp;animation=twinkling" width="100%" />
-</div>
 
-<!-- Closing Credits -->
-<div align="center">
-  <h3>🌟 "The best way to predict the future is to create it." - Peter Drucker</h3>
-  <p><strong>Keep coding, keep dreaming, keep inspiring! ✨</strong></p>
-  
-  <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="50"/>
-  <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="50"/>
-  <img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="50"/>
-  
+
+
   <br><br>
   
   <sub>⭐️ Crafted with ❤️ by <a href="https://github.com/Anish-2005">Anish Seth</a> - Powered by passion, fueled by ☕, and inspired by endless possibilities</sub>
