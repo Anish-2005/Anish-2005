@@ -1,210 +1,293 @@
-<p align="center">
-  <img src="https://portfolio-anish-seth-1.vercel.app/_next/image?url=%2Fprofile.png&w=256&q=75" width="120" style="border-radius:50%" />
-</p>
-
-<h1 align="center">Anish Seth</h1>
-
-<p align="center">
-  <strong>Full Stack Developer</strong> • <strong>UI/UX Craftsman</strong> • <strong>AI/ML Explorer</strong>
-</p>
-
-<p align="center">
-  Building polished digital products end-to-end — from interface systems and product thinking to scalable backend services, experimentation, and launch.
-</p>
-
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Featured_Developer-FF6B6B?style=for-the-badge&logo=github&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Available_for_Hire-4ECDC4?style=for-the-badge&logo=handshake&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Hackathon_Finalist-FFE66D?style=for-the-badge&logo=trophy&logoColor=black"/>
-</p>
-
+<!-- ═══════════════════════════════════════════════════════════════════════════════════════════════ -->
+<!-- 🌟 ANISH SETH - GITHUB PROFILE README                                                          -->
+<!-- ═══════════════════════════════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
+  
+<!-- Animated Header Banner -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,50:764abc,100:6B8DD6&height=200&section=header&text=Anish%20Seth&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Developer%20●%20AI/ML%20Engineer%20●%20Web3%20Explorer&descSize=18&descAlignY=55&descAlign=50"/>
 
-##  Let’s Build Something Impactful
-
-</div>
-
-<p align="center">
-  I enjoy working on meaningful products, clean interfaces, and scalable systems.<br/>
-  Always open to collaboration, internships, freelance, and full-time roles.
-</p>
-
-
-
-<div align="center">
-
-##  Live GitHub Analytics
-
-<a href="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats?user_id=123315153" target="_blank">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=123315153&image_size=auto&color_scheme=dark" width="800" height="auto">
-    <img alt="Dashboard stats of @Anish-2005" src="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=123315153&image_size=auto&color_scheme=light" width="800" height="auto">
-  </picture>
+<!-- Typing SVG -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=6B8DD6&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=800&height=100&lines=Building+scalable+web+solutions+with+Next.js+%26+React;Smart+India+Hackathon+2024+Finalist+%F0%9F%8F%86;Crafting+AI-powered+products+that+make+an+impact" alt="Typing SVG" />
 </a>
 
-<br/>
-
-##  GitHub Streak
-
-<a href="https://git.io/streak-stats">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Anish-2005&theme=radical" alt="GitHub Streak" width="800" />
-</a>
-
-<br/>
-
-##  GitHub Statistics
-
-<p align="center">
-  <a href="https://github.com/Anish-2005">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Anish-2005&layout=compact&theme=radical&border_color=30363d&langs_count=8" alt="Top Languages" width="410" height="195" style="width: 410px; height: 195px; max-width: 100%; object-fit: contain; display: inline-block; vertical-align: top;" />
-  </a>
-  <a href="https://github.com/Anish-2005">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Anish-2005&repo=Anish-2005&theme=radical&border_color=30363d" alt="Profile Repo Card" width="410" height="195" style="width: 410px; height: 195px; max-width: 100%; object-fit: contain; display: inline-block; vertical-align: top;" />
-  </a>
-</p>
-
-##  Development Activity Heatmap
-<a href="https://github.com/Anish-2005">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Anish-2005&theme=radical" alt="Activity Graph" width="800" />
-  </a>
-
-
-</div>
-<!-- Trophy Display -->
-<div align="center">
-  
- ## GitHub Trophy Collection
- 
-  <img src="https://github-profile-trophy.vercel.app/?username=Anish-2005&theme=radical&no-frame=true&margin-w=10&margin-h=10&column=8&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" alt="GitHub Trophies" />
-</div>
-
-<!-- Contribution Graph -->
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Anish-2005&theme=redical&hide_border=true&area=true&bg_color=0D1117&color=FF6B6B&line=4ECDC4&point=FFE66D&area_color=FF6B6B&title_color=4ECDC4" alt="Activity Graph" />
-</div>
-
-<!-- Dynamic Stats Display -->
-<br>
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Anish-2005&style=for-the-badge&color=blueviolet&label=PROFILE+VIEWS" alt="Profile Views"/>
-  <img src="https://img.shields.io/github/followers/Anish-2005?style=for-the-badge&color=blue&labelColor=000000&label=FOLLOWERS" alt="Followers"/>
-  <img src="https://img.shields.io/github/stars/Anish-2005?style=for-the-badge&color=yellow&labelColor=000000&label=STARS" alt="Stars"/>
-</div>
-
-</div>
-
-<br><br>
-
-
-<!-- Animated Cards Layout -->
-<div align="center">
-
-## Technologies/Skills
-
-<!-- Interactive Tech Stack Display -->
-<div align="center">
-
-### 🌟 **Programming Languages**
+<!-- Quick Action Badges -->
 <p>
-  <img src="https://skillicons.dev/icons?i=html,css,js,python,java,php,cpp,c,typescript&theme=dark" />
-</p>
-
-### 🚀 **Frameworks & Libraries**
-<p>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,angular,tailwind,bootstrap,django,flask,express&theme=dark" />
-</p>
-
-### 🗄️ **Databases & Cloud**
-<p>
-  <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgresql,firebase,gcp,aws,redis,graphql&theme=dark" />
-</p>
-
-### 🛠️ **Tools & Platforms**
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,figma,photoshop,postman,docker,linux&theme=dark" />
-</p>
-
-</div>
-
----
-
-<!-- Enhanced Stats Layout -->
-
-
-<div align="center">
-  <picture>
-    <source srcset="https://github-readme-stats-sigma-five.vercel.app/api/top-langs?username=Anish-2005&show_icons=true&locale=en&layout=compact&theme=radical&hide_border=true&langs_count=10&custom_title=🔥+Most+Used+Languages" />
-    <source srcset="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs?username=Anish-2005&show_icons=true&locale=en&layout=compact&theme=radical&hide_border=true&langs_count=10&custom_title=🔥+Most+Used+Languages" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Anish-2005&show_icons=true&locale=en&layout=compact&theme=radical&hide_border=true&langs_count=10&custom_title=🔥+Most+Used+Languages" alt="Top Languages" loading="lazy" />
-  </picture>
-  
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Anish-2005&theme=radical" alt="Repos per Language" />
-</div>
-
-
-
-
-<!-- Project Statistics -->
-<div align="center">
-  <h2>Project Development Statistics</h2>
-  <img src="https://img.shields.io/badge/Total%20Projects-25+-FF6B6B?style=for-the-badge&logo=folder&logoColor=white" alt="Total Projects"/>
-  <img src="https://img.shields.io/badge/Languages%20Used-12+-4ECDC4?style=for-the-badge&logo=code&logoColor=white" alt="Languages"/>
-  <img src="https://img.shields.io/badge/Frameworks-15+-FFE66D?style=for-the-badge&logo=framework&logoColor=black" alt="Frameworks"/>
-  <img src="https://img.shields.io/badge/Live%20Demos-8+-95E1D3?style=for-the-badge&logo=demo&logoColor=black" alt="Live Demos"/>
-</div>
-
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284126-7f84ae14-bb7e-4956-832c-59db76c60e1d.gif" width="100%"/>
-</div>
-
-
-
-<!-- Network Statistics -->
-<div align="center">
-  <h2>Connect With Me</h2>
-</div>
-
-<div align="center" style="margin: 10px auto 6px; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px; width: 100%; max-width: 1000px; box-sizing: border-box;">
-  <a href="https://github.com/Anish-2005" style="text-decoration: none;">
-    <img src="https://github-widgetbox.vercel.app/api/profile?username=Anish-2005&data=followers,repositories,stars,commits&theme=radical" alt="GitHub Profile Widget" />
-  </a>
-  
-</div>
-
-<div align="center" style="margin:16px 0 0;">
-  <a href="https://www.linkedin.com/in/anish-seth-202200290/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Let’s%20Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  <a href="https://www.anishseth.xyz" target="_blank">
+    <img src="https://img.shields.io/badge/🌐_Portfolio-anishseth.xyz-667eea?style=for-the-badge&labelColor=0a0a0a" alt="Portfolio"/>
   </a>
   <a href="mailto:anishseth0510@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Start%20a%20Conversation-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/📧_Email-anishseth0510-ea4335?style=for-the-badge&labelColor=0a0a0a" alt="Email"/>
   </a>
-  <a href="https://x.com/AnishSeth170734" target="_blank">
-    <img src="https://img.shields.io/badge/X-Follow%20Updates-000000?style=for-the-badge&logo=x&logoColor=white" />
+  <a href="https://www.linkedin.com/in/anish-seth-202200290/" target="_blank">
+    <img src="https://img.shields.io/badge/💼_LinkedIn-Connect-0A66C2?style=for-the-badge&labelColor=0a0a0a" alt="LinkedIn"/>
   </a>
-  <a href="https://www.anishseth.xyz" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-anishseth.xyz-FF6B6B?style=for-the-badge&logo=firefox&logoColor=white" />
-  </a>
-  <a href="https://instagram.com/anish_seth.ai" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-Behind%20the%20Scenes-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-  </a>
+</p>
+
+<!-- Profile Views & Followers -->
+<p>
+  <img src="https://komarev.com/ghpvc/?username=Anish-2005&style=for-the-badge&color=667eea&label=PROFILE+VIEWS" alt="Profile Views"/>
+  <img src="https://img.shields.io/github/followers/Anish-2005?style=for-the-badge&color=764abc&labelColor=0a0a0a&label=FOLLOWERS" alt="Followers"/>
+  <img src="https://img.shields.io/github/stars/Anish-2005?style=for-the-badge&color=6B8DD6&labelColor=0a0a0a&label=TOTAL+STARS" alt="Stars"/>
+</p>
+
 </div>
 
+<!-- ═══════════════════════════════════════════════════════════════════════════════════════════════ -->
+<!-- 📌 ABOUT ME SECTION                                                                            -->
+<!-- ═══════════════════════════════════════════════════════════════════════════════════════════════ -->
 
+<img align="right" width="300" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" alt="Coding"/>
 
-</div>
-<!-- Snake Contribution Animation -->
+## 🧑‍💻 About Me
+
+> *Building polished digital products end-to-end — from interface systems and product thinking to scalable backend services, experimentation, and launch.*
+
+I'm a **Full-Stack Developer** from India, passionate about crafting exceptional digital experiences. I specialize in building **scalable web applications** using modern frameworks and love exploring the intersection of **AI/ML** and **Web3** technologies.
+
+- 🏆 **Smart India Hackathon 2024 Finalist**
+- 🚀 Currently working on **AI-powered applications** & **Web3 projects**
+- 🌱 Exploring **Machine Learning**, **Blockchain**, and **Cloud Architecture**
+- 💼 Open for **collaborations**, **internships**, and **full-time opportunities**
+- 🎯 Focus Areas: **Legal Tech** • **Healthcare Tech** • **Social Impact** • **AgriTech**
+
+<br clear="both"/>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════════════════════════ -->
+<!-- 🛠️ TECH STACK SECTION                                                                          -->
+<!-- ═══════════════════════════════════════════════════════════════════════════════════════════════ -->
+
 <div align="center">
-  <h2>🐍 Watch My Contributions Get Devoured!</h2>
-  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/Anish-2005/Anish-2005/output/github-contribution-grid-snake.svg" />
+
+## 💻 Tech Stack & Tools
+
+<table>
+<tr>
+<td align="center" width="50%">
+
+### 🎨 Frontend Development
+<br/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,typescript,javascript,html,css,tailwind,angular&theme=dark&perline=4" />
+<br/><br/>
+<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
+<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white"/>
+
+</td>
+<td align="center" width="50%">
+
+### ⚙️ Backend Development
+<br/>
+<img src="https://skillicons.dev/icons?i=nodejs,express,python,django,flask,java,php,graphql&theme=dark&perline=4" />
+<br/><br/>
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white"/>
+<img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white"/>
+
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+
+### 🗄️ Database & Cloud
+<br/>
+<img src="https://skillicons.dev/icons?i=mongodb,postgresql,mysql,firebase,redis,gcp,aws,docker&theme=dark&perline=4" />
+<br/><br/>
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
+<img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black"/>
+<img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white"/>
+
+</td>
+<td align="center" width="50%">
+
+### 🧰 Tools & Platforms
+<br/>
+<img src="https://skillicons.dev/icons?i=git,github,vscode,figma,postman,linux,vercel,netlify&theme=dark&perline=4" />
+<br/><br/>
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white"/>
+
+</td>
+</tr>
+</table>
+
+### 🧠 AI/ML & Web3
+<p>
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow"/>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
+  <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn"/>
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI"/>
+  <img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white" alt="Ethereum"/>
+  <img src="https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white" alt="Solidity"/>
+  <img src="https://img.shields.io/badge/Web3.js-F16822?style=for-the-badge&logo=web3.js&logoColor=white" alt="Web3.js"/>
+</p>
+
 </div>
 
+<!-- ═══════════════════════════════════════════════════════════════════════════════════════════════ -->
+<!-- 📊 GITHUB ANALYTICS SECTION                                                                    -->
+<!-- ═══════════════════════════════════════════════════════════════════════════════════════════════ -->
 
+<div align="center">
 
+## 📊 GitHub Analytics
 
-  <br><br>
+<!-- Stats Cards Row -->
+<p>
+  <a href="https://github.com/Anish-2005">
+    <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Anish-2005&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=667eea&icon_color=764abc&text_color=c9d1d9&custom_title=GitHub%20Stats" alt="GitHub Stats"/>
+  </a>
+  <a href="https://github.com/Anish-2005">
+    <img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=Anish-2005&theme=tokyonight&hide_border=true&background=0D1117&ring=667eea&fire=764abc&currStreakLabel=667eea&sideLabels=c9d1d9&dates=586069" alt="GitHub Streak"/>
+  </a>
+</p>
+
+<!-- Languages & Contribution Graph -->
+<p>
+  <img width="40%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Anish-2005&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=667eea&text_color=c9d1d9&langs_count=10" alt="Top Languages"/>
+  <img width="58%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Anish-2005&theme=tokyonight" alt="Profile Summary"/>
+</p>
+
+<!-- Activity Graph -->
+<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=Anish-2005&bg_color=0d1117&color=667eea&line=764abc&point=6B8DD6&area=true&area_color=667eea&hide_border=true&custom_title=Contribution%20Graph" alt="Activity Graph"/>
+
+<!-- Trophy Display -->
+<br/>
+<img src="https://github-profile-trophy.vercel.app/?username=Anish-2005&theme=onestar&no-frame=true&no-bg=true&margin-w=10&column=7" alt="GitHub Trophies"/>
+
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════════════════════════ -->
+<!-- 🚀 FEATURED PROJECTS SECTION                                                                   -->
+<!-- ═══════════════════════════════════════════════════════════════════════════════════════════════ -->
+
+<div align="center">
+
+## 🚀 Featured Projects
+
+<a href="https://github.com/Anish-2005?tab=repositories">
+  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Anish-2005&repo=Anish-2005&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=667eea&icon_color=764abc" alt="Profile Repo"/>
+</a>
+
+<p>
+  <i>⚡ Check out my <a href="https://www.anishseth.xyz">portfolio</a> for more projects and live demos!</i>
+</p>
+
+<!-- Project Stats -->
+<p>
+  <img src="https://img.shields.io/badge/25+_Projects-667eea?style=for-the-badge&logo=github&logoColor=white" alt="Projects"/>
+  <img src="https://img.shields.io/badge/12+_Languages-764abc?style=for-the-badge&logo=code&logoColor=white" alt="Languages"/>
+  <img src="https://img.shields.io/badge/15+_Frameworks-6B8DD6?style=for-the-badge&logo=framework&logoColor=white" alt="Frameworks"/>
+  <img src="https://img.shields.io/badge/8+_Live_Demos-4ECDC4?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demos"/>
+</p>
+
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════════════════════════ -->
+<!-- 🏆 ACHIEVEMENTS SECTION                                                                        -->
+<!-- ═══════════════════════════════════════════════════════════════════════════════════════════════ -->
+
+<div align="center">
+
+## 🏆 Achievements & Recognition
+
+<table>
+<tr>
+<td align="center" width="50%">
   
-  <sub>⭐️ Crafted with ❤️ by <a href="https://github.com/Anish-2005">Anish Seth</a> - Powered by passion, fueled by ☕, and inspired by endless possibilities</sub>
+### 🎖️ Smart India Hackathon 2024
+**Finalist** 🏅
+
+*One of India's largest innovation challenges, recognized for developing impactful tech solutions*
+
+</td>
+<td align="center" width="50%">
+
+### 📈 Development Metrics
+<br/>
+<img src="https://img.shields.io/badge/Lines_of_Code-100K+-667eea?style=flat-square&logo=visual-studio-code&logoColor=white"/>
+<br/><br/>
+<img src="https://img.shields.io/badge/Years_of_Experience-3+-764abc?style=flat-square&logo=clockify&logoColor=white"/>
+<br/><br/>
+<img src="https://img.shields.io/badge/Coffee_Consumed-∞-6B8DD6?style=flat-square&logo=buy-me-a-coffee&logoColor=white"/>
+
+</td>
+</tr>
+</table>
+
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════════════════════════ -->
+<!-- 🐍 SNAKE ANIMATION                                                                             -->
+<!-- ═══════════════════════════════════════════════════════════════════════════════════════════════ -->
+
+<div align="center">
+
+## 🐍 Contribution Snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anish-2005/Anish-2005/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anish-2005/Anish-2005/output/github-contribution-grid-snake.svg">
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/Anish-2005/Anish-2005/output/github-contribution-grid-snake.svg">
+</picture>
+
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════════════════════════ -->
+<!-- 📫 CONNECT SECTION                                                                             -->
+<!-- ═══════════════════════════════════════════════════════════════════════════════════════════════ -->
+
+<div align="center">
+
+## 🤝 Let's Connect
+
+<p>
+  <i>I'm always excited to collaborate on impactful projects, discuss innovative ideas, or simply have a tech chat!</i>
+</p>
+
+<a href="https://www.anishseth.xyz" target="_blank">
+  <img src="https://img.shields.io/badge/🌐_Portfolio-anishseth.xyz-667eea?style=for-the-badge&logoColor=white" alt="Portfolio"/>
+</a>
+<a href="https://www.linkedin.com/in/anish-seth-202200290/" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-Anish_Seth-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+<a href="mailto:anishseth0510@gmail.com">
+  <img src="https://img.shields.io/badge/Email-anishseth0510@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+</a>
+<a href="https://x.com/AnishSeth170734" target="_blank">
+  <img src="https://img.shields.io/badge/X-@AnishSeth-000000?style=for-the-badge&logo=x&logoColor=white" alt="X (Twitter)"/>
+</a>
+<a href="https://instagram.com/anish_seth.ai" target="_blank">
+  <img src="https://img.shields.io/badge/Instagram-anish__seth.ai-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+</a>
+
+<br/><br/>
+
+<!-- GitHub Widget Box -->
+<a href="https://github.com/Anish-2005">
+  <img src="https://github-widgetbox.vercel.app/api/profile?username=Anish-2005&data=followers,repositories,stars,commits&theme=nautilus" alt="GitHub Profile Widget"/>
+</a>
+
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════════════════════════ -->
+<!-- FOOTER                                                                                         -->
+<!-- ═══════════════════════════════════════════════════════════════════════════════════════════════ -->
+
+<br/>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,50:764abc,100:6B8DD6&height=120&section=footer"/>
+
+<div align="center">
+  <sub>
+    ⭐️ <b>Crafted with passion</b> by <a href="https://github.com/Anish-2005">Anish Seth</a> • Powered by ☕ and endless curiosity
+    <br/><br/>
+    <i>"Code is poetry written in logic"</i>
+  </sub>
 </div>
