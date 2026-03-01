@@ -255,6 +255,13 @@ I'm a **Full-Stack Developer** from India, passionate about crafting exceptional
 
 *One of India's largest innovation challenges, recognized for developing impactful tech solutions*
 
+<br/>
+
+### 🎖️ Smart India Hackathon 2025
+**Finalist** 🏅
+
+*Continuing to build and present innovation-driven solutions through national-level hackathon collaboration.*
+
 </td>
 <td align="center" width="50%">
 
