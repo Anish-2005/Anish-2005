@@ -38,7 +38,7 @@
 
 ## 🔎 Quick Navigation
 
-[🧑‍💻 About Me](#-about-me) • [💻 Tech Stack & Tools](#-tech-stack--tools) • [📊 GitHub Analytics](#-github-analytics) • [🚀 Featured Projects](#-featured-projects) • [🏆 Achievements](#-achievements--recognition) • [🐍 Contribution Snake](#-contribution-snake) • [🤝 Let's Connect](#-lets-connect)
+[🧑‍💻 About Me](#about-me) • [💻 Tech Stack & Tools](#tech-stack--tools) • [📊 GitHub Analytics](#github-analytics) • [🚀 Featured Projects](#featured-projects) • [🏆 Achievements](#achievements--recognition) • [🐍 Contribution Snake](#contribution-snake) • [🤝 Let's Connect](#lets-connect)
 
 </div>
 
@@ -47,6 +47,8 @@
 <!-- ═══════════════════════════════════════════════════════════════════════════════════════════════ -->
 
 <img align="right" width="300" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" alt="Coding"/>
+
+<a id="about-me"></a>
 
 ## 🧑‍💻 About Me
 
@@ -60,6 +62,25 @@ I'm a **Full-Stack Developer** from India, passionate about crafting exceptional
 - 💼 Open for **collaborations**, **internships**, and **full-time opportunities**
 - 🎯 Focus Areas: **Legal Tech** • **Healthcare Tech** • **Social Impact** • **AgriTech**
 
+<table>
+<tr>
+  <td><b>📍 Based In</b></td>
+  <td>India</td>
+</tr>
+<tr>
+  <td><b>🧭 Primary Role</b></td>
+  <td>Full-Stack Developer</td>
+</tr>
+<tr>
+  <td><b>🤝 Availability</b></td>
+  <td>Collaborations • Internships • Full-time Opportunities</td>
+</tr>
+<tr>
+  <td><b>⚡ Current Focus</b></td>
+  <td>AI-powered products, Web3 development, and scalable web systems</td>
+</tr>
+</table>
+
 <br clear="both"/>
 
 <!-- ═══════════════════════════════════════════════════════════════════════════════════════════════ -->
@@ -67,6 +88,8 @@ I'm a **Full-Stack Developer** from India, passionate about crafting exceptional
 <!-- ═══════════════════════════════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
+
+<a id="tech-stack--tools"></a>
 
 ## 💻 Tech Stack & Tools
 
@@ -144,6 +167,8 @@ I'm a **Full-Stack Developer** from India, passionate about crafting exceptional
 
 <div align="center">
 
+<a id="github-analytics"></a>
+
 ## 📊 GitHub Analytics
 
 <!-- Stats Cards Row -->
@@ -177,10 +202,16 @@ I'm a **Full-Stack Developer** from India, passionate about crafting exceptional
 
 <div align="center">
 
+<a id="featured-projects"></a>
+
 ## 🚀 Featured Projects
 
 <p>
   <i>Curated work from my GitHub profile with live implementations and production-focused builds.</i>
+</p>
+
+<p>
+  <i>Repository cards and analytics below are dynamically generated to reflect recent activity.</i>
 </p>
 
 <a href="https://github.com/Anish-2005?tab=repositories">
@@ -206,6 +237,8 @@ I'm a **Full-Stack Developer** from India, passionate about crafting exceptional
 <!-- ═══════════════════════════════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
+
+<a id="achievements--recognition"></a>
 
 ## 🏆 Achievements & Recognition
 
@@ -245,6 +278,8 @@ I'm a **Full-Stack Developer** from India, passionate about crafting exceptional
 
 <div align="center">
 
+<a id="contribution-snake"></a>
+
 ## 🐍 Contribution Snake
 
 <picture>
@@ -260,6 +295,8 @@ I'm a **Full-Stack Developer** from India, passionate about crafting exceptional
 <!-- ═══════════════════════════════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
+
+<a id="lets-connect"></a>
 
 ## 🤝 Let's Connect
 
