@@ -34,6 +34,14 @@
 
 </div>
 
+<div align="center">
+
+## 🔎 Quick Navigation
+
+[🧑‍💻 About Me](#-about-me) • [💻 Tech Stack & Tools](#-tech-stack--tools) • [📊 GitHub Analytics](#-github-analytics) • [🚀 Featured Projects](#-featured-projects) • [🏆 Achievements](#-achievements--recognition) • [🐍 Contribution Snake](#-contribution-snake) • [🤝 Let's Connect](#-lets-connect)
+
+</div>
+
 <!-- ═══════════════════════════════════════════════════════════════════════════════════════════════ -->
 <!-- 📌 ABOUT ME SECTION                                                                            -->
 <!-- ═══════════════════════════════════════════════════════════════════════════════════════════════ -->
@@ -44,10 +52,10 @@
 
 > *Building polished digital products end-to-end — from interface systems and product thinking to scalable backend services, experimentation, and launch.*
 
-I'm a **Full-Stack Developer** from India, passionate about crafting exceptional digital experiences. I specialize in building **scalable web applications** using modern frameworks and love exploring the intersection of **AI/ML** and **Web3** technologies.
+I'm a **Full-Stack Developer** from India, passionate about crafting exceptional digital experiences. I focus on building **scalable web applications** with modern frameworks and exploring the intersection of **AI/ML** and **Web3** technologies.
 
 - 🏆 **Smart India Hackathon 2024 Finalist**
-- 🚀 Currently working on **AI-powered applications** & **Web3 projects**
+- 🚀 Currently building **AI-powered applications** & **Web3 projects**
 - 🌱 Exploring **Machine Learning**, **Blockchain**, and **Cloud Architecture**
 - 💼 Open for **collaborations**, **internships**, and **full-time opportunities**
 - 🎯 Focus Areas: **Legal Tech** • **Healthcare Tech** • **Social Impact** • **AgriTech**
@@ -171,6 +179,10 @@ I'm a **Full-Stack Developer** from India, passionate about crafting exceptional
 
 ## 🚀 Featured Projects
 
+<p>
+  <i>Curated work from my GitHub profile with live implementations and production-focused builds.</i>
+</p>
+
 <a href="https://github.com/Anish-2005?tab=repositories">
   <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Anish-2005&repo=Anish-2005&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=667eea&icon_color=764abc" alt="Profile Repo"/>
 </a>
@@ -196,6 +208,10 @@ I'm a **Full-Stack Developer** from India, passionate about crafting exceptional
 <div align="center">
 
 ## 🏆 Achievements & Recognition
+
+<p>
+  <i>Milestones that reflect consistency, experimentation, and real-world impact.</i>
+</p>
 
 <table>
 <tr>
@@ -248,7 +264,7 @@ I'm a **Full-Stack Developer** from India, passionate about crafting exceptional
 ## 🤝 Let's Connect
 
 <p>
-  <i>I'm always excited to collaborate on impactful projects, discuss innovative ideas, or simply have a tech chat!</i>
+  <i>I'm always excited to collaborate on impactful projects, discuss innovative ideas, or just have a tech chat.</i>
 </p>
 
 <a href="https://www.anishseth.xyz" target="_blank">
