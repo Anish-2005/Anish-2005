@@ -1,0 +1,915 @@
+<svg width="1200" height="1110"
+     viewBox="0 0 1200 1110"
+     fill="none"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <!-- ═══════════════════════════════════════════════════ -->
+    <!-- BACKGROUND -->
+    <!-- ═══════════════════════════════════════════════════ -->
+
+    <linearGradient id="bg"
+                    x1="0" y1="0"
+                    x2="1200" y2="1110"
+                    gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A0E1A"/>
+      <stop offset="0.48" stop-color="#0D1120"/>
+      <stop offset="1" stop-color="#080B14"/>
+    </linearGradient>
+
+    <linearGradient id="aurora"
+                    x1="80" y1="0"
+                    x2="1120" y2="0"
+                    gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6C63FF"/>
+      <stop offset="0.5" stop-color="#8175FF"/>
+      <stop offset="1" stop-color="#00D9FF"/>
+    </linearGradient>
+
+    <linearGradient id="aiAccent"
+                    x1="0" y1="0"
+                    x2="1" y2="1">
+      <stop stop-color="#6C63FF"/>
+      <stop offset="1" stop-color="#00D9FF"/>
+    </linearGradient>
+
+    <linearGradient id="systemAccent"
+                    x1="0" y1="0"
+                    x2="1" y2="1">
+      <stop stop-color="#00A6A6"/>
+      <stop offset="1" stop-color="#00D9FF"/>
+    </linearGradient>
+
+    <linearGradient id="card"
+                    x1="0" y1="0"
+                    x2="1" y2="1">
+      <stop stop-color="#12172A"/>
+      <stop offset="1" stop-color="#0D1221"/>
+    </linearGradient>
+
+    <pattern id="grid"
+             width="40"
+             height="40"
+             patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40"
+            stroke="#FFFFFF"
+            stroke-opacity="0.022"
+            stroke-width="1"/>
+    </pattern>
+
+    <filter id="glow"
+            x="-100%" y="-100%"
+            width="300%" height="300%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="smallGlow"
+            x="-100%" y="-100%"
+            width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!-- CANVAS -->
+  <!-- ═══════════════════════════════════════════════════ -->
+
+  <rect width="1200"
+        height="1110"
+        rx="28"
+        fill="url(#bg)"/>
+
+  <rect width="1200"
+        height="1110"
+        rx="28"
+        fill="url(#grid)"/>
+
+  <circle cx="90"
+          cy="90"
+          r="155"
+          fill="#6C63FF"
+          fill-opacity="0.065"
+          filter="url(#glow)"/>
+
+  <circle cx="1110"
+          cy="940"
+          r="170"
+          fill="#00D9FF"
+          fill-opacity="0.045"
+          filter="url(#glow)"/>
+
+  <rect x="1"
+        y="1"
+        width="1198"
+        height="1108"
+        rx="27"
+        stroke="#FFFFFF"
+        stroke-opacity="0.08"/>
+
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!-- HEADER -->
+  <!-- ═══════════════════════════════════════════════════ -->
+
+  <text x="60" y="60"
+        fill="#8B7CFF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="11"
+        font-weight="750"
+        letter-spacing="3">
+    SELECTED WORK / PROJECTS
+  </text>
+
+  <text x="60" y="105"
+        fill="#F7F8FF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="30"
+        font-weight="750">
+    Systems I've built.
+  </text>
+
+  <text x="60" y="136"
+        fill="#8E97AE"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="14">
+    A selection of AI systems, engineering projects and production-oriented experiments.
+  </text>
+
+  <rect x="1010"
+        y="43"
+        width="130"
+        height="32"
+        rx="16"
+        fill="#11182A"
+        stroke="#6C63FF"
+        stroke-opacity="0.28"/>
+
+  <circle cx="1030"
+          cy="59"
+          r="4"
+          fill="#00D9FF"
+          filter="url(#smallGlow)"/>
+
+  <text x="1043"
+        y="64"
+        fill="#C7CDE0"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10"
+        font-weight="700">
+    SELECTED
+  </text>
+
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!-- AI PROJECTS LABEL -->
+  <!-- ═══════════════════════════════════════════════════ -->
+
+  <text x="60" y="184"
+        fill="#69748D"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10"
+        font-weight="750"
+        letter-spacing="2">
+    01 / AI &amp; ML
+  </text>
+
+  <text x="60" y="214"
+        fill="#F0F3FA"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="17"
+        font-weight="700">
+    Intelligence-first systems
+  </text>
+
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!-- REPORT FORGE -->
+  <!-- ═══════════════════════════════════════════════════ -->
+
+  <rect x="60"
+        y="240"
+        width="530"
+        height="250"
+        rx="18"
+        fill="url(#card)"
+        stroke="#6C63FF"
+        stroke-opacity="0.27"/>
+
+  <rect x="60"
+        y="240"
+        width="530"
+        height="3"
+        rx="1.5"
+        fill="url(#aiAccent)"/>
+
+  <text x="88" y="275"
+        fill="#69748D"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10"
+        font-weight="750"
+        letter-spacing="2">
+    01
+  </text>
+
+  <rect x="492"
+        y="259"
+        width="70"
+        height="24"
+        rx="12"
+        fill="#17152C"/>
+
+  <text x="527"
+        y="275"
+        text-anchor="middle"
+        fill="#A89FFF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="9"
+        font-weight="700">
+    AGENTIC
+  </text>
+
+  <text x="88" y="316"
+        fill="#F7F8FF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="23"
+        font-weight="750">
+    Report-Forge
+  </text>
+
+  <text x="88" y="347"
+        fill="#AEB7CC"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="12">
+    Agentic research &amp; automated report generation.
+  </text>
+
+  <text x="88" y="370"
+        fill="#8E97AE"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="11">
+    Plans research tasks, retrieves sources,
+  </text>
+
+  <text x="88" y="389"
+        fill="#8E97AE"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="11">
+    and synthesizes structured reports autonomously.
+  </text>
+
+  <!-- Architecture -->
+
+  <text x="88" y="419"
+        fill="#69748D"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="8"
+        font-weight="750"
+        letter-spacing="1.5">
+    PIPELINE
+  </text>
+
+  <text x="88" y="445"
+        fill="#8B7CFF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10"
+        font-weight="650">
+    PLAN
+  </text>
+
+  <text x="130" y="445"
+        fill="#59647A"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10">
+    →
+  </text>
+
+  <text x="147" y="445"
+        fill="#8B7CFF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10"
+        font-weight="650">
+    RETRIEVE
+  </text>
+
+  <text x="210" y="445"
+        fill="#59647A"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10">
+    →
+  </text>
+
+  <text x="227" y="445"
+        fill="#8B7CFF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10"
+        font-weight="650">
+    REASON
+  </text>
+
+  <text x="276" y="445"
+        fill="#59647A"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10">
+    →
+  </text>
+
+  <text x="293" y="445"
+        fill="#00D9FF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10"
+        font-weight="700">
+    SYNTHESIZE
+  </text>
+
+
+  <!-- GraphRAG -->
+
+  <rect x="610"
+        y="240"
+        width="530"
+        height="250"
+        rx="18"
+        fill="url(#card)"
+        stroke="#00D9FF"
+        stroke-opacity="0.23"/>
+
+  <rect x="610"
+        y="240"
+        width="530"
+        height="3"
+        rx="1.5"
+        fill="#00D9FF"/>
+
+  <text x="638" y="275"
+        fill="#69748D"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10"
+        font-weight="750"
+        letter-spacing="2">
+    02
+  </text>
+
+  <rect x="1038"
+        y="259"
+        width="74"
+        height="24"
+        rx="12"
+        fill="#102329"/>
+
+  <text x="1075"
+        y="275"
+        text-anchor="middle"
+        fill="#7CEAFF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="9"
+        font-weight="700">
+    RETRIEVAL
+  </text>
+
+  <text x="638" y="316"
+        fill="#F7F8FF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="23"
+        font-weight="750">
+    GraphRAG Knowledge Engine
+  </text>
+
+  <text x="638" y="347"
+        fill="#AEB7CC"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="12">
+    Graph-based retrieval for grounded LLM reasoning.
+  </text>
+
+  <text x="638" y="370"
+        fill="#8E97AE"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="11">
+    Connects entities and relationships inside a
+  </text>
+
+  <text x="638" y="389"
+        fill="#8E97AE"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="11">
+    structured knowledge graph rather than flat retrieval alone.
+  </text>
+
+  <text x="638" y="419"
+        fill="#69748D"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="8"
+        font-weight="750"
+        letter-spacing="1.5">
+    RETRIEVAL LAYER
+  </text>
+
+  <text x="638" y="445"
+        fill="#00D9FF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10"
+        font-weight="650">
+    KNOWLEDGE GRAPH
+  </text>
+
+  <text x="748" y="445"
+        fill="#59647A"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10">
+    →
+  </text>
+
+  <text x="766" y="445"
+        fill="#00D9FF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10"
+        font-weight="650">
+    RETRIEVAL
+  </text>
+
+  <text x="830" y="445"
+        fill="#59647A"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10">
+    →
+  </text>
+
+  <text x="848" y="445"
+        fill="#00D9FF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10"
+        font-weight="650">
+    GROUNDED REASONING
+  </text>
+
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!-- SECOND AI ROW -->
+  <!-- ═══════════════════════════════════════════════════ -->
+
+  <!-- Scam Agent -->
+
+  <rect x="60"
+        y="515"
+        width="350"
+        height="190"
+        rx="18"
+        fill="url(#card)"
+        stroke="#6C63FF"
+        stroke-opacity="0.19"/>
+
+  <rect x="60"
+        y="515"
+        width="350"
+        height="3"
+        rx="1.5"
+        fill="#6C63FF"/>
+
+  <text x="88" y="550"
+        fill="#69748D"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10"
+        font-weight="750"
+        letter-spacing="2">
+    03
+  </text>
+
+  <text x="88" y="585"
+        fill="#F7F8FF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="20"
+        font-weight="750">
+    AI Scam Detection Agent
+  </text>
+
+  <text x="88" y="615"
+        fill="#AEB7CC"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="11">
+    LLM-driven fraud detection
+  </text>
+
+  <text x="88" y="635"
+        fill="#8E97AE"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="11">
+    for text and transaction signals.
+  </text>
+
+  <rect x="88" y="660"
+        width="80"
+        height="24"
+        rx="12"
+        fill="#17152C"/>
+
+  <text x="128" y="676"
+        text-anchor="middle"
+        fill="#A89FFF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="9"
+        font-weight="650">
+    OPENAI
+  </text>
+
+  <rect x="178" y="660"
+        width="83"
+        height="24"
+        rx="12"
+        fill="#17152C"/>
+
+  <text x="219" y="676"
+        text-anchor="middle"
+        fill="#A89FFF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="9"
+        font-weight="650">
+    PYTHON
+  </text>
+
+
+  <!-- Vanmitra -->
+
+  <rect x="425"
+        y="515"
+        width="350"
+        height="190"
+        rx="18"
+        fill="url(#card)"
+        stroke="#00A6A6"
+        stroke-opacity="0.20"/>
+
+  <rect x="425"
+        y="515"
+        width="350"
+        height="3"
+        rx="1.5"
+        fill="#00A6A6"/>
+
+  <text x="453" y="550"
+        fill="#69748D"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10"
+        font-weight="750"
+        letter-spacing="2">
+    04
+  </text>
+
+  <text x="453" y="585"
+        fill="#F7F8FF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="20"
+        font-weight="750">
+    Vanmitra
+  </text>
+
+  <text x="453" y="615"
+        fill="#AEB7CC"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="11">
+    AI-powered environmental monitoring
+  </text>
+
+  <text x="453" y="635"
+        fill="#8E97AE"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="11">
+    using sensor and imagery intelligence.
+  </text>
+
+  <rect x="453" y="660"
+        width="125"
+        height="24"
+        rx="12"
+        fill="#102329"/>
+
+  <text x="515" y="676"
+        text-anchor="middle"
+        fill="#7CEAFF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="9"
+        font-weight="650">
+    COMPUTER VISION
+  </text>
+
+  <rect x="588" y="660"
+        width="78"
+        height="24"
+        rx="12"
+        fill="#102329"/>
+
+  <text x="627" y="676"
+        text-anchor="middle"
+        fill="#7CEAFF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="9"
+        font-weight="650">
+    PYTORCH
+  </text>
+
+
+  <!-- AgriLink -->
+
+  <rect x="790"
+        y="515"
+        width="350"
+        height="190"
+        rx="18"
+        fill="url(#card)"
+        stroke="#00A6A6"
+        stroke-opacity="0.20"/>
+
+  <rect x="790"
+        y="515"
+        width="350"
+        height="3"
+        rx="1.5"
+        fill="#00A6A6"/>
+
+  <text x="818" y="550"
+        fill="#69748D"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10"
+        font-weight="750"
+        letter-spacing="2">
+    05
+  </text>
+
+  <text x="818" y="585"
+        fill="#F7F8FF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="20"
+        font-weight="750">
+    AgriLink
+  </text>
+
+  <text x="818" y="615"
+        fill="#AEB7CC"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="11">
+    AI + sustainability platform
+  </text>
+
+  <text x="818" y="635"
+        fill="#8E97AE"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="11">
+    for data-driven agricultural insights.
+  </text>
+
+  <rect x="818" y="660"
+        width="111"
+        height="24"
+        rx="12"
+        fill="#102329"/>
+
+  <text x="873"
+        y="676"
+        text-anchor="middle"
+        fill="#7CEAFF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="9"
+        font-weight="650">
+    SCIKIT-LEARN
+  </text>
+
+  <rect x="939" y="660"
+        width="82"
+        height="24"
+        rx="12"
+        fill="#102329"/>
+
+  <text x="980"
+        y="676"
+        text-anchor="middle"
+        fill="#7CEAFF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="9"
+        font-weight="650">
+    NODE.JS
+  </text>
+
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!-- SYSTEMS -->
+  <!-- ═══════════════════════════════════════════════════ -->
+
+  <text x="60" y="755"
+        fill="#69748D"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10"
+        font-weight="750"
+        letter-spacing="2">
+    02 / SYSTEMS
+  </text>
+
+  <text x="60" y="785"
+        fill="#F0F3FA"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="17"
+        font-weight="700">
+    Software engineering &amp; systems work
+  </text>
+
+
+  <!-- NEXORA -->
+
+  <rect x="60"
+        y="810"
+        width="530"
+        height="170"
+        rx="18"
+        fill="url(#card)"
+        stroke="#00D9FF"
+        stroke-opacity="0.19"/>
+
+  <rect x="60"
+        y="810"
+        width="530"
+        height="3"
+        rx="1.5"
+        fill="#00D9FF"/>
+
+  <text x="88" y="845"
+        fill="#69748D"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10"
+        font-weight="750"
+        letter-spacing="2">
+    06
+  </text>
+
+  <text x="88" y="879"
+        fill="#F7F8FF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="21"
+        font-weight="750">
+    NEXORA
+  </text>
+
+  <text x="88" y="907"
+        fill="#AEB7CC"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="11">
+    Real-time collaboration platform with live
+  </text>
+
+  <text x="88" y="926"
+        fill="#8E97AE"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="11">
+    document editing and multi-user presence.
+  </text>
+
+  <text x="88" y="956"
+        fill="#7CEAFF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10"
+        font-weight="650">
+    REACT
+  </text>
+
+  <text x="131" y="956"
+        fill="#59647A"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10">
+    ·
+  </text>
+
+  <text x="148" y="956"
+        fill="#7CEAFF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10"
+        font-weight="650">
+    NODE.JS
+  </text>
+
+  <text x="210" y="956"
+        fill="#59647A"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10">
+    ·
+  </text>
+
+  <text x="227" y="956"
+        fill="#7CEAFF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10"
+        font-weight="650">
+    MONGODB
+  </text>
+
+
+  <!-- MiniGit -->
+
+  <rect x="610"
+        y="810"
+        width="530"
+        height="170"
+        rx="18"
+        fill="url(#card)"
+        stroke="#FFB000"
+        stroke-opacity="0.18"/>
+
+  <rect x="610"
+        y="810"
+        width="530"
+        height="3"
+        rx="1.5"
+        fill="#FFB000"/>
+
+  <text x="638" y="845"
+        fill="#69748D"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10"
+        font-weight="750"
+        letter-spacing="2">
+    07
+  </text>
+
+  <text x="638" y="879"
+        fill="#F7F8FF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="21"
+        font-weight="750">
+    MiniGit
+  </text>
+
+  <text x="638" y="907"
+        fill="#AEB7CC"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="11">
+    Git implementation built from scratch in Java.
+  </text>
+
+  <text x="638" y="926"
+        fill="#8E97AE"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="11">
+    Object storage, commits, branching and diffing.
+  </text>
+
+  <text x="638" y="956"
+        fill="#FFC95C"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10"
+        font-weight="650">
+    JAVA
+  </text>
+
+  <text x="674" y="956"
+        fill="#59647A"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10">
+    ·
+  </text>
+
+  <text x="691" y="956"
+        fill="#FFC95C"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10"
+        font-weight="650">
+    SYSTEMS DESIGN
+  </text>
+
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!-- FOOTER -->
+  <!-- ═══════════════════════════════════════════════════ -->
+
+  <line x1="60"
+        y1="1015"
+        x2="1140"
+        y2="1015"
+        stroke="#FFFFFF"
+        stroke-opacity="0.06"/>
+
+  <text x="60" y="1042"
+        fill="#69748D"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="9"
+        font-weight="750"
+        letter-spacing="2">
+    SELECTED WORK
+  </text>
+
+  <text x="1140" y="1042"
+        text-anchor="end"
+        fill="#8B7CFF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10"
+        font-weight="700">
+    AI × SYSTEMS × PRODUCT
+  </text>
+
+</svg>
