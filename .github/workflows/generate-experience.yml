@@ -10,7 +10,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: generate-experience
+  group: aurora-profile-assets
   cancel-in-progress: false
 
 jobs:
@@ -27,13 +27,11 @@ jobs:
         shell: bash
         run: |
           mkdir -p assets
-
           cat > assets/experience.svg <<'SVG'
           <svg width="1200" height="760" viewBox="0 0 1200 760"
                fill="none" xmlns="http://www.w3.org/2000/svg">
 
             <defs>
-
               <!-- Aurora background -->
               <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="760"
                               gradientUnits="userSpaceOnUse">
@@ -91,7 +89,6 @@ jobs:
               <clipPath id="clip">
                 <rect width="1200" height="760" rx="28"/>
               </clipPath>
-
             </defs>
 
             <!-- ═══════════════════════════════════════════════════════ -->
@@ -208,7 +205,8 @@ jobs:
                   stroke="#00D9FF"
                   stroke-opacity="0.28"/>
 
-            <circle cx="414" cy="223.5" r="3.5" fill="#00D9FF"/>
+            <circle cx="414" cy="223.5" r="3.5"
+                    fill="#00D9FF"/>
 
             <text x="424" y="228"
                   fill="#8DEEFF"
@@ -254,7 +252,6 @@ jobs:
               Synthesize · Execute
             </text>
 
-
             <rect x="388" y="286" width="242" height="74" rx="12"
                   fill="url(#card)"
                   stroke="#FFFFFF"
@@ -282,7 +279,6 @@ jobs:
               Vision-based extraction
             </text>
 
-
             <rect x="646" y="286" width="242" height="74" rx="12"
                   fill="url(#card)"
                   stroke="#FFFFFF"
@@ -309,7 +305,6 @@ jobs:
                   font-size="11">
               Multi-step agent chains
             </text>
-
 
             <rect x="904" y="286" width="202" height="74" rx="12"
                   fill="url(#card)"
@@ -378,11 +373,12 @@ jobs:
               Full-Stack Engineering
             </text>
 
+            <!-- FIX: XML-safe ampersand -->
             <text x="130" y="493"
                   fill="#8E97AE"
                   font-family="Inter,Segoe UI,Arial,sans-serif"
                   font-size="13">
-              Independent projects & client work
+              Independent projects &amp; client work
             </text>
 
             <!-- Architecture pipeline -->
@@ -533,6 +529,27 @@ jobs:
 
           </svg>
           SVG
+
+      - name: Validate generated SVG
+        run: |
+          python - <<'PY'
+          import xml.etree.ElementTree as ET
+
+          path = "assets/experience.svg"
+
+          try:
+              root = ET.parse(path).getroot()
+
+              if root.tag != "{http://www.w3.org/2000/svg}svg":
+                  raise ValueError(f"Invalid SVG root: {root.tag}")
+
+              print(f"✓ Valid SVG/XML: {path}")
+
+          except Exception as e:
+              print(f"✗ Invalid SVG: {path}")
+              print(e)
+              raise SystemExit(1)
+          PY
 
       - name: Commit generated SVG
         run: |
