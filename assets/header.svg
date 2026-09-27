@@ -1,371 +1,335 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink"
   width="1200"
-  height="720"
-  viewBox="0 0 1200 720"
-  role="img"
-  aria-labelledby="title desc"
+  height="650"
+  viewBox="0 0 1200 650"
 >
-
-  <title id="title">Anish Seth — AI Systems Engineering</title>
-
-  <desc id="desc">
-    Premium Aurora profile header for Anish Seth featuring
-    AI systems engineering, navigation, GitHub profile metrics,
-    and engineering focus areas.
-  </desc>
 
   <defs>
 
-    <!-- Aurora background -->
-    <linearGradient
-      id="bg"
-      x1="0"
-      y1="0"
-      x2="1200"
-      y2="720"
-    >
-      <stop offset="0%" stop-color="#070A12"/>
-      <stop offset="48%" stop-color="#0A0E1A"/>
-      <stop offset="100%" stop-color="#0D1222"/>
+    <!-- Background -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="650"
+                    gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#090C17"/>
+      <stop offset="0.5" stop-color="#0A0E1A"/>
+      <stop offset="1" stop-color="#07131B"/>
     </linearGradient>
 
-    <!-- Main Aurora -->
-    <linearGradient
-      id="aurora"
-      x1="0"
-      y1="0"
-      x2="1200"
-      y2="0"
-    >
-      <stop offset="0%" stop-color="#6C63FF"/>
-      <stop offset="48%" stop-color="#8B7CFF"/>
-      <stop offset="100%" stop-color="#00D9FF"/>
+    <!-- Aurora -->
+    <linearGradient id="aurora" x1="80" y1="0" x2="1120" y2="0"
+                    gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6C63FF"/>
+      <stop offset="0.48" stop-color="#8277FF"/>
+      <stop offset="1" stop-color="#00D9FF"/>
     </linearGradient>
 
-    <!-- Cyan gradient -->
-    <linearGradient
-      id="cyan"
-      x1="0"
-      y1="0"
-      x2="1"
-      y2="0"
-    >
-      <stop offset="0%" stop-color="#6C63FF"/>
-      <stop offset="100%" stop-color="#00D9FF"/>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#6C63FF"/>
+      <stop offset="1" stop-color="#9A91FF"/>
     </linearGradient>
 
-    <!-- Navigation gradients -->
-    <linearGradient id="nav1">
-      <stop offset="0%" stop-color="#17172A"/>
-      <stop offset="100%" stop-color="#252040"/>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#00BFE3"/>
+      <stop offset="1" stop-color="#00D9FF"/>
     </linearGradient>
 
-    <linearGradient id="nav2">
-      <stop offset="0%" stop-color="#241C4D"/>
-      <stop offset="100%" stop-color="#302B63"/>
+    <!-- Navigation -->
+    <linearGradient id="navPurple" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#28234D"/>
+      <stop offset="1" stop-color="#1C1935"/>
     </linearGradient>
 
-    <linearGradient id="nav3">
-      <stop offset="0%" stop-color="#393075"/>
-      <stop offset="100%" stop-color="#4B3F8C"/>
+    <linearGradient id="navBlue" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#174A61"/>
+      <stop offset="1" stop-color="#113747"/>
     </linearGradient>
 
-    <linearGradient id="nav4">
-      <stop offset="0%" stop-color="#5147A5"/>
-      <stop offset="100%" stop-color="#6257C5"/>
+    <linearGradient id="navCyan" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#009BB9"/>
+      <stop offset="1" stop-color="#007B94"/>
     </linearGradient>
-
-    <linearGradient id="nav5">
-      <stop offset="0%" stop-color="#245F80"/>
-      <stop offset="100%" stop-color="#2C8CB8"/>
-    </linearGradient>
-
-    <linearGradient id="nav6">
-      <stop offset="0%" stop-color="#087E98"/>
-      <stop offset="100%" stop-color="#00A6C9"/>
-    </linearGradient>
-
-    <linearGradient id="nav7">
-      <stop offset="0%" stop-color="#0095B7"/>
-      <stop offset="100%" stop-color="#00C0E0"/>
-    </linearGradient>
-
-    <linearGradient id="nav8">
-      <stop offset="0%" stop-color="#00B7D8"/>
-      <stop offset="100%" stop-color="#00D9FF"/>
-    </linearGradient>
-
-    <!-- Metric gradients -->
-    <linearGradient id="metricViolet">
-      <stop offset="0%" stop-color="#6C63FF"/>
-      <stop offset="100%" stop-color="#857CFF"/>
-    </linearGradient>
-
-    <linearGradient id="metricCyan">
-      <stop offset="0%" stop-color="#00BFE3"/>
-      <stop offset="100%" stop-color="#00D9FF"/>
-    </linearGradient>
-
-    <!-- Soft glow -->
-    <filter
-      id="glow"
-      x="-100%"
-      y="-100%"
-      width="300%"
-      height="300%"
-    >
-      <feGaussianBlur
-        stdDeviation="18"
-        result="blur"
-      />
-    </filter>
-
-    <filter
-      id="smallGlow"
-      x="-100%"
-      y="-100%"
-      width="300%"
-      height="300%"
-    >
-      <feGaussianBlur
-        stdDeviation="7"
-        result="blur"
-      />
-    </filter>
 
     <!-- Grid -->
     <pattern
       id="grid"
-      width="42"
-      height="42"
+      width="38"
+      height="38"
       patternUnits="userSpaceOnUse"
     >
       <path
-        d="M 42 0 L 0 0 0 42"
+        d="M38 0H0V38"
         fill="none"
-        stroke="#6C63FF"
-        stroke-opacity="0.065"
+        stroke="#FFFFFF"
+        stroke-opacity="0.025"
         stroke-width="1"
       />
     </pattern>
 
-    <!-- Mask for subtle fading grid -->
-    <radialGradient id="gridFade">
-      <stop offset="0%" stop-color="white"/>
-      <stop offset="75%" stop-color="white"/>
-      <stop offset="100%" stop-color="black"/>
-    </radialGradient>
+    <!-- Glows -->
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="35"/>
+    </filter>
 
-    <mask id="gridMask">
-      <rect
-        width="1200"
-        height="720"
-        fill="url(#gridFade)"
-      />
-    </mask>
+    <filter id="smallBlur">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+
+    <filter id="textGlow">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
 
   </defs>
 
-  <!-- ═════════════════════════════════════════════════════ -->
-  <!-- BACKGROUND                                           -->
-  <!-- ═════════════════════════════════════════════════════ -->
+  <!-- ================================================== -->
+  <!-- BACKGROUND -->
+  <!-- ================================================== -->
 
   <rect
     width="1200"
-    height="720"
-    rx="30"
+    height="650"
+    rx="28"
     fill="url(#bg)"
   />
 
-  <!-- subtle grid -->
   <rect
-    x="0"
-    y="0"
     width="1200"
-    height="720"
+    height="650"
+    rx="28"
     fill="url(#grid)"
-    mask="url(#gridMask)"
   />
 
-  <!-- ambient violet glow -->
+  <!-- Ambient aurora -->
   <ellipse
-    cx="120"
-    cy="90"
-    rx="330"
-    ry="180"
+    cx="180"
+    cy="80"
+    rx="310"
+    ry="190"
     fill="#6C63FF"
-    fill-opacity="0.12"
-    filter="url(#glow)"
+    fill-opacity="0.075"
+    filter="url(#blur)"
   />
 
-  <!-- ambient cyan glow -->
   <ellipse
     cx="1080"
-    cy="110"
-    rx="300"
-    ry="170"
+    cy="105"
+    rx="270"
+    ry="180"
     fill="#00D9FF"
-    fill-opacity="0.10"
-    filter="url(#glow)"
+    fill-opacity="0.065"
+    filter="url(#blur)"
   />
 
-  <!-- ═════════════════════════════════════════════════════ -->
-  <!-- TOP MICRO LABEL                                      -->
-  <!-- ═════════════════════════════════════════════════════ -->
+  <!-- Border -->
+  <rect
+    x="1"
+    y="1"
+    width="1198"
+    height="648"
+    rx="27"
+    fill="none"
+    stroke="#252C3D"
+    stroke-width="1.5"
+  />
 
-  <g transform="translate(62 48)">
+  <!-- ================================================== -->
+  <!-- TOP STATUS -->
+  <!-- ================================================== -->
 
-    <rect
-      width="168"
-      height="30"
-      rx="15"
-      fill="#11162A"
-      stroke="#6C63FF"
-      stroke-opacity="0.45"
-    />
+  <rect
+    x="58"
+    y="40"
+    width="154"
+    height="28"
+    rx="14"
+    fill="#101529"
+    stroke="#6C63FF"
+    stroke-opacity="0.45"
+  />
 
-    <circle
-      cx="18"
-      cy="15"
-      r="5"
-      fill="#00D9FF"
-    />
+  <circle
+    cx="76"
+    cy="54"
+    r="4"
+    fill="#00D9FF"
+  />
 
-    <circle
-      cx="18"
-      cy="15"
-      r="10"
-      fill="none"
-      stroke="#00D9FF"
-      stroke-opacity="0.18"
-    />
-
-    <text
-      x="34"
-      y="20"
-      fill="#BFC7D9"
-      font-family="Arial, Helvetica, sans-serif"
-      font-size="11"
-      font-weight="700"
-      letter-spacing="2"
-    >
-      AI SYSTEMS
-    </text>
-
-  </g>
-
-  <!-- ═════════════════════════════════════════════════════ -->
-  <!-- MAIN IDENTITY                                        -->
-  <!-- ═════════════════════════════════════════════════════ -->
+  <circle
+    cx="76"
+    cy="54"
+    r="8"
+    fill="none"
+    stroke="#00D9FF"
+    stroke-opacity="0.18"
+  />
 
   <text
-    x="60"
-    y="170"
-    fill="#FFFFFF"
-    font-family="Arial, Helvetica, sans-serif"
-    font-size="66"
+    x="90"
+    y="58"
+    fill="#BFC6D8"
+    font-family="Arial,Helvetica,sans-serif"
+    font-size="10"
+    font-weight="700"
+    letter-spacing="2"
+  >
+    AI SYSTEMS
+  </text>
+
+  <!-- ================================================== -->
+  <!-- IDENTITY -->
+  <!-- ================================================== -->
+
+  <text
+    x="58"
+    y="146"
+    fill="#F8F9FF"
+    font-family="Arial,Helvetica,sans-serif"
+    font-size="58"
     font-weight="800"
     letter-spacing="1"
   >
     ANISH SETH
   </text>
 
-  <!-- accent underline -->
   <rect
-    x="63"
-    y="194"
-    width="310"
+    x="60"
+    y="165"
+    width="270"
     height="4"
     rx="2"
     fill="url(#aurora)"
   />
 
   <text
-    x="60"
-    y="242"
-    fill="#E7EAF2"
-    font-family="Arial, Helvetica, sans-serif"
-    font-size="20"
+    x="58"
+    y="211"
+    fill="#E8EAF1"
+    font-family="Arial,Helvetica,sans-serif"
+    font-size="19"
     font-weight="500"
-    letter-spacing="0.3"
   >
     Engineering intelligent systems
   </text>
 
   <text
-    x="60"
-    y="272"
-    fill="#8F99AD"
-    font-family="Arial, Helvetica, sans-serif"
-    font-size="15"
-    font-weight="500"
+    x="58"
+    y="238"
+    fill="#8993A9"
+    font-family="Arial,Helvetica,sans-serif"
+    font-size="13"
   >
     from model → API → infrastructure → interface
   </text>
 
-  <!-- right-side system diagram -->
-  <g transform="translate(855 55)">
+  <!-- ================================================== -->
+  <!-- SYSTEM ORBIT -->
+  <!-- ================================================== -->
+
+  <g transform="translate(1005 138)">
 
     <circle
-      cx="130"
-      cy="110"
-      r="96"
-      fill="#6C63FF"
-      fill-opacity="0.06"
-      stroke="#6C63FF"
-      stroke-opacity="0.18"
+      r="82"
+      fill="#07121C"
+      fill-opacity="0.75"
+      stroke="#233B55"
+      stroke-width="1"
     />
 
     <circle
-      cx="130"
-      cy="110"
-      r="68"
+      r="62"
       fill="none"
-      stroke="#00D9FF"
-      stroke-opacity="0.16"
+      stroke="#6C63FF"
+      stroke-opacity="0.27"
+      stroke-width="1"
     />
 
     <circle
-      cx="130"
-      cy="110"
       r="42"
-      fill="#0D1222"
+      fill="#0C1122"
       stroke="url(#aurora)"
       stroke-width="2"
     />
 
     <circle
-      cx="130"
-      cy="110"
       r="8"
       fill="#00D9FF"
-      filter="url(#smallGlow)"
+      filter="url(#smallBlur)"
     />
 
-    <!-- nodes -->
-    <circle cx="130" cy="14" r="5" fill="#6C63FF"/>
-    <circle cx="226" cy="110" r="5" fill="#00D9FF"/>
-    <circle cx="130" cy="206" r="5" fill="#6C63FF"/>
-    <circle cx="34" cy="110" r="5" fill="#00D9FF"/>
+    <circle
+      r="5"
+      fill="#00D9FF"
+    />
 
-    <path
-      d="M130 42 L130 14
-         M172 110 L226 110
-         M130 178 L130 206
-         M88 110 L34 110"
-      stroke="url(#aurora)"
-      stroke-opacity="0.55"
-      stroke-width="2"
+    <circle
+      cx="0"
+      cy="-82"
+      r="4"
+      fill="#6C63FF"
+    />
+
+    <circle
+      cx="82"
+      cy="0"
+      r="4"
+      fill="#00D9FF"
+    />
+
+    <circle
+      cx="0"
+      cy="82"
+      r="4"
+      fill="#6C63FF"
+    />
+
+    <circle
+      cx="-82"
+      cy="0"
+      r="4"
+      fill="#00D9FF"
+    />
+
+    <line
+      x1="0"
+      y1="-42"
+      x2="0"
+      y2="-82"
+      stroke="#6C63FF"
+      stroke-opacity="0.45"
+    />
+
+    <line
+      x1="42"
+      y1="0"
+      x2="82"
+      y2="0"
+      stroke="#00D9FF"
+      stroke-opacity="0.45"
+    />
+
+    <line
+      x1="0"
+      y1="42"
+      x2="0"
+      y2="82"
+      stroke="#6C63FF"
+      stroke-opacity="0.45"
+    />
+
+    <line
+      x1="-42"
+      y1="0"
+      x2="-82"
+      y2="0"
+      stroke="#00D9FF"
+      stroke-opacity="0.45"
     />
 
     <text
-      x="130"
-      y="106"
+      x="0"
+      y="-2"
       text-anchor="middle"
       fill="#FFFFFF"
-      font-family="Arial, Helvetica, sans-serif"
+      font-family="Arial,Helvetica,sans-serif"
       font-size="12"
       font-weight="800"
       letter-spacing="1"
@@ -374,94 +338,93 @@
     </text>
 
     <text
-      x="130"
-      y="122"
+      x="0"
+      y="13"
       text-anchor="middle"
-      fill="#8F99AD"
-      font-family="Arial, Helvetica, sans-serif"
-      font-size="8"
+      fill="#6F7A91"
+      font-family="Arial,Helvetica,sans-serif"
+      font-size="6"
       font-weight="700"
-      letter-spacing="1.5"
+      letter-spacing="1.8"
     >
       SYSTEMS
     </text>
 
   </g>
 
-  <!-- ═════════════════════════════════════════════════════ -->
-  <!-- CAPABILITY PILLS                                     -->
-  <!-- ═════════════════════════════════════════════════════ -->
+  <!-- ================================================== -->
+  <!-- SPECIALIZATION -->
+  <!-- ================================================== -->
 
-  <g transform="translate(60 320)">
+  <g transform="translate(58 280)">
 
+    <!-- Agentic -->
     <rect
-      x="0"
-      y="0"
-      width="145"
-      height="34"
-      rx="17"
-      fill="#12172A"
+      width="138"
+      height="32"
+      rx="16"
+      fill="#11162A"
       stroke="#6C63FF"
-      stroke-opacity="0.40"
+      stroke-opacity="0.55"
     />
 
     <text
-      x="72"
-      y="22"
+      x="69"
+      y="21"
       text-anchor="middle"
-      fill="#C8C3FF"
-      font-family="Arial, Helvetica, sans-serif"
-      font-size="11"
+      fill="#C5BFFF"
+      font-family="Arial,Helvetica,sans-serif"
+      font-size="10"
       font-weight="700"
-      letter-spacing="1"
+      letter-spacing="1.1"
     >
       AGENTIC AI
     </text>
 
 
+    <!-- LLM -->
     <rect
-      x="157"
-      y="0"
-      width="150"
-      height="34"
-      rx="17"
-      fill="#12172A"
+      x="148"
+      width="140"
+      height="32"
+      rx="16"
+      fill="#101A26"
       stroke="#00D9FF"
-      stroke-opacity="0.40"
+      stroke-opacity="0.48"
     />
 
     <text
-      x="232"
-      y="22"
+      x="218"
+      y="21"
       text-anchor="middle"
       fill="#9BEFFF"
-      font-family="Arial, Helvetica, sans-serif"
-      font-size="11"
+      font-family="Arial,Helvetica,sans-serif"
+      font-size="10"
       font-weight="700"
-      letter-spacing="1"
+      letter-spacing="1.1"
     >
       LLM SYSTEMS
     </text>
 
 
+    <!-- RAG -->
     <rect
-      x="319"
-      y="0"
-      width="130"
-      height="34"
-      rx="17"
-      fill="#12172A"
+      x="298"
+      width="160"
+      height="32"
+      rx="16"
+      fill="#11162A"
       stroke="#6C63FF"
-      stroke-opacity="0.40"
+      stroke-opacity="0.48"
     />
 
     <text
-      x="384"
-      y="22"
+      x="378"
+      y="21"
       text-anchor="middle"
-      fill="#C8C3FF"
-      font-family="Arial, Helvetica, sans-serif"
-      font-size="11"
+      fill="#C5BFFF"
+      font-family="Arial,Helvetica,sans-serif"
+      font-size="10"
       font-weight="700"
       letter-spacing="1"
     >
@@ -469,24 +432,24 @@
     </text>
 
 
+    <!-- Document -->
     <rect
-      x="461"
-      y="0"
-      width="145"
-      height="34"
-      rx="17"
-      fill="#12172A"
+      x="468"
+      width="146"
+      height="32"
+      rx="16"
+      fill="#101A26"
       stroke="#00D9FF"
-      stroke-opacity="0.40"
+      stroke-opacity="0.48"
     />
 
     <text
-      x="533"
-      y="22"
+      x="541"
+      y="21"
       text-anchor="middle"
       fill="#9BEFFF"
-      font-family="Arial, Helvetica, sans-serif"
-      font-size="11"
+      font-family="Arial,Helvetica,sans-serif"
+      font-size="10"
       font-weight="700"
       letter-spacing="1"
     >
@@ -495,395 +458,241 @@
 
   </g>
 
-  <!-- ═════════════════════════════════════════════════════ -->
-  <!-- NAVIGATION                                           -->
-  <!-- ═════════════════════════════════════════════════════ -->
+  <!-- ================================================== -->
+  <!-- NAVIGATION -->
+  <!-- ================================================== -->
 
-  <g transform="translate(60 405)">
+  <g transform="translate(58 345)">
 
     <!-- ABOUT -->
-    <rect
-      x="0"
-      y="0"
-      width="88"
-      height="42"
-      rx="4"
-      fill="url(#nav1)"
-    />
-
-    <text
-      x="44"
-      y="26"
-      text-anchor="middle"
-      fill="#FFFFFF"
-      font-family="Arial, Helvetica, sans-serif"
-      font-size="10"
-      font-weight="800"
-      letter-spacing="1.4"
-    >
+    <rect x="0" y="0" width="88" height="38" rx="3"
+          fill="url(#navPurple)"/>
+    <rect x="0" y="36" width="88" height="2"
+          fill="#6C63FF"/>
+    <text x="44" y="24" text-anchor="middle"
+          fill="#FFFFFF"
+          font-family="Arial,Helvetica,sans-serif"
+          font-size="9"
+          font-weight="800"
+          letter-spacing="1.4">
       ABOUT
     </text>
 
-    <rect
-      x="0"
-      y="42"
-      width="88"
-      height="2"
-      fill="#6C63FF"
-    />
-
-
     <!-- EXPERIENCE -->
-    <rect
-      x="94"
-      y="0"
-      width="126"
-      height="42"
-      rx="4"
-      fill="url(#nav2)"
-    />
-
-    <text
-      x="157"
-      y="26"
-      text-anchor="middle"
-      fill="#FFFFFF"
-      font-family="Arial, Helvetica, sans-serif"
-      font-size="10"
-      font-weight="800"
-      letter-spacing="1.3"
-    >
+    <rect x="94" y="0" width="122" height="38" rx="3"
+          fill="url(#navPurple)"/>
+    <rect x="94" y="36" width="122" height="2"
+          fill="#6C63FF"/>
+    <text x="155" y="24" text-anchor="middle"
+          fill="#FFFFFF"
+          font-family="Arial,Helvetica,sans-serif"
+          font-size="9"
+          font-weight="800"
+          letter-spacing="1.15">
       EXPERIENCE
     </text>
 
-    <rect
-      x="94"
-      y="42"
-      width="126"
-      height="2"
-      fill="#6C63FF"
-    />
-
-
     <!-- FOCUS -->
-    <rect
-      x="226"
-      y="0"
-      width="82"
-      height="42"
-      rx="4"
-      fill="url(#nav2)"
-    />
-
-    <text
-      x="267"
-      y="26"
-      text-anchor="middle"
-      fill="#FFFFFF"
-      font-family="Arial, Helvetica, sans-serif"
-      font-size="10"
-      font-weight="800"
-      letter-spacing="1.4"
-    >
+    <rect x="222" y="0" width="80" height="38" rx="3"
+          fill="url(#navPurple)"/>
+    <rect x="222" y="36" width="80" height="2"
+          fill="#6C63FF"/>
+    <text x="262" y="24" text-anchor="middle"
+          fill="#FFFFFF"
+          font-family="Arial,Helvetica,sans-serif"
+          font-size="9"
+          font-weight="800"
+          letter-spacing="1.3">
       FOCUS
     </text>
 
-    <rect
-      x="226"
-      y="42"
-      width="82"
-      height="2"
-      fill="#6C63FF"
-    />
-
-
     <!-- AI ENGINEERING -->
-    <rect
-      x="314"
-      y="0"
-      width="168"
-      height="42"
-      rx="4"
-      fill="url(#nav3)"
-    />
-
-    <text
-      x="398"
-      y="26"
-      text-anchor="middle"
-      fill="#FFFFFF"
-      font-family="Arial, Helvetica, sans-serif"
-      font-size="10"
-      font-weight="800"
-      letter-spacing="1.25"
-    >
+    <rect x="308" y="0" width="158" height="38" rx="3"
+          fill="url(#navPurple)"/>
+    <rect x="308" y="36" width="158" height="2"
+          fill="#7E72FF"/>
+    <text x="387" y="24" text-anchor="middle"
+          fill="#FFFFFF"
+          font-family="Arial,Helvetica,sans-serif"
+          font-size="9"
+          font-weight="800"
+          letter-spacing="1.05">
       AI ENGINEERING
     </text>
 
-    <rect
-      x="314"
-      y="42"
-      width="168"
-      height="2"
-      fill="#6C63FF"
-    />
-
-
     <!-- TECH STACK -->
-    <rect
-      x="488"
-      y="0"
-      width="132"
-      height="42"
-      rx="4"
-      fill="url(#nav4)"
-    />
-
-    <text
-      x="554"
-      y="26"
-      text-anchor="middle"
-      fill="#FFFFFF"
-      font-family="Arial, Helvetica, sans-serif"
-      font-size="10"
-      font-weight="800"
-      letter-spacing="1.25"
-    >
+    <rect x="472" y="0" width="124" height="38" rx="3"
+          fill="url(#navPurple)"/>
+    <rect x="472" y="36" width="124" height="2"
+          fill="#8378FF"/>
+    <text x="534" y="24" text-anchor="middle"
+          fill="#FFFFFF"
+          font-family="Arial,Helvetica,sans-serif"
+          font-size="9"
+          font-weight="800"
+          letter-spacing="1.1">
       TECH STACK
     </text>
 
-    <rect
-      x="488"
-      y="42"
-      width="132"
-      height="2"
-      fill="#00D9FF"
-    />
-
-
     <!-- PROJECTS -->
-    <rect
-      x="626"
-      y="0"
-      width="118"
-      height="42"
-      rx="4"
-      fill="url(#nav5)"
-    />
-
-    <text
-      x="685"
-      y="26"
-      text-anchor="middle"
-      fill="#FFFFFF"
-      font-family="Arial, Helvetica, sans-serif"
-      font-size="10"
-      font-weight="800"
-      letter-spacing="1.35"
-    >
+    <rect x="602" y="0" width="112" height="38" rx="3"
+          fill="url(#navBlue)"/>
+    <rect x="602" y="36" width="112" height="2"
+          fill="#00C8E9"/>
+    <text x="658" y="24" text-anchor="middle"
+          fill="#FFFFFF"
+          font-family="Arial,Helvetica,sans-serif"
+          font-size="9"
+          font-weight="800"
+          letter-spacing="1.25">
       PROJECTS
     </text>
 
-    <rect
-      x="626"
-      y="42"
-      width="118"
-      height="2"
-      fill="#00D9FF"
-    />
-
-
     <!-- ACHIEVEMENTS -->
-    <rect
-      x="750"
-      y="0"
-      width="160"
-      height="42"
-      rx="4"
-      fill="url(#nav6)"
-    />
-
-    <text
-      x="830"
-      y="26"
-      text-anchor="middle"
-      fill="#FFFFFF"
-      font-family="Arial, Helvetica, sans-serif"
-      font-size="10"
-      font-weight="800"
-      letter-spacing="1.15"
-    >
+    <rect x="720" y="0" width="150" height="38" rx="3"
+          fill="url(#navBlue)"/>
+    <rect x="720" y="36" width="150" height="2"
+          fill="#00C8E9"/>
+    <text x="795" y="24" text-anchor="middle"
+          fill="#FFFFFF"
+          font-family="Arial,Helvetica,sans-serif"
+          font-size="9"
+          font-weight="800"
+          letter-spacing="1">
       ACHIEVEMENTS
     </text>
 
-    <rect
-      x="750"
-      y="42"
-      width="160"
-      height="2"
-      fill="#00D9FF"
-    />
-
-
     <!-- ACTIVITY -->
-    <rect
-      x="916"
-      y="0"
-      width="112"
-      height="42"
-      rx="4"
-      fill="url(#nav7)"
-    />
-
-    <text
-      x="972"
-      y="26"
-      text-anchor="middle"
-      fill="#FFFFFF"
-      font-family="Arial, Helvetica, sans-serif"
-      font-size="10"
-      font-weight="800"
-      letter-spacing="1.35"
-    >
+    <rect x="876" y="0" width="104" height="38" rx="3"
+          fill="url(#navCyan)"/>
+    <rect x="876" y="36" width="104" height="2"
+          fill="#00D9FF"/>
+    <text x="928" y="24" text-anchor="middle"
+          fill="#FFFFFF"
+          font-family="Arial,Helvetica,sans-serif"
+          font-size="9"
+          font-weight="800"
+          letter-spacing="1.2">
       ACTIVITY
     </text>
 
-    <rect
-      x="916"
-      y="42"
-      width="112"
-      height="2"
-      fill="#00D9FF"
-    />
-
-
     <!-- CONNECT -->
-    <rect
-      x="1034"
-      y="0"
-      width="106"
-      height="42"
-      rx="4"
-      fill="url(#nav8)"
-    />
-
-    <text
-      x="1087"
-      y="26"
-      text-anchor="middle"
-      fill="#07101A"
-      font-family="Arial, Helvetica, sans-serif"
-      font-size="10"
-      font-weight="900"
-      letter-spacing="1.35"
-    >
+    <rect x="986" y="0" width="98" height="38" rx="3"
+          fill="url(#navCyan)"/>
+    <rect x="986" y="36" width="98" height="2"
+          fill="#00D9FF"/>
+    <text x="1035" y="24" text-anchor="middle"
+          fill="#06121A"
+          font-family="Arial,Helvetica,sans-serif"
+          font-size="9"
+          font-weight="900"
+          letter-spacing="1.2">
       CONNECT
     </text>
 
-    <rect
-      x="1034"
-      y="42"
-      width="106"
-      height="2"
-      fill="#00D9FF"
-    />
-
   </g>
 
-  <!-- ═════════════════════════════════════════════════════ -->
-  <!-- METRICS PANEL                                        -->
-  <!-- ═════════════════════════════════════════════════════ -->
+  <!-- ================================================== -->
+  <!-- METRICS                                             -->
+  <!-- ================================================== -->
 
-  <g transform="translate(60 485)">
+  <g transform="translate(58 425)">
 
-    <!-- panel -->
     <rect
-      x="0"
-      y="0"
-      width="1080"
-      height="148"
-      rx="18"
-      fill="#0B1020"
-      fill-opacity="0.92"
-      stroke="#252C40"
+      width="1084"
+      height="130"
+      rx="16"
+      fill="#0C1120"
+      stroke="#252D41"
       stroke-width="1"
     />
 
-    <!-- top glow line -->
+    <!-- top accent -->
     <rect
-      x="20"
+      x="1"
       y="0"
-      width="1040"
+      width="1082"
       height="2"
       rx="1"
       fill="url(#aurora)"
     />
 
-    <!-- vertical dividers -->
+    <!-- dividers -->
     <line
-      x1="360"
-      y1="34"
-      x2="360"
-      y2="114"
-      stroke="#293148"
-      stroke-width="1"
+      x1="361"
+      y1="30"
+      x2="361"
+      y2="100"
+      stroke="#252D41"
     />
 
     <line
-      x1="720"
-      y1="34"
-      x2="720"
-      y2="114"
-      stroke="#293148"
-      stroke-width="1"
+      x1="722"
+      y1="30"
+      x2="722"
+      y2="100"
+      stroke="#252D41"
     />
-
 
     <!-- PROFILE VIEWS -->
-    <g transform="translate(55 34)">
+    <g transform="translate(42 30)">
 
       <text
         x="0"
-        y="12"
-        fill="#7F899D"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="10"
+        y="10"
+        fill="#667188"
+        font-family="Arial,Helvetica,sans-serif"
+        font-size="9"
         font-weight="800"
         letter-spacing="1.8"
       >
         PROFILE VIEWS
       </text>
 
-      <!-- live Komarev badge -->
-      <image
+      <text
         x="0"
-        y="28"
-        width="250"
-        height="38"
-        preserveAspectRatio="xMinYMid meet"
-        href="https://komarev.com/ghpvc/?username=Anish-2005&amp;style=for-the-badge&amp;color=6C63FF&amp;label=PROFILE%20VIEWS"
+        y="54"
+        fill="#F7F8FF"
+        font-family="Arial,Helvetica,sans-serif"
+        font-size="29"
+        font-weight="800"
+      >
+        —
+      </text>
+
+      <rect
+        x="0"
+        y="70"
+        width="72"
+        height="3"
+        rx="1.5"
+        fill="url(#violet)"
       />
 
-      <circle
-        cx="254"
-        cy="47"
-        r="4"
-        fill="#6C63FF"
-        filter="url(#smallGlow)"
-      />
+      <text
+        x="0"
+        y="88"
+        fill="#4F5A70"
+        font-family="Arial,Helvetica,sans-serif"
+        font-size="8"
+        font-weight="700"
+        letter-spacing="1.2"
+      >
+        PROFILE REACH
+      </text>
 
     </g>
 
 
     <!-- FOLLOWERS -->
-    <g transform="translate(415 34)">
+    <g transform="translate(403 30)">
 
       <text
         x="0"
-        y="12"
-        fill="#7F899D"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="10"
+        y="10"
+        fill="#667188"
+        font-family="Arial,Helvetica,sans-serif"
+        font-size="9"
         font-weight="800"
         letter-spacing="1.8"
       >
@@ -892,32 +701,32 @@
 
       <text
         x="0"
-        y="58"
-        fill="#FFFFFF"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="31"
+        y="54"
+        fill="#F7F8FF"
+        font-family="Arial,Helvetica,sans-serif"
+        font-size="29"
         font-weight="800"
       >
-        23
+        24
       </text>
 
       <rect
-        x="78"
-        y="38"
+        x="0"
+        y="70"
         width="72"
         height="3"
         rx="1.5"
-        fill="url(#metricCyan)"
+        fill="url(#cyan)"
       />
 
       <text
         x="0"
-        y="78"
-        fill="#59647A"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="9"
-        font-weight="600"
-        letter-spacing="1"
+        y="88"
+        fill="#4F5A70"
+        font-family="Arial,Helvetica,sans-serif"
+        font-size="8"
+        font-weight="700"
+        letter-spacing="1.2"
       >
         GITHUB COMMUNITY
       </text>
@@ -926,14 +735,14 @@
 
 
     <!-- STARS -->
-    <g transform="translate(775 34)">
+    <g transform="translate(764 30)">
 
       <text
         x="0"
-        y="12"
-        fill="#7F899D"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="10"
+        y="10"
+        fill="#667188"
+        font-family="Arial,Helvetica,sans-serif"
+        font-size="9"
         font-weight="800"
         letter-spacing="1.8"
       >
@@ -942,90 +751,74 @@
 
       <text
         x="0"
-        y="58"
-        fill="#FFFFFF"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="31"
+        y="54"
+        fill="#F7F8FF"
+        font-family="Arial,Helvetica,sans-serif"
+        font-size="29"
         font-weight="800"
       >
         29
       </text>
 
       <rect
-        x="78"
-        y="38"
+        x="0"
+        y="70"
         width="72"
         height="3"
         rx="1.5"
-        fill="url(#metricViolet)"
+        fill="url(#violet)"
       />
 
       <text
         x="0"
-        y="78"
-        fill="#59647A"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="9"
-        font-weight="600"
-        letter-spacing="1"
+        y="88"
+        fill="#4F5A70"
+        font-family="Arial,Helvetica,sans-serif"
+        font-size="8"
+        font-weight="700"
+        letter-spacing="1.2"
       >
-        OPEN SOURCE SIGNAL
+        OPEN SOURCE
       </text>
 
     </g>
 
   </g>
 
-  <!-- ═════════════════════════════════════════════════════ -->
-  <!-- FOOTER SIGNAL                                        -->
-  <!-- ═════════════════════════════════════════════════════ -->
+  <!-- ================================================== -->
+  <!-- FOOTER                                               -->
+  <!-- ================================================== -->
 
-  <g transform="translate(60 665)">
-
-    <circle
-      cx="5"
-      cy="-3"
-      r="4"
-      fill="#00D9FF"
-    />
-
-    <text
-      x="18"
-      y="1"
-      fill="#68738A"
-      font-family="Arial, Helvetica, sans-serif"
-      font-size="9"
-      font-weight="700"
-      letter-spacing="1.8"
-    >
-      MODEL → SYSTEM → PRODUCT
-    </text>
-
-    <text
-      x="1140"
-      y="1"
-      text-anchor="end"
-      fill="#4E596D"
-      font-family="Arial, Helvetica, sans-serif"
-      font-size="9"
-      font-weight="600"
-      letter-spacing="1.2"
-    >
-      AURORA / AI SYSTEMS ENGINEERING
-    </text>
-
-  </g>
-
-  <!-- outer border -->
-  <rect
-    x="1"
-    y="1"
-    width="1198"
-    height="718"
-    rx="30"
-    fill="none"
-    stroke="#20283A"
-    stroke-width="2"
+  <circle
+    cx="60"
+    cy="592"
+    r="3.5"
+    fill="#00D9FF"
   />
+
+  <text
+    x="72"
+    y="596"
+    fill="#69758C"
+    font-family="Arial,Helvetica,sans-serif"
+    font-size="8"
+    font-weight="700"
+    letter-spacing="1.7"
+  >
+    MODEL → SYSTEM → PRODUCT
+  </text>
+
+  <text
+    x="1140"
+    y="596"
+    text-anchor="end"
+    fill="#465167"
+    font-family="Arial,Helvetica,sans-serif"
+    font-size="8"
+    font-weight="700"
+    letter-spacing="1.1"
+  >
+    AURORA / AI SYSTEMS ENGINEERING
+  </text>
 
 </svg>
