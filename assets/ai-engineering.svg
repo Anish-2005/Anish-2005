@@ -1,0 +1,612 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700"
+     fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <!-- ═══════════════════════════════════════════════════ -->
+    <!-- BACKGROUND -->
+    <!-- ═══════════════════════════════════════════════════ -->
+
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="700"
+                    gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A0E1A"/>
+      <stop offset="0.48" stop-color="#0D1120"/>
+      <stop offset="1" stop-color="#080B14"/>
+    </linearGradient>
+
+    <linearGradient id="aurora" x1="100" y1="0" x2="1100" y2="0"
+                    gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6C63FF"/>
+      <stop offset="0.48" stop-color="#8175FF"/>
+      <stop offset="1" stop-color="#00D9FF"/>
+    </linearGradient>
+
+    <linearGradient id="purpleCyan" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#6C63FF"/>
+      <stop offset="1" stop-color="#00D9FF"/>
+    </linearGradient>
+
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#12172A"/>
+      <stop offset="1" stop-color="#0D1221"/>
+    </linearGradient>
+
+    <!-- Grid -->
+    <pattern id="grid" width="40" height="40"
+             patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40"
+            stroke="#FFFFFF"
+            stroke-opacity="0.022"
+            stroke-width="1"/>
+    </pattern>
+
+    <!-- Purple glow -->
+    <filter id="purpleGlow"
+            x="-100%" y="-100%"
+            width="300%" height="300%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Small glow -->
+    <filter id="smallGlow"
+            x="-100%" y="-100%"
+            width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!-- CANVAS -->
+  <!-- ═══════════════════════════════════════════════════ -->
+
+  <rect width="1200" height="700" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="700" rx="28" fill="url(#grid)"/>
+
+  <!-- Ambient lighting -->
+
+  <circle cx="80" cy="90" r="150"
+          fill="#6C63FF"
+          fill-opacity="0.07"
+          filter="url(#purpleGlow)"/>
+
+  <circle cx="1130" cy="580" r="170"
+          fill="#00D9FF"
+          fill-opacity="0.045"
+          filter="url(#purpleGlow)"/>
+
+  <rect x="1" y="1"
+        width="1198" height="698"
+        rx="27"
+        stroke="#FFFFFF"
+        stroke-opacity="0.08"/>
+
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!-- HEADER -->
+  <!-- ═══════════════════════════════════════════════════ -->
+
+  <text x="60" y="58"
+        fill="#8B7CFF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="11"
+        font-weight="750"
+        letter-spacing="3">
+    AI ENGINEERING / CAPABILITY MAP
+  </text>
+
+  <text x="60" y="103"
+        fill="#F7F8FF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="30"
+        font-weight="750">
+    Intelligence, engineered into systems.
+  </text>
+
+  <text x="60" y="133"
+        fill="#8E97AE"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="14">
+    The AI layer across models, retrieval, applications, infrastructure and evaluation.
+  </text>
+
+
+  <!-- Status -->
+
+  <rect x="1017" y="43"
+        width="123" height="32"
+        rx="16"
+        fill="#11182A"
+        stroke="#6C63FF"
+        stroke-opacity="0.28"/>
+
+  <circle cx="1037" cy="59"
+          r="4"
+          fill="#8B7CFF"
+          filter="url(#smallGlow)"/>
+
+  <text x="1050" y="64"
+        fill="#C7CDE0"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10"
+        font-weight="700">
+    AI / ML
+  </text>
+
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!-- CORE SPINE -->
+  <!-- ═══════════════════════════════════════════════════ -->
+
+  <line x1="600" y1="180"
+        x2="600" y2="510"
+        stroke="url(#aurora)"
+        stroke-opacity="0.16"
+        stroke-width="2"/>
+
+  <circle cx="600" cy="345"
+          r="65"
+          fill="#6C63FF"
+          fill-opacity="0.025"
+          filter="url(#purpleGlow)"/>
+
+  <circle cx="600" cy="345"
+          r="46"
+          fill="#0D1222"
+          stroke="url(#aurora)"
+          stroke-opacity="0.65"
+          stroke-width="1.5"/>
+
+  <circle cx="600" cy="345"
+          r="28"
+          fill="#10162A"
+          stroke="#6C63FF"
+          stroke-opacity="0.35"/>
+
+  <circle cx="600" cy="345"
+          r="7"
+          fill="#00D9FF"
+          filter="url(#smallGlow)"/>
+
+  <text x="600" y="329"
+        text-anchor="middle"
+        fill="#69748D"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="8"
+        font-weight="750"
+        letter-spacing="1.5">
+    AI
+  </text>
+
+  <text x="600" y="364"
+        text-anchor="middle"
+        fill="#F0F3FA"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="11"
+        font-weight="750">
+    ENGINEERING
+  </text>
+
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!-- CARD 01 — LLM & AGENTIC SYSTEMS -->
+  <!-- ═══════════════════════════════════════════════════ -->
+
+  <rect x="60" y="180"
+        width="485" height="220"
+        rx="18"
+        fill="url(#card)"
+        stroke="#6C63FF"
+        stroke-opacity="0.22"/>
+
+  <rect x="60" y="180"
+        width="485" height="3"
+        rx="1.5"
+        fill="#6C63FF"/>
+
+  <text x="88" y="216"
+        fill="#69748D"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10"
+        font-weight="750"
+        letter-spacing="2">
+    01 / SYSTEMS
+  </text>
+
+  <text x="88" y="249"
+        fill="#F7F8FF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="20"
+        font-weight="750">
+    LLM &amp; Agentic Systems
+  </text>
+
+  <text x="88" y="274"
+        fill="#8E97AE"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="11">
+    Building multi-step systems around modern language models.
+  </text>
+
+  <!-- pills -->
+
+  <rect x="88" y="301" width="135" height="27" rx="13.5"
+        fill="#17152C"/>
+
+  <text x="155" y="319"
+        text-anchor="middle"
+        fill="#A89FFF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10"
+        font-weight="650">
+    AGENTIC PIPELINES
+  </text>
+
+  <rect x="234" y="301" width="72" height="27" rx="13.5"
+        fill="#17152C"/>
+
+  <text x="270" y="319"
+        text-anchor="middle"
+        fill="#A89FFF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10"
+        font-weight="650">
+    RAG
+  </text>
+
+  <rect x="317" y="301" width="95" height="27" rx="13.5"
+        fill="#17152C"/>
+
+  <text x="364" y="319"
+        text-anchor="middle"
+        fill="#A89FFF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10"
+        font-weight="650">
+    GRAPHRAG
+  </text>
+
+  <rect x="423" y="301" width="94" height="27" rx="13.5"
+        fill="#17152C"/>
+
+  <text x="470" y="319"
+        text-anchor="middle"
+        fill="#A89FFF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10"
+        font-weight="650">
+    ORCHESTRATION
+  </text>
+
+  <rect x="88" y="340" width="145" height="27" rx="13.5"
+        fill="#17152C"/>
+
+  <text x="160" y="358"
+        text-anchor="middle"
+        fill="#A89FFF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10"
+        font-weight="650">
+    PROMPT ENGINEERING
+  </text>
+
+  <rect x="244" y="340" width="122" height="27" rx="13.5"
+        fill="#17152C"/>
+
+  <text x="305" y="358"
+        text-anchor="middle"
+        fill="#A89FFF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10"
+        font-weight="650">
+    MULTI-STEP AGENTS
+  </text>
+
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!-- CARD 02 — APPLIED AI -->
+  <!-- ═══════════════════════════════════════════════════ -->
+
+  <rect x="655" y="180"
+        width="485" height="220"
+        rx="18"
+        fill="url(#card)"
+        stroke="#00D9FF"
+        stroke-opacity="0.20"/>
+
+  <rect x="655" y="180"
+        width="485" height="3"
+        rx="1.5"
+        fill="#00D9FF"/>
+
+  <text x="683" y="216"
+        fill="#69748D"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10"
+        font-weight="750"
+        letter-spacing="2">
+    02 / APPLICATIONS
+  </text>
+
+  <text x="683" y="249"
+        fill="#F7F8FF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="20"
+        font-weight="750">
+    Applied AI
+  </text>
+
+  <text x="683" y="274"
+        fill="#8E97AE"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="11">
+    Turning models into useful intelligence for real workflows.
+  </text>
+
+  <rect x="683" y="301" width="150" height="27" rx="13.5"
+        fill="#102329"/>
+
+  <text x="758" y="319"
+        text-anchor="middle"
+        fill="#7CEAFF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10"
+        font-weight="650">
+    DOCUMENT INTELLIGENCE
+  </text>
+
+  <rect x="844" y="301" width="66" height="27" rx="13.5"
+        fill="#102329"/>
+
+  <text x="877" y="319"
+        text-anchor="middle"
+        fill="#7CEAFF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10"
+        font-weight="650">
+    OCR
+  </text>
+
+  <rect x="921" y="301" width="119" height="27" rx="13.5"
+        fill="#102329"/>
+
+  <text x="980" y="319"
+        text-anchor="middle"
+        fill="#7CEAFF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10"
+        font-weight="650">
+    COMPUTER VISION
+  </text>
+
+  <rect x="1051" y="301" width="64" height="27" rx="13.5"
+        fill="#102329"/>
+
+  <text x="1083" y="319"
+        text-anchor="middle"
+        fill="#7CEAFF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10"
+        font-weight="650">
+    EVAL
+  </text>
+
+  <rect x="683" y="340" width="105" height="27" rx="13.5"
+        fill="#102329"/>
+
+  <text x="735" y="358"
+        text-anchor="middle"
+        fill="#7CEAFF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10"
+        font-weight="650">
+    BENCHMARKING
+  </text>
+
+  <rect x="799" y="340" width="126" height="27" rx="13.5"
+        fill="#102329"/>
+
+  <text x="862" y="358"
+        text-anchor="middle"
+        fill="#7CEAFF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10"
+        font-weight="650">
+    AI AUTOMATION
+  </text>
+
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!-- CARD 03 — AI INFRA & TOOLING -->
+  <!-- ═══════════════════════════════════════════════════ -->
+
+  <rect x="60" y="425"
+        width="1080" height="150"
+        rx="18"
+        fill="url(#card)"
+        stroke="#FFB000"
+        stroke-opacity="0.17"/>
+
+  <rect x="60" y="425"
+        width="1080" height="3"
+        rx="1.5"
+        fill="#FFB000"/>
+
+  <text x="88" y="461"
+        fill="#69748D"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10"
+        font-weight="750"
+        letter-spacing="2">
+    03 / INFRASTRUCTURE
+  </text>
+
+  <text x="88" y="493"
+        fill="#F7F8FF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="20"
+        font-weight="750">
+    AI Infrastructure &amp; Tooling
+  </text>
+
+  <text x="88" y="518"
+        fill="#8E97AE"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="11">
+    The engineering layer that makes AI systems searchable, measurable and deployable.
+  </text>
+
+  <!-- infra pills -->
+
+  <rect x="88" y="538" width="112" height="25" rx="12.5"
+        fill="#211B0C"/>
+
+  <text x="144" y="555"
+        text-anchor="middle"
+        fill="#FFC95C"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="9"
+        font-weight="650">
+    VECTOR SEARCH
+  </text>
+
+  <rect x="211" y="538" width="94" height="25" rx="12.5"
+        fill="#211B0C"/>
+
+  <text x="258" y="555"
+        text-anchor="middle"
+        fill="#FFC95C"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="9"
+        font-weight="650">
+    EMBEDDINGS
+  </text>
+
+  <rect x="316" y="538" width="90" height="25" rx="12.5"
+        fill="#211B0C"/>
+
+  <text x="361" y="555"
+        text-anchor="middle"
+        fill="#FFC95C"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="9"
+        font-weight="650">
+    LANGCHAIN
+  </text>
+
+  <rect x="417" y="538" width="128" height="25" rx="12.5"
+        fill="#211B0C"/>
+
+  <text x="481" y="555"
+        text-anchor="middle"
+        fill="#FFC95C"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="9"
+        font-weight="650">
+    MODEL EVALUATION
+  </text>
+
+  <rect x="556" y="538" width="118" height="25" rx="12.5"
+        fill="#211B0C"/>
+
+  <text x="615" y="555"
+        text-anchor="middle"
+        fill="#FFC95C"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="9"
+        font-weight="650">
+    CLOUD INFERENCE
+  </text>
+
+  <rect x="685" y="538" width="93" height="25" rx="12.5"
+        fill="#211B0C"/>
+
+  <text x="731" y="555"
+        text-anchor="middle"
+        fill="#FFC95C"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="9"
+        font-weight="650">
+    API DESIGN
+  </text>
+
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!-- EXPLORATION STRIP -->
+  <!-- ═══════════════════════════════════════════════════ -->
+
+  <line x1="60" y1="610"
+        x2="1140" y2="610"
+        stroke="#FFFFFF"
+        stroke-opacity="0.06"/>
+
+  <text x="60" y="637"
+        fill="#69748D"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="9"
+        font-weight="750"
+        letter-spacing="2">
+    CURRENTLY EXPLORING
+  </text>
+
+  <circle cx="225" cy="633"
+          r="3.5"
+          fill="#00D9FF"
+          filter="url(#smallGlow)"/>
+
+  <text x="238" y="637"
+        fill="#AEB7CC"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="11">
+    Multi-agent orchestration
+  </text>
+
+  <text x="440" y="637"
+        fill="#69748D"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="11">
+    ·
+  </text>
+
+  <text x="462" y="637"
+        fill="#AEB7CC"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="11">
+    Small-model fine-tuning
+  </text>
+
+  <text x="680" y="637"
+        fill="#69748D"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="11">
+    ·
+  </text>
+
+  <text x="702" y="637"
+        fill="#AEB7CC"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="11">
+    Structured evaluation harnesses
+  </text>
+
+  <!-- Signature -->
+
+  <text x="1140" y="676"
+        text-anchor="end"
+        fill="#8B7CFF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10"
+        font-weight="700">
+    MODELS × SYSTEMS × EVALUATION
+  </text>
+
+</svg>
