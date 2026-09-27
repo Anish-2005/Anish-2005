@@ -9,47 +9,10 @@
 <img
   src="./assets/header.svg"
   width="100%"
-  alt="Anish Seth — AI / ML Engineering"
-/>
-
-<br/><br/>
-
-<a href="#about">ABOUT</a>
-&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="#experience">EXPERIENCE</a>
-&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="#ai-engineering">AI ENGINEERING</a>
-&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="#tech-stack">TECH STACK</a>
-&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="#projects">PROJECTS</a>
-&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="#achievements">ACHIEVEMENTS</a>
-&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="#activity">ACTIVITY</a>
-&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="#connect">CONNECT</a>
-
-<br/><br/>
-
-<img
-  src="https://komarev.com/ghpvc/?username=Anish-2005&style=for-the-badge&color=6C63FF&label=PROFILE+VIEWS"
-  alt="Profile Views"
-/>
-
-<img
-  src="https://img.shields.io/github/followers/Anish-2005?style=for-the-badge&color=00D9FF&labelColor=0A0E1A&label=FOLLOWERS"
-  alt="GitHub Followers"
-/>
-
-<img
-  src="https://img.shields.io/github/stars/Anish-2005?style=for-the-badge&color=302B63&labelColor=0A0E1A&label=STARS"
-  alt="GitHub Stars"
+  alt="Anish Seth — AI Systems Engineering"
 />
 
 </div>
-
-<br/>
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 <!-- 🧠 ABOUT -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
