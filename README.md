@@ -14,33 +14,6 @@
 
 </div>
 
-<br/>
-
-<div align="center">
-
-<img
-  src="https://komarev.com/ghpvc/?username=Anish-2005&style=for-the-badge&color=6C63FF&label=PROFILE+VIEWS"
-  height="28"
-  alt="Profile views"
-/>
-
-&nbsp;&nbsp;
-
-<img
-  src="https://img.shields.io/github/followers/Anish-2005?style=for-the-badge&color=00D9FF&label=FOLLOWERS"
-  height="28"
-  alt="GitHub followers"
-/>
-
-&nbsp;&nbsp;
-
-<img
-  src="https://img.shields.io/github/stars/Anish-2005?style=for-the-badge&color=6C63FF&label=REPOSITORY+STARS"
-  height="28"
-  alt="Repository stars"
-/>
-
-</div>
 
 <br/>
 
@@ -51,7 +24,7 @@
 
 <a id="about"></a>
 
-## 🧠 About Me
+## 🧠 ABOUT ME
 
 <div align="center">
 
@@ -86,7 +59,7 @@ My foundation is in **full-stack engineering**, which shapes how I approach AI: 
 
 <a id="experience"></a>
 
-## 💼 Experience
+## 💼 EXPERIENCE
 
 <div align="center">
 <img src="./assets/experience.svg" width="100%" alt="Anish Seth — Experience and Engineering Background"/>
@@ -103,7 +76,7 @@ My foundation is in **full-stack engineering**, which shapes how I approach AI: 
 
 <a id="focus"></a>
 
-## 🎯 Current Focus
+## 🎯 CURRENT FOCUS
 
 <div align="center">
 <img src="./assets/focus.svg" width="100%" alt="Anish Seth — Current AI Engineering Focus"/>
@@ -119,7 +92,7 @@ My foundation is in **full-stack engineering**, which shapes how I approach AI: 
 
 <a id="ai-engineering"></a>
 
-## 🤖&nbsp; AI Engineering
+## 🤖&nbsp; AI ENGINEERING
 
 <div align="center">
 <img src="./assets/ai-engineering.svg"
@@ -139,7 +112,7 @@ My foundation is in **full-stack engineering**, which shapes how I approach AI: 
 
 <a id="tech-stack"></a>
 
-## 🛠️ Tech Stack
+## 🛠️ TECH STACK
 
 <div align="center">
 
@@ -160,7 +133,7 @@ My foundation is in **full-stack engineering**, which shapes how I approach AI: 
 
 <a id="projects"></a>
 
-## 🚀&nbsp; Featured Projects
+## 🚀&nbsp; FEATURED PROJECTS
 
 <div align="center">
 
@@ -186,7 +159,7 @@ My foundation is in **full-stack engineering**, which shapes how I approach AI: 
 
 <a id="achievements"></a>
 
-## 🏆&nbsp; Achievements & Certifications
+## 🏆&nbsp; ACHIEVEMENTS & CERTIFICATIONS
 
 <div align="center">
 
@@ -198,7 +171,7 @@ My foundation is in **full-stack engineering**, which shapes how I approach AI: 
 <!-- ═══════════════════════════════════════════════ ACTIVITY ═══════════════════════════════════════════════ -->
 <a id="activity"></a>
 
-## 📊&nbsp; GitHub Activity
+## 📊&nbsp; GITHUB ACTIVITY
 
 <div align="center">
 
