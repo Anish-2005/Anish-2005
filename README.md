@@ -559,7 +559,7 @@ Building AI systems across the full lifecycle —
 <img width="49%" src="https://streak-stats.demolab.com?user=Anish-2005&theme=tokyonight&hide_border=true&background=0A0E1A&ring=6C63FF&fire=00D9FF&currStreakLabel=00D9FF&sideLabels=c9d1d9"/>
 
 <img width="49%" src="./profile/top-langs.svg"/>
-<img width="49%" src="./profile/profile-details.svg"/>
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Anish-2005&theme=tokyonight"/>
 
 </div>
 <!-- ═══════════════════════════════════════════════ CONNECT ═══════════════════════════════════════════════ -->
