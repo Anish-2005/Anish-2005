@@ -1,0 +1,602 @@
+name: Generate Current Focus
+
+on:
+  push:
+    paths:
+      - ".github/workflows/generate-focus.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generate-focus
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Generate premium focus SVG
+        shell: bash
+        run: |
+          mkdir -p assets
+
+          cat > assets/focus.svg <<'SVG'
+          <svg width="1200" height="570" viewBox="0 0 1200 570"
+               fill="none" xmlns="http://www.w3.org/2000/svg">
+
+            <defs>
+
+              <!-- Background -->
+              <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="570"
+                              gradientUnits="userSpaceOnUse">
+                <stop stop-color="#0A0E1A"/>
+                <stop offset="0.5" stop-color="#0C1020"/>
+                <stop offset="1" stop-color="#080B14"/>
+              </linearGradient>
+
+              <!-- Aurora -->
+              <linearGradient id="aurora" x1="120" y1="0" x2="1080" y2="0"
+                              gradientUnits="userSpaceOnUse">
+                <stop stop-color="#6C63FF"/>
+                <stop offset="0.5" stop-color="#8175FF"/>
+                <stop offset="1" stop-color="#00D9FF"/>
+              </linearGradient>
+
+              <linearGradient id="softAurora" x1="0" y1="0" x2="1" y2="1">
+                <stop stop-color="#6C63FF"/>
+                <stop offset="1" stop-color="#00D9FF"/>
+              </linearGradient>
+
+              <!-- Cards -->
+              <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+                <stop stop-color="#111629"/>
+                <stop offset="1" stop-color="#0D1222"/>
+              </linearGradient>
+
+              <!-- Grid -->
+              <pattern id="grid" width="40" height="40"
+                       patternUnits="userSpaceOnUse">
+                <path d="M40 0H0V40"
+                      stroke="#FFFFFF"
+                      stroke-opacity="0.025"
+                      stroke-width="1"/>
+              </pattern>
+
+              <!-- Glow -->
+              <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+                <feGaussianBlur stdDeviation="16" result="blur"/>
+                <feMerge>
+                  <feMergeNode in="blur"/>
+                  <feMergeNode in="SourceGraphic"/>
+                </feMerge>
+              </filter>
+
+              <filter id="smallGlow" x="-100%" y="-100%" width="300%" height="300%">
+                <feGaussianBlur stdDeviation="6" result="blur"/>
+                <feMerge>
+                  <feMergeNode in="blur"/>
+                  <feMergeNode in="SourceGraphic"/>
+                </feMerge>
+              </filter>
+
+              <clipPath id="clip">
+                <rect width="1200" height="570" rx="28"/>
+              </clipPath>
+
+            </defs>
+
+            <!-- ═══════════════════════════════════════════════════════ -->
+            <!-- BACKGROUND -->
+            <!-- ═══════════════════════════════════════════════════════ -->
+
+            <rect width="1200" height="570" rx="28" fill="url(#bg)"/>
+            <rect width="1200" height="570" rx="28" fill="url(#grid)"/>
+
+            <!-- Aurora ambience -->
+            <circle cx="105" cy="80" r="130"
+                    fill="#6C63FF"
+                    fill-opacity="0.075"
+                    filter="url(#glow)"/>
+
+            <circle cx="1100" cy="500" r="150"
+                    fill="#00D9FF"
+                    fill-opacity="0.05"
+                    filter="url(#glow)"/>
+
+            <!-- Border -->
+            <rect x="1" y="1" width="1198" height="568" rx="27"
+                  stroke="#FFFFFF"
+                  stroke-opacity="0.08"/>
+
+            <!-- ═══════════════════════════════════════════════════════ -->
+            <!-- HEADER -->
+            <!-- ═══════════════════════════════════════════════════════ -->
+
+            <text x="60" y="57"
+                  fill="#8B7CFF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="11"
+                  font-weight="750"
+                  letter-spacing="3">
+              SYSTEM / CURRENT FOCUS
+            </text>
+
+            <text x="60" y="101"
+                  fill="#F7F8FF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="30"
+                  font-weight="750">
+              What I'm building toward.
+            </text>
+
+            <text x="60" y="131"
+                  fill="#8E97AE"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="14">
+              Exploring the systems layer where intelligence becomes reliable software.
+            </text>
+
+            <!-- ACTIVE indicator -->
+
+            <rect x="1022" y="43" width="118" height="32" rx="16"
+                  fill="#11182A"
+                  stroke="#00D9FF"
+                  stroke-opacity="0.25"/>
+
+            <circle cx="1042" cy="59" r="4"
+                    fill="#00D9FF"
+                    filter="url(#smallGlow)"/>
+
+            <text x="1055" y="64"
+                  fill="#9AEFFF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="700">
+              ACTIVE
+            </text>
+
+            <!-- ═══════════════════════════════════════════════════════ -->
+            <!-- FOCUS CARDS -->
+            <!-- ═══════════════════════════════════════════════════════ -->
+
+            <!-- Card 01 -->
+
+            <rect x="60" y="174" width="255" height="174" rx="16"
+                  fill="url(#card)"
+                  stroke="#6C63FF"
+                  stroke-opacity="0.22"/>
+
+            <rect x="60" y="174" width="255" height="3" rx="1.5"
+                  fill="#6C63FF"/>
+
+            <text x="84" y="207"
+                  fill="#69748D"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="750"
+                  letter-spacing="2">
+              01
+            </text>
+
+            <!-- Icon -->
+            <circle cx="286" cy="205" r="17"
+                    fill="#6C63FF"
+                    fill-opacity="0.09"
+                    stroke="#6C63FF"
+                    stroke-opacity="0.25"/>
+
+            <circle cx="286" cy="205" r="5"
+                    fill="#8B7CFF"
+                    filter="url(#smallGlow)"/>
+
+            <text x="84" y="248"
+                  fill="#F7F8FF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="20"
+                  font-weight="750">
+              Agentic AI
+            </text>
+
+            <text x="84" y="277"
+                  fill="#AEB7CC"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="12">
+              Autonomous workflows,
+            </text>
+
+            <text x="84" y="296"
+                  fill="#AEB7CC"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="12">
+              orchestration &amp; tool use
+            </text>
+
+            <rect x="84" y="315" width="104" height="20" rx="10"
+                  fill="#17152C"/>
+
+            <text x="136" y="329"
+                  text-anchor="middle"
+                  fill="#8B7CFF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="9"
+                  font-weight="700">
+              ORCHESTRATION
+            </text>
+
+
+            <!-- Card 02 -->
+
+            <rect x="330" y="174" width="255" height="174" rx="16"
+                  fill="url(#card)"
+                  stroke="#00D9FF"
+                  stroke-opacity="0.20"/>
+
+            <rect x="330" y="174" width="255" height="3" rx="1.5"
+                  fill="#00D9FF"/>
+
+            <text x="354" y="207"
+                  fill="#69748D"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="750"
+                  letter-spacing="2">
+              02
+            </text>
+
+            <circle cx="556" cy="205" r="17"
+                    fill="#00D9FF"
+                    fill-opacity="0.07"
+                    stroke="#00D9FF"
+                    stroke-opacity="0.23"/>
+
+            <circle cx="556" cy="205" r="5"
+                    fill="#00D9FF"
+                    filter="url(#smallGlow)"/>
+
+            <text x="354" y="248"
+                  fill="#F7F8FF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="20"
+                  font-weight="750">
+              Retrieval
+            </text>
+
+            <text x="354" y="277"
+                  fill="#AEB7CC"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="12">
+              RAG, GraphRAG &amp;
+            </text>
+
+            <text x="354" y="296"
+                  fill="#AEB7CC"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="12">
+              knowledge systems
+            </text>
+
+            <rect x="354" y="315" width="90" height="20" rx="10"
+                  fill="#102329"/>
+
+            <text x="399" y="329"
+                  text-anchor="middle"
+                  fill="#7CEAFF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="9"
+                  font-weight="700">
+              RETRIEVAL
+            </text>
+
+
+            <!-- Card 03 -->
+
+            <rect x="600" y="174" width="255" height="174" rx="16"
+                  fill="url(#card)"
+                  stroke="#6C63FF"
+                  stroke-opacity="0.22"/>
+
+            <rect x="600" y="174" width="255" height="3" rx="1.5"
+                  fill="#6C63FF"/>
+
+            <text x="624" y="207"
+                  fill="#69748D"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="750"
+                  letter-spacing="2">
+              03
+            </text>
+
+            <circle cx="826" cy="205" r="17"
+                    fill="#6C63FF"
+                    fill-opacity="0.09"
+                    stroke="#6C63FF"
+                    stroke-opacity="0.25"/>
+
+            <circle cx="826" cy="205" r="5"
+                    fill="#8B7CFF"
+                    filter="url(#smallGlow)"/>
+
+            <text x="624" y="248"
+                  fill="#F7F8FF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="20"
+                  font-weight="750">
+              Document AI
+            </text>
+
+            <text x="624" y="277"
+                  fill="#AEB7CC"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="12">
+              OCR, vision &amp;
+            </text>
+
+            <text x="624" y="296"
+                  fill="#AEB7CC"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="12">
+              intelligent extraction
+            </text>
+
+            <rect x="624" y="315" width="83" height="20" rx="10"
+                  fill="#17152C"/>
+
+            <text x="665" y="329"
+                  text-anchor="middle"
+                  fill="#8B7CFF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="9"
+                  font-weight="700">
+              VISION
+            </text>
+
+
+            <!-- Card 04 -->
+
+            <rect x="870" y="174" width="270" height="174" rx="16"
+                  fill="url(#card)"
+                  stroke="#00D9FF"
+                  stroke-opacity="0.20"/>
+
+            <rect x="870" y="174" width="270" height="3" rx="1.5"
+                  fill="#00D9FF"/>
+
+            <text x="894" y="207"
+                  fill="#69748D"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="750"
+                  letter-spacing="2">
+              04
+            </text>
+
+            <circle cx="1111" cy="205" r="17"
+                    fill="#00D9FF"
+                    fill-opacity="0.07"
+                    stroke="#00D9FF"
+                    stroke-opacity="0.23"/>
+
+            <circle cx="1111" cy="205" r="5"
+                    fill="#00D9FF"
+                    filter="url(#smallGlow)"/>
+
+            <text x="894" y="248"
+                  fill="#F7F8FF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="20"
+                  font-weight="750">
+              Evaluation
+            </text>
+
+            <text x="894" y="277"
+                  fill="#AEB7CC"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="12">
+              Benchmarking,
+            </text>
+
+            <text x="894" y="296"
+                  fill="#AEB7CC"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="12">
+              reliability &amp; AI quality
+            </text>
+
+            <rect x="894" y="315" width="108" height="20" rx="10"
+                  fill="#102329"/>
+
+            <text x="948" y="329"
+                  text-anchor="middle"
+                  fill="#7CEAFF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="9"
+                  font-weight="700">
+              BENCHMARKING
+            </text>
+
+
+            <!-- ═══════════════════════════════════════════════════════ -->
+            <!-- PIPELINE -->
+            <!-- ═══════════════════════════════════════════════════════ -->
+
+            <text x="60" y="390"
+                  fill="#69748D"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="750"
+                  letter-spacing="2">
+              ENGINEERING LOOP
+            </text>
+
+            <text x="60" y="419"
+                  fill="#F0F3FA"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="17"
+                  font-weight="700">
+              From prototype to dependable system
+            </text>
+
+            <!-- Pipeline container -->
+
+            <rect x="60" y="446" width="1080" height="72" rx="16"
+                  fill="#0E1425"
+                  stroke="#FFFFFF"
+                  stroke-opacity="0.07"/>
+
+            <!-- progress line -->
+
+            <line x1="110" y1="482" x2="1090" y2="482"
+                  stroke="url(#aurora)"
+                  stroke-opacity="0.32"
+                  stroke-width="2"/>
+
+            <!-- node 1 -->
+
+            <circle cx="130" cy="482" r="9"
+                    fill="#0D1222"
+                    stroke="#6C63FF"
+                    stroke-width="2"/>
+
+            <circle cx="130" cy="482" r="3"
+                    fill="#8B7CFF"/>
+
+            <text x="130" y="470"
+                  text-anchor="middle"
+                  fill="#F0F3FA"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="700">
+              PROTOTYPE
+            </text>
+
+            <!-- node 2 -->
+
+            <circle cx="365" cy="482" r="9"
+                    fill="#0D1222"
+                    stroke="#6C63FF"
+                    stroke-width="2"/>
+
+            <circle cx="365" cy="482" r="3"
+                    fill="#8B7CFF"/>
+
+            <text x="365" y="505"
+                  text-anchor="middle"
+                  fill="#AEB7CC"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="650">
+              EVALUATE
+            </text>
+
+            <!-- node 3 -->
+
+            <circle cx="600" cy="482" r="9"
+                    fill="#0D1222"
+                    stroke="#8B7CFF"
+                    stroke-width="2"/>
+
+            <circle cx="600" cy="482" r="3"
+                    fill="#8B7CFF"/>
+
+            <text x="600" y="470"
+                  text-anchor="middle"
+                  fill="#AEB7CC"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="650">
+              HARDEN
+            </text>
+
+            <!-- node 4 -->
+
+            <circle cx="835" cy="482" r="9"
+                    fill="#0D1222"
+                    stroke="#00D9FF"
+                    stroke-width="2"/>
+
+            <circle cx="835" cy="482" r="3"
+                    fill="#00D9FF"/>
+
+            <text x="835" y="505"
+                  text-anchor="middle"
+                  fill="#AEB7CC"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="650">
+              DEPLOY
+            </text>
+
+            <!-- node 5 -->
+
+            <circle cx="1070" cy="482" r="9"
+                    fill="#0D1222"
+                    stroke="#00D9FF"
+                    stroke-width="2"/>
+
+            <circle cx="1070" cy="482" r="3"
+                    fill="#00D9FF"
+                    filter="url(#smallGlow)"/>
+
+            <text x="1070" y="470"
+                  text-anchor="middle"
+                  fill="#00D9FF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="700">
+              MONITOR
+            </text>
+
+            <!-- Footer -->
+
+            <line x1="60" y1="545" x2="1140" y2="545"
+                  stroke="#FFFFFF"
+                  stroke-opacity="0.06"/>
+
+            <text x="60" y="557"
+                  fill="#69748D"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="9"
+                  font-weight="700"
+                  letter-spacing="2">
+              FOCUS
+            </text>
+
+            <text x="1140" y="557"
+                  text-anchor="end"
+                  fill="#8B7CFF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="700">
+              INTELLIGENCE × ENGINEERING
+            </text>
+
+          </svg>
+          SVG
+
+      - name: Commit generated SVG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/focus.svg
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update premium current focus SVG"
+
+          git fetch origin main
+          git rebase origin/main
+
+          git push origin HEAD:main
