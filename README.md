@@ -567,18 +567,10 @@ Building AI systems across the full lifecycle —
 
 <div align="center">
 
-## 🤝&nbsp; Connect
-
-<a href="https://www.anishseth.xyz"><img src="https://img.shields.io/badge/Portfolio-0A0E1A?style=for-the-badge&logo=vercel&logoColor=00D9FF"/></a>
-<a href="https://www.linkedin.com/in/anishseth"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="mailto:anishseth0510@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<a href="https://x.com/AnishSeth170734"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/></a>
-<a href="https://instagram.com/anish_seth.ai"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
-
-<br/><br/>
-
-<sub><i>"Ship the model. Ship the system. Ship the product."</i></sub>
+<img
+  src="./assets/connect.svg"
+  width="100%"
+  alt="Connect with Anish Seth"
+/>
 
 </div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,50:302B63,100:0A0E1A&height=140&section=footer"/>
