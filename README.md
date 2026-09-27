@@ -1,29 +1,37 @@
 <!-- ═══════════════════════════════════════════════════════════════════════════════════ -->
 <!-- ANISH SETH — GITHUB PROFILE README · Design System: "Aurora"                       -->
 <!-- Palette → Violet #6C63FF · Cyan #00D9FF · Ink #0A0E1A · Gold #FFB000 (accent-only)  -->
+<!-- Libraries: capsule-render · readme-typing-svg · github-readme-stats                -->
+<!--            github-readme-streak-stats · github-readme-activity-graph               -->
+<!--            github-profile-trophy · github-profile-summary-cards · platane/snk      -->
 <!-- ═══════════════════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0E1A,35:302B63,70:6C63FF,100:00D9FF&height=230&section=header&text=ANISH%20SETH&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Engineering%20intelligent%20systems%20—%20from%20model%20to%20API%20to%20interface&descSize=16&descAlignY=58&descAlign=50"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0E1A,35:302B63,70:6C63FF,100:00D9FF&height=240&section=header&text=ANISH%20SETH&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Engineering%20intelligent%20systems%20—%20from%20model%20to%20API%20to%20interface&descSize=16&descAlignY=56&descAlign=50"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2800&pause=1100&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=70&lines=Designing+agentic+AI+%26+LLM-native+systems;RAG+%2F+GraphRAG+%C2%B7+Document+Intelligence+%C2%B7+AI+Agents;Currently%3A+AI%2FML+Engineering+Intern+%40+Digital+Alpha" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=1100&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=820&height=90&lines=Designing+agentic+AI+%26+LLM-native+systems;RAG+%2F+GraphRAG+%C2%B7+Document+Intelligence+%C2%B7+AI+Agents;Currently%3A+AI%2FML+Engineering+Intern+%40+Digital+Alpha;Full-stack+foundation+%C2%B7+Cloud-native+deployment" alt="Typing SVG"/>
 </a>
 
 <br/>
 
 <a href="#about"><img src="https://img.shields.io/badge/About-0A0E1A?style=for-the-badge&logoColor=white" /></a>
+<a href="#experience"><img src="https://img.shields.io/badge/Experience-231C4E?style=for-the-badge&logoColor=white" /></a>
 <a href="#ai-engineering"><img src="https://img.shields.io/badge/AI_Engineering-302B63?style=for-the-badge&logoColor=white" /></a>
 <a href="#tech-stack"><img src="https://img.shields.io/badge/Tech_Stack-4B3F8C?style=for-the-badge&logoColor=white" /></a>
-<a href="#projects"><img src="https://img.shields.io/badge/Projects-6C63FF?style=for-the-badge&logoColor=white" /></a>
+<a href="#projects"><img src="https://img.shields.io/badge/Projects-5A50C0?style=for-the-badge&logoColor=white" /></a>
 <a href="#achievements"><img src="https://img.shields.io/badge/Achievements-2C8CB8?style=for-the-badge&logoColor=white" /></a>
 <a href="#activity"><img src="https://img.shields.io/badge/Activity-00A6C9?style=for-the-badge&logoColor=white" /></a>
 <a href="#connect"><img src="https://img.shields.io/badge/Connect-00D9FF?style=for-the-badge&logoColor=0A0E1A" /></a>
 
-</div>
+<br/><br/>
 
-<br/>
+<img src="https://komarev.com/ghpvc/?username=Anish-2005&style=for-the-badge&color=6C63FF&label=PROFILE+VIEWS"/>
+<img src="https://img.shields.io/github/followers/Anish-2005?style=for-the-badge&color=00D9FF&labelColor=0A0E1A&label=FOLLOWERS"/>
+<img src="https://img.shields.io/github/stars/Anish-2005?style=for-the-badge&color=302B63&labelColor=0A0E1A&label=STARS"/>
+
+</div>
 
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6C63FF,100:00D9FF&height=4&width=1000"/>
@@ -42,11 +50,22 @@
 
 I build the layer where **language models meet production systems** — agentic pipelines that research, reason, and generate; retrieval systems that ground LLMs in real knowledge; and the full-stack scaffolding — APIs, databases, cloud infra — that gets all of it in front of real users.
 
-Right now that means an **AI/ML Engineering Internship at Digital Alpha**, shipping agentic report-generation systems and document-intelligence pipelines. Before AI became the focus, I spent years as a full-stack engineer — which is exactly why I don't just prototype models, I ship them.
+Right now that means an **AI/ML Engineering Internship**, shipping agentic report-generation systems and document-intelligence pipelines. Before AI became the focus, I spent years as a full-stack engineer — which is exactly why I don't just prototype models, I ship them end to end: model → API → interface → production.
+
+I care about systems that are **correct, explainable, and deployable** — not demos that only work in a notebook. Most of what I build sits at the intersection of three things: applied AI research, backend engineering, and a genuine interest in the problems it's solving (agritech, legal tech, health tech, environmental monitoring).
 
 <br/>
 
 <img src="https://img.shields.io/badge/AI%2FML_Engineer-6C63FF?style=flat-square&logoColor=white"/> <img src="https://img.shields.io/badge/AI_Engineering-4B3F8C?style=flat-square&logoColor=white"/> <img src="https://img.shields.io/badge/Full--Stack_Developer-302B63?style=flat-square&logoColor=white"/>
+
+<br/><br/>
+
+- 💼 &nbsp;**Currently:** AI/ML Engineering Intern
+- 🔭 &nbsp;**Building:** agentic workflows · RAG / GraphRAG · document-intelligence pipelines
+- 🌱 &nbsp;**Exploring:** multi-agent orchestration · lightweight model fine-tuning · LLM evaluation frameworks
+- 🎓 &nbsp;**Studying:** Engineering Undergraduate, Techno Main Salt Lake (TMSL)
+- 📍 &nbsp;**Based in:** India
+- 🤝 &nbsp;**Open to:** AI/ML roles, applied-AI collaborations, and hard engineering problems
 
 </td>
 <td width="42%" valign="top">
@@ -54,19 +73,82 @@ Right now that means an **AI/ML Engineering Internship at Digital Alpha**, shipp
 ```python
 class AnishSeth:
     def __init__(self):
-        self.role     = "AI/ML Engineer"
-        self.company  = "Digital Alpha (Intern)"
-        self.builds   = [
-            "agentic pipelines",
-            "RAG / GraphRAG",
-            "document intelligence",
-        ]
-        self.stack    = "full-stack + cloud"
-        self.open_to  = "AI/ML roles & collabs"
+        self.role       = "AI/ML Engineer"
+        self.education  = "TMSL"
 
-    def ship(self, idea):
-        return f"{idea} → production"
+        self.builds = [
+            "agentic pipelines",
+            "RAG / GraphRAG systems",
+            "document intelligence",
+            "AI evaluation harnesses",
+        ]
+
+        self.foundation = [
+            "full-stack engineering",
+            "cloud-native deployment",
+        ]
+
+        self.open_to = "AI/ML roles & collabs"
+
+    def ship(self, idea: str) -> str:
+        """From notebook to production."""
+        pipeline = [
+            "prototype", "evaluate",
+            "harden", "deploy", "monitor",
+        ]
+        for stage in pipeline:
+            idea = f"{stage}({idea})"
+        return idea
+
+    def __repr__(self):
+        return "AI engineer who ships."
 ```
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6C63FF,100:00D9FF&height=3&width=1000"/>
+</div>
+
+<!-- ═══════════════════════════════════════════════ EXPERIENCE ═══════════════════════════════════════════════ -->
+<a id="experience"></a>
+
+## 💼&nbsp; Experience
+
+<table>
+<tr>
+<td width="26%" valign="top">
+
+**AI/ML Engineering Intern**
+<br/><sub>Current</sub>
+
+</td>
+<td width="74%" valign="top">
+
+- Building **agentic research & report-generation systems** that plan, retrieve, and synthesize autonomously
+- Designing **document-intelligence pipelines** — OCR, layout parsing, and vision-based extraction
+- Architecting **LLM workflows**: prompt pipelines, orchestration, and multi-step agent chains
+- Running **AI benchmarking & evaluation** to keep model behavior measurable, not anecdotal
+- Shipping the **production backend & API layer** that serves these systems, deployed on **AWS**
+
+</td>
+</tr>
+<tr><td colspan="2"><br/></td></tr>
+<tr>
+<td width="26%" valign="top">
+
+**Full-Stack Development**
+<br/>Independent projects & client work
+<br/><sub>Prior</sub>
+
+</td>
+<td width="74%" valign="top">
+
+- Designed and shipped full-stack web applications end-to-end — frontend, backend, database, deployment
+- Built the engineering foundation — API design, cloud infra, systems thinking — that now underpins how I ship AI products
+- Worked across legal-tech, health-tech, and social-impact problem spaces
 
 </td>
 </tr>
@@ -83,30 +165,43 @@ class AnishSeth:
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="34%" valign="top">
 
 ### ◈ LLM & Agentic Systems
-<img src="https://img.shields.io/badge/Agentic_Pipelines-0A0E1A?style=flat-square&logoColor=00D9FF"/>
-<img src="https://img.shields.io/badge/RAG-0A0E1A?style=flat-square&logoColor=00D9FF"/>
-<img src="https://img.shields.io/badge/GraphRAG-0A0E1A?style=flat-square&logoColor=00D9FF"/>
-<img src="https://img.shields.io/badge/Prompt_Engineering-0A0E1A?style=flat-square&logoColor=00D9FF"/>
-<img src="https://img.shields.io/badge/LLM_Orchestration-0A0E1A?style=flat-square&logoColor=00D9FF"/>
+<img src="https://img.shields.io/badge/Agentic_Pipelines-0A0E1A?style=flat-square&logoColor=00D9FF"/><br/>
+<img src="https://img.shields.io/badge/RAG-0A0E1A?style=flat-square&logoColor=00D9FF"/><br/>
+<img src="https://img.shields.io/badge/GraphRAG-0A0E1A?style=flat-square&logoColor=00D9FF"/><br/>
+<img src="https://img.shields.io/badge/Prompt_Engineering-0A0E1A?style=flat-square&logoColor=00D9FF"/><br/>
+<img src="https://img.shields.io/badge/LLM_Orchestration-0A0E1A?style=flat-square&logoColor=00D9FF"/><br/>
 <img src="https://img.shields.io/badge/Multi--step_Agents-0A0E1A?style=flat-square&logoColor=00D9FF"/>
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 ### ◈ Applied AI
-<img src="https://img.shields.io/badge/Document_Intelligence-0A0E1A?style=flat-square&logoColor=6C63FF"/>
-<img src="https://img.shields.io/badge/OCR-0A0E1A?style=flat-square&logoColor=6C63FF"/>
-<img src="https://img.shields.io/badge/Computer_Vision-0A0E1A?style=flat-square&logoColor=6C63FF"/>
-<img src="https://img.shields.io/badge/AI_Evaluation-0A0E1A?style=flat-square&logoColor=6C63FF"/>
-<img src="https://img.shields.io/badge/Benchmarking-0A0E1A?style=flat-square&logoColor=6C63FF"/>
+<img src="https://img.shields.io/badge/Document_Intelligence-0A0E1A?style=flat-square&logoColor=6C63FF"/><br/>
+<img src="https://img.shields.io/badge/OCR-0A0E1A?style=flat-square&logoColor=6C63FF"/><br/>
+<img src="https://img.shields.io/badge/Computer_Vision-0A0E1A?style=flat-square&logoColor=6C63FF"/><br/>
+<img src="https://img.shields.io/badge/AI_Evaluation-0A0E1A?style=flat-square&logoColor=6C63FF"/><br/>
+<img src="https://img.shields.io/badge/Benchmarking-0A0E1A?style=flat-square&logoColor=6C63FF"/><br/>
 <img src="https://img.shields.io/badge/AI_Automation-0A0E1A?style=flat-square&logoColor=6C63FF"/>
+
+</td>
+<td width="33%" valign="top">
+
+### ◈ AI Infra & Tooling
+<img src="https://img.shields.io/badge/Vector_Search-0A0E1A?style=flat-square&logoColor=FFB000"/><br/>
+<img src="https://img.shields.io/badge/Embeddings-0A0E1A?style=flat-square&logoColor=FFB000"/><br/>
+<img src="https://img.shields.io/badge/LangChain-0A0E1A?style=flat-square&logoColor=FFB000"/><br/>
+<img src="https://img.shields.io/badge/Model_Evaluation-0A0E1A?style=flat-square&logoColor=FFB000"/><br/>
+<img src="https://img.shields.io/badge/Cloud_Inference-0A0E1A?style=flat-square&logoColor=FFB000"/><br/>
+<img src="https://img.shields.io/badge/API_Design-0A0E1A?style=flat-square&logoColor=FFB000"/>
 
 </td>
 </tr>
 </table>
+
+<sub>🌱 &nbsp;**Currently exploring:** multi-agent orchestration frameworks · small-model fine-tuning · structured evaluation harnesses for LLM output quality</sub>
 
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6C63FF,100:00D9FF&height=3&width=1000"/>
@@ -121,17 +216,25 @@ class AnishSeth:
 
 <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/> <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white"/> <img src="https://img.shields.io/badge/Claude-CC785C?style=for-the-badge&logo=anthropic&logoColor=white"/> <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/> <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
 
-**Systems Layer**
+**Backend & Systems**
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/> <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white"/> <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/> <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/> <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/> <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white"/> <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/> <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+
+**Data & Storage**
+
+<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/> <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/> <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white"/>
 
 **Interface Layer**
 
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/> <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
 
-**Infra Layer**
+**Cloud & Infra**
 
-<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"/> <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
+<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"/> <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+
+**Workflow & Tooling**
+
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/> <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"/> <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/> <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/> <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/>
 
 <br/>
 
@@ -155,37 +258,26 @@ class AnishSeth:
 
 ## 🚀&nbsp; Featured Projects
 
+### 🤖 AI / ML
+
 <table>
-<tr><th align="left" width="50%">🤖&nbsp; AI / ML</th><th align="left" width="50%">💻&nbsp; Full-Stack / Systems</th></tr>
-<tr>
-<td valign="top">
+<tr><td width="30%"><b>Report-Forge</b></td><td width="70%">Agentic research & automated report generation — plans a research task, retrieves sources, and synthesizes a structured report autonomously.<br/><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/LLM_Agents-0A0E1A?style=flat-square&logoColor=00D9FF"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/></td></tr>
+<tr><td colspan="2"><br/></td></tr>
+<tr><td><b>GraphRAG Knowledge Engine</b></td><td>Graph-based retrieval system that grounds LLM reasoning in a structured knowledge graph instead of flat vector search alone.<br/><img src="https://img.shields.io/badge/GraphRAG-0A0E1A?style=flat-square&logoColor=00D9FF"/> <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/> <img src="https://img.shields.io/badge/Vector_DB-0A0E1A?style=flat-square&logoColor=FFB000"/></td></tr>
+<tr><td colspan="2"><br/></td></tr>
+<tr><td><b>AI Scam Detection Agent</b></td><td>LLM-driven agent that flags fraud and scam patterns in text and transaction data in real time.<br/><img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white"/> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/></td></tr>
+<tr><td colspan="2"><br/></td></tr>
+<tr><td><b>Vanmitra</b></td><td>AI-powered environmental monitoring — processes sensor/imagery data to surface early warnings for ecological risk.<br/><img src="https://img.shields.io/badge/Computer_Vision-0A0E1A?style=flat-square&logoColor=6C63FF"/> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/></td></tr>
+<tr><td colspan="2"><br/></td></tr>
+<tr><td><b>AgriLink</b></td><td>AI + sustainability platform connecting farmers to data-driven crop and resource insights.<br/><img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/></td></tr>
+</table>
 
-**Report-Forge**
-<br/><sub>Agentic research & automated report generation</sub>
+### 💻 Full-Stack / Systems
 
-**GraphRAG Knowledge Engine**
-<br/><sub>Graph-based retrieval for grounded LLM reasoning</sub>
-
-**AI Scam Detection Agent**
-<br/><sub>LLM-driven fraud & scam-pattern detection</sub>
-
-**Vanmitra**
-<br/><sub>AI-powered environmental monitoring</sub>
-
-</td>
-<td valign="top">
-
-**NEXORA**
-<br/><sub>Real-time collaboration platform</sub>
-
-**AgriLink**
-<br/><sub>AI + sustainability for agriculture</sub>
-
-**MiniGit**
-<br/><sub>A Git implementation built from scratch in Java</sub>
-
-</td>
-</tr>
+<table>
+<tr><td width="30%"><b>NEXORA</b></td><td width="70%">Real-time collaboration platform with live document editing and multi-user presence.<br/><img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/> <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/></td></tr>
+<tr><td colspan="2"><br/></td></tr>
+<tr><td><b>MiniGit</b></td><td>A Git implementation built from scratch in Java — object storage, commits, branching, and diffing, without the real Git binary.<br/><img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/> <img src="https://img.shields.io/badge/Systems_Design-0A0E1A?style=flat-square&logoColor=FFB000"/></td></tr>
 </table>
 
 <div align="center">
@@ -201,37 +293,25 @@ class AnishSeth:
 
 ## 🏆&nbsp; Achievements & Certifications
 
-<table>
-<tr>
-<td valign="top" width="34%">
-
 **Hackathons**
 
-🥇 Smart India Hackathon 2024 — *Finalist*
-🥇 Smart India Hackathon 2025 — *Finalist*
-🥇 Hack4Bengal 2025 — *Finalist*
+| Event | Result |
+|---|---|
+| Smart India Hackathon 2024 | 🥇 Finalist |
+| Smart India Hackathon 2025 | 🥇 Finalist |
+| Hack4Bengal 2025 | 🥇 Finalist |
 
-</td>
-<td valign="top" width="33%">
+**Leadership & Community**
 
-**Leadership**
-
-Google Student Ambassador
-Campus Mantri — GeeksforGeeks
-Outreach Head — Educational Society, TMSL
-
-</td>
-<td valign="top" width="33%">
+- Google Student Ambassador
+- Campus Mantri — GeeksforGeeks
+- Outreach Head — Educational Society, TMSL
 
 **Certifications**
 
-Google AI/ML Virtual Internship — AICTE
-AWS Academy Cloud Architecting
-OCI AI Foundations Associate
-
-</td>
-</tr>
-</table>
+<img src="https://img.shields.io/badge/Google_AI%2FML_Virtual_Internship-AICTE-4285F4?style=for-the-badge&logo=google&logoColor=white"/>
+<img src="https://img.shields.io/badge/AWS_Academy-Cloud_Architecting-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
+<img src="https://img.shields.io/badge/OCI-AI_Foundations_Associate-F80000?style=for-the-badge&logo=oracle&logoColor=white"/>
 
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6C63FF,100:00D9FF&height=3&width=1000"/>
@@ -248,9 +328,11 @@ OCI AI Foundations Associate
 <img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=Anish-2005&theme=tokyonight&hide_border=true&background=0A0E1A&ring=6C63FF&fire=00D9FF&currStreakLabel=00D9FF&sideLabels=c9d1d9"/>
 
 <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Anish-2005&layout=compact&theme=tokyonight&hide_border=true&bg_color=0A0E1A&title_color=00D9FF&text_color=c9d1d9&langs_count=8"/>
-<img width="49%" src="https://github-profile-trophy.vercel.app/?username=Anish-2005&theme=algolia&no-frame=true&no-bg=true&margin-w=8&row=1&column=6"/>
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Anish-2005&theme=tokyonight"/>
 
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Anish-2005&bg_color=0A0E1A&color=00D9FF&line=6C63FF&point=ffffff&area=true&area_color=302B63&hide_border=true&custom_title=Contribution%20Graph"/>
+
+<img width="100%" src="https://github-profile-trophy.vercel.app/?username=Anish-2005&theme=algolia&no-frame=true&no-bg=true&margin-w=8&row=1&column=7"/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anish-2005/Anish-2005/output/github-contribution-grid-snake-dark.svg">
@@ -275,11 +357,7 @@ OCI AI Foundations Associate
 <a href="https://www.linkedin.com/in/anishseth"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="mailto:anishseth0510@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 <a href="https://x.com/AnishSeth170734"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/></a>
-
-<br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=Anish-2005&style=for-the-badge&color=6C63FF&label=PROFILE+VIEWS"/>
-<img src="https://img.shields.io/github/followers/Anish-2005?style=for-the-badge&color=00D9FF&labelColor=0A0E1A&label=FOLLOWERS"/>
+<a href="https://instagram.com/anish_seth.ai"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
 
 <br/><br/>
 
