@@ -7,17 +7,27 @@
 
   <defs>
 
-    <!-- Background -->
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="650"
-                    gradientUnits="userSpaceOnUse">
+    <linearGradient
+      id="bg"
+      x1="0"
+      y1="0"
+      x2="1200"
+      y2="650"
+      gradientUnits="userSpaceOnUse"
+    >
       <stop offset="0" stop-color="#090C17"/>
       <stop offset="0.5" stop-color="#0A0E1A"/>
       <stop offset="1" stop-color="#07131B"/>
     </linearGradient>
 
-    <!-- Aurora -->
-    <linearGradient id="aurora" x1="80" y1="0" x2="1120" y2="0"
-                    gradientUnits="userSpaceOnUse">
+    <linearGradient
+      id="aurora"
+      x1="80"
+      y1="0"
+      x2="1120"
+      y2="0"
+      gradientUnits="userSpaceOnUse"
+    >
       <stop offset="0" stop-color="#6C63FF"/>
       <stop offset="0.48" stop-color="#8277FF"/>
       <stop offset="1" stop-color="#00D9FF"/>
@@ -33,7 +43,6 @@
       <stop offset="1" stop-color="#00D9FF"/>
     </linearGradient>
 
-    <!-- Navigation -->
     <linearGradient id="navPurple" x1="0" y1="0" x2="0" y2="1">
       <stop stop-color="#28234D"/>
       <stop offset="1" stop-color="#1C1935"/>
@@ -49,7 +58,6 @@
       <stop offset="1" stop-color="#007B94"/>
     </linearGradient>
 
-    <!-- Grid -->
     <pattern
       id="grid"
       width="38"
@@ -65,24 +73,29 @@
       />
     </pattern>
 
-    <!-- Glows -->
-    <filter id="blur">
+    <filter
+      id="blur"
+      x="-50%"
+      y="-50%"
+      width="200%"
+      height="200%"
+    >
       <feGaussianBlur stdDeviation="35"/>
     </filter>
 
-    <filter id="smallBlur">
+    <filter
+      id="smallBlur"
+      x="-50%"
+      y="-50%"
+      width="200%"
+      height="200%"
+    >
       <feGaussianBlur stdDeviation="8"/>
-    </filter>
-
-    <filter id="textGlow">
-      <feGaussianBlur stdDeviation="3"/>
     </filter>
 
   </defs>
 
-  <!-- ================================================== -->
   <!-- BACKGROUND -->
-  <!-- ================================================== -->
 
   <rect
     width="1200"
@@ -98,7 +111,6 @@
     fill="url(#grid)"
   />
 
-  <!-- Ambient aurora -->
   <ellipse
     cx="180"
     cy="80"
@@ -119,7 +131,6 @@
     filter="url(#blur)"
   />
 
-  <!-- Border -->
   <rect
     x="1"
     y="1"
@@ -131,9 +142,7 @@
     stroke-width="1.5"
   />
 
-  <!-- ================================================== -->
-  <!-- TOP STATUS -->
-  <!-- ================================================== -->
+  <!-- STATUS -->
 
   <rect
     x="58"
@@ -174,9 +183,7 @@
     AI SYSTEMS
   </text>
 
-  <!-- ================================================== -->
   <!-- IDENTITY -->
-  <!-- ================================================== -->
 
   <text
     x="58"
@@ -220,9 +227,7 @@
     from model → API → infrastructure → interface
   </text>
 
-  <!-- ================================================== -->
   <!-- SYSTEM ORBIT -->
-  <!-- ================================================== -->
 
   <g transform="translate(1005 138)">
 
@@ -260,33 +265,10 @@
       fill="#00D9FF"
     />
 
-    <circle
-      cx="0"
-      cy="-82"
-      r="4"
-      fill="#6C63FF"
-    />
-
-    <circle
-      cx="82"
-      cy="0"
-      r="4"
-      fill="#00D9FF"
-    />
-
-    <circle
-      cx="0"
-      cy="82"
-      r="4"
-      fill="#6C63FF"
-    />
-
-    <circle
-      cx="-82"
-      cy="0"
-      r="4"
-      fill="#00D9FF"
-    />
+    <circle cx="0" cy="-82" r="4" fill="#6C63FF"/>
+    <circle cx="82" cy="0" r="4" fill="#00D9FF"/>
+    <circle cx="0" cy="82" r="4" fill="#6C63FF"/>
+    <circle cx="-82" cy="0" r="4" fill="#00D9FF"/>
 
     <line
       x1="0"
@@ -352,13 +334,10 @@
 
   </g>
 
-  <!-- ================================================== -->
   <!-- SPECIALIZATION -->
-  <!-- ================================================== -->
 
   <g transform="translate(58 280)">
 
-    <!-- Agentic -->
     <rect
       width="138"
       height="32"
@@ -381,8 +360,6 @@
       AGENTIC AI
     </text>
 
-
-    <!-- LLM -->
     <rect
       x="148"
       width="140"
@@ -406,8 +383,6 @@
       LLM SYSTEMS
     </text>
 
-
-    <!-- RAG -->
     <rect
       x="298"
       width="160"
@@ -431,8 +406,6 @@
       RAG / GRAPHRAG
     </text>
 
-
-    <!-- Document -->
     <rect
       x="468"
       width="146"
@@ -458,13 +431,10 @@
 
   </g>
 
-  <!-- ================================================== -->
   <!-- NAVIGATION -->
-  <!-- ================================================== -->
 
   <g transform="translate(58 345)">
 
-    <!-- ABOUT -->
     <rect x="0" y="0" width="88" height="38" rx="3"
           fill="url(#navPurple)"/>
     <rect x="0" y="36" width="88" height="2"
@@ -478,7 +448,6 @@
       ABOUT
     </text>
 
-    <!-- EXPERIENCE -->
     <rect x="94" y="0" width="122" height="38" rx="3"
           fill="url(#navPurple)"/>
     <rect x="94" y="36" width="122" height="2"
@@ -492,7 +461,6 @@
       EXPERIENCE
     </text>
 
-    <!-- FOCUS -->
     <rect x="222" y="0" width="80" height="38" rx="3"
           fill="url(#navPurple)"/>
     <rect x="222" y="36" width="80" height="2"
@@ -506,7 +474,6 @@
       FOCUS
     </text>
 
-    <!-- AI ENGINEERING -->
     <rect x="308" y="0" width="158" height="38" rx="3"
           fill="url(#navPurple)"/>
     <rect x="308" y="36" width="158" height="2"
@@ -520,7 +487,6 @@
       AI ENGINEERING
     </text>
 
-    <!-- TECH STACK -->
     <rect x="472" y="0" width="124" height="38" rx="3"
           fill="url(#navPurple)"/>
     <rect x="472" y="36" width="124" height="2"
@@ -534,7 +500,6 @@
       TECH STACK
     </text>
 
-    <!-- PROJECTS -->
     <rect x="602" y="0" width="112" height="38" rx="3"
           fill="url(#navBlue)"/>
     <rect x="602" y="36" width="112" height="2"
@@ -548,7 +513,6 @@
       PROJECTS
     </text>
 
-    <!-- ACHIEVEMENTS -->
     <rect x="720" y="0" width="150" height="38" rx="3"
           fill="url(#navBlue)"/>
     <rect x="720" y="36" width="150" height="2"
@@ -562,7 +526,6 @@
       ACHIEVEMENTS
     </text>
 
-    <!-- ACTIVITY -->
     <rect x="876" y="0" width="104" height="38" rx="3"
           fill="url(#navCyan)"/>
     <rect x="876" y="36" width="104" height="2"
@@ -576,7 +539,6 @@
       ACTIVITY
     </text>
 
-    <!-- CONNECT -->
     <rect x="986" y="0" width="98" height="38" rx="3"
           fill="url(#navCyan)"/>
     <rect x="986" y="36" width="98" height="2"
@@ -592,9 +554,7 @@
 
   </g>
 
-  <!-- ================================================== -->
-  <!-- METRICS                                             -->
-  <!-- ================================================== -->
+  <!-- METRICS -->
 
   <g transform="translate(58 425)">
 
@@ -607,7 +567,6 @@
       stroke-width="1"
     />
 
-    <!-- top accent -->
     <rect
       x="1"
       y="0"
@@ -617,7 +576,6 @@
       fill="url(#aurora)"
     />
 
-    <!-- dividers -->
     <line
       x1="361"
       y1="30"
@@ -635,6 +593,7 @@
     />
 
     <!-- PROFILE VIEWS -->
+
     <g transform="translate(42 30)">
 
       <text
@@ -657,7 +616,7 @@
         font-size="29"
         font-weight="800"
       >
-        —
+        3,710
       </text>
 
       <rect
@@ -683,8 +642,8 @@
 
     </g>
 
-
     <!-- FOLLOWERS -->
+
     <g transform="translate(403 30)">
 
       <text
@@ -733,8 +692,8 @@
 
     </g>
 
+    <!-- REPOSITORY STARS -->
 
-    <!-- STARS -->
     <g transform="translate(764 30)">
 
       <text
@@ -785,9 +744,7 @@
 
   </g>
 
-  <!-- ================================================== -->
-  <!-- FOOTER                                               -->
-  <!-- ================================================== -->
+  <!-- FOOTER -->
 
   <circle
     cx="60"
