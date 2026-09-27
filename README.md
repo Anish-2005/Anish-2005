@@ -13,6 +13,38 @@
 />
 
 </div>
+
+<br/>
+
+<div align="center">
+
+<img
+  src="https://komarev.com/ghpvc/?username=Anish-2005&style=for-the-badge&color=6C63FF&label=PROFILE+VIEWS"
+  height="28"
+  alt="Profile views"
+/>
+
+&nbsp;&nbsp;
+
+<img
+  src="https://img.shields.io/github/followers/Anish-2005?style=for-the-badge&color=00D9FF&label=FOLLOWERS"
+  height="28"
+  alt="GitHub followers"
+/>
+
+&nbsp;&nbsp;
+
+<img
+  src="https://img.shields.io/github/stars/Anish-2005?style=for-the-badge&color=6C63FF&label=REPOSITORY+STARS"
+  height="28"
+  alt="Repository stars"
+/>
+
+</div>
+
+<br/>
+
+---
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 <!-- 🧠 ABOUT -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
