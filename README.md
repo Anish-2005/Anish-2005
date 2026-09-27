@@ -67,31 +67,52 @@ My foundation is in **full-stack engineering**, which shapes how I approach AI: 
 
 <table>
 <tr>
-<td width="50%" valign="top">
 
-### 🤖 AI Engineering
+<td width="33%" valign="top">
 
-- Agentic AI & multi-step workflows
+### 🤖 AI
+
+- LLM Applications
+- Agentic AI
 - RAG & GraphRAG
-- LLM orchestration
-- Document intelligence
-- OCR & vision-based extraction
-- AI evaluation & benchmarking
+- LLM Orchestration
+- AI Agents & Automation
+- Document Intelligence
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 </td>
 
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 ### ⚙️ Engineering
 
-- Production APIs & backend systems
-- Full-stack application development
-- Cloud-native deployment
-- Database & data-layer design
-- AI ↔ software integration
-- End-to-end system architecture
+- Backend & Production APIs
+- Full-Stack Development
+- System Architecture
+- Cloud-Native Deployment
+- Database & Data Systems
+- AI ↔ Software Integration
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 </td>
+
+<td width="33%" valign="top">
+
+### 🧠 Machine Learning
+
+- NLP & Information Extraction
+- Computer Vision
+- Model Development
+- Model Evaluation & Benchmarking
+- OCR & Vision Pipelines
+- ML Experimentation
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+</td>
+
 </tr>
 </table>
 
@@ -534,28 +555,13 @@ Building AI systems across the full lifecycle —
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Anish-2005&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0A0E1A&title_color=00D9FF&icon_color=6C63FF&text_color=c9d1d9&custom_title=GitHub%20Stats"/>
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=Anish-2005&theme=tokyonight&hide_border=true&background=0A0E1A&ring=6C63FF&fire=00D9FF&currStreakLabel=00D9FF&sideLabels=c9d1d9"/>
+<img width="49%" src="./profile/stats.svg"/>
+<img width="49%" src="https://streak-stats.demolab.com?user=Anish-2005&theme=tokyonight&hide_border=true&background=0A0E1A&ring=6C63FF&fire=00D9FF&currStreakLabel=00D9FF&sideLabels=c9d1d9"/>
 
-<img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Anish-2005&layout=compact&theme=tokyonight&hide_border=true&bg_color=0A0E1A&title_color=00D9FF&text_color=c9d1d9&langs_count=8"/>
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Anish-2005&theme=tokyonight"/>
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Anish-2005&bg_color=0A0E1A&color=00D9FF&line=6C63FF&point=ffffff&area=true&area_color=302B63&hide_border=true&custom_title=Contribution%20Graph"/>
-
-<img width="100%" src="https://github-profile-trophy.vercel.app/?username=Anish-2005&theme=algolia&no-frame=true&no-bg=true&margin-w=8&row=1&column=7"/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anish-2005/Anish-2005/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anish-2005/Anish-2005/output/github-contribution-grid-snake.svg">
-  <img alt="Snake animation" src="https://raw.githubusercontent.com/Anish-2005/Anish-2005/output/github-contribution-grid-snake.svg">
-</picture>
+<img width="49%" src="./profile/top-langs.svg"/>
+<img width="49%" src="./profile/profile-details.svg"/>
 
 </div>
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6C63FF,100:00D9FF&height=3&width=1000"/>
-</div>
-
 <!-- ═══════════════════════════════════════════════ CONNECT ═══════════════════════════════════════════════ -->
 <a id="connect"></a>
 
