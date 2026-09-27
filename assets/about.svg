@@ -1,0 +1,725 @@
+<svg width="1200" height="560" viewBox="0 0 1200 560"
+     fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <!-- ================================================= -->
+    <!-- BACKGROUND -->
+    <!-- ================================================= -->
+
+    <linearGradient id="bg"
+                    x1="0" y1="0"
+                    x2="1200" y2="560"
+                    gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070A12"/>
+      <stop offset="0.45" stop-color="#0A0E1A"/>
+      <stop offset="0.72" stop-color="#101027"/>
+      <stop offset="1" stop-color="#070A12"/>
+    </linearGradient>
+
+    <!-- Aurora -->
+
+    <linearGradient id="aurora"
+                    x1="80" y1="500"
+                    x2="1110" y2="40"
+                    gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6C63FF"/>
+      <stop offset="0.48" stop-color="#7C5CFF"/>
+      <stop offset="0.72" stop-color="#00D9FF"/>
+      <stop offset="1" stop-color="#6C63FF"/>
+    </linearGradient>
+
+    <!-- Accent -->
+
+    <linearGradient id="accent"
+                    x1="80" y1="0"
+                    x2="1120" y2="0"
+                    gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6C63FF"/>
+      <stop offset="0.5" stop-color="#00D9FF"/>
+      <stop offset="1" stop-color="#6C63FF"/>
+    </linearGradient>
+
+    <!-- Card -->
+
+    <linearGradient id="card"
+                    x1="0" y1="0"
+                    x2="0" y2="1">
+      <stop stop-color="#15192A"
+            stop-opacity="0.88"/>
+      <stop offset="1"
+            stop-color="#0B101B"
+            stop-opacity="0.72"/>
+    </linearGradient>
+
+    <!-- Glows -->
+
+    <filter id="purpleGlow"
+            x="-100%" y="-100%"
+            width="300%" height="300%">
+      <feGaussianBlur stdDeviation="34"/>
+    </filter>
+
+    <filter id="cyanGlow"
+            x="-100%" y="-100%"
+            width="300%" height="300%">
+      <feGaussianBlur stdDeviation="30"/>
+    </filter>
+
+    <filter id="softGlow"
+            x="-100%" y="-100%"
+            width="300%" height="300%">
+      <feGaussianBlur stdDeviation="7"
+                      result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Grid -->
+
+    <pattern id="grid"
+             width="40"
+             height="40"
+             patternUnits="userSpaceOnUse">
+      <path
+        d="M40 0H0V40"
+        fill="none"
+        stroke="#FFFFFF"
+        stroke-opacity="0.032"
+        stroke-width="1"/>
+    </pattern>
+
+    <!-- Dots -->
+
+    <pattern id="dots"
+             width="28"
+             height="28"
+             patternUnits="userSpaceOnUse">
+      <circle
+        cx="1"
+        cy="1"
+        r="1"
+        fill="#FFFFFF"
+        fill-opacity="0.07"/>
+    </pattern>
+
+    <clipPath id="clip">
+      <rect width="1200"
+            height="560"
+            rx="24"/>
+    </clipPath>
+
+  </defs>
+
+  <g clip-path="url(#clip)">
+
+    <!-- ================================================= -->
+    <!-- CANVAS -->
+    <!-- ================================================= -->
+
+    <rect
+      width="1200"
+      height="560"
+      fill="url(#bg)"/>
+
+    <rect
+      width="1200"
+      height="560"
+      fill="url(#grid)"/>
+
+    <rect
+      width="1200"
+      height="560"
+      fill="url(#dots)"
+      opacity="0.25"/>
+
+    <!-- Ambient Aurora -->
+
+    <ellipse
+      cx="80"
+      cy="100"
+      rx="260"
+      ry="190"
+      fill="#6C63FF"
+      fill-opacity="0.12"
+      filter="url(#purpleGlow)"/>
+
+    <ellipse
+      cx="1140"
+      cy="430"
+      rx="260"
+      ry="180"
+      fill="#00D9FF"
+      fill-opacity="0.10"
+      filter="url(#cyanGlow)"/>
+
+    <!-- Technical curves -->
+
+    <path
+      d="M-100 480C160 180 430 110 690 190C920 260 1080 200 1290 -40"
+      stroke="url(#aurora)"
+      stroke-opacity="0.10"
+      stroke-width="2"/>
+
+    <path
+      d="M-80 530C190 230 430 180 700 245C940 305 1080 250 1260 30"
+      stroke="#00D9FF"
+      stroke-opacity="0.055"
+      stroke-width="1"/>
+
+    <!-- Border -->
+
+    <rect
+      x="1"
+      y="1"
+      width="1198"
+      height="558"
+      rx="23"
+      stroke="#FFFFFF"
+      stroke-opacity="0.08"/>
+
+    <!-- Top accent -->
+
+    <rect
+      x="70"
+      y="0"
+      width="1060"
+      height="2"
+      fill="url(#accent)"/>
+
+    <!-- ================================================= -->
+    <!-- HEADER -->
+    <!-- ================================================= -->
+
+    <circle
+      cx="78"
+      cy="46"
+      r="4"
+      fill="#00D9FF"
+      filter="url(#softGlow)"/>
+
+    <text
+      x="92"
+      y="51"
+      fill="#67E8F9"
+      font-family="Inter,Segoe UI,Arial,sans-serif"
+      font-size="11"
+      font-weight="600"
+      letter-spacing="2.4">
+      SYSTEM PROFILE
+    </text>
+
+    <text
+      x="1128"
+      y="51"
+      text-anchor="end"
+      fill="#475569"
+      font-family="JetBrains Mono,Consolas,monospace"
+      font-size="10"
+      letter-spacing="1.4">
+      ABOUT / 01
+    </text>
+
+    <line
+      x1="70"
+      y1="76"
+      x2="1130"
+      y2="76"
+      stroke="#FFFFFF"
+      stroke-opacity="0.07"/>
+
+    <!-- ================================================= -->
+    <!-- LEFT INTRO -->
+    <!-- ================================================= -->
+
+    <text
+      x="70"
+      y="118"
+      fill="#F8FAFC"
+      font-family="Inter,Segoe UI,Arial,sans-serif"
+      font-size="24"
+      font-weight="700">
+      AI systems that move
+    </text>
+
+    <text
+      x="70"
+      y="149"
+      fill="#F8FAFC"
+      font-family="Inter,Segoe UI,Arial,sans-serif"
+      font-size="24"
+      font-weight="700">
+      beyond the prototype.
+    </text>
+
+    <rect
+      x="70"
+      y="169"
+      width="100"
+      height="2"
+      rx="1"
+      fill="url(#accent)"/>
+
+    <text
+      x="70"
+      y="202"
+      fill="#94A3B8"
+      font-family="Inter,Segoe UI,Arial,sans-serif"
+      font-size="13">
+      LLMs · agentic systems · retrieval
+    </text>
+
+    <text
+      x="70"
+      y="224"
+      fill="#94A3B8"
+      font-family="Inter,Segoe UI,Arial,sans-serif"
+      font-size="13">
+      document intelligence · backend engineering
+    </text>
+
+    <!-- Pipeline -->
+
+    <text
+      x="70"
+      y="268"
+      fill="#475569"
+      font-family="JetBrains Mono,Consolas,monospace"
+      font-size="9"
+      letter-spacing="1.4">
+      SYSTEM THINKING
+    </text>
+
+    <text
+      x="70"
+      y="294"
+      fill="#CBD5E1"
+      font-family="JetBrains Mono,Consolas,monospace"
+      font-size="11">
+      DATA
+    </text>
+
+    <text
+      x="122"
+      y="294"
+      fill="#64748B"
+      font-family="JetBrains Mono,Consolas,monospace"
+      font-size="11">
+      →
+    </text>
+
+    <text
+      x="145"
+      y="294"
+      fill="#CBD5E1"
+      font-family="JetBrains Mono,Consolas,monospace"
+      font-size="11">
+      RETRIEVAL
+    </text>
+
+    <text
+      x="235"
+      y="294"
+      fill="#64748B"
+      font-family="JetBrains Mono,Consolas,monospace"
+      font-size="11">
+      →
+    </text>
+
+    <text
+      x="258"
+      y="294"
+      fill="#CBD5E1"
+      font-family="JetBrains Mono,Consolas,monospace"
+      font-size="11">
+      ORCHESTRATION
+    </text>
+
+    <text
+      x="376"
+      y="294"
+      fill="#64748B"
+      font-family="JetBrains Mono,Consolas,monospace"
+      font-size="11">
+      →
+    </text>
+
+    <text
+      x="399"
+      y="294"
+      fill="#CBD5E1"
+      font-family="JetBrains Mono,Consolas,monospace"
+      font-size="11">
+      API
+    </text>
+
+    <text
+      x="435"
+      y="294"
+      fill="#64748B"
+      font-family="JetBrains Mono,Consolas,monospace"
+      font-size="11">
+      →
+    </text>
+
+    <text
+      x="458"
+      y="294"
+      fill="#67E8F9"
+      font-family="JetBrains Mono,Consolas,monospace"
+      font-size="11"
+      font-weight="600">
+      PRODUCT
+    </text>
+
+    <!-- ================================================= -->
+    <!-- RIGHT SYSTEM CARD -->
+    <!-- ================================================= -->
+
+    <rect
+      x="650"
+      y="105"
+      width="480"
+      height="205"
+      rx="16"
+      fill="url(#card)"
+      stroke="#FFFFFF"
+      stroke-opacity="0.09"/>
+
+    <!-- Card header -->
+
+    <circle
+      cx="677"
+      cy="132"
+      r="4"
+      fill="#6C63FF"/>
+
+    <text
+      x="690"
+      y="136"
+      fill="#94A3B8"
+      font-family="JetBrains Mono,Consolas,monospace"
+      font-size="10"
+      letter-spacing="1.4">
+      ENGINEERING SCOPE
+    </text>
+
+    <!-- Card rows -->
+
+    <line
+      x1="674"
+      y1="154"
+      x2="1106"
+      y2="154"
+      stroke="#FFFFFF"
+      stroke-opacity="0.06"/>
+
+    <!-- AI -->
+
+    <circle
+      cx="680"
+      cy="181"
+      r="5"
+      fill="#6C63FF"
+      fill-opacity="0.18"
+      stroke="#8B83FF"
+      stroke-opacity="0.55"/>
+
+    <text
+      x="698"
+      y="185"
+      fill="#E2E8F0"
+      font-family="Inter,Segoe UI,Arial,sans-serif"
+      font-size="13"
+      font-weight="600">
+      AI
+    </text>
+
+    <text
+      x="770"
+      y="185"
+      fill="#64748B"
+      font-family="Inter,Segoe UI,Arial,sans-serif"
+      font-size="11">
+      LLM applications · Agentic AI · RAG
+    </text>
+
+    <!-- Engineering -->
+
+    <circle
+      cx="680"
+      cy="220"
+      r="5"
+      fill="#00D9FF"
+      fill-opacity="0.15"
+      stroke="#67E8F9"
+      stroke-opacity="0.5"/>
+
+    <text
+      x="698"
+      y="224"
+      fill="#E2E8F0"
+      font-family="Inter,Segoe UI,Arial,sans-serif"
+      font-size="13"
+      font-weight="600">
+      ENGINEERING
+    </text>
+
+    <text
+      x="770"
+      y="224"
+      fill="#64748B"
+      font-family="Inter,Segoe UI,Arial,sans-serif"
+      font-size="11">
+      APIs · systems · cloud · data
+    </text>
+
+    <!-- ML -->
+
+    <circle
+      cx="680"
+      cy="259"
+      r="5"
+      fill="#6C63FF"
+      fill-opacity="0.18"
+      stroke="#8B83FF"
+      stroke-opacity="0.55"/>
+
+    <text
+      x="698"
+      y="263"
+      fill="#E2E8F0"
+      font-family="Inter,Segoe UI,Arial,sans-serif"
+      font-size="13"
+      font-weight="600">
+      MACHINE LEARNING
+    </text>
+
+    <text
+      x="830"
+      y="263"
+      fill="#64748B"
+      font-family="Inter,Segoe UI,Arial,sans-serif"
+      font-size="11">
+      NLP · vision · evaluation
+    </text>
+
+    <!-- ================================================= -->
+    <!-- BOTTOM CAPABILITIES -->
+    <!-- ================================================= -->
+
+    <line
+      x1="70"
+      y1="342"
+      x2="1130"
+      y2="342"
+      stroke="#FFFFFF"
+      stroke-opacity="0.07"/>
+
+    <text
+      x="70"
+      y="371"
+      fill="#475569"
+      font-family="JetBrains Mono,Consolas,monospace"
+      font-size="9"
+      letter-spacing="1.5">
+      CURRENTLY BUILDING
+    </text>
+
+    <!-- Capability pills -->
+
+    <rect
+      x="70"
+      y="392"
+      width="190"
+      height="38"
+      rx="19"
+      fill="#11162A"
+      stroke="#6C63FF"
+      stroke-opacity="0.38"/>
+
+    <circle
+      cx="91"
+      cy="411"
+      r="4"
+      fill="#8B83FF"/>
+
+    <text
+      x="105"
+      y="416"
+      fill="#E2E8F0"
+      font-family="Inter,Segoe UI,Arial,sans-serif"
+      font-size="11"
+      font-weight="600">
+      AGENTIC SYSTEMS
+    </text>
+
+
+    <rect
+      x="275"
+      y="392"
+      width="180"
+      height="38"
+      rx="19"
+      fill="#11162A"
+      stroke="#00D9FF"
+      stroke-opacity="0.32"/>
+
+    <circle
+      cx="296"
+      cy="411"
+      r="4"
+      fill="#00D9FF"/>
+
+    <text
+      x="310"
+      y="416"
+      fill="#E2E8F0"
+      font-family="Inter,Segoe UI,Arial,sans-serif"
+      font-size="11"
+      font-weight="600">
+      RAG / GRAPHRAG
+    </text>
+
+
+    <rect
+      x="470"
+      y="392"
+      width="215"
+      height="38"
+      rx="19"
+      fill="#11162A"
+      stroke="#6C63FF"
+      stroke-opacity="0.32"/>
+
+    <circle
+      cx="491"
+      cy="411"
+      r="4"
+      fill="#8B83FF"/>
+
+    <text
+      x="505"
+      y="416"
+      fill="#E2E8F0"
+      font-family="Inter,Segoe UI,Arial,sans-serif"
+      font-size="11"
+      font-weight="600">
+      DOCUMENT INTELLIGENCE
+    </text>
+
+
+    <rect
+      x="700"
+      y="392"
+      width="170"
+      height="38"
+      rx="19"
+      fill="#11162A"
+      stroke="#00D9FF"
+      stroke-opacity="0.32"/>
+
+    <circle
+      cx="721"
+      cy="411"
+      r="4"
+      fill="#00D9FF"/>
+
+    <text
+      x="735"
+      y="416"
+      fill="#E2E8F0"
+      font-family="Inter,Segoe UI,Arial,sans-serif"
+      font-size="11"
+      font-weight="600">
+      LLM EVALUATION
+    </text>
+
+
+    <!-- Status -->
+
+    <text
+      x="1128"
+      y="416"
+      text-anchor="end"
+      fill="#475569"
+      font-family="JetBrains Mono,Consolas,monospace"
+      font-size="9"
+      letter-spacing="1.2">
+      BUILD · EVALUATE · DEPLOY
+    </text>
+
+    <!-- Bottom accent -->
+
+    <rect
+      x="70"
+      y="455"
+      width="1060"
+      height="1"
+      fill="url(#accent)"
+      opacity="0.5"/>
+
+    <text
+      x="70"
+      y="485"
+      fill="#475569"
+      font-family="JetBrains Mono,Consolas,monospace"
+      font-size="10"
+      letter-spacing="1.3">
+      MODEL
+    </text>
+
+    <text
+      x="130"
+      y="485"
+      fill="#64748B"
+      font-family="JetBrains Mono,Consolas,monospace"
+      font-size="10">
+      →
+    </text>
+
+    <text
+      x="155"
+      y="485"
+      fill="#475569"
+      font-family="JetBrains Mono,Consolas,monospace"
+      font-size="10"
+      letter-spacing="1.3">
+      SYSTEM
+    </text>
+
+    <text
+      x="230"
+      y="485"
+      fill="#64748B"
+      font-family="JetBrains Mono,Consolas,monospace"
+      font-size="10">
+      →
+    </text>
+
+    <text
+      x="255"
+      y="485"
+      fill="#475569"
+      font-family="JetBrains Mono,Consolas,monospace"
+      font-size="10"
+      letter-spacing="1.3">
+      PRODUCT
+    </text>
+
+    <text
+      x="1128"
+      y="485"
+      text-anchor="end"
+      fill="#475569"
+      font-family="JetBrains Mono,Consolas,monospace"
+      font-size="10"
+      letter-spacing="1.3">
+      ANISH SETH · AI / ML ENGINEERING
+    </text>
+
+  </g>
+
+</svg>
