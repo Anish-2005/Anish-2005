@@ -1,0 +1,503 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760"
+     fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <!-- Aurora background -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="760"
+                    gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A0E1A"/>
+      <stop offset="0.48" stop-color="#0C1020"/>
+      <stop offset="1" stop-color="#080B14"/>
+    </linearGradient>
+
+    <!-- Accent -->
+    <linearGradient id="accent" x1="180" y1="0" x2="1000" y2="0"
+                    gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6C63FF"/>
+      <stop offset="0.52" stop-color="#8B7CFF"/>
+      <stop offset="1" stop-color="#00D9FF"/>
+    </linearGradient>
+
+    <linearGradient id="accentSoft" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#6C63FF"/>
+      <stop offset="1" stop-color="#00D9FF"/>
+    </linearGradient>
+
+    <!-- Glass -->
+    <linearGradient id="card" x1="0" y1="0" x2="1200" y2="0"
+                    gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111629"/>
+      <stop offset="1" stop-color="#0D1222"/>
+    </linearGradient>
+
+    <!-- Glow -->
+    <filter id="glowPurple" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="glowSmall" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Grid -->
+    <pattern id="grid" width="40" height="40"
+             patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40"
+            stroke="#FFFFFF"
+            stroke-opacity="0.025"
+            stroke-width="1"/>
+    </pattern>
+
+    <clipPath id="clip">
+      <rect width="1200" height="760" rx="28"/>
+    </clipPath>
+
+  </defs>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- BACKGROUND -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+
+  <rect width="1200" height="760" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="760" rx="28" fill="url(#grid)"/>
+
+  <!-- Ambient aurora -->
+  <circle cx="110" cy="90" r="150"
+          fill="#6C63FF"
+          fill-opacity="0.08"
+          filter="url(#glowPurple)"/>
+
+  <circle cx="1110" cy="650" r="170"
+          fill="#00D9FF"
+          fill-opacity="0.055"
+          filter="url(#glowPurple)"/>
+
+  <!-- Border -->
+  <rect x="1" y="1" width="1198" height="758" rx="27"
+        stroke="#FFFFFF"
+        stroke-opacity="0.08"/>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- HEADER -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+
+  <text x="60" y="62"
+        fill="#8B7CFF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="12"
+        font-weight="700"
+        letter-spacing="3">
+    CAREER / EXPERIENCE
+  </text>
+
+  <text x="60" y="105"
+        fill="#F7F8FF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="30"
+        font-weight="750">
+    Building systems from intelligence to production.
+  </text>
+
+  <text x="60" y="136"
+        fill="#8E97AE"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="14">
+    AI engineering layered on top of a full-stack engineering foundation.
+  </text>
+
+  <!-- top status -->
+  <rect x="1008" y="51" width="132" height="32" rx="16"
+        fill="#11182A"
+        stroke="#6C63FF"
+        stroke-opacity="0.35"/>
+
+  <circle cx="1028" cy="67" r="4"
+          fill="#00D9FF"
+          filter="url(#glowSmall)"/>
+
+  <text x="1041" y="72"
+        fill="#C9D1E3"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="11"
+        font-weight="650">
+    CURRENT
+  </text>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- TIMELINE -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+
+  <line x1="92" y1="190" x2="92" y2="654"
+        stroke="url(#accent)"
+        stroke-opacity="0.38"
+        stroke-width="2"/>
+
+  <!-- Timeline node 01 -->
+  <circle cx="92" cy="215" r="15"
+          fill="#0D1222"
+          stroke="#6C63FF"
+          stroke-width="2"/>
+
+  <circle cx="92" cy="215" r="5"
+          fill="#00D9FF"
+          filter="url(#glowSmall)"/>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- EXPERIENCE 01 -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+
+  <text x="130" y="202"
+        fill="#6C63FF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="11"
+        font-weight="750"
+        letter-spacing="2">
+    01
+  </text>
+
+  <text x="130" y="233"
+        fill="#F7F8FF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="23"
+        font-weight="750">
+    AI / ML Engineering
+  </text>
+
+  <rect x="397" y="211" width="78" height="25" rx="12.5"
+        fill="#142B2D"
+        stroke="#00D9FF"
+        stroke-opacity="0.28"/>
+
+  <circle cx="414" cy="223.5" r="3.5" fill="#00D9FF"/>
+
+  <text x="424" y="228"
+        fill="#8DEEFF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10"
+        font-weight="700">
+    CURRENT
+  </text>
+
+  <text x="130" y="258"
+        fill="#8E97AE"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="13">
+    Production-oriented AI systems · Agentic workflows · LLM engineering
+  </text>
+
+  <!-- capability cards -->
+
+  <rect x="130" y="286" width="242" height="74" rx="12"
+        fill="url(#card)"
+        stroke="#FFFFFF"
+        stroke-opacity="0.07"/>
+
+  <text x="149" y="311"
+        fill="#00D9FF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="12"
+        font-weight="750">
+    AGENTIC AI
+  </text>
+
+  <text x="149" y="333"
+        fill="#AEB7CC"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="11">
+    Plan · Retrieve · Reason
+  </text>
+
+  <text x="149" y="349"
+        fill="#AEB7CC"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="11">
+    Synthesize · Execute
+  </text>
+
+
+  <rect x="388" y="286" width="242" height="74" rx="12"
+        fill="url(#card)"
+        stroke="#FFFFFF"
+        stroke-opacity="0.07"/>
+
+  <text x="407" y="311"
+        fill="#8B7CFF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="12"
+        font-weight="750">
+    DOCUMENT AI
+  </text>
+
+  <text x="407" y="333"
+        fill="#AEB7CC"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="11">
+    OCR · Layout parsing
+  </text>
+
+  <text x="407" y="349"
+        fill="#AEB7CC"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="11">
+    Vision-based extraction
+  </text>
+
+
+  <rect x="646" y="286" width="242" height="74" rx="12"
+        fill="url(#card)"
+        stroke="#FFFFFF"
+        stroke-opacity="0.07"/>
+
+  <text x="665" y="311"
+        fill="#00D9FF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="12"
+        font-weight="750">
+    LLM SYSTEMS
+  </text>
+
+  <text x="665" y="333"
+        fill="#AEB7CC"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="11">
+    Orchestration · Retrieval
+  </text>
+
+  <text x="665" y="349"
+        fill="#AEB7CC"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="11">
+    Multi-step agent chains
+  </text>
+
+
+  <rect x="904" y="286" width="202" height="74" rx="12"
+        fill="url(#card)"
+        stroke="#FFFFFF"
+        stroke-opacity="0.07"/>
+
+  <text x="923" y="311"
+        fill="#8B7CFF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="12"
+        font-weight="750">
+    EVALUATION
+  </text>
+
+  <text x="923" y="333"
+        fill="#AEB7CC"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="11">
+    Benchmarking
+  </text>
+
+  <text x="923" y="349"
+        fill="#AEB7CC"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="11">
+    Quality · Latency
+  </text>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- CONNECTOR -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+
+  <line x1="92" y1="360" x2="92" y2="433"
+        stroke="#6C63FF"
+        stroke-opacity="0.38"
+        stroke-width="2"/>
+
+  <!-- Timeline node 02 -->
+  <circle cx="92" cy="450" r="15"
+          fill="#0D1222"
+          stroke="#00D9FF"
+          stroke-width="2"/>
+
+  <circle cx="92" cy="450" r="5"
+          fill="#6C63FF"
+          filter="url(#glowSmall)"/>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- EXPERIENCE 02 -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+
+  <text x="130" y="437"
+        fill="#00D9FF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="11"
+        font-weight="750"
+        letter-spacing="2">
+    02
+  </text>
+
+  <text x="130" y="468"
+        fill="#F7F8FF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="23"
+        font-weight="750">
+    Full-Stack Engineering
+  </text>
+
+  <text x="130" y="493"
+        fill="#8E97AE"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="13">
+    Independent projects & client work
+  </text>
+
+  <!-- Architecture pipeline -->
+
+  <rect x="130" y="520" width="976" height="70" rx="14"
+        fill="#0E1425"
+        stroke="#FFFFFF"
+        stroke-opacity="0.07"/>
+
+  <text x="155" y="547"
+        fill="#69748D"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="9"
+        font-weight="700"
+        letter-spacing="2">
+    ENGINEERING LAYER
+  </text>
+
+  <!-- pipeline labels -->
+
+  <text x="155" y="574"
+        fill="#F0F3FA"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="12"
+        font-weight="650">
+    FRONTEND
+  </text>
+
+  <text x="329" y="574"
+        fill="#F0F3FA"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="12"
+        font-weight="650">
+    BACKEND
+  </text>
+
+  <text x="493" y="574"
+        fill="#F0F3FA"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="12"
+        font-weight="650">
+    DATABASE
+  </text>
+
+  <text x="664" y="574"
+        fill="#F0F3FA"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="12"
+        font-weight="650">
+    CLOUD
+  </text>
+
+  <text x="805" y="574"
+        fill="#F0F3FA"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="12"
+        font-weight="650">
+    INTEGRATION
+  </text>
+
+  <text x="1000" y="574"
+        fill="#00D9FF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="12"
+        font-weight="700">
+    PRODUCTION
+  </text>
+
+  <!-- arrows -->
+
+  <path d="M285 569H308L301 563M308 569L301 575"
+        stroke="#6C63FF"
+        stroke-width="1.5"/>
+
+  <path d="M449 569H472L465 563M472 569L465 575"
+        stroke="#6C63FF"
+        stroke-width="1.5"/>
+
+  <path d="M620 569H643L636 563M643 569L636 575"
+        stroke="#6C63FF"
+        stroke-width="1.5"/>
+
+  <path d="M760 569H783L776 563M783 569L776 575"
+        stroke="#6C63FF"
+        stroke-width="1.5"/>
+
+  <path d="M960 569H983L976 563M983 569L976 575"
+        stroke="#00D9FF"
+        stroke-width="1.5"/>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- FOOTER CAPABILITIES -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+
+  <text x="130" y="630"
+        fill="#69748D"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="9"
+        font-weight="700"
+        letter-spacing="2">
+    FOUNDATION
+  </text>
+
+  <text x="130" y="654"
+        fill="#AEB7CC"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="12">
+    Full-stack systems · APIs · databases · cloud infrastructure
+  </text>
+
+  <text x="650" y="630"
+        fill="#69748D"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="9"
+        font-weight="700"
+        letter-spacing="2">
+    DOMAIN EXPERIENCE
+  </text>
+
+  <text x="650" y="654"
+        fill="#AEB7CC"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="12">
+    Legal-tech · Health-tech · Agri-tech · Environmental systems
+  </text>
+
+  <!-- Bottom signature -->
+
+  <line x1="130" y1="694" x2="1070" y2="694"
+        stroke="#FFFFFF"
+        stroke-opacity="0.06"/>
+
+  <text x="130" y="720"
+        fill="#69748D"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="10">
+    ENGINEERING PHILOSOPHY
+  </text>
+
+  <text x="1070" y="720"
+        text-anchor="end"
+        fill="#8B7CFF"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="11"
+        font-weight="700">
+    MODEL → SYSTEM → PRODUCT
+  </text>
+
+</svg>
