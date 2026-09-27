@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
 
       - name: Create assets directory
         run: mkdir -p assets
@@ -25,7 +27,6 @@ jobs:
 
             <defs>
 
-              <!-- Background -->
               <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="390"
                               gradientUnits="userSpaceOnUse">
                 <stop stop-color="#080B12"/>
@@ -33,7 +34,6 @@ jobs:
                 <stop offset="1" stop-color="#080B12"/>
               </linearGradient>
 
-              <!-- Main accent -->
               <linearGradient id="accent" x1="120" y1="0" x2="1080" y2="0"
                               gradientUnits="userSpaceOnUse">
                 <stop stop-color="#6C63FF"/>
@@ -41,19 +41,11 @@ jobs:
                 <stop offset="1" stop-color="#6C63FF"/>
               </linearGradient>
 
-              <!-- Card gradient -->
-              <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
-                <stop stop-color="#111827" stop-opacity="0.96"/>
-                <stop offset="1" stop-color="#0B101A" stop-opacity="0.96"/>
-              </linearGradient>
-
-              <!-- Button gradient -->
               <linearGradient id="button" x1="0" y1="0" x2="1" y2="1">
                 <stop stop-color="#151B2C"/>
                 <stop offset="1" stop-color="#0D1220"/>
               </linearGradient>
 
-              <!-- Glow -->
               <filter id="glowCyan"
                       x="-50%" y="-50%" width="200%" height="200%">
                 <feGaussianBlur stdDeviation="8" result="blur"/>
@@ -72,7 +64,6 @@ jobs:
                 </feMerge>
               </filter>
 
-              <!-- Subtle grid -->
               <pattern id="grid" width="32" height="32"
                        patternUnits="userSpaceOnUse">
                 <path d="M 32 0 L 0 0 0 32"
@@ -82,24 +73,17 @@ jobs:
                       stroke-width="1"/>
               </pattern>
 
-              <!-- Clip -->
               <clipPath id="round">
                 <rect width="1200" height="390" rx="22"/>
               </clipPath>
 
             </defs>
 
-            <!-- ================================================= -->
-            <!-- BACKGROUND -->
-            <!-- ================================================= -->
-
             <g clip-path="url(#round)">
 
               <rect width="1200" height="390" fill="url(#bg)"/>
-
               <rect width="1200" height="390" fill="url(#grid)"/>
 
-              <!-- Ambient glows -->
               <circle cx="80" cy="40" r="120"
                       fill="#6C63FF"
                       fill-opacity="0.08"
@@ -110,19 +94,15 @@ jobs:
                       fill-opacity="0.07"
                       filter="url(#glowCyan)"/>
 
-              <!-- Top accent -->
               <rect x="70" y="0" width="1060" height="2"
                     fill="url(#accent)"/>
 
-              <!-- Border -->
               <rect x="1" y="1" width="1198" height="388"
                     rx="21"
                     stroke="#FFFFFF"
                     stroke-opacity="0.08"/>
 
-              <!-- ================================================= -->
-              <!-- HEADER -->
-              <!-- ================================================= -->
+              <!-- Header -->
 
               <text x="72" y="72"
                     fill="#F8FAFC"
@@ -139,7 +119,6 @@ jobs:
                 AI systems · LLM applications · engineering · products
               </text>
 
-              <!-- Small status -->
               <circle cx="1070" cy="82" r="5"
                       fill="#00D9FF"
                       filter="url(#glowCyan)"/>
@@ -152,18 +131,13 @@ jobs:
                 OPEN TO CONNECT
               </text>
 
-              <!-- Divider -->
               <line x1="72" y1="130" x2="1128" y2="130"
                     stroke="#FFFFFF"
                     stroke-opacity="0.08"/>
 
-              <!-- ================================================= -->
-              <!-- SOCIAL CARDS -->
-              <!-- ================================================= -->
-
               <!-- Portfolio -->
-              <a href="https://www.anishseth.xyz"
-                 target="_blank">
+
+              <a href="https://www.anishseth.xyz">
 
                 <rect x="72" y="158"
                       width="196" height="72"
@@ -178,7 +152,6 @@ jobs:
                         stroke="#6C63FF"
                         stroke-opacity="0.45"/>
 
-                <!-- Globe -->
                 <circle cx="101" cy="194" r="9"
                         stroke="#9B94FF"
                         stroke-width="1.7"/>
@@ -212,10 +185,9 @@ jobs:
 
               </a>
 
-
               <!-- LinkedIn -->
-              <a href="https://www.linkedin.com/in/anishseth"
-                 target="_blank">
+
+              <a href="https://www.linkedin.com/in/anishseth">
 
                 <rect x="282" y="158"
                       width="196" height="72"
@@ -255,8 +227,8 @@ jobs:
 
               </a>
 
-
               <!-- Email -->
+
               <a href="mailto:anishseth0510@gmail.com">
 
                 <rect x="492" y="158"
@@ -272,7 +244,6 @@ jobs:
                         stroke="#6C63FF"
                         stroke-opacity="0.35"/>
 
-                <!-- Mail -->
                 <rect x="511" y="187"
                       width="20" height="14"
                       rx="2"
@@ -300,10 +271,9 @@ jobs:
 
               </a>
 
-
               <!-- X -->
-              <a href="https://x.com/AnishSeth170734"
-                 target="_blank">
+
+              <a href="https://x.com/AnishSeth170734">
 
                 <rect x="702" y="158"
                       width="196" height="72"
@@ -339,10 +309,9 @@ jobs:
 
               </a>
 
-
               <!-- Instagram -->
-              <a href="https://instagram.com/anish_seth.ai"
-                 target="_blank">
+
+              <a href="https://instagram.com/anish_seth.ai">
 
                 <rect x="912" y="158"
                       width="216" height="72"
@@ -387,10 +356,7 @@ jobs:
 
               </a>
 
-
-              <!-- ================================================= -->
-              <!-- TAGLINE -->
-              <!-- ================================================= -->
+              <!-- Footer -->
 
               <line x1="72" y1="265" x2="1128" y2="265"
                     stroke="#FFFFFF"
@@ -412,9 +378,9 @@ jobs:
                 “Ship the model. Ship the system. Ship the product.”
               </text>
 
-              <!-- Accent line -->
               <rect x="72" y="354"
-                    width="170" height="2"
+                    width="170"
+                    height="2"
                     rx="1"
                     fill="url(#accent)"/>
 
@@ -439,6 +405,14 @@ jobs:
 
           git add assets/connect.svg
 
-          git diff --cached --quiet || git commit -m "Add premium connect SVG"
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
 
-          git push
+          git commit -m "Update premium connect SVG"
+
+          git fetch origin main
+          git rebase origin/main
+
+          git push origin HEAD:main
