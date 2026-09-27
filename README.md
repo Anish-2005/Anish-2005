@@ -11,7 +11,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0E1A,35:302B63,70:6C63FF,100:00D9FF&height=240&section=header&text=ANISH%20SETH&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Engineering%20intelligent%20systems%20—%20from%20model%20to%20API%20to%20interface&descSize=16&descAlignY=56&descAlign=50"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=1100&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=820&height=90&lines=Designing+agentic+AI+%26+LLM-native+systems;RAG+%2F+GraphRAG+%C2%B7+Document+Intelligence+%C2%B7+AI+Agents;Currently%3A+AI%2FML+Engineering+Intern+%40+Digital+Alpha;Full-stack+foundation+%C2%B7+Cloud-native+deployment" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=1100&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=820&height=90&lines=Designing+agentic+AI+%26+LLM-native+systems;RAG+%2F+GraphRAG+%C2%B7+Document+Intelligence+%C2%B7+AI+Agents;Currently%3A+AI%2FML+Engineering+Intern;Full-stack+foundation+%C2%B7+Cloud-native+deployment" alt="Typing SVG"/>
 </a>
 
 <br/>
@@ -38,126 +38,175 @@
 </div>
 
 <br/>
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- 🧠 ABOUT -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-<!-- ═══════════════════════════════════════════════════ ABOUT ═══════════════════════════════════════════════════ -->
 <a id="about"></a>
 
-## 🧠&nbsp; About
+## 🧠 About Me
 
-<table>
-<tr>
-<td width="58%" valign="top">
+> **I build AI systems that move beyond the prototype.**
+>
+> My work sits at the intersection of **LLMs, agentic systems, retrieval, document intelligence, and backend engineering** — turning research ideas into systems that can actually be evaluated, deployed, and used.
 
-I build the layer where **language models meet production systems** — agentic pipelines that research, reason, and generate; retrieval systems that ground LLMs in real knowledge; and the full-stack scaffolding — APIs, databases, cloud infra — that gets all of it in front of real users.
+I'm currently working as an **AI/ML Engineering Intern**, building agentic research and report-generation systems alongside document-intelligence and LLM evaluation workflows.
 
-Right now that means an **AI/ML Engineering Internship**, shipping agentic report-generation systems and document-intelligence pipelines. Before AI became the focus, I spent years as a full-stack engineer — which is exactly why I don't just prototype models, I ship them end to end: model → API → interface → production.
+My foundation is in **full-stack engineering**, which shapes how I approach AI: I think beyond the model itself — from **data and retrieval → orchestration → APIs → infrastructure → user-facing products**.
 
-I care about systems that are **correct, explainable, and deployable** — not demos that only work in a notebook. Most of what I build sits at the intersection of three things: applied AI research, backend engineering, and a genuine interest in the problems it's solving (agritech, legal tech, health tech, environmental monitoring).
+<div align="center">
+
+<img src="https://img.shields.io/badge/AI%2FML_ENGINEERING-6C63FF?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/AGENTIC_AI-302B63?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/LLM_SYSTEMS-4B3F8C?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/FULL--STACK-00A6A6?style=for-the-badge&logoColor=white"/>
+
+</div>
 
 <br/>
 
-<img src="https://img.shields.io/badge/AI%2FML_Engineer-6C63FF?style=flat-square&logoColor=white"/> <img src="https://img.shields.io/badge/AI_Engineering-4B3F8C?style=flat-square&logoColor=white"/> <img src="https://img.shields.io/badge/Full--Stack_Developer-302B63?style=flat-square&logoColor=white"/>
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<br/><br/>
+### 🤖 AI Engineering
 
-- 💼 &nbsp;**Currently:** AI/ML Engineering Intern
-- 🔭 &nbsp;**Building:** agentic workflows · RAG / GraphRAG · document-intelligence pipelines
-- 🌱 &nbsp;**Exploring:** multi-agent orchestration · lightweight model fine-tuning · LLM evaluation frameworks
-- 🎓 &nbsp;**Studying:** Engineering Undergraduate, Techno Main Salt Lake (TMSL)
-- 📍 &nbsp;**Based in:** India
-- 🤝 &nbsp;**Open to:** AI/ML roles, applied-AI collaborations, and hard engineering problems
+- Agentic AI & multi-step workflows
+- RAG & GraphRAG
+- LLM orchestration
+- Document intelligence
+- OCR & vision-based extraction
+- AI evaluation & benchmarking
 
 </td>
-<td width="42%" valign="top">
 
-```python
-class AnishSeth:
-    def __init__(self):
-        self.role       = "AI/ML Engineer"
-        self.education  = "TMSL"
+<td width="50%" valign="top">
 
-        self.builds = [
-            "agentic pipelines",
-            "RAG / GraphRAG systems",
-            "document intelligence",
-            "AI evaluation harnesses",
-        ]
+### ⚙️ Engineering
 
-        self.foundation = [
-            "full-stack engineering",
-            "cloud-native deployment",
-        ]
-
-        self.open_to = "AI/ML roles & collabs"
-
-    def ship(self, idea: str) -> str:
-        """From notebook to production."""
-        pipeline = [
-            "prototype", "evaluate",
-            "harden", "deploy", "monitor",
-        ]
-        for stage in pipeline:
-            idea = f"{stage}({idea})"
-        return idea
-
-    def __repr__(self):
-        return "AI engineer who ships."
-```
+- Production APIs & backend systems
+- Full-stack application development
+- Cloud-native deployment
+- Database & data-layer design
+- AI ↔ software integration
+- End-to-end system architecture
 
 </td>
 </tr>
 </table>
 
+<br/>
+
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6C63FF,100:00D9FF&height=3&width=1000"/>
+
+**Currently building**
+
+`Agentic Systems` · `RAG / GraphRAG` · `Document Intelligence` · `LLM Evaluation`
+
 </div>
 
-<!-- ═══════════════════════════════════════════════ EXPERIENCE ═══════════════════════════════════════════════ -->
+
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- 💼 EXPERIENCE -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+
 <a id="experience"></a>
 
-## 💼&nbsp; Experience
+## 💼 Experience
+
+### `01` · AI/ML Engineering Intern
+**Current**
+
+> Building production-oriented AI systems across agentic workflows, document intelligence, LLM orchestration, and evaluation.
+
+| Area | What I work on |
+|---|---|
+| 🧠 **Agentic AI** | Research & report-generation systems that plan, retrieve, reason, and synthesize |
+| 📄 **Document Intelligence** | OCR, layout parsing, vision-based extraction, and document processing pipelines |
+| 🔗 **LLM Systems** | Prompt pipelines, orchestration, multi-step agent chains, and retrieval workflows |
+| 📊 **Evaluation** | Model benchmarking, vision evaluation, latency analysis, and measurable AI quality |
+| ☁️ **Production** | Backend APIs, system integration, and AWS-based deployment |
+
+<br/>
+
+### `02` · Full-Stack Engineering
+**Independent Projects & Client Work**
+
+> Before specializing in AI/ML, I spent years building complete software systems — experience that now forms the engineering layer behind the AI systems I build.
+
+<div align="center">
+
+`Frontend` → `Backend` → `Database` → `Cloud` → `Production`
+
+</div>
+
+- Built and shipped full-stack applications from **interface to deployment**
+- Designed APIs, backend services, databases, and cloud infrastructure
+- Worked across **legal-tech, health-tech, agri-tech, environmental monitoring, and social-impact** products
+- Developed the engineering foundation I now use to turn AI prototypes into usable systems
+
+
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- 🎯 CURRENT FOCUS -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+
+<a id="focus"></a>
+
+## 🎯 Current Focus
 
 <table>
 <tr>
-<td width="26%" valign="top">
+<td align="center" width="25%">
 
-**AI/ML Engineering Intern**
-<br/><sub>Current</sub>
+### 🧠
+**Agentic AI**
 
-</td>
-<td width="74%" valign="top">
-
-- Building **agentic research & report-generation systems** that plan, retrieve, and synthesize autonomously
-- Designing **document-intelligence pipelines** — OCR, layout parsing, and vision-based extraction
-- Architecting **LLM workflows**: prompt pipelines, orchestration, and multi-step agent chains
-- Running **AI benchmarking & evaluation** to keep model behavior measurable, not anecdotal
-- Shipping the **production backend & API layer** that serves these systems, deployed on **AWS**
+Autonomous workflows, orchestration & tool use
 
 </td>
-</tr>
-<tr><td colspan="2"><br/></td></tr>
-<tr>
-<td width="26%" valign="top">
 
-**Full-Stack Development**
-<br/>Independent projects & client work
-<br/><sub>Prior</sub>
+<td align="center" width="25%">
+
+### 🔎
+**Retrieval**
+
+RAG, GraphRAG & knowledge systems
 
 </td>
-<td width="74%" valign="top">
 
-- Designed and shipped full-stack web applications end-to-end — frontend, backend, database, deployment
-- Built the engineering foundation — API design, cloud infra, systems thinking — that now underpins how I ship AI products
-- Worked across legal-tech, health-tech, and social-impact problem spaces
+<td align="center" width="25%">
+
+### 📄
+**Document AI**
+
+OCR, vision & intelligent extraction
+
+</td>
+
+<td align="center" width="25%">
+
+### 📊
+**Evaluation**
+
+Benchmarking, reliability & AI quality
 
 </td>
 </tr>
 </table>
 
+<br/>
+
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6C63FF,100:00D9FF&height=3&width=1000"/>
+
+> **Prototype → Evaluate → Harden → Deploy → Monitor**
+
 </div>
 
+<br/>
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6C63FF,100:00D9FF&height=2&width=1000"/>
+</div>
 <!-- ═══════════════════════════════════════════════ AI ENGINEERING ═══════════════════════════════════════════════ -->
 <a id="ai-engineering"></a>
 
@@ -207,52 +256,213 @@ class AnishSeth:
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6C63FF,100:00D9FF&height=3&width=1000"/>
 </div>
 
-<!-- ═══════════════════════════════════════════════ TECH STACK ═══════════════════════════════════════════════ -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- 🛠️ TECH STACK -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+
 <a id="tech-stack"></a>
 
-## 🛠️&nbsp; Tech Stack
+## 🛠️ Tech Stack
 
-**Model Layer**
+<div align="center">
 
-<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/> <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white"/> <img src="https://img.shields.io/badge/Claude-CC785C?style=for-the-badge&logo=anthropic&logoColor=white"/> <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/> <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
+I work across **AI/ML engineering, backend systems, full-stack development, cloud infrastructure, and modern developer tooling.**
 
-**Backend & Systems**
+<br/>
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/> <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white"/> <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/> <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+### 🧠 AI / ML & LLM Engineering
 
-**Data & Storage**
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
+<img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white"/>
+<img src="https://img.shields.io/badge/Claude-CC785C?style=for-the-badge&logo=anthropic&logoColor=white"/>
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
+<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
 
-<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/> <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/> <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white"/>
+<br/><br/>
 
-**Interface Layer**
+<img src="https://img.shields.io/badge/RAG-6C63FF?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/GraphRAG-4B3F8C?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Agentic_AI-302B63?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/NLP-00A6A6?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/OCR-00897B?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Prompt_Engineering-5E35B1?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/LLM_Evaluation-3949AB?style=for-the-badge"/>
 
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/> <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
+</div>
 
-**Cloud & Infra**
+<br/>
 
-<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"/> <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**Workflow & Tooling**
+### 💻 Programming Languages
 
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/> <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"/> <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/> <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/> <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/>
+<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white"/>
+<img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white"/>
+
+</td>
+
+<td width="50%" valign="top">
+
+### ⚙️ Backend & APIs
+
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/>
+<img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white"/>
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+<img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white"/>
+<img src="https://img.shields.io/badge/REST_APIs-02569B?style=flat-square"/>
+<img src="https://img.shields.io/badge/API_Integration-6C63FF?style=flat-square"/>
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### 🎨 Frontend & Product
+
+<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
+<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/UI%2FUX-F24E1E?style=flat-square&logo=figma&logoColor=white"/>
+<img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white"/>
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🗄️ Databases & Data
+
+<img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
+<img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black"/>
+<img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white"/>
+<img src="https://img.shields.io/badge/Firestore-FFCA28?style=flat-square&logo=firebase&logoColor=black"/>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/Embeddings-6C63FF?style=flat-square"/>
+<img src="https://img.shields.io/badge/Vector_Search-4B3F8C?style=flat-square"/>
+<img src="https://img.shields.io/badge/Data_Pipelines-00A6A6?style=flat-square"/>
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### ☁️ Cloud & Infrastructure
+
+<img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white"/>
+<img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white"/>
+<img src="https://img.shields.io/badge/Cloud_Run-4285F4?style=flat-square&logo=googlecloud&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white"/>
+<img src="https://img.shields.io/badge/Cloud_Architecture-6C63FF?style=flat-square"/>
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🔧 Developer Tools
+
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub_Copilot-000000?style=flat-square&logo=githubcopilot&logoColor=white"/>
+<img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/>
+<img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white"/>
+<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black"/>
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### 🔄 Automation & AI Workflow
+
+<img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white"/>
+<img src="https://img.shields.io/badge/Zapier-FF4A00?style=flat-square&logo=zapier&logoColor=white"/>
+<img src="https://img.shields.io/badge/Airtable-18BFFF?style=flat-square&logo=airtable&logoColor=white"/>
+<img src="https://img.shields.io/badge/HubSpot-FF7A59?style=flat-square&logo=hubspot&logoColor=white"/>
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🧩 Engineering Foundations
+
+<img src="https://img.shields.io/badge/DSA-6C63FF?style=flat-square"/>
+<img src="https://img.shields.io/badge/OOP-4B3F8C?style=flat-square"/>
+<img src="https://img.shields.io/badge/DBMS-302B63?style=flat-square"/>
+<img src="https://img.shields.io/badge/Operating_Systems-3949AB?style=flat-square"/>
+<img src="https://img.shields.io/badge/Computer_Networks-00897B?style=flat-square"/>
+<img src="https://img.shields.io/badge/Software_Engineering-00A6A6?style=flat-square"/>
+<img src="https://img.shields.io/badge/System_Design-00695C?style=flat-square"/>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- 🔬 AI ENGINEERING -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+
+<div align="center">
+
+### 🔬 AI Engineering Toolkit
+
+<br/>
+
+<img src="https://img.shields.io/badge/LLMs-6C63FF?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/RAG-4B3F8C?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/GraphRAG-302B63?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/AI_Agents-5E35B1?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/LLM_Orchestration-3949AB?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Document_AI-00897B?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/OCR-00A6A6?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/NLP-00796B?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/AI_Evaluation-1565C0?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Prompt_Engineering-283593?style=for-the-badge"/>
+
+<br/><br/>
+
+<sub>
+Building AI systems across the full lifecycle — 
+<strong>model → retrieval → orchestration → API → infrastructure → product</strong>
+</sub>
+
+</div>
+
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- 🚀 ENGINEERING FOCUS -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+
 
 <br/>
 
 <div align="center">
-
-**Core Proficiency**
-
-<img src="https://img.shields.io/badge/Python-92%25-6C63FF?style=flat-square"/>
-<img src="https://img.shields.io/badge/LLM_%2F_AI_Eng-88%25-6C63FF?style=flat-square"/>
-<img src="https://img.shields.io/badge/Full--Stack-85%25-00D9FF?style=flat-square"/>
-<img src="https://img.shields.io/badge/Cloud_%2F_DevOps-75%25-00D9FF?style=flat-square"/>
-
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6C63FF,100:00D9FF&height=2&width=1000"/>
 </div>
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6C63FF,100:00D9FF&height=3&width=1000"/>
-</div>
-
 <!-- ═══════════════════════════════════════════════ PROJECTS ═══════════════════════════════════════════════ -->
 <a id="projects"></a>
 
