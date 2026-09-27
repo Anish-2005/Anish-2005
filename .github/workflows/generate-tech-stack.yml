@@ -1,0 +1,1283 @@
+name: Generate Tech Stack
+
+on:
+  push:
+    paths:
+      - ".github/workflows/generate-tech-stack.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generate-tech-stack
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Generate premium tech stack SVG
+        shell: bash
+        run: |
+          mkdir -p assets
+
+          cat > assets/tech-stack.svg <<'SVG'
+          <svg width="1200" height="1030" viewBox="0 0 1200 1030"
+               fill="none" xmlns="http://www.w3.org/2000/svg">
+
+            <defs>
+
+              <!-- ═══════════════════════════════════════════════════ -->
+              <!-- BACKGROUND -->
+              <!-- ═══════════════════════════════════════════════════ -->
+
+              <linearGradient id="bg"
+                              x1="0" y1="0"
+                              x2="1200" y2="1030"
+                              gradientUnits="userSpaceOnUse">
+                <stop stop-color="#0A0E1A"/>
+                <stop offset="0.48" stop-color="#0D1120"/>
+                <stop offset="1" stop-color="#080B14"/>
+              </linearGradient>
+
+              <linearGradient id="aurora"
+                              x1="80" y1="0"
+                              x2="1120" y2="0"
+                              gradientUnits="userSpaceOnUse">
+                <stop stop-color="#6C63FF"/>
+                <stop offset="0.5" stop-color="#8175FF"/>
+                <stop offset="1" stop-color="#00D9FF"/>
+              </linearGradient>
+
+              <linearGradient id="purpleCyan"
+                              x1="0" y1="0"
+                              x2="1" y2="1">
+                <stop stop-color="#6C63FF"/>
+                <stop offset="1" stop-color="#00D9FF"/>
+              </linearGradient>
+
+              <linearGradient id="gold"
+                              x1="0" y1="0"
+                              x2="1" y2="0">
+                <stop stop-color="#FFB000"/>
+                <stop offset="1" stop-color="#FFD36A"/>
+              </linearGradient>
+
+              <!-- Cards -->
+
+              <linearGradient id="card"
+                              x1="0" y1="0"
+                              x2="1" y2="1">
+                <stop stop-color="#12172A"/>
+                <stop offset="1" stop-color="#0D1221"/>
+              </linearGradient>
+
+              <linearGradient id="cardSoft"
+                              x1="0" y1="0"
+                              x2="1" y2="0">
+                <stop stop-color="#10162A"/>
+                <stop offset="1" stop-color="#0D1220"/>
+              </linearGradient>
+
+              <!-- Grid -->
+
+              <pattern id="grid"
+                       width="40"
+                       height="40"
+                       patternUnits="userSpaceOnUse">
+                <path d="M40 0H0V40"
+                      stroke="#FFFFFF"
+                      stroke-opacity="0.022"
+                      stroke-width="1"/>
+              </pattern>
+
+              <!-- Glows -->
+
+              <filter id="glow"
+                      x="-100%" y="-100%"
+                      width="300%" height="300%">
+                <feGaussianBlur stdDeviation="18" result="blur"/>
+                <feMerge>
+                  <feMergeNode in="blur"/>
+                  <feMergeNode in="SourceGraphic"/>
+                </feMerge>
+              </filter>
+
+              <filter id="smallGlow"
+                      x="-100%" y="-100%"
+                      width="300%" height="300%">
+                <feGaussianBlur stdDeviation="5" result="blur"/>
+                <feMerge>
+                  <feMergeNode in="blur"/>
+                  <feMergeNode in="SourceGraphic"/>
+                </feMerge>
+              </filter>
+
+            </defs>
+
+
+            <!-- ═══════════════════════════════════════════════════ -->
+            <!-- CANVAS -->
+            <!-- ═══════════════════════════════════════════════════ -->
+
+            <rect width="1200"
+                  height="1030"
+                  rx="28"
+                  fill="url(#bg)"/>
+
+            <rect width="1200"
+                  height="1030"
+                  rx="28"
+                  fill="url(#grid)"/>
+
+            <circle cx="100"
+                    cy="100"
+                    r="155"
+                    fill="#6C63FF"
+                    fill-opacity="0.065"
+                    filter="url(#glow)"/>
+
+            <circle cx="1110"
+                    cy="900"
+                    r="170"
+                    fill="#00D9FF"
+                    fill-opacity="0.045"
+                    filter="url(#glow)"/>
+
+            <rect x="1"
+                  y="1"
+                  width="1198"
+                  height="1028"
+                  rx="27"
+                  stroke="#FFFFFF"
+                  stroke-opacity="0.08"/>
+
+
+            <!-- ═══════════════════════════════════════════════════ -->
+            <!-- HEADER -->
+            <!-- ═══════════════════════════════════════════════════ -->
+
+            <text x="60" y="60"
+                  fill="#8B7CFF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="11"
+                  font-weight="750"
+                  letter-spacing="3">
+              ENGINEERING / TECHNOLOGY STACK
+            </text>
+
+            <text x="60" y="105"
+                  fill="#F7F8FF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="30"
+                  font-weight="750">
+              Tools for building intelligent systems.
+            </text>
+
+            <text x="60" y="136"
+                  fill="#8E97AE"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="14">
+              AI/ML engineering across models, software, data, infrastructure and product.
+            </text>
+
+            <rect x="1005"
+                  y="43"
+                  width="135"
+                  height="32"
+                  rx="16"
+                  fill="#11182A"
+                  stroke="#6C63FF"
+                  stroke-opacity="0.28"/>
+
+            <circle cx="1025"
+                    cy="59"
+                    r="4"
+                    fill="#00D9FF"
+                    filter="url(#smallGlow)"/>
+
+            <text x="1038"
+                  y="64"
+                  fill="#C7CDE0"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="700">
+              FULL STACK
+            </text>
+
+
+            <!-- ═══════════════════════════════════════════════════ -->
+            <!-- AI / ML CORE -->
+            <!-- ═══════════════════════════════════════════════════ -->
+
+            <rect x="60"
+                  y="176"
+                  width="1080"
+                  height="185"
+                  rx="18"
+                  fill="url(#card)"
+                  stroke="#6C63FF"
+                  stroke-opacity="0.25"/>
+
+            <rect x="60"
+                  y="176"
+                  width="1080"
+                  height="3"
+                  rx="1.5"
+                  fill="url(#aurora)"/>
+
+            <text x="88" y="211"
+                  fill="#69748D"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="750"
+                  letter-spacing="2">
+              01 / AI &amp; ML
+            </text>
+
+            <text x="88" y="244"
+                  fill="#F7F8FF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="21"
+                  font-weight="750">
+              AI / ML &amp; LLM Engineering
+            </text>
+
+            <text x="88" y="269"
+                  fill="#8E97AE"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="11">
+              Models, frameworks and patterns used to build applied intelligence.
+            </text>
+
+
+            <!-- AI technologies -->
+
+            <rect x="88" y="292"
+                  width="82" height="30"
+                  rx="15"
+                  fill="#17152C"/>
+
+            <text x="129" y="312"
+                  text-anchor="middle"
+                  fill="#B0A8FF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="650">
+              PYTHON
+            </text>
+
+            <rect x="180" y="292"
+                  width="79" height="30"
+                  rx="15"
+                  fill="#17152C"/>
+
+            <text x="219" y="312"
+                  text-anchor="middle"
+                  fill="#B0A8FF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="650">
+              OPENAI
+            </text>
+
+            <rect x="269" y="292"
+                  width="79" height="30"
+                  rx="15"
+                  fill="#17152C"/>
+
+            <text x="308" y="312"
+                  text-anchor="middle"
+                  fill="#B0A8FF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="650">
+              GEMINI
+            </text>
+
+            <rect x="358" y="292"
+                  width="78" height="30"
+                  rx="15"
+                  fill="#17152C"/>
+
+            <text x="397" y="312"
+                  text-anchor="middle"
+                  fill="#B0A8FF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="650">
+              CLAUDE
+            </text>
+
+            <rect x="446" y="292"
+                  width="98" height="30"
+                  rx="15"
+                  fill="#17152C"/>
+
+            <text x="495" y="312"
+                  text-anchor="middle"
+                  fill="#B0A8FF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="650">
+              LANGCHAIN
+            </text>
+
+            <rect x="554" y="292"
+                  width="90" height="30"
+                  rx="15"
+                  fill="#17152C"/>
+
+            <text x="599" y="312"
+                  text-anchor="middle"
+                  fill="#B0A8FF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="650">
+              PYTORCH
+            </text>
+
+            <rect x="654" y="292"
+                  width="110" height="30"
+                  rx="15"
+                  fill="#17152C"/>
+
+            <text x="709" y="312"
+                  text-anchor="middle"
+                  fill="#B0A8FF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="650">
+              SCIKIT-LEARN
+            </text>
+
+            <rect x="774" y="292"
+                  width="66" height="30"
+                  rx="15"
+                  fill="#17152C"/>
+
+            <text x="807" y="312"
+                  text-anchor="middle"
+                  fill="#B0A8FF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="650">
+              RAG
+            </text>
+
+            <rect x="850" y="292"
+                  width="92" height="30"
+                  rx="15"
+                  fill="#17152C"/>
+
+            <text x="896" y="312"
+                  text-anchor="middle"
+                  fill="#B0A8FF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="650">
+              GRAPHRAG
+            </text>
+
+            <rect x="952" y="292"
+                  width="97" height="30"
+                  rx="15"
+                  fill="#17152C"/>
+
+            <text x="1000" y="312"
+                  text-anchor="middle"
+                  fill="#B0A8FF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="650">
+              AGENTIC AI
+            </text>
+
+
+            <text x="88" y="345"
+                  fill="#00D9FF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="700">
+              NLP
+            </text>
+
+            <text x="130" y="345"
+                  fill="#59647A"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10">
+              ·
+            </text>
+
+            <text x="148" y="345"
+                  fill="#00D9FF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="700">
+              OCR
+            </text>
+
+            <text x="185" y="345"
+                  fill="#59647A"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10">
+              ·
+            </text>
+
+            <text x="203" y="345"
+                  fill="#00D9FF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="700">
+              PROMPT ENGINEERING
+            </text>
+
+            <text x="335" y="345"
+                  fill="#59647A"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10">
+              ·
+            </text>
+
+            <text x="353" y="345"
+                  fill="#00D9FF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="700">
+              LLM EVALUATION
+            </text>
+
+
+            <!-- ═══════════════════════════════════════════════════ -->
+            <!-- TWO COLUMN STACK -->
+            <!-- ═══════════════════════════════════════════════════ -->
+
+            <!-- Programming -->
+
+            <rect x="60"
+                  y="390"
+                  width="525"
+                  height="185"
+                  rx="18"
+                  fill="url(#cardSoft)"
+                  stroke="#FFFFFF"
+                  stroke-opacity="0.07"/>
+
+            <rect x="60"
+                  y="390"
+                  width="525"
+                  height="3"
+                  rx="1.5"
+                  fill="#6C63FF"/>
+
+            <text x="88" y="426"
+                  fill="#69748D"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="750"
+                  letter-spacing="2">
+              02 / SOFTWARE
+            </text>
+
+            <text x="88" y="458"
+                  fill="#F7F8FF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="20"
+                  font-weight="750">
+              Programming &amp; Backend
+            </text>
+
+            <text x="88" y="484"
+                  fill="#8E97AE"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="11">
+              Languages, frameworks and APIs powering production systems.
+            </text>
+
+            <rect x="88" y="510" width="75" height="27" rx="13.5"
+                  fill="#17152C"/>
+            <text x="125" y="528"
+                  text-anchor="middle"
+                  fill="#A89FFF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="9"
+                  font-weight="650">
+              JAVA
+            </text>
+
+            <rect x="173" y="510" width="85" height="27" rx="13.5"
+                  fill="#17152C"/>
+            <text x="215" y="528"
+                  text-anchor="middle"
+                  fill="#A89FFF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="9"
+                  font-weight="650">
+              PYTHON
+            </text>
+
+            <rect x="268" y="510" width="73" height="27" rx="13.5"
+                  fill="#17152C"/>
+            <text x="304" y="528"
+                  text-anchor="middle"
+                  fill="#A89FFF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="9"
+                  font-weight="650">
+              C++
+            </text>
+
+            <rect x="351" y="510" width="80" height="27" rx="13.5"
+                  fill="#17152C"/>
+            <text x="391" y="528"
+                  text-anchor="middle"
+                  fill="#A89FFF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="9"
+                  font-weight="650">
+              C#
+            </text>
+
+            <rect x="441" y="510" width="116" height="27" rx="13.5"
+                  fill="#17152C"/>
+            <text x="499" y="528"
+                  text-anchor="middle"
+                  fill="#A89FFF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="9"
+                  font-weight="650">
+              JAVASCRIPT / TS
+            </text>
+
+            <text x="88" y="557"
+                  fill="#00D9FF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="650">
+              Node.js
+            </text>
+
+            <text x="145" y="557"
+                  fill="#59647A"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10">
+              ·
+            </text>
+
+            <text x="162" y="557"
+                  fill="#00D9FF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="650">
+              Express
+            </text>
+
+            <text x="215" y="557"
+                  fill="#59647A"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10">
+              ·
+            </text>
+
+            <text x="232" y="557"
+                  fill="#00D9FF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="650">
+              FastAPI
+            </text>
+
+            <text x="290" y="557"
+                  fill="#59647A"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10">
+              ·
+            </text>
+
+            <text x="307" y="557"
+                  fill="#00D9FF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="650">
+              Django
+            </text>
+
+
+            <!-- Frontend -->
+
+            <rect x="615"
+                  y="390"
+                  width="525"
+                  height="185"
+                  rx="18"
+                  fill="url(#cardSoft)"
+                  stroke="#FFFFFF"
+                  stroke-opacity="0.07"/>
+
+            <rect x="615"
+                  y="390"
+                  width="525"
+                  height="3"
+                  rx="1.5"
+                  fill="#00D9FF"/>
+
+            <text x="643" y="426"
+                  fill="#69748D"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="750"
+                  letter-spacing="2">
+              03 / PRODUCT
+            </text>
+
+            <text x="643" y="458"
+                  fill="#F7F8FF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="20"
+                  font-weight="750">
+              Frontend &amp; Product
+            </text>
+
+            <text x="643" y="484"
+                  fill="#8E97AE"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="11">
+              Interfaces and product layers for AI-powered applications.
+            </text>
+
+            <rect x="643" y="510" width="83" height="27" rx="13.5"
+                  fill="#102329"/>
+            <text x="684" y="528"
+                  text-anchor="middle"
+                  fill="#7CEAFF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="9"
+                  font-weight="650">
+              REACT
+            </text>
+
+            <rect x="736" y="510" width="87" height="27" rx="13.5"
+                  fill="#102329"/>
+            <text x="779" y="528"
+                  text-anchor="middle"
+                  fill="#7CEAFF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="9"
+                  font-weight="650">
+              NEXT.JS
+            </text>
+
+            <rect x="833" y="510" width="112" height="27" rx="13.5"
+                  fill="#102329"/>
+            <text x="889" y="528"
+                  text-anchor="middle"
+                  fill="#7CEAFF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="9"
+                  font-weight="650">
+              TAILWIND CSS
+            </text>
+
+            <rect x="955" y="510" width="78" height="27" rx="13.5"
+                  fill="#102329"/>
+            <text x="994" y="528"
+                  text-anchor="middle"
+                  fill="#7CEAFF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="9"
+                  font-weight="650">
+              FIGMA
+            </text>
+
+            <text x="643" y="557"
+                  fill="#00D9FF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="650">
+              TypeScript
+            </text>
+
+            <text x="707" y="557"
+                  fill="#59647A"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10">
+              ·
+            </text>
+
+            <text x="724" y="557"
+                  fill="#00D9FF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="650">
+              JavaScript
+            </text>
+
+            <text x="797" y="557"
+                  fill="#59647A"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10">
+              ·
+            </text>
+
+            <text x="814" y="557"
+                  fill="#00D9FF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="650">
+              HTML / CSS
+            </text>
+
+
+            <!-- ═══════════════════════════════════════════════════ -->
+            <!-- DATA + CLOUD -->
+            <!-- ═══════════════════════════════════════════════════ -->
+
+            <rect x="60"
+                  y="600"
+                  width="340"
+                  height="170"
+                  rx="18"
+                  fill="url(#cardSoft)"
+                  stroke="#FFFFFF"
+                  stroke-opacity="0.07"/>
+
+            <rect x="60"
+                  y="600"
+                  width="340"
+                  height="3"
+                  rx="1.5"
+                  fill="#00A6A6"/>
+
+            <text x="88" y="636"
+                  fill="#69748D"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="750"
+                  letter-spacing="2">
+              04 / DATA
+            </text>
+
+            <text x="88" y="668"
+                  fill="#F7F8FF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="19"
+                  font-weight="750">
+              Databases &amp; Data
+            </text>
+
+            <text x="88" y="695"
+                  fill="#8E97AE"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10">
+              Persistence, retrieval and data systems.
+            </text>
+
+            <text x="88" y="726"
+                  fill="#7CEAFF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="650">
+              PostgreSQL
+            </text>
+
+            <text x="157" y="726"
+                  fill="#59647A"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10">
+              ·
+            </text>
+
+            <text x="174" y="726"
+                  fill="#7CEAFF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="650">
+              MongoDB
+            </text>
+
+            <text x="239" y="726"
+                  fill="#59647A"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10">
+              ·
+            </text>
+
+            <text x="256" y="726"
+                  fill="#7CEAFF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="650">
+              Firebase
+            </text>
+
+            <text x="88" y="748"
+                  fill="#7CEAFF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="650">
+              Supabase
+            </text>
+
+            <text x="150" y="748"
+                  fill="#59647A"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10">
+              ·
+            </text>
+
+            <text x="167" y="748"
+                  fill="#7CEAFF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="650">
+              Firestore
+            </text>
+
+            <text x="235" y="748"
+                  fill="#59647A"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10">
+              ·
+            </text>
+
+            <text x="252" y="748"
+                  fill="#7CEAFF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="650">
+              Vector Search
+            </text>
+
+
+            <!-- Cloud -->
+
+            <rect x="420"
+                  y="600"
+                  width="340"
+                  height="170"
+                  rx="18"
+                  fill="url(#cardSoft)"
+                  stroke="#FFFFFF"
+                  stroke-opacity="0.07"/>
+
+            <rect x="420"
+                  y="600"
+                  width="340"
+                  height="3"
+                  rx="1.5"
+                  fill="#6C63FF"/>
+
+            <text x="448" y="636"
+                  fill="#69748D"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="750"
+                  letter-spacing="2">
+              05 / INFRA
+            </text>
+
+            <text x="448" y="668"
+                  fill="#F7F8FF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="19"
+                  font-weight="750">
+              Cloud &amp; Infrastructure
+            </text>
+
+            <text x="448" y="695"
+                  fill="#8E97AE"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10">
+              Deployment, runtime and infrastructure layers.
+            </text>
+
+            <text x="448" y="726"
+                  fill="#A89FFF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="650">
+              AWS
+            </text>
+
+            <text x="485" y="726"
+                  fill="#59647A"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10">
+              ·
+            </text>
+
+            <text x="502" y="726"
+                  fill="#A89FFF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="650">
+              Google Cloud
+            </text>
+
+            <text x="587" y="726"
+                  fill="#59647A"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10">
+              ·
+            </text>
+
+            <text x="604" y="726"
+                  fill="#A89FFF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="650">
+              Cloud Run
+            </text>
+
+            <text x="448" y="748"
+                  fill="#A89FFF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="650">
+              Docker
+            </text>
+
+            <text x="497" y="748"
+                  fill="#59647A"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10">
+              ·
+            </text>
+
+            <text x="514" y="748"
+                  fill="#A89FFF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="650">
+              Vercel
+            </text>
+
+            <text x="561" y="748"
+                  fill="#59647A"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10">
+              ·
+            </text>
+
+            <text x="578" y="748"
+                  fill="#A89FFF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="650">
+              Cloud Architecture
+            </text>
+
+
+            <!-- Developer tooling -->
+
+            <rect x="780"
+                  y="600"
+                  width="360"
+                  height="170"
+                  rx="18"
+                  fill="url(#cardSoft)"
+                  stroke="#FFFFFF"
+                  stroke-opacity="0.07"/>
+
+            <rect x="780"
+                  y="600"
+                  width="360"
+                  height="3"
+                  rx="1.5"
+                  fill="#FFB000"/>
+
+            <text x="808" y="636"
+                  fill="#69748D"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="750"
+                  letter-spacing="2">
+              06 / TOOLING
+            </text>
+
+            <text x="808" y="668"
+                  fill="#F7F8FF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="19"
+                  font-weight="750">
+              Developer &amp; Automation
+            </text>
+
+            <text x="808" y="695"
+                  fill="#8E97AE"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10">
+              Tooling, workflows and engineering productivity.
+            </text>
+
+            <text x="808" y="726"
+                  fill="#FFC95C"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="650">
+              Git
+            </text>
+
+            <text x="835" y="726"
+                  fill="#59647A"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10">
+              ·
+            </text>
+
+            <text x="852" y="726"
+                  fill="#FFC95C"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="650">
+              GitHub
+            </text>
+
+            <text x="905" y="726"
+                  fill="#59647A"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10">
+              ·
+            </text>
+
+            <text x="922" y="726"
+                  fill="#FFC95C"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="650">
+              VS Code
+            </text>
+
+            <text x="808" y="748"
+                  fill="#FFC95C"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="650">
+              Postman
+            </text>
+
+            <text x="860" y="748"
+                  fill="#59647A"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10">
+              ·
+            </text>
+
+            <text x="877" y="748"
+                  fill="#FFC95C"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="650">
+              Linux
+            </text>
+
+            <text x="918" y="748"
+                  fill="#59647A"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10">
+              ·
+            </text>
+
+            <text x="935" y="748"
+                  fill="#FFC95C"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="650">
+              n8n
+            </text>
+
+            <text x="970" y="748"
+                  fill="#59647A"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10">
+              ·
+            </text>
+
+            <text x="987" y="748"
+                  fill="#FFC95C"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="650">
+              Zapier
+            </text>
+
+
+            <!-- ═══════════════════════════════════════════════════ -->
+            <!-- ENGINEERING FOUNDATIONS -->
+            <!-- ═══════════════════════════════════════════════════ -->
+
+            <rect x="60"
+                  y="800"
+                  width="1080"
+                  height="105"
+                  rx="18"
+                  fill="#0E1425"
+                  stroke="#FFFFFF"
+                  stroke-opacity="0.07"/>
+
+            <text x="88" y="834"
+                  fill="#69748D"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="750"
+                  letter-spacing="2">
+              07 / FOUNDATIONS
+            </text>
+
+            <text x="88" y="865"
+                  fill="#F7F8FF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="18"
+                  font-weight="750">
+              Engineering Fundamentals
+            </text>
+
+            <text x="88" y="889"
+                  fill="#AEB7CC"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="11">
+              DSA
+            </text>
+
+            <text x="120" y="889"
+                  fill="#59647A"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="11">
+              ·
+            </text>
+
+            <text x="137" y="889"
+                  fill="#AEB7CC"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="11">
+              OOP
+            </text>
+
+            <text x="171" y="889"
+                  fill="#59647A"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="11">
+              ·
+            </text>
+
+            <text x="188" y="889"
+                  fill="#AEB7CC"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="11">
+              DBMS
+            </text>
+
+            <text x="230" y="889"
+                  fill="#59647A"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="11">
+              ·
+            </text>
+
+            <text x="247" y="889"
+                  fill="#AEB7CC"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="11">
+              Operating Systems
+            </text>
+
+            <text x="364" y="889"
+                  fill="#59647A"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="11">
+              ·
+            </text>
+
+            <text x="381" y="889"
+                  fill="#AEB7CC"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="11">
+              Computer Networks
+            </text>
+
+            <text x="507" y="889"
+                  fill="#59647A"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="11">
+              ·
+            </text>
+
+            <text x="524" y="889"
+                  fill="#AEB7CC"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="11">
+              Software Engineering
+            </text>
+
+            <text x="661" y="889"
+                  fill="#59647A"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="11">
+              ·
+            </text>
+
+            <text x="678" y="889"
+                  fill="#AEB7CC"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="11">
+              System Design
+            </text>
+
+
+            <!-- ═══════════════════════════════════════════════════ -->
+            <!-- BOTTOM SIGNATURE -->
+            <!-- ═══════════════════════════════════════════════════ -->
+
+            <line x1="60"
+                  y1="945"
+                  x2="1140"
+                  y2="945"
+                  stroke="#FFFFFF"
+                  stroke-opacity="0.06"/>
+
+            <text x="60" y="970"
+                  fill="#69748D"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="9"
+                  font-weight="750"
+                  letter-spacing="2">
+              ENGINEERING SURFACE
+            </text>
+
+            <text x="1140" y="970"
+                  text-anchor="end"
+                  fill="#8B7CFF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="700">
+              AI × SOFTWARE × INFRASTRUCTURE
+            </text>
+
+          </svg>
+          SVG
+
+      - name: Commit generated SVG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/tech-stack.svg
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update premium tech stack SVG"
+
+          git fetch origin main
+          git rebase origin/main
+
+          git push origin HEAD:main
