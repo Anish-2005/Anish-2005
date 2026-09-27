@@ -1,0 +1,65 @@
+name: Validate Aurora Assets
+
+on:
+  push:
+    paths:
+      - "assets/*.svg"
+      - ".github/workflows/*.yml"
+      - ".github/workflows/*.yaml"
+  pull_request:
+    paths:
+      - "assets/*.svg"
+      - ".github/workflows/*.yml"
+      - ".github/workflows/*.yaml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Validate all SVG assets
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+
+          assets = sorted(Path("assets").glob("*.svg"))
+
+          if not assets:
+              raise SystemExit("No SVG assets found.")
+
+          failed = False
+
+          for path in assets:
+              try:
+                  root = ET.parse(path).getroot()
+
+                  if root.tag != "{http://www.w3.org/2000/svg}svg":
+                      print(f"✗ Invalid SVG root: {path}")
+                      print(f"  Found: {root.tag}")
+                      failed = True
+                      continue
+
+                  print(f"✓ Valid SVG: {path}")
+
+              except ET.ParseError as e:
+                  print(f"✗ Invalid SVG/XML: {path}")
+                  print(f"  {e}")
+                  failed = True
+
+          if failed:
+              raise SystemExit(
+                  "\nOne or more Aurora SVG assets failed validation."
+              )
+
+          print(
+              f"\n✓ Successfully validated {len(assets)} Aurora SVG assets."
+          )
+          PY
