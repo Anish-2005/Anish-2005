@@ -1,0 +1,90 @@
+name: Update GitHub Activity
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: aurora-profile-assets
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Create assets directory
+        run: mkdir -p assets
+
+      - name: Generate GitHub Stats
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: >-
+            username=Anish-2005&show_icons=true&include_all_commits=true&count_private=true&hide_rank=true&hide_border=true&bg_color=0A0E1A&title_color=00D9FF&icon_color=6C63FF&text_color=C9D1D9&custom_title=GitHub%20Activity
+          path: assets/github-stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate Top Languages
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: >-
+            username=Anish-2005&layout=compact&langs_count=5&hide_progress=true&hide_border=true&bg_color=0A0E1A&title_color=00D9FF&text_color=C9D1D9&custom_title=Top%20Languages
+          path: assets/top-languages.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Validate generated SVGs
+        run: |
+          python - <<'PY'
+          import xml.etree.ElementTree as ET
+
+          files = [
+              "assets/github-stats.svg",
+              "assets/top-languages.svg",
+          ]
+
+          failed = False
+
+          for file in files:
+              try:
+                  ET.parse(file)
+                  print(f"✓ Valid SVG: {file}")
+              except ET.ParseError as e:
+                  print(f"✗ Invalid SVG: {file}")
+                  print(e)
+                  failed = True
+
+          if failed:
+              raise SystemExit(1)
+
+          print("All generated GitHub activity SVGs are valid.")
+          PY
+
+      - name: Commit generated cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/github-stats.svg assets/top-languages.svg
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update GitHub activity cards"
+
+          git fetch origin main
+          git rebase origin/main
+
+          git push origin HEAD:main
