@@ -317,33 +317,87 @@ class AnishSeth:
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6C63FF,100:00D9FF&height=3&width=1000"/>
 </div>
 
-<!-- ═══════════════════════════════════════════════ ACTIVITY ═══════════════════════════════════════════════ -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- 📊 GITHUB ACTIVITY -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+
 <a id="activity"></a>
 
-## 📊&nbsp; GitHub Activity
+## 📊 GitHub Activity & Contributions
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Anish-2005&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0A0E1A&title_color=00D9FF&icon_color=6C63FF&text_color=c9d1d9&custom_title=GitHub%20Stats"/>
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=Anish-2005&theme=tokyonight&hide_border=true&background=0A0E1A&ring=6C63FF&fire=00D9FF&currStreakLabel=00D9FF&sideLabels=c9d1d9"/>
+  <img
+    width="49%"
+    src="https://github-readme-stats.vercel.app/api?username=Anish-2005&show_icons=true&hide_border=true&theme=tokyonight&bg_color=0A0E1A&title_color=00D9FF&icon_color=6C63FF&text_color=C9D1D9&rank_icon=github"
+    alt="Anish Seth's GitHub Stats"
+  />
 
-<img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Anish-2005&layout=compact&theme=tokyonight&hide_border=true&bg_color=0A0E1A&title_color=00D9FF&text_color=c9d1d9&langs_count=8"/>
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Anish-2005&theme=tokyonight"/>
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Anish-2005&bg_color=0A0E1A&color=00D9FF&line=6C63FF&point=ffffff&area=true&area_color=302B63&hide_border=true&custom_title=Contribution%20Graph"/>
-
-<img width="100%" src="https://github-profile-trophy.vercel.app/?username=Anish-2005&theme=algolia&no-frame=true&no-bg=true&margin-w=8&row=1&column=7"/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anish-2005/Anish-2005/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anish-2005/Anish-2005/output/github-contribution-grid-snake.svg">
-  <img alt="Snake animation" src="https://raw.githubusercontent.com/Anish-2005/Anish-2005/output/github-contribution-grid-snake.svg">
-</picture>
+  <img
+    width="49%"
+    src="https://streak-stats.demolab.com?user=Anish-2005&hide_border=true&background=0A0E1A&ring=6C63FF&fire=00D9FF&currStreakLabel=00D9FF&sideLabels=C9D1D9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=7D8590"
+    alt="Anish Seth's GitHub Streak"
+  />
 
 </div>
 
+<br/>
+
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6C63FF,100:00D9FF&height=3&width=1000"/>
+
+  <img
+    width="42%"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anish-2005&layout=compact&hide_border=true&theme=tokyonight&bg_color=0A0E1A&title_color=00D9FF&text_color=C9D1D9&langs_count=8"
+    alt="Top Languages"
+  />
+
+  <img
+    width="56%"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Anish-2005&theme=github_dark"
+    alt="GitHub Profile Summary"
+  />
+
+</div>
+
+<br/>
+
+### 📈 Contribution Activity
+
+<div align="center">
+
+  <img
+    width="98%"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=Anish-2005&bg_color=0A0E1A&color=00D9FF&line=6C63FF&point=FFFFFF&area=true&hide_border=true&custom_title=Contribution%20Activity"
+    alt="GitHub Contribution Graph"
+  />
+
+</div>
+
+<br/>
+
+<div align="center">
+
+  <sub>
+    Consistency, experimentation, and continuous learning through code.
+  </sub>
+
+  <br/><br/>
+
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/Anish-2005/Anish-2005/output/github-contribution-grid-snake-dark.svg"
+    >
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/Anish-2005/Anish-2005/output/github-contribution-grid-snake.svg"
+    >
+    <img
+      alt="GitHub contribution snake animation"
+      src="https://raw.githubusercontent.com/Anish-2005/Anish-2005/output/github-contribution-grid-snake.svg"
+    >
+  </picture>
+
 </div>
 
 <!-- ═══════════════════════════════════════════════ CONNECT ═══════════════════════════════════════════════ -->
