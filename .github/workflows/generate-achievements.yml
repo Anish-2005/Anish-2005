@@ -1,0 +1,845 @@
+name: Generate Achievements Section
+
+on:
+  push:
+    paths:
+      - ".github/workflows/generate-achievements.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generate-achievements
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Generate premium achievements SVG
+        shell: bash
+        run: |
+          mkdir -p assets
+
+          cat > assets/achievements.svg <<'SVG'
+          <svg width="1200" height="900"
+               viewBox="0 0 1200 900"
+               fill="none"
+               xmlns="http://www.w3.org/2000/svg">
+
+            <defs>
+
+              <!-- ═══════════════════════════════════════════════ -->
+              <!-- BACKGROUND -->
+              <!-- ═══════════════════════════════════════════════ -->
+
+              <linearGradient id="bg"
+                              x1="0" y1="0"
+                              x2="1200" y2="900"
+                              gradientUnits="userSpaceOnUse">
+                <stop stop-color="#0A0E1A"/>
+                <stop offset="0.48" stop-color="#0D1120"/>
+                <stop offset="1" stop-color="#080B14"/>
+              </linearGradient>
+
+              <linearGradient id="aurora"
+                              x1="80" y1="0"
+                              x2="1120" y2="0"
+                              gradientUnits="userSpaceOnUse">
+                <stop stop-color="#6C63FF"/>
+                <stop offset="0.5" stop-color="#8175FF"/>
+                <stop offset="1" stop-color="#00D9FF"/>
+              </linearGradient>
+
+              <linearGradient id="gold"
+                              x1="0" y1="0"
+                              x2="1" y2="1">
+                <stop stop-color="#FFB000"/>
+                <stop offset="1" stop-color="#FFD36A"/>
+              </linearGradient>
+
+              <linearGradient id="cyan"
+                              x1="0" y1="0"
+                              x2="1" y2="1">
+                <stop stop-color="#00A6A6"/>
+                <stop offset="1" stop-color="#00D9FF"/>
+              </linearGradient>
+
+              <linearGradient id="card"
+                              x1="0" y1="0"
+                              x2="1" y2="1">
+                <stop stop-color="#12172A"/>
+                <stop offset="1" stop-color="#0D1221"/>
+              </linearGradient>
+
+              <pattern id="grid"
+                       width="40"
+                       height="40"
+                       patternUnits="userSpaceOnUse">
+                <path d="M40 0H0V40"
+                      stroke="#FFFFFF"
+                      stroke-opacity="0.022"
+                      stroke-width="1"/>
+              </pattern>
+
+              <filter id="glow"
+                      x="-100%" y="-100%"
+                      width="300%" height="300%">
+                <feGaussianBlur stdDeviation="18" result="blur"/>
+                <feMerge>
+                  <feMergeNode in="blur"/>
+                  <feMergeNode in="SourceGraphic"/>
+                </feMerge>
+              </filter>
+
+              <filter id="smallGlow"
+                      x="-100%" y="-100%"
+                      width="300%" height="300%">
+                <feGaussianBlur stdDeviation="5" result="blur"/>
+                <feMerge>
+                  <feMergeNode in="blur"/>
+                  <feMergeNode in="SourceGraphic"/>
+                </feMerge>
+              </filter>
+
+            </defs>
+
+
+            <!-- ═══════════════════════════════════════════════ -->
+            <!-- CANVAS -->
+            <!-- ═══════════════════════════════════════════════ -->
+
+            <rect width="1200"
+                  height="900"
+                  rx="28"
+                  fill="url(#bg)"/>
+
+            <rect width="1200"
+                  height="900"
+                  rx="28"
+                  fill="url(#grid)"/>
+
+            <circle cx="100"
+                    cy="90"
+                    r="155"
+                    fill="#6C63FF"
+                    fill-opacity="0.06"
+                    filter="url(#glow)"/>
+
+            <circle cx="1110"
+                    cy="780"
+                    r="170"
+                    fill="#00D9FF"
+                    fill-opacity="0.045"
+                    filter="url(#glow)"/>
+
+            <rect x="1"
+                  y="1"
+                  width="1198"
+                  height="898"
+                  rx="27"
+                  stroke="#FFFFFF"
+                  stroke-opacity="0.08"/>
+
+
+            <!-- ═══════════════════════════════════════════════ -->
+            <!-- HEADER -->
+            <!-- ═══════════════════════════════════════════════ -->
+
+            <text x="60" y="60"
+                  fill="#8B7CFF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="11"
+                  font-weight="750"
+                  letter-spacing="3">
+              MILESTONES / CREDENTIALS
+            </text>
+
+            <text x="60" y="105"
+                  fill="#F7F8FF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="30"
+                  font-weight="750">
+              Recognition earned along the way.
+            </text>
+
+            <text x="60" y="136"
+                  fill="#8E97AE"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="14">
+              Hackathons, community leadership and technical certifications.
+            </text>
+
+            <rect x="1010"
+                  y="43"
+                  width="130"
+                  height="32"
+                  rx="16"
+                  fill="#11182A"
+                  stroke="#FFB000"
+                  stroke-opacity="0.25"/>
+
+            <circle cx="1030"
+                    cy="59"
+                    r="4"
+                    fill="#FFB000"
+                    filter="url(#smallGlow)"/>
+
+            <text x="1043"
+                  y="64"
+                  fill="#FFD36A"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="700">
+              MILESTONES
+            </text>
+
+
+            <!-- ═══════════════════════════════════════════════ -->
+            <!-- HACKATHONS -->
+            <!-- ═══════════════════════════════════════════════ -->
+
+            <text x="60" y="185"
+                  fill="#69748D"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="750"
+                  letter-spacing="2">
+              01 / HACKATHONS
+            </text>
+
+            <text x="60" y="215"
+                  fill="#F0F3FA"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="17"
+                  font-weight="700">
+              Competitive engineering
+            </text>
+
+
+            <!-- SIH 2024 -->
+
+            <rect x="60"
+                  y="240"
+                  width="340"
+                  height="180"
+                  rx="18"
+                  fill="url(#card)"
+                  stroke="#FFB000"
+                  stroke-opacity="0.22"/>
+
+            <rect x="60"
+                  y="240"
+                  width="340"
+                  height="3"
+                  rx="1.5"
+                  fill="url(#gold)"/>
+
+            <text x="88" y="276"
+                  fill="#69748D"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="750"
+                  letter-spacing="2">
+              2024
+            </text>
+
+            <circle cx="360"
+                    cy="274"
+                    r="15"
+                    fill="#211B0C"
+                    stroke="#FFB000"
+                    stroke-opacity="0.35"/>
+
+            <text x="360" y="280"
+                  text-anchor="middle"
+                  fill="#FFD36A"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="11"
+                  font-weight="750">
+              ★
+            </text>
+
+            <text x="88" y="314"
+                  fill="#F7F8FF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="18"
+                  font-weight="750">
+              Smart India Hackathon
+            </text>
+
+            <text x="88" y="339"
+                  fill="#8E97AE"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="11">
+              Smart India Hackathon 2024
+            </text>
+
+            <rect x="88"
+                  y="367"
+                  width="90"
+                  height="27"
+                  rx="13.5"
+                  fill="#211B0C"/>
+
+            <text x="133"
+                  y="385"
+                  text-anchor="middle"
+                  fill="#FFC95C"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="700">
+              FINALIST
+            </text>
+
+
+            <!-- SIH 2025 -->
+
+            <rect x="430"
+                  y="240"
+                  width="340"
+                  height="180"
+                  rx="18"
+                  fill="url(#card)"
+                  stroke="#FFB000"
+                  stroke-opacity="0.22"/>
+
+            <rect x="430"
+                  y="240"
+                  width="340"
+                  height="3"
+                  rx="1.5"
+                  fill="url(#gold)"/>
+
+            <text x="458" y="276"
+                  fill="#69748D"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="750"
+                  letter-spacing="2">
+              2025
+            </text>
+
+            <circle cx="730"
+                    cy="274"
+                    r="15"
+                    fill="#211B0C"
+                    stroke="#FFB000"
+                    stroke-opacity="0.35"/>
+
+            <text x="730" y="280"
+                  text-anchor="middle"
+                  fill="#FFD36A"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="11"
+                  font-weight="750">
+              ★
+            </text>
+
+            <text x="458" y="314"
+                  fill="#F7F8FF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="18"
+                  font-weight="750">
+              Smart India Hackathon
+            </text>
+
+            <text x="458" y="339"
+                  fill="#8E97AE"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="11">
+              Smart India Hackathon 2025
+            </text>
+
+            <rect x="458"
+                  y="367"
+                  width="90"
+                  height="27"
+                  rx="13.5"
+                  fill="#211B0C"/>
+
+            <text x="503"
+                  y="385"
+                  text-anchor="middle"
+                  fill="#FFC95C"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="700">
+              FINALIST
+            </text>
+
+
+            <!-- Hack4Bengal -->
+
+            <rect x="800"
+                  y="240"
+                  width="340"
+                  height="180"
+                  rx="18"
+                  fill="url(#card)"
+                  stroke="#FFB000"
+                  stroke-opacity="0.22"/>
+
+            <rect x="800"
+                  y="240"
+                  width="340"
+                  height="3"
+                  rx="1.5"
+                  fill="url(#gold)"/>
+
+            <text x="828" y="276"
+                  fill="#69748D"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="750"
+                  letter-spacing="2">
+              2025
+            </text>
+
+            <circle cx="1100"
+                    cy="274"
+                    r="15"
+                    fill="#211B0C"
+                    stroke="#FFB000"
+                    stroke-opacity="0.35"/>
+
+            <text x="1100" y="280"
+                  text-anchor="middle"
+                  fill="#FFD36A"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="11"
+                  font-weight="750">
+              ★
+            </text>
+
+            <text x="828" y="314"
+                  fill="#F7F8FF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="18"
+                  font-weight="750">
+              Hack4Bengal
+            </text>
+
+            <text x="828" y="339"
+                  fill="#8E97AE"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="11">
+              Hack4Bengal 2025
+            </text>
+
+            <rect x="828"
+                  y="367"
+                  width="90"
+                  height="27"
+                  rx="13.5"
+                  fill="#211B0C"/>
+
+            <text x="873"
+                  y="385"
+                  text-anchor="middle"
+                  fill="#FFC95C"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="700">
+              FINALIST
+            </text>
+
+
+            <!-- ═══════════════════════════════════════════════ -->
+            <!-- LEADERSHIP -->
+            <!-- ═══════════════════════════════════════════════ -->
+
+            <text x="60" y="475"
+                  fill="#69748D"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="750"
+                  letter-spacing="2">
+              02 / LEADERSHIP &amp; COMMUNITY
+            </text>
+
+            <text x="60" y="505"
+                  fill="#F0F3FA"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="17"
+                  font-weight="700">
+              Building with and for developer communities
+            </text>
+
+
+            <!-- Leadership card -->
+
+            <rect x="60"
+                  y="530"
+                  width="1080"
+                  height="145"
+                  rx="18"
+                  fill="url(#card)"
+                  stroke="#00D9FF"
+                  stroke-opacity="0.18"/>
+
+            <rect x="60"
+                  y="530"
+                  width="1080"
+                  height="3"
+                  rx="1.5"
+                  fill="url(#cyan)"/>
+
+            <!-- GSA -->
+
+            <circle cx="98"
+                    cy="578"
+                    r="19"
+                    fill="#102329"
+                    stroke="#00D9FF"
+                    stroke-opacity="0.35"/>
+
+            <text x="98"
+                  y="584"
+                  text-anchor="middle"
+                  fill="#7CEAFF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="12"
+                  font-weight="750">
+              G
+            </text>
+
+            <text x="130"
+                  y="571"
+                  fill="#F7F8FF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="15"
+                  font-weight="700">
+              Google Student Ambassador
+            </text>
+
+            <text x="130"
+                  y="592"
+                  fill="#8E97AE"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10">
+              Developer community · Technology outreach
+            </text>
+
+
+            <!-- Campus Mantri -->
+
+            <circle cx="475"
+                    cy="578"
+                    r="19"
+                    fill="#17152C"
+                    stroke="#6C63FF"
+                    stroke-opacity="0.35"/>
+
+            <text x="475"
+                  y="584"
+                  text-anchor="middle"
+                  fill="#A89FFF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="11"
+                  font-weight="750">
+              G
+            </text>
+
+            <text x="507"
+                  y="571"
+                  fill="#F7F8FF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="15"
+                  font-weight="700">
+              Campus Mantri
+            </text>
+
+            <text x="507"
+                  y="592"
+                  fill="#8E97AE"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10">
+              Developer community · Campus initiatives
+            </text>
+
+
+            <!-- Outreach -->
+
+            <circle cx="824"
+                    cy="578"
+                    r="19"
+                    fill="#17152C"
+                    stroke="#6C63FF"
+                    stroke-opacity="0.35"/>
+
+            <text x="824"
+                  y="584"
+                  text-anchor="middle"
+                  fill="#A89FFF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="11"
+                  font-weight="750">
+              O
+            </text>
+
+            <text x="856"
+                  y="571"
+                  fill="#F7F8FF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="15"
+                  font-weight="700">
+              Outreach Head
+            </text>
+
+            <text x="856"
+                  y="592"
+                  fill="#8E97AE"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10">
+              Educational Society · Outreach
+            </text>
+
+
+            <!-- Divider -->
+
+            <line x1="98"
+                  y1="625"
+                  x2="1102"
+                  y2="625"
+                  stroke="#FFFFFF"
+                  stroke-opacity="0.05"/>
+
+            <text x="98"
+                  y="650"
+                  fill="#69748D"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="9"
+                  font-weight="750"
+                  letter-spacing="1.5">
+              COMMUNITY
+            </text>
+
+            <text x="190"
+                  y="650"
+                  fill="#AEB7CC"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10">
+              Developer advocacy · Outreach · Technical communities
+            </text>
+
+
+            <!-- ═══════════════════════════════════════════════ -->
+            <!-- CERTIFICATIONS -->
+            <!-- ═══════════════════════════════════════════════ -->
+
+            <text x="60" y="730"
+                  fill="#69748D"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="750"
+                  letter-spacing="2">
+              03 / CERTIFICATIONS
+            </text>
+
+            <text x="60" y="760"
+                  fill="#F0F3FA"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="17"
+                  font-weight="700">
+              Technical credentials
+            </text>
+
+
+            <!-- Certification 01 -->
+
+            <rect x="60"
+                  y="785"
+                  width="335"
+                  height="75"
+                  rx="15"
+                  fill="#10162A"
+                  stroke="#FFFFFF"
+                  stroke-opacity="0.07"/>
+
+            <circle cx="90"
+                    cy="822"
+                    r="17"
+                    fill="#17213A"
+                    stroke="#4285F4"
+                    stroke-opacity="0.35"/>
+
+            <text x="90"
+                  y="827"
+                  text-anchor="middle"
+                  fill="#8AB4F8"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10"
+                  font-weight="750">
+              AI
+            </text>
+
+            <text x="119"
+                  y="815"
+                  fill="#F0F3FA"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="11"
+                  font-weight="700">
+              Google AI/ML
+            </text>
+
+            <text x="119"
+                  y="834"
+                  fill="#8E97AE"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10">
+              Virtual Internship · AICTE
+            </text>
+
+
+            <!-- Certification 02 -->
+
+            <rect x="415"
+                  y="785"
+                  width="335"
+                  height="75"
+                  rx="15"
+                  fill="#10162A"
+                  stroke="#FFFFFF"
+                  stroke-opacity="0.07"/>
+
+            <circle cx="445"
+                    cy="822"
+                    r="17"
+                    fill="#211B0C"
+                    stroke="#FF9900"
+                    stroke-opacity="0.35"/>
+
+            <text x="445"
+                  y="827"
+                  text-anchor="middle"
+                  fill="#FFC15C"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="9"
+                  font-weight="750">
+              AWS
+            </text>
+
+            <text x="474"
+                  y="815"
+                  fill="#F0F3FA"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="11"
+                  font-weight="700">
+              AWS Academy
+            </text>
+
+            <text x="474"
+                  y="834"
+                  fill="#8E97AE"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10">
+              Cloud Architecting
+            </text>
+
+
+            <!-- Certification 03 -->
+
+            <rect x="770"
+                  y="785"
+                  width="370"
+                  height="75"
+                  rx="15"
+                  fill="#10162A"
+                  stroke="#FFFFFF"
+                  stroke-opacity="0.07"/>
+
+            <circle cx="800"
+                    cy="822"
+                    r="17"
+                    fill="#291313"
+                    stroke="#F80000"
+                    stroke-opacity="0.35"/>
+
+            <text x="800"
+                  y="827"
+                  text-anchor="middle"
+                  fill="#FF7777"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="9"
+                  font-weight="750">
+              OCI
+            </text>
+
+            <text x="829"
+                  y="815"
+                  fill="#F0F3FA"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="11"
+                  font-weight="700">
+              Oracle Cloud Infrastructure
+            </text>
+
+            <text x="829"
+                  y="834"
+                  fill="#8E97AE"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="10">
+              AI Foundations Associate
+            </text>
+
+
+            <!-- ═══════════════════════════════════════════════ -->
+            <!-- FOOTER -->
+            <!-- ═══════════════════════════════════════════════ -->
+
+            <line x1="60"
+                  y1="882"
+                  x2="1140"
+                  y2="882"
+                  stroke="#FFFFFF"
+                  stroke-opacity="0.06"/>
+
+            <text x="60"
+                  y="890"
+                  fill="#69748D"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="8"
+                  font-weight="750"
+                  letter-spacing="1.5">
+              MILESTONES
+            </text>
+
+            <text x="1140"
+                  y="890"
+                  text-anchor="end"
+                  fill="#8B7CFF"
+                  font-family="Inter,Segoe UI,Arial,sans-serif"
+                  font-size="9"
+                  font-weight="700">
+              BUILD · LEARN · CONTRIBUTE
+            </text>
+
+          </svg>
+          SVG
+
+      - name: Commit generated SVG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/achievements.svg
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update premium achievements SVG"
+
+          git fetch origin main
+          git rebase origin/main
+
+          git push origin HEAD:main
