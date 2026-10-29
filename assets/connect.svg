@@ -1,374 +1,44 @@
-<svg width="1200" height="390" viewBox="0 0 1200 390"
-     fill="none" xmlns="http://www.w3.org/2000/svg">
-
-  <defs>
-
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="390"
-                    gradientUnits="userSpaceOnUse">
-      <stop stop-color="#080B12"/>
-      <stop offset="0.5" stop-color="#0B1020"/>
-      <stop offset="1" stop-color="#080B12"/>
-    </linearGradient>
-
-    <linearGradient id="accent" x1="120" y1="0" x2="1080" y2="0"
-                    gradientUnits="userSpaceOnUse">
-      <stop stop-color="#6C63FF"/>
-      <stop offset="0.5" stop-color="#00D9FF"/>
-      <stop offset="1" stop-color="#6C63FF"/>
-    </linearGradient>
-
-    <linearGradient id="button" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#151B2C"/>
-      <stop offset="1" stop-color="#0D1220"/>
-    </linearGradient>
-
-    <filter id="glowCyan"
-            x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="8" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <filter id="glowPurple"
-            x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="10" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <pattern id="grid" width="32" height="32"
-             patternUnits="userSpaceOnUse">
-      <path d="M 32 0 L 0 0 0 32"
-            fill="none"
-            stroke="#FFFFFF"
-            stroke-opacity="0.025"
-            stroke-width="1"/>
-    </pattern>
-
-    <clipPath id="round">
-      <rect width="1200" height="390" rx="22"/>
-    </clipPath>
-
-  </defs>
-
-  <g clip-path="url(#round)">
-
-    <rect width="1200" height="390" fill="url(#bg)"/>
-    <rect width="1200" height="390" fill="url(#grid)"/>
-
-    <circle cx="80" cy="40" r="120"
-            fill="#6C63FF"
-            fill-opacity="0.08"
-            filter="url(#glowPurple)"/>
-
-    <circle cx="1130" cy="340" r="150"
-            fill="#00D9FF"
-            fill-opacity="0.07"
-            filter="url(#glowCyan)"/>
-
-    <rect x="70" y="0" width="1060" height="2"
-          fill="url(#accent)"/>
-
-    <rect x="1" y="1" width="1198" height="388"
-          rx="21"
-          stroke="#FFFFFF"
-          stroke-opacity="0.08"/>
-
-    <!-- Header -->
-
-    <text x="72" y="72"
-          fill="#F8FAFC"
-          font-family="Inter,Segoe UI,Arial,sans-serif"
-          font-size="30"
-          font-weight="700">
-      Let's build something intelligent.
-    </text>
-
-    <text x="72" y="105"
-          fill="#94A3B8"
-          font-family="Inter,Segoe UI,Arial,sans-serif"
-          font-size="15">
-      AI systems · LLM applications · engineering · products
-    </text>
-
-    <circle cx="1070" cy="82" r="5"
-            fill="#00D9FF"
-            filter="url(#glowCyan)"/>
-
-    <text x="1086" y="87"
-          fill="#67E8F9"
-          font-family="Inter,Segoe UI,Arial,sans-serif"
-          font-size="12"
-          font-weight="600">
-      OPEN TO CONNECT
-    </text>
-
-    <line x1="72" y1="130" x2="1128" y2="130"
-          stroke="#FFFFFF"
-          stroke-opacity="0.08"/>
-
-    <!-- Portfolio -->
-
-    <a href="https://www.anishseth.xyz">
-
-      <rect x="72" y="158"
-            width="196" height="72"
-            rx="12"
-            fill="url(#button)"
-            stroke="#6C63FF"
-            stroke-opacity="0.35"/>
-
-      <circle cx="101" cy="194" r="18"
-              fill="#6C63FF"
-              fill-opacity="0.12"
-              stroke="#6C63FF"
-              stroke-opacity="0.45"/>
-
-      <circle cx="101" cy="194" r="9"
-              stroke="#9B94FF"
-              stroke-width="1.7"/>
-
-      <path d="M92 194H110"
-            stroke="#9B94FF"
-            stroke-width="1.4"/>
-
-      <path d="M101 185C98 188 98 200 101 203"
-            stroke="#9B94FF"
-            stroke-width="1.4"/>
-
-      <path d="M101 185C104 188 104 200 101 203"
-            stroke="#9B94FF"
-            stroke-width="1.4"/>
-
-      <text x="128" y="190"
-            fill="#F8FAFC"
-            font-family="Inter,Segoe UI,Arial,sans-serif"
-            font-size="14"
-            font-weight="650">
-        Portfolio
-      </text>
-
-      <text x="128" y="210"
-            fill="#64748B"
-            font-family="Inter,Segoe UI,Arial,sans-serif"
-            font-size="11">
-        anishseth.xyz
-      </text>
-
-    </a>
-
-    <!-- LinkedIn -->
-
-    <a href="https://www.linkedin.com/in/anishseth">
-
-      <rect x="282" y="158"
-            width="196" height="72"
-            rx="12"
-            fill="url(#button)"
-            stroke="#00D9FF"
-            stroke-opacity="0.25"/>
-
-      <circle cx="311" cy="194" r="18"
-              fill="#00D9FF"
-              fill-opacity="0.08"
-              stroke="#00D9FF"
-              stroke-opacity="0.35"/>
-
-      <text x="302" y="201"
-            fill="#67E8F9"
-            font-family="Arial,sans-serif"
-            font-size="17"
-            font-weight="700">
-        in
-      </text>
-
-      <text x="338" y="190"
-            fill="#F8FAFC"
-            font-family="Inter,Segoe UI,Arial,sans-serif"
-            font-size="14"
-            font-weight="650">
-        LinkedIn
-      </text>
-
-      <text x="338" y="210"
-            fill="#64748B"
-            font-family="Inter,Segoe UI,Arial,sans-serif"
-            font-size="11">
-        /in/anishseth
-      </text>
-
-    </a>
-
-    <!-- Email -->
-
-    <a href="mailto:anishseth0510@gmail.com">
-
-      <rect x="492" y="158"
-            width="196" height="72"
-            rx="12"
-            fill="url(#button)"
-            stroke="#6C63FF"
-            stroke-opacity="0.25"/>
-
-      <circle cx="521" cy="194" r="18"
-              fill="#6C63FF"
-              fill-opacity="0.08"
-              stroke="#6C63FF"
-              stroke-opacity="0.35"/>
-
-      <rect x="511" y="187"
-            width="20" height="14"
-            rx="2"
-            stroke="#9B94FF"
-            stroke-width="1.6"/>
-
-      <path d="M512 189L521 196L530 189"
-            stroke="#9B94FF"
-            stroke-width="1.5"/>
-
-      <text x="548" y="190"
-            fill="#F8FAFC"
-            font-family="Inter,Segoe UI,Arial,sans-serif"
-            font-size="14"
-            font-weight="650">
-        Email
-      </text>
-
-      <text x="548" y="210"
-            fill="#64748B"
-            font-family="Inter,Segoe UI,Arial,sans-serif"
-            font-size="11">
-        Let's talk
-      </text>
-
-    </a>
-
-    <!-- X -->
-
-    <a href="https://x.com/AnishSeth170734">
-
-      <rect x="702" y="158"
-            width="196" height="72"
-            rx="12"
-            fill="url(#button)"
-            stroke="#FFFFFF"
-            stroke-opacity="0.12"/>
-
-      <circle cx="731" cy="194" r="18"
-              fill="#FFFFFF"
-              fill-opacity="0.04"
-              stroke="#FFFFFF"
-              stroke-opacity="0.18"/>
-
-      <path d="M724 186L738 202M738 186L724 202"
-            stroke="#E2E8F0"
-            stroke-width="2"/>
-
-      <text x="758" y="190"
-            fill="#F8FAFC"
-            font-family="Inter,Segoe UI,Arial,sans-serif"
-            font-size="14"
-            font-weight="650">
-        X
-      </text>
-
-      <text x="758" y="210"
-            fill="#64748B"
-            font-family="Inter,Segoe UI,Arial,sans-serif"
-            font-size="11">
-        @AnishSeth170734
-      </text>
-
-    </a>
-
-    <!-- Instagram -->
-
-    <a href="https://instagram.com/anish_seth.ai">
-
-      <rect x="912" y="158"
-            width="216" height="72"
-            rx="12"
-            fill="url(#button)"
-            stroke="#00D9FF"
-            stroke-opacity="0.2"/>
-
-      <circle cx="941" cy="194" r="18"
-              fill="#00D9FF"
-              fill-opacity="0.07"
-              stroke="#00D9FF"
-              stroke-opacity="0.3"/>
-
-      <rect x="932" y="185"
-            width="18" height="18"
-            rx="5"
-            stroke="#67E8F9"
-            stroke-width="1.6"/>
-
-      <circle cx="941" cy="194" r="4"
-              stroke="#67E8F9"
-              stroke-width="1.5"/>
-
-      <circle cx="946" cy="189" r="1.3"
-              fill="#67E8F9"/>
-
-      <text x="969" y="190"
-            fill="#F8FAFC"
-            font-family="Inter,Segoe UI,Arial,sans-serif"
-            font-size="14"
-            font-weight="650">
-        Instagram
-      </text>
-
-      <text x="969" y="210"
-            fill="#64748B"
-            font-family="Inter,Segoe UI,Arial,sans-serif"
-            font-size="11">
-        @anish_seth.ai
-      </text>
-
-    </a>
-
-    <!-- Footer -->
-
-    <line x1="72" y1="265" x2="1128" y2="265"
-          stroke="#FFFFFF"
-          stroke-opacity="0.06"/>
-
-    <text x="72" y="304"
-          fill="#64748B"
-          font-family="Inter,Segoe UI,Arial,sans-serif"
-          font-size="11"
-          letter-spacing="2">
-      ENGINEERING INTELLIGENT SYSTEMS
-    </text>
-
-    <text x="72" y="334"
-          fill="#E2E8F0"
-          font-family="Inter,Segoe UI,Arial,sans-serif"
-          font-size="19"
-          font-weight="600">
-      “Ship the model. Ship the system. Ship the product.”
-    </text>
-
-    <rect x="72" y="354"
-          width="170"
-          height="2"
-          rx="1"
-          fill="url(#accent)"/>
-
-    <text x="1128" y="359"
-          text-anchor="end"
-          fill="#475569"
-          font-family="Inter,Segoe UI,Arial,sans-serif"
-          font-size="10"
-          letter-spacing="1.5">
-      ANISH SETH · AI / ML ENGINEERING
-    </text>
-
-  </g>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="t d">
+<title id="t">Connect with Anish Seth</title>
+<desc id="d">Contact channels: portfolio, LinkedIn, email, X and Instagram.</desc>
+<defs><style>.sans{font-family:Inter,'SF Pro Text','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif}.mono{font-family:ui-monospace,'SF Mono','JetBrains Mono','Cascadia Code',Menlo,Consolas,'DejaVu Sans Mono',monospace;}@media (prefers-reduced-motion:reduce){.pulse{display:none}}</style><linearGradient id="sig" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8B80FF"/><stop offset="1" stop-color="#2DD4F0"/></linearGradient></defs>
+<rect x="0.5" y="0.5" width="1199" height="389" rx="16" fill="#0A0D14" stroke="#222A3C" stroke-width="1" />
+<path d="M22 31V22H31" fill="none" stroke="#323C55" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M1178 31V22H1169" fill="none" stroke="#323C55" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M22 359V368H31" fill="none" stroke="#323C55" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M1178 359V368H1169" fill="none" stroke="#323C55" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+<text x="56" y="92" class="sans" font-size="36" font-weight="700" fill="#EEF1F8" letter-spacing="-1" >Let's build something intelligent.</text>
+<text x="56" y="124" class="sans" font-size="16" font-weight="400" fill="#A4ADC3" >AI systems, LLM applications, engineering and products.</text>
+<rect x="724.5" y="328.5" width="419" height="27" rx="4" fill="none" stroke="#323C55" stroke-width="1" />
+<text x="822.0" y="346" class="mono" font-size="10.5" font-weight="400" fill="#7A85A0" text-anchor="middle" >anish seth / connect</text>
+<line x1="920" y1="329" x2="920" y2="355" stroke="#323C55" stroke-width="1" />
+<text x="980.0" y="346" class="mono" font-size="10.5" font-weight="400" fill="#7A85A0" text-anchor="middle" >sheet 08 of 08</text>
+<line x1="1040" y1="329" x2="1040" y2="355" stroke="#323C55" stroke-width="1" />
+<text x="1092.0" y="346" class="mono" font-size="10.5" font-weight="400" fill="#7A85A0" text-anchor="middle" >rev 2026.10</text>
+<line x1="56" y1="164" x2="264" y2="164" stroke="#323C55" stroke-width="1" />
+<circle cx="68" cy="196" r="11" fill="none" stroke="#2DD4F0" stroke-width="1.5" />
+<path d="M68 185C60 192 60 200 68 207C76 200 76 192 68 185" fill="none" stroke="#2DD4F0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+<line x1="57" y1="196" x2="79" y2="196" stroke="#2DD4F0" stroke-width="1.5" />
+<text x="56" y="244" class="sans" font-size="17" font-weight="700" fill="#EEF1F8" letter-spacing="-0.3" >Portfolio</text>
+<text x="56" y="266" class="mono" font-size="12" font-weight="400" fill="#A4ADC3" >anishseth.xyz</text>
+<line x1="276" y1="164" x2="484" y2="164" stroke="#323C55" stroke-width="1" />
+<text x="288" y="204" class="sans" font-size="20" font-weight="800" fill="#2DD4F0" text-anchor="middle" >in</text>
+<text x="276" y="244" class="sans" font-size="17" font-weight="700" fill="#EEF1F8" letter-spacing="-0.3" >LinkedIn</text>
+<text x="276" y="266" class="mono" font-size="12" font-weight="400" fill="#A4ADC3" >in/anish-seth-202200290</text>
+<line x1="496" y1="164" x2="704" y2="164" stroke="#323C55" stroke-width="1" />
+<rect x="497" y="188" width="22" height="16" rx="3" fill="none" stroke="#8B80FF" stroke-width="1.5" />
+<path d="M498 190L508 198L518 190" fill="none" stroke="#8B80FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+<text x="496" y="244" class="sans" font-size="17" font-weight="700" fill="#EEF1F8" letter-spacing="-0.3" >Email</text>
+<text x="496" y="266" class="mono" font-size="12" font-weight="400" fill="#A4ADC3" >anishseth0510@gmail.com</text>
+<line x1="716" y1="164" x2="924" y2="164" stroke="#323C55" stroke-width="1" />
+<path d="M719 187L737 205M737 187L719 205" fill="none" stroke="#EEF1F8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<text x="716" y="244" class="sans" font-size="17" font-weight="700" fill="#EEF1F8" letter-spacing="-0.3" >X</text>
+<text x="716" y="266" class="mono" font-size="12" font-weight="400" fill="#A4ADC3" >@AnishSeth170734</text>
+<line x1="936" y1="164" x2="1144" y2="164" stroke="#323C55" stroke-width="1" />
+<rect x="937" y="185" width="22" height="22" rx="6" fill="none" stroke="#8B80FF" stroke-width="1.5" />
+<circle cx="948" cy="196" r="5" fill="none" stroke="#8B80FF" stroke-width="1.5" />
+<circle cx="954" cy="190" r="1.3" fill="#8B80FF" />
+<text x="936" y="244" class="sans" font-size="17" font-weight="700" fill="#EEF1F8" letter-spacing="-0.3" >Instagram</text>
+<text x="936" y="266" class="mono" font-size="12" font-weight="400" fill="#A4ADC3" >@anish_seth.ai</text>
+<text x="56" y="340" class="sans" font-size="21" font-weight="650" fill="#EEF1F8" letter-spacing="-0.4" >Ship the model. Ship the system. Ship the product.</text>
 </svg>
