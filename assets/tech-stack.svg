@@ -1,20 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1066" viewBox="0 0 1200 1066" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1085" viewBox="0 0 1200 1085" role="img" aria-labelledby="t d">
 <title id="t">Technology stack</title>
 <desc id="d">Seven-layer technology stack from engineering fundamentals up to frontend and product.</desc>
 <defs><style>.sans{font-family:Inter,'SF Pro Text','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif}.mono{font-family:ui-monospace,'SF Mono','JetBrains Mono','Cascadia Code',Menlo,Consolas,'DejaVu Sans Mono',monospace;}@media (prefers-reduced-motion:reduce){.pulse{display:none}}</style><linearGradient id="sig" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8B80FF"/><stop offset="1" stop-color="#2DD4F0"/></linearGradient></defs>
-<rect x="0.5" y="0.5" width="1199" height="1065" rx="16" fill="#0A0D14" stroke="#222A3C" stroke-width="1" />
+<rect x="0.5" y="0.5" width="1199" height="1084" rx="16" fill="#0A0D14" stroke="#222A3C" stroke-width="1" />
 <path d="M22 31V22H31" fill="none" stroke="#323C55" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
 <path d="M1178 31V22H1169" fill="none" stroke="#323C55" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
-<path d="M22 1035V1044H31" fill="none" stroke="#323C55" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
-<path d="M1178 1035V1044H1169" fill="none" stroke="#323C55" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M22 1054V1063H31" fill="none" stroke="#323C55" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M1178 1054V1063H1169" fill="none" stroke="#323C55" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
 <text x="56" y="92" class="sans" font-size="36" font-weight="700" fill="#EEF1F8" letter-spacing="-1" >Tools for building intelligent systems.</text>
 <text x="56" y="124" class="sans" font-size="16" font-weight="400" fill="#A4ADC3" >A seven-layer stack, from fundamentals up to the interface.</text>
-<rect x="724.5" y="1004.5" width="419" height="27" rx="4" fill="none" stroke="#323C55" stroke-width="1" />
-<text x="822.0" y="1022" class="mono" font-size="10.5" font-weight="400" fill="#7A85A0" text-anchor="middle" >anish seth / tech stack</text>
-<line x1="920" y1="1005" x2="920" y2="1031" stroke="#323C55" stroke-width="1" />
-<text x="980.0" y="1022" class="mono" font-size="10.5" font-weight="400" fill="#7A85A0" text-anchor="middle" >sheet 05 of 08</text>
-<line x1="1040" y1="1005" x2="1040" y2="1031" stroke="#323C55" stroke-width="1" />
-<text x="1092.0" y="1022" class="mono" font-size="10.5" font-weight="400" fill="#7A85A0" text-anchor="middle" >rev 2026.10</text>
+<rect x="724.5" y="1023.5" width="419" height="27" rx="4" fill="none" stroke="#323C55" stroke-width="1" />
+<text x="822.0" y="1041" class="mono" font-size="10.5" font-weight="400" fill="#7A85A0" text-anchor="middle" >anish seth / tech stack</text>
+<line x1="920" y1="1024" x2="920" y2="1050" stroke="#323C55" stroke-width="1" />
+<text x="980.0" y="1041" class="mono" font-size="10.5" font-weight="400" fill="#7A85A0" text-anchor="middle" >sheet 05 of 08</text>
+<line x1="1040" y1="1024" x2="1040" y2="1050" stroke="#323C55" stroke-width="1" />
+<text x="1092.0" y="1041" class="mono" font-size="10.5" font-weight="400" fill="#7A85A0" text-anchor="middle" >rev 2026.10</text>
 <line x1="56" y1="156" x2="1144" y2="156" stroke="#323C55" stroke-width="1" />
 <text x="56" y="192" class="mono" font-size="12" font-weight="500" fill="#7A85A0" >L7</text>
 <text x="96" y="194" class="sans" font-size="18" font-weight="700" fill="#EEF1F8" letter-spacing="-0.3" >Frontend and product</text>
@@ -22,51 +22,52 @@
 <text x="96" y="237" class="sans" font-size="13" font-weight="400" fill="#A4ADC3" >AI-powered applications.</text>
 <rect x="380.5" y="178.5" width="57" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
 <text x="409.0" y="196.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >React</text>
-<rect x="446.5" y="178.5" width="63" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
-<text x="478.0" y="196.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >Next.js</text>
-<rect x="518.5" y="178.5" width="102" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
-<text x="569.5" y="196.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >Tailwind CSS</text>
-<rect x="629.5" y="178.5" width="59" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
-<text x="659.0" y="196.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >Figma</text>
-<rect x="380.5" y="214.5" width="86" height="27" rx="5" fill="none" stroke="#222A3C" stroke-width="1" />
-<text x="423.5" y="232.55" class="sans" font-size="13" font-weight="500" fill="#A4ADC3" text-anchor="middle" >TypeScript</text>
-<rect x="475.5" y="214.5" width="85" height="27" rx="5" fill="none" stroke="#222A3C" stroke-width="1" />
-<text x="518.0" y="232.55" class="sans" font-size="13" font-weight="500" fill="#A4ADC3" text-anchor="middle" >JavaScript</text>
-<rect x="569.5" y="214.5" width="91" height="27" rx="5" fill="none" stroke="#222A3C" stroke-width="1" />
-<text x="615.0" y="232.55" class="sans" font-size="13" font-weight="500" fill="#A4ADC3" text-anchor="middle" >HTML/CSS</text>
+<rect x="446.5" y="178.5" width="71" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
+<text x="482.0" y="196.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >Next.js</text>
+<rect x="526.5" y="178.5" width="107" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
+<text x="580.0" y="196.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >Tailwind CSS</text>
+<rect x="642.5" y="178.5" width="57" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
+<text x="671.0" y="196.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >Figma</text>
+<rect x="380.5" y="214.5" width="93" height="27" rx="5" fill="none" stroke="#222A3C" stroke-width="1" />
+<text x="427.0" y="232.55" class="sans" font-size="13" font-weight="500" fill="#A4ADC3" text-anchor="middle" >TypeScript</text>
+<rect x="482.5" y="214.5" width="93" height="27" rx="5" fill="none" stroke="#222A3C" stroke-width="1" />
+<text x="529.0" y="232.55" class="sans" font-size="13" font-weight="500" fill="#A4ADC3" text-anchor="middle" >JavaScript</text>
+<rect x="584.5" y="214.5" width="78" height="27" rx="5" fill="none" stroke="#222A3C" stroke-width="1" />
+<text x="623.5" y="232.55" class="sans" font-size="13" font-weight="500" fill="#A4ADC3" text-anchor="middle" >HTML/CSS</text>
 <line x1="56" y1="271" x2="1144" y2="271" stroke="#323C55" stroke-width="1" />
 <text x="56" y="307" class="mono" font-size="12" font-weight="500" fill="#7A85A0" >L6</text>
 <text x="96" y="309" class="sans" font-size="18" font-weight="700" fill="#EEF1F8" letter-spacing="-0.3" >AI and LLM engineering</text>
-<text x="96" y="333" class="sans" font-size="13" font-weight="400" fill="#A4ADC3" >Models, frameworks and patterns used</text>
-<text x="96" y="352" class="sans" font-size="13" font-weight="400" fill="#A4ADC3" >to build applied intelligence.</text>
+<text x="96" y="333" class="sans" font-size="13" font-weight="400" fill="#A4ADC3" >Models, frameworks and patterns</text>
+<text x="96" y="352" class="sans" font-size="13" font-weight="400" fill="#A4ADC3" >used to build applied</text>
+<text x="96" y="371" class="sans" font-size="13" font-weight="400" fill="#A4ADC3" >intelligence.</text>
 <rect x="380.5" y="293.5" width="64" height="27" rx="5" fill="#14132B" stroke="#4A4390" stroke-width="1" />
 <text x="412.5" y="311.55" class="sans" font-size="13" font-weight="500" fill="#C9C4FF" text-anchor="middle" >Python</text>
-<rect x="453.5" y="293.5" width="68" height="27" rx="5" fill="#14132B" stroke="#4A4390" stroke-width="1" />
-<text x="487.5" y="311.55" class="sans" font-size="13" font-weight="500" fill="#C9C4FF" text-anchor="middle" >OpenAI</text>
-<rect x="530.5" y="293.5" width="65" height="27" rx="5" fill="#14132B" stroke="#4A4390" stroke-width="1" />
-<text x="563.0" y="311.55" class="sans" font-size="13" font-weight="500" fill="#C9C4FF" text-anchor="middle" >Gemini</text>
-<rect x="604.5" y="293.5" width="65" height="27" rx="5" fill="#14132B" stroke="#4A4390" stroke-width="1" />
-<text x="637.0" y="311.55" class="sans" font-size="13" font-weight="500" fill="#C9C4FF" text-anchor="middle" >Claude</text>
-<rect x="678.5" y="293.5" width="88" height="27" rx="5" fill="#14132B" stroke="#4A4390" stroke-width="1" />
-<text x="722.5" y="311.55" class="sans" font-size="13" font-weight="500" fill="#C9C4FF" text-anchor="middle" >LangChain</text>
-<rect x="775.5" y="293.5" width="71" height="27" rx="5" fill="#14132B" stroke="#4A4390" stroke-width="1" />
-<text x="811.0" y="311.55" class="sans" font-size="13" font-weight="500" fill="#C9C4FF" text-anchor="middle" >PyTorch</text>
-<rect x="855.5" y="293.5" width="89" height="27" rx="5" fill="#14132B" stroke="#4A4390" stroke-width="1" />
+<rect x="453.5" y="293.5" width="64" height="27" rx="5" fill="#14132B" stroke="#4A4390" stroke-width="1" />
+<text x="485.5" y="311.55" class="sans" font-size="13" font-weight="500" fill="#C9C4FF" text-anchor="middle" >OpenAI</text>
+<rect x="526.5" y="293.5" width="64" height="27" rx="5" fill="#14132B" stroke="#4A4390" stroke-width="1" />
+<text x="558.5" y="311.55" class="sans" font-size="13" font-weight="500" fill="#C9C4FF" text-anchor="middle" >Gemini</text>
+<rect x="599.5" y="293.5" width="64" height="27" rx="5" fill="#14132B" stroke="#4A4390" stroke-width="1" />
+<text x="631.5" y="311.55" class="sans" font-size="13" font-weight="500" fill="#C9C4FF" text-anchor="middle" >Claude</text>
+<rect x="672.5" y="293.5" width="85" height="27" rx="5" fill="#14132B" stroke="#4A4390" stroke-width="1" />
+<text x="715.0" y="311.55" class="sans" font-size="13" font-weight="500" fill="#C9C4FF" text-anchor="middle" >LangChain</text>
+<rect x="766.5" y="293.5" width="71" height="27" rx="5" fill="#14132B" stroke="#4A4390" stroke-width="1" />
+<text x="802.0" y="311.55" class="sans" font-size="13" font-weight="500" fill="#C9C4FF" text-anchor="middle" >PyTorch</text>
+<rect x="846.5" y="293.5" width="107" height="27" rx="5" fill="#14132B" stroke="#4A4390" stroke-width="1" />
 <text x="900.0" y="311.55" class="sans" font-size="13" font-weight="500" fill="#C9C4FF" text-anchor="middle" >Scikit-learn</text>
-<rect x="953.5" y="293.5" width="51" height="27" rx="5" fill="#14132B" stroke="#4A4390" stroke-width="1" />
-<text x="979.0" y="311.55" class="sans" font-size="13" font-weight="500" fill="#C9C4FF" text-anchor="middle" >RAG</text>
-<rect x="1013.5" y="293.5" width="89" height="27" rx="5" fill="#14132B" stroke="#4A4390" stroke-width="1" />
-<text x="1058.0" y="311.55" class="sans" font-size="13" font-weight="500" fill="#C9C4FF" text-anchor="middle" >GraphRAG</text>
-<rect x="380.5" y="329.5" width="83" height="27" rx="5" fill="#14132B" stroke="#4A4390" stroke-width="1" />
-<text x="422.0" y="347.55" class="sans" font-size="13" font-weight="500" fill="#C9C4FF" text-anchor="middle" >Agentic AI</text>
-<rect x="380.5" y="365.5" width="48" height="27" rx="5" fill="none" stroke="#222A3C" stroke-width="1" />
-<text x="404.5" y="383.55" class="sans" font-size="13" font-weight="500" fill="#A4ADC3" text-anchor="middle" >NLP</text>
-<rect x="437.5" y="365.5" width="52" height="27" rx="5" fill="none" stroke="#222A3C" stroke-width="1" />
-<text x="463.5" y="383.55" class="sans" font-size="13" font-weight="500" fill="#A4ADC3" text-anchor="middle" >OCR</text>
-<rect x="498.5" y="365.5" width="141" height="27" rx="5" fill="none" stroke="#222A3C" stroke-width="1" />
-<text x="569.0" y="383.55" class="sans" font-size="13" font-weight="500" fill="#A4ADC3" text-anchor="middle" >Prompt engineering</text>
-<rect x="648.5" y="365.5" width="114" height="27" rx="5" fill="none" stroke="#222A3C" stroke-width="1" />
-<text x="705.5" y="383.55" class="sans" font-size="13" font-weight="500" fill="#A4ADC3" text-anchor="middle" >LLM evaluation</text>
+<rect x="962.5" y="293.5" width="42" height="27" rx="5" fill="#14132B" stroke="#4A4390" stroke-width="1" />
+<text x="983.5" y="311.55" class="sans" font-size="13" font-weight="500" fill="#C9C4FF" text-anchor="middle" >RAG</text>
+<rect x="1013.5" y="293.5" width="78" height="27" rx="5" fill="#14132B" stroke="#4A4390" stroke-width="1" />
+<text x="1052.5" y="311.55" class="sans" font-size="13" font-weight="500" fill="#C9C4FF" text-anchor="middle" >GraphRAG</text>
+<rect x="380.5" y="329.5" width="93" height="27" rx="5" fill="#14132B" stroke="#4A4390" stroke-width="1" />
+<text x="427.0" y="347.55" class="sans" font-size="13" font-weight="500" fill="#C9C4FF" text-anchor="middle" >Agentic AI</text>
+<rect x="380.5" y="365.5" width="42" height="27" rx="5" fill="none" stroke="#222A3C" stroke-width="1" />
+<text x="401.5" y="383.55" class="sans" font-size="13" font-weight="500" fill="#A4ADC3" text-anchor="middle" >NLP</text>
+<rect x="431.5" y="365.5" width="42" height="27" rx="5" fill="none" stroke="#222A3C" stroke-width="1" />
+<text x="452.5" y="383.55" class="sans" font-size="13" font-weight="500" fill="#A4ADC3" text-anchor="middle" >OCR</text>
+<rect x="482.5" y="365.5" width="150" height="27" rx="5" fill="none" stroke="#222A3C" stroke-width="1" />
+<text x="557.5" y="383.55" class="sans" font-size="13" font-weight="500" fill="#A4ADC3" text-anchor="middle" >Prompt engineering</text>
+<rect x="641.5" y="365.5" width="121" height="27" rx="5" fill="none" stroke="#222A3C" stroke-width="1" />
+<text x="702.0" y="383.55" class="sans" font-size="13" font-weight="500" fill="#A4ADC3" text-anchor="middle" >LLM evaluation</text>
 <line x1="56" y1="419" x2="1144" y2="419" stroke="#323C55" stroke-width="1" />
 <text x="56" y="455" class="mono" font-size="12" font-weight="500" fill="#7A85A0" >L5</text>
 <text x="96" y="457" class="sans" font-size="18" font-weight="700" fill="#EEF1F8" letter-spacing="-0.3" >Programming and backend</text>
@@ -76,89 +77,90 @@
 <text x="405.5" y="459.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >Java</text>
 <rect x="439.5" y="441.5" width="64" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
 <text x="471.5" y="459.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >Python</text>
-<rect x="512.5" y="441.5" width="47" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
-<text x="536.0" y="459.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >C++</text>
-<rect x="568.5" y="441.5" width="39" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
-<text x="588.0" y="459.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >C#</text>
-<rect x="616.5" y="441.5" width="114" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
-<text x="673.5" y="459.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >JavaScript / TS</text>
-<rect x="380.5" y="477.5" width="68" height="27" rx="5" fill="none" stroke="#222A3C" stroke-width="1" />
-<text x="414.5" y="495.55" class="sans" font-size="13" font-weight="500" fill="#A4ADC3" text-anchor="middle" >Node.js</text>
-<rect x="457.5" y="477.5" width="71" height="27" rx="5" fill="none" stroke="#222A3C" stroke-width="1" />
-<text x="493.0" y="495.55" class="sans" font-size="13" font-weight="500" fill="#A4ADC3" text-anchor="middle" >Express</text>
-<rect x="537.5" y="477.5" width="70" height="27" rx="5" fill="none" stroke="#222A3C" stroke-width="1" />
-<text x="572.5" y="495.55" class="sans" font-size="13" font-weight="500" fill="#A4ADC3" text-anchor="middle" >FastAPI</text>
-<rect x="616.5" y="477.5" width="65" height="27" rx="5" fill="none" stroke="#222A3C" stroke-width="1" />
-<text x="649.0" y="495.55" class="sans" font-size="13" font-weight="500" fill="#A4ADC3" text-anchor="middle" >Django</text>
+<rect x="512.5" y="441.5" width="42" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
+<text x="533.5" y="459.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >C++</text>
+<rect x="563.5" y="441.5" width="35" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
+<text x="581.0" y="459.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >C#</text>
+<rect x="607.5" y="441.5" width="128" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
+<text x="671.5" y="459.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >JavaScript / TS</text>
+<rect x="380.5" y="477.5" width="71" height="27" rx="5" fill="none" stroke="#222A3C" stroke-width="1" />
+<text x="416.0" y="495.55" class="sans" font-size="13" font-weight="500" fill="#A4ADC3" text-anchor="middle" >Node.js</text>
+<rect x="460.5" y="477.5" width="71" height="27" rx="5" fill="none" stroke="#222A3C" stroke-width="1" />
+<text x="496.0" y="495.55" class="sans" font-size="13" font-weight="500" fill="#A4ADC3" text-anchor="middle" >Express</text>
+<rect x="540.5" y="477.5" width="71" height="27" rx="5" fill="none" stroke="#222A3C" stroke-width="1" />
+<text x="576.0" y="495.55" class="sans" font-size="13" font-weight="500" fill="#A4ADC3" text-anchor="middle" >FastAPI</text>
+<rect x="620.5" y="477.5" width="64" height="27" rx="5" fill="none" stroke="#222A3C" stroke-width="1" />
+<text x="652.5" y="495.55" class="sans" font-size="13" font-weight="500" fill="#A4ADC3" text-anchor="middle" >Django</text>
 <line x1="56" y1="534" x2="1144" y2="534" stroke="#323C55" stroke-width="1" />
 <text x="56" y="570" class="mono" font-size="12" font-weight="500" fill="#7A85A0" >L4</text>
 <text x="96" y="572" class="sans" font-size="18" font-weight="700" fill="#EEF1F8" letter-spacing="-0.3" >Databases and data</text>
-<text x="96" y="596" class="sans" font-size="13" font-weight="400" fill="#A4ADC3" >Persistence, retrieval and data systems.</text>
-<rect x="380.5" y="556.5" width="96" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
-<text x="428.5" y="574.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >PostgreSQL</text>
-<rect x="485.5" y="556.5" width="82" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
-<text x="526.5" y="574.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >MongoDB</text>
-<rect x="576.5" y="556.5" width="75" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
-<text x="614.0" y="574.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >Firebase</text>
-<rect x="660.5" y="556.5" width="83" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
-<text x="702.0" y="574.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >Supabase</text>
-<rect x="752.5" y="556.5" width="75" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
-<text x="790.0" y="574.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >Firestore</text>
-<rect x="836.5" y="556.5" width="105" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
-<text x="889.0" y="574.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >Vector search</text>
-<line x1="56" y1="630" x2="1144" y2="630" stroke="#323C55" stroke-width="1" />
-<text x="56" y="666" class="mono" font-size="12" font-weight="500" fill="#7A85A0" >L3</text>
-<text x="96" y="668" class="sans" font-size="18" font-weight="700" fill="#EEF1F8" letter-spacing="-0.3" >Cloud and infrastructure</text>
-<text x="96" y="692" class="sans" font-size="13" font-weight="400" fill="#A4ADC3" >Deployment, runtime and infrastructure</text>
-<text x="96" y="711" class="sans" font-size="13" font-weight="400" fill="#A4ADC3" >layers.</text>
-<rect x="380.5" y="652.5" width="52" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
-<text x="406.5" y="670.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >AWS</text>
-<rect x="441.5" y="652.5" width="105" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
-<text x="494.0" y="670.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >Google Cloud</text>
-<rect x="555.5" y="652.5" width="86" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
-<text x="598.5" y="670.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >Cloud Run</text>
-<rect x="650.5" y="652.5" width="65" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
-<text x="683.0" y="670.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >Docker</text>
-<rect x="724.5" y="652.5" width="59" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
-<text x="754.0" y="670.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >Vercel</text>
-<rect x="380.5" y="688.5" width="133" height="27" rx="5" fill="none" stroke="#222A3C" stroke-width="1" />
-<text x="447.0" y="706.55" class="sans" font-size="13" font-weight="500" fill="#A4ADC3" text-anchor="middle" >Cloud architecture</text>
-<line x1="56" y1="745" x2="1144" y2="745" stroke="#323C55" stroke-width="1" />
-<text x="56" y="781" class="mono" font-size="12" font-weight="500" fill="#7A85A0" >L2</text>
-<text x="96" y="783" class="sans" font-size="18" font-weight="700" fill="#EEF1F8" letter-spacing="-0.3" >Developer and automation</text>
-<text x="96" y="807" class="sans" font-size="13" font-weight="400" fill="#A4ADC3" >Tooling, workflows and engineering</text>
-<text x="96" y="826" class="sans" font-size="13" font-weight="400" fill="#A4ADC3" >productivity.</text>
-<rect x="380.5" y="767.5" width="39" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
-<text x="400.0" y="785.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >Git</text>
-<rect x="428.5" y="767.5" width="64" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
-<text x="460.5" y="785.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >GitHub</text>
-<rect x="501.5" y="767.5" width="76" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
-<text x="539.5" y="785.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >VS Code</text>
-<rect x="586.5" y="767.5" width="75" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
-<text x="624.0" y="785.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >Postman</text>
-<rect x="670.5" y="767.5" width="54" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
-<text x="697.5" y="785.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >Linux</text>
-<rect x="733.5" y="767.5" width="44" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
-<text x="755.5" y="785.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >n8n</text>
-<rect x="786.5" y="767.5" width="60" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
-<text x="816.5" y="785.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >Zapier</text>
-<line x1="56" y1="860" x2="1144" y2="860" stroke="#323C55" stroke-width="1" />
-<text x="56" y="896" class="mono" font-size="12" font-weight="500" fill="#7A85A0" >L1</text>
-<text x="96" y="898" class="sans" font-size="18" font-weight="700" fill="#EEF1F8" letter-spacing="-0.3" >Engineering fundamentals</text>
-<text x="96" y="922" class="sans" font-size="13" font-weight="400" fill="#A4ADC3" >Theory every layer depends on.</text>
-<rect x="380.5" y="882.5" width="49" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
-<text x="405.0" y="900.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >DSA</text>
-<rect x="438.5" y="882.5" width="52" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
-<text x="464.5" y="900.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >OOP</text>
-<rect x="499.5" y="882.5" width="61" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
-<text x="530.0" y="900.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >DBMS</text>
-<rect x="569.5" y="882.5" width="136" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
-<text x="637.5" y="900.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >Operating systems</text>
-<rect x="714.5" y="882.5" width="140" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
-<text x="784.5" y="900.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >Computer networks</text>
-<rect x="863.5" y="882.5" width="151" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
-<text x="939.0" y="900.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >Software engineering</text>
-<rect x="1023.5" y="882.5" width="111" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
-<text x="1079.0" y="900.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >System design</text>
-<line x1="56" y1="956" x2="1144" y2="956" stroke="#323C55" stroke-width="1" />
+<text x="96" y="596" class="sans" font-size="13" font-weight="400" fill="#A4ADC3" >Persistence, retrieval and data</text>
+<text x="96" y="615" class="sans" font-size="13" font-weight="400" fill="#A4ADC3" >systems.</text>
+<rect x="380.5" y="556.5" width="93" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
+<text x="427.0" y="574.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >PostgreSQL</text>
+<rect x="482.5" y="556.5" width="71" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
+<text x="518.0" y="574.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >MongoDB</text>
+<rect x="562.5" y="556.5" width="78" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
+<text x="601.5" y="574.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >Firebase</text>
+<rect x="649.5" y="556.5" width="78" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
+<text x="688.5" y="574.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >Supabase</text>
+<rect x="736.5" y="556.5" width="85" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
+<text x="779.0" y="574.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >Firestore</text>
+<rect x="830.5" y="556.5" width="114" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
+<text x="887.5" y="574.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >Vector search</text>
+<line x1="56" y1="649" x2="1144" y2="649" stroke="#323C55" stroke-width="1" />
+<text x="56" y="685" class="mono" font-size="12" font-weight="500" fill="#7A85A0" >L3</text>
+<text x="96" y="687" class="sans" font-size="18" font-weight="700" fill="#EEF1F8" letter-spacing="-0.3" >Cloud and infrastructure</text>
+<text x="96" y="711" class="sans" font-size="13" font-weight="400" fill="#A4ADC3" >Deployment, runtime and</text>
+<text x="96" y="730" class="sans" font-size="13" font-weight="400" fill="#A4ADC3" >infrastructure layers.</text>
+<rect x="380.5" y="671.5" width="42" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
+<text x="401.5" y="689.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >AWS</text>
+<rect x="431.5" y="671.5" width="107" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
+<text x="485.0" y="689.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >Google Cloud</text>
+<rect x="547.5" y="671.5" width="85" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
+<text x="590.0" y="689.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >Cloud Run</text>
+<rect x="641.5" y="671.5" width="64" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
+<text x="673.5" y="689.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >Docker</text>
+<rect x="714.5" y="671.5" width="64" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
+<text x="746.5" y="689.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >Vercel</text>
+<rect x="380.5" y="707.5" width="150" height="27" rx="5" fill="none" stroke="#222A3C" stroke-width="1" />
+<text x="455.5" y="725.55" class="sans" font-size="13" font-weight="500" fill="#A4ADC3" text-anchor="middle" >Cloud architecture</text>
+<line x1="56" y1="764" x2="1144" y2="764" stroke="#323C55" stroke-width="1" />
+<text x="56" y="800" class="mono" font-size="12" font-weight="500" fill="#7A85A0" >L2</text>
+<text x="96" y="802" class="sans" font-size="18" font-weight="700" fill="#EEF1F8" letter-spacing="-0.3" >Developer and automation</text>
+<text x="96" y="826" class="sans" font-size="13" font-weight="400" fill="#A4ADC3" >Tooling, workflows and engineering</text>
+<text x="96" y="845" class="sans" font-size="13" font-weight="400" fill="#A4ADC3" >productivity.</text>
+<rect x="380.5" y="786.5" width="42" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
+<text x="401.5" y="804.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >Git</text>
+<rect x="431.5" y="786.5" width="64" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
+<text x="463.5" y="804.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >GitHub</text>
+<rect x="504.5" y="786.5" width="71" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
+<text x="540.0" y="804.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >VS Code</text>
+<rect x="584.5" y="786.5" width="71" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
+<text x="620.0" y="804.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >Postman</text>
+<rect x="664.5" y="786.5" width="57" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
+<text x="693.0" y="804.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >Linux</text>
+<rect x="730.5" y="786.5" width="42" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
+<text x="751.5" y="804.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >n8n</text>
+<rect x="781.5" y="786.5" width="64" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
+<text x="813.5" y="804.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >Zapier</text>
+<line x1="56" y1="879" x2="1144" y2="879" stroke="#323C55" stroke-width="1" />
+<text x="56" y="915" class="mono" font-size="12" font-weight="500" fill="#7A85A0" >L1</text>
+<text x="96" y="917" class="sans" font-size="18" font-weight="700" fill="#EEF1F8" letter-spacing="-0.3" >Engineering fundamentals</text>
+<text x="96" y="941" class="sans" font-size="13" font-weight="400" fill="#A4ADC3" >Theory every layer depends on.</text>
+<rect x="380.5" y="901.5" width="42" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
+<text x="401.5" y="919.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >DSA</text>
+<rect x="431.5" y="901.5" width="42" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
+<text x="452.5" y="919.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >OOP</text>
+<rect x="482.5" y="901.5" width="50" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
+<text x="507.5" y="919.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >DBMS</text>
+<rect x="541.5" y="901.5" width="143" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
+<text x="613.0" y="919.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >Operating systems</text>
+<rect x="693.5" y="901.5" width="143" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
+<text x="765.0" y="919.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >Computer networks</text>
+<rect x="845.5" y="901.5" width="164" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
+<text x="927.5" y="919.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >Software engineering</text>
+<rect x="1018.5" y="901.5" width="114" height="27" rx="5" fill="#151A27" stroke="#323C55" stroke-width="1" />
+<text x="1075.5" y="919.55" class="sans" font-size="13" font-weight="500" fill="#EEF1F8" text-anchor="middle" >System design</text>
+<line x1="56" y1="975" x2="1144" y2="975" stroke="#323C55" stroke-width="1" />
 </svg>
