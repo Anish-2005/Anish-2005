@@ -8,12 +8,12 @@
         role="img"
         aria-labelledby="descId"
       >
-        <title id="titleId">GitHub Stats, Rank: B</title>
-        <desc id="descId">Total Stars Earned: 29, Total Commits  : 3981, Total PRs: 12, Total Issues: 17, Contributed to (last year): 2</desc>
+        <title id="titleId">GitHub activity, Rank: B</title>
+        <desc id="descId">Total Stars Earned: 30, Total Commits  : 4040, Total PRs: 12, Total Issues: 17, Contributed to (last year): 2</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #00D9FF;
+            fill: #EEF1F8;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
           @supports(-moz-appearance: auto) {
@@ -22,7 +22,7 @@
           }
           
     .stat {
-      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #c9d1d9;
+      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #A4ADC3;
     }
     @supports(-moz-appearance: auto) {
       /* Selector detects Firefox */
@@ -33,7 +33,7 @@
       animation: fadeInAnimation 0.3s ease-in-out forwards;
     }
     .rank-text {
-      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #c9d1d9;
+      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #A4ADC3;
       animation: scaleInAnimation 0.3s ease-in-out forwards;
     }
     .rank-percentile-header {
@@ -46,18 +46,18 @@
     .not_bold { font-weight: 400 }
     .bold { font-weight: 700 }
     .icon {
-      fill: #6C63FF;
+      fill: #8B80FF;
       display: block;
     }
 
     .rank-circle-rim {
-      stroke: #00D9FF;
+      stroke: #EEF1F8;
       fill: none;
       stroke-width: 6;
       opacity: 0.2;
     }
     .rank-circle {
-      stroke: #00D9FF;
+      stroke: #EEF1F8;
       stroke-dasharray: 250;
       fill: none;
       stroke-width: 6;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 149.24102802542683;
+        stroke-dashoffset: 148.47194910145018;
       }
     }
   
@@ -114,12 +114,12 @@
           class="card-bg"
           x="0.5"
           y="0.5"
-          rx="4.5"
+          rx="10"
           height="99%"
-          stroke="#e4e2e2"
+          stroke="#222A3C"
           width="303"
-          fill="#0A0E1A"
-          stroke-opacity="0"
+          fill="#0A0D14"
+          stroke-opacity="1"
         />
 
         
@@ -133,7 +133,7 @@
         y="0"
         class="header"
         data-testid="header"
-      >GitHub Stats</text>
+      >GitHub activity</text>
     </g>
       </g>
     
@@ -158,7 +158,7 @@
         x="224.01"
         y="12.5"
         data-testid="stars"
-      >29</text>
+      >30</text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">

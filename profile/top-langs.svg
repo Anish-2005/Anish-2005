@@ -13,7 +13,7 @@
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #00D9FF;
+            fill: #EEF1F8;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
           @supports(-moz-appearance: auto) {
@@ -38,7 +38,7 @@
       }
     }
     .stat {
-      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #c9d1d9;
+      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #A4ADC3;
     }
     @supports(-moz-appearance: auto) {
       /* Selector detects Firefox */
@@ -47,7 +47,7 @@
     .bold { font-weight: 700 }
     .lang-name {
       font: 400 11px "Segoe UI", Ubuntu, Sans-Serif;
-      fill: #c9d1d9;
+      fill: #A4ADC3;
     }
     .stagger {
       opacity: 0;
@@ -97,12 +97,12 @@
           class="card-bg"
           x="0.5"
           y="0.5"
-          rx="4.5"
+          rx="10"
           height="99%"
-          stroke="#e4e2e2"
+          stroke="#222A3C"
           width="299"
-          fill="#0A0E1A"
-          stroke-opacity="0"
+          fill="#0A0D14"
+          stroke-opacity="1"
         />
 
         
@@ -116,7 +116,7 @@
         y="0"
         class="header"
         data-testid="header"
-      >Most Used Languages</text>
+      >Top languages</text>
     </g>
       </g>
     
