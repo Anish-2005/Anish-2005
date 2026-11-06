@@ -67,7 +67,7 @@
 <rect x="56.0" y="566" width="28" height="2" rx="0" fill="#8B80FF" />
 <line x1="418.6666666666667" y1="486" x2="418.6666666666667" y2="562" stroke="#222A3C" stroke-width="1" />
 <text x="442.6666666666667" y="506" class="mono" font-size="12" font-weight="400" fill="#7A85A0" >followers</text>
-<text x="442.6666666666667" y="552" class="sans" font-size="40" font-weight="700" fill="#EEF1F8" letter-spacing="-1.2" >23</text>
+<text x="442.6666666666667" y="552" class="sans" font-size="40" font-weight="700" fill="#EEF1F8" letter-spacing="-1.2" >25</text>
 <rect x="442.6666666666667" y="566" width="28" height="2" rx="0" fill="#2DD4F0" />
 <line x1="781.3333333333334" y1="486" x2="781.3333333333334" y2="562" stroke="#222A3C" stroke-width="1" />
 <text x="805.3333333333334" y="506" class="mono" font-size="12" font-weight="400" fill="#7A85A0" >repository stars</text>
