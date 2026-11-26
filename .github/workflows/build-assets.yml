@@ -1,0 +1,71 @@
+name: Build profile assets
+
+on:
+  push:
+    paths:
+      - "scripts/build_assets.py"
+      - "scripts/svgkit.py"
+      - ".github/workflows/build-assets.yml"
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Fetch live metrics
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          USERNAME="${GITHUB_REPOSITORY_OWNER}"
+          api() { curl -fsSL -H "Authorization: Bearer ${GH_TOKEN}" -H "Accept: application/vnd.github+json" "$1"; }
+
+          echo "FOLLOWERS=$(api "https://api.github.com/users/${USERNAME}" | jq -r '.followers // 0')" >> "$GITHUB_ENV"
+          echo "STAR_COUNT=$(api "https://api.github.com/users/${USERNAME}/repos?per_page=100&type=owner" | jq '[.[].stargazers_count] | add // 0')" >> "$GITHUB_ENV"
+
+          # Profile views come from a third-party counter; keep the last value if it is unreachable.
+          if curl -fsSL "https://komarev.com/ghpvc/?username=${USERNAME}&style=flat-square" -o /tmp/views.svg; then
+            V=$(grep -oE '>[0-9][0-9,]*<' /tmp/views.svg | tail -n1 | tr -d '<>')
+            [ -n "$V" ] && echo "PROFILE_VIEWS=${V}" >> "$GITHUB_ENV"
+          fi
+
+      - name: Generate SVG assets
+        run: python3 scripts/build_assets.py
+
+      - name: Validate SVG assets
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+          files = sorted(Path("assets").glob("*.svg"))
+          assert files, "no SVG assets found"
+          for f in files:
+              root = ET.parse(f).getroot()
+              assert root.tag == "{http://www.w3.org/2000/svg}svg", f"bad root in {f}"
+              print("ok", f)
+          PY
+
+      - name: Commit generated assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/*.svg
+          if git diff --cached --quiet; then echo "No changes."; exit 0; fi
+          git commit -m "Rebuild profile assets"
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
